@@ -1,0 +1,4 @@
+vectordb2==0.1.3
+spacy==3.6.0
+lightning==2.0.5
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0.tar.gz
