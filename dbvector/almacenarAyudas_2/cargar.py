@@ -70,3 +70,35 @@ query_result = collection.query(
 print("\nConsulta ChromaDB:")
 for result in query_result['documents']:
     print(result)
+
+
+
+
+""" from langchain_core.prompts import ChatPromptTemplate
+from langchain_ollama import ChatOllama
+
+llm = ChatOllama(
+    model="llama2",
+    temperature=0,
+    # other params...
+)
+
+prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "Sistema",
+            "Tu eres un Asistente virtual que ayuda a contestar a las dudas de los usuarios en vase al contenido que se te pasa por parámetro",
+        ),
+        ("contenido", "{result}"),
+    ]
+)
+
+chain = prompt | llm
+ai_msg = chain.invoke(
+    {
+        "contenido": "I love programming.",
+    }
+)
+print(ai_msg) """
+
+
