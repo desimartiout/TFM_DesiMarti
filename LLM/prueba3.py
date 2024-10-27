@@ -14,7 +14,7 @@ prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "You are a helpful assistant that translates {input_language} to {output_language}.",
+            "Tu eres un asistente traductor que traduce de {input_language} a {output_language}.",
         ),
         ("human", "{input}"),
     ]
@@ -23,9 +23,9 @@ prompt = ChatPromptTemplate.from_messages(
 chain = prompt | llm
 ai_msg = chain.invoke(
     {
-        "input_language": "English",
-        "output_language": "Spanish",
-        "input": "I love programming.",
+        "input_language": "Inglés",
+        "output_language": "Español",
+        "input": "My father is Jhon.",
     }
 )
-print(ai_msg)
+print(ai_msg.content)
