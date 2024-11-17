@@ -8,9 +8,6 @@ from src.constants import LOG_FILE_PATH
 
 
 def setup_logging() -> None:
-    """
-    Configures logging settings for the application, specifying log file, format, and level.
-    """
     logging.basicConfig(
         filename=LOG_FILE_PATH,
         filemode="a",
@@ -20,15 +17,6 @@ def setup_logging() -> None:
 
 
 def clean_text(text: str) -> str:
-    """
-    Cleans OCR-extracted text by removing unnecessary newlines, hyphens, and correcting common OCR errors.
-
-    Args:
-        text (str): The text to clean.
-
-    Returns:
-        str: The cleaned text.
-    """
     # Remove hyphens at line breaks (e.g., 'exam-\nple' -> 'example')
     text = re.sub(r"(\w+)-\n(\w+)", r"\1\2", text)
 
@@ -47,17 +35,6 @@ def clean_text(text: str) -> str:
 
 
 def chunk_text(text: str, chunk_size: int, overlap: int = 100) -> List[str]:
-    """
-    Splits text into chunks with a specified overlap.
-
-    Args:
-        text (str): The text to split.
-        chunk_size (int): The number of tokens in each chunk.
-        overlap (int): The number of tokens to overlap between chunks.
-
-    Returns:
-        List[str]: A list of text chunks.
-    """
     # Clean the text before chunking
     text = clean_text(text)
     logging.info("Text prepared for chunking.")

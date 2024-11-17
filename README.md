@@ -18,9 +18,21 @@ docker run -d --name opensearch -p 9200:9200 -p 9600:9600 -e "discovery.type=sin
 docker run -d --name opensearch-dashboards -p 5601:5601 --link opensearch:opensearch -e "OPENSEARCH_HOSTS=http://opensearch:9200" -e "DISABLE_SECURITY_DASHBOARDS_PLUGIN=true" opensearchproject/opensearch-dashboards:2.11.0
 
 ### 📘 Instalar Streamlit
-Instalar streamlit
 pip install streamlit
 
+### 📘 Instalar ragas
+pip install ragas
+
+### Ollama instalar modelo desde línea de comando on ollama
+ollama pull llama3.2:1b
+
+https://www.reddit.com/r/Rag/comments/1fa994u/evaluate_your_rag_pipeline_with_ragas_agnostic_of/?rdt=44452
+https://github.com/AI-Commandos/RAGMeUp
+
+Evaluating RAG using Llama 3
+https://www.youtube.com/watch?v=Ts2wDG6OEko
+
+https://github.com/mosh98/RAG_With_Models/blob/main/evaluation/RAGAS%20DEMO.ipynb
 ---
 
 ### 📘 Referencias
