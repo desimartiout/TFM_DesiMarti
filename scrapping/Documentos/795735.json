@@ -1,0 +1,89 @@
+{
+    "id": 997295,
+    "organo": {
+        "nivel1": "CATALUÑA",
+        "nivel2": "DEPARTAMENT D'ACCIÓ CLIMÀTICA, ALIMENTACIÓ I AGENDA RURAL ",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "795735",
+    "fechaRecepcion": "2024-11-08T12:56:37+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 88250,
+    "mrr": true,
+    "descripcion": "Ajuts al finanament d'actuacions a la zona del PN d'Aigüestortes 2024-2026 (minimis)",
+    "descripcionLeng": "Ajuts al finanament d'actuacions a la zona del PN d'Aigüestortes 2024-2026 (minimis)",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Agricultura, ganadería, caza y servicios relacionados con las mismas",
+            "codigo": "01"
+        },
+        {
+            "descripcion": "Silvicultura y otras actividades forestales",
+            "codigo": "02.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES51 - CATALUÑA"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Bases reguladoras de las subvenciones para la financiación de actuaciones en la zona de influencia socioeconómica del Parque Nacional de Aigüestortes y Estany de Sant Maurici, en el marco del PRTR financiado por la Unión Europea NextGenerationEU.",
+    "urlBasesReguladoras": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=990979",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Des de l’endemà de la publicació en el diari oficial de la convocatòria inicial",
+    "textFin": "01 Mesos",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 2023/2831 de minimis, General",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156408,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "RESOLUCIÓ AIGÜESTORTES 2024.pdf",
+            "long": 440513,
+            "datMod": "2024-11-08T13:15:05.000+01:00",
+            "datPublicacion": "2024-11-08T13:15:05.000+01:00"
+        },
+        {
+            "id": 1156407,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "RESOLUCIÓN AIGÜESTORTES 2024.pdf",
+            "long": 143920,
+            "datMod": "2024-11-08T13:15:05.000+01:00",
+            "datPublicacion": "2024-11-08T13:15:05.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

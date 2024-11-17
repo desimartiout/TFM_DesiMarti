@@ -1,0 +1,72 @@
+{
+    "id": 997307,
+    "organo": {
+        "nivel1": "CERVO",
+        "nivel2": "AYUNTAMIENTO DE CERVO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "795747",
+    "fechaRecepcion": "2024-11-08T13:14:38+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 7500,
+    "mrr": false,
+    "descripcion": "BASES REGULADORAS PARA LA CONVOCATORIA DE SUBVENCIONES A ANPAS, CEIPS E IES SIN ÁNIMO DE LUCRO AÑO 2024 DEL AYUNTAMIENTO DE CERVO",
+    "descripcionLeng": "BASES REGULADORAS PARA A CONVOCATORIA DE SUBVENCIÓNS A ANPAS, CEIPS E IES SIN ÁNIMO DE LUCRO ANO 2024 DO CONCELLO DE CERVO",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES112 - Lugo"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "BASES REGULADORAS PARA A CONVOCATORIA DE SUBVENCIÓNS A ANPAS, CEIPS E IES SIN ÁNIMO DE LUCRO ANO 2024 DO CONCELLO DE CERVO",
+    "urlBasesReguladoras": "https://cervo.sedelectronica.es/board",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "DESDE EL MOMENTO DE LA PUBLICACIÓN DEL EXTRACTO EN EL BOP",
+    "textFin": "10 DIAS DESDE LA PUBLICACIÓN DEL EXTRACTO EN BOLETIN OFICIAL DE LA PROVINCIA",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156364,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "BASES REGULADORAS ANPAS CEIPS IES 2024 GALEGO.pdf",
+            "long": 849250,
+            "datMod": "2024-11-08T13:15:00.000+01:00",
+            "datPublicacion": "2024-11-08T13:19:09.000+01:00"
+        },
+        {
+            "id": 1156362,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "BASES REGULADORAS ANPAS CEIPS IES 2024 CASTELLANO.pdf",
+            "long": 788028,
+            "datMod": "2024-11-08T13:15:00.000+01:00",
+            "datPublicacion": "2024-11-08T13:19:09.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

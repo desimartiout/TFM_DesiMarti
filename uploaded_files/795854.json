@@ -1,0 +1,68 @@
+{
+    "id": 997414,
+    "organo": {
+        "nivel1": "ESTADILLA",
+        "nivel2": "AYUNTAMIENTO DE ESTADILLA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://estadilla.sedipualba.es/",
+    "codigoBDNS": "795854",
+    "fechaRecepcion": "2024-11-10T12:42:47+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 3900,
+    "mrr": false,
+    "descripcion": "Ayudas a las familias 2024",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES241 - Huesca"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Ayudas a las familias 2024",
+    "urlBasesReguladoras": "https://www.estadilla.es/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-07-01T00:00:00+02:00",
+    "fechaFinSolicitud": "2024-09-30T00:00:00+02:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156801,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "20241110131520436.pdf",
+            "long": 1398694,
+            "datMod": "2024-11-10T13:15:00.000+01:00",
+            "datPublicacion": null
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

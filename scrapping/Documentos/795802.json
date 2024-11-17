@@ -1,0 +1,67 @@
+{
+    "id": 997362,
+    "organo": {
+        "nivel1": "CHICLANA DE LA FRONTERA",
+        "nivel2": "AYUNTAMIENTO DE CHICLANA DE LA FRONTERA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.chiclana.es",
+    "codigoBDNS": "795802",
+    "fechaRecepcion": "2024-11-08T14:30:52+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 22000,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA PÚBLICA DE SUBVENCIONES DE SALUD EJERCICIO 2024.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Prestación de servicios a la comunidad en general",
+            "codigo": "84.2"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES61 - ANDALUCIA"
+        }
+    ],
+    "descripcionFinalidad": "Sanidad",
+    "descripcionBasesReguladoras": "CONVOCATORIA SUBVENCIONES DELEGACIÓN DE SALUD 2024.",
+    "urlBasesReguladoras": "https://www.chiclana.es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "DÍA SIGUIENTE AL DE SU PUBLICACIÓN EN EL B.O.P. DE CÁDIZ",
+    "textFin": "TREINTA DÍAS NATURALES SIGUIENTE AL DE SU PUBLICACIÓN",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156556,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "CSV-2024_JuntaGobiernoLocal_Sanidad_2.pdf",
+            "long": 235463,
+            "datMod": "2024-11-08T15:15:04.000+01:00",
+            "datPublicacion": "2024-11-08T15:30:02.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

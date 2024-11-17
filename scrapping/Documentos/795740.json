@@ -1,0 +1,64 @@
+{
+    "id": 997300,
+    "organo": {
+        "nivel1": "ESTELLA-LIZARRA",
+        "nivel2": "AYUNTAMIENTO DE ESTELLA-LIZARRA",
+        "nivel3": null
+    },
+    "sedeElectronica": "AYUNTAMIENTO ESTELLA-LIZARRA",
+    "codigoBDNS": "795740",
+    "fechaRecepcion": "2024-11-08T13:04:43+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 10000,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA PÚBLICA DE SUBVENCIONES A PERSONAS TRABAJADORAS AUTÓNOMAS PARA CUBRIR GASTOS ABONADOS EN CONCEPTO DE TRASPASO Y REAPERTURA DE NEGOCIOS COMERCIALES UBICADOS EN ESTELLA-LIZARRA",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHÍCULOS DE MOTOR Y MOTOCICLETAS",
+            "codigo": "G"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES22 - COMUNIDAD FORAL DE NAVARRA"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "CONVOCATORIA PÚBLICA DE SUBVENCIONES A PERSONAS TRABAJADORAS AUTÓNOMAS PARA CUBRIR GASTOS ABONADOS EN CONCEPTO DE TRASPASO Y REAPERTURA DE NEGOCIOS COMERCIALES UBICADOS EN ESTELLA-LIZARRA",
+    "urlBasesReguladoras": "https://www.estella-lizarra.com/wp-content/uploads/2024/11/Bases-convocatoria-subvenciones-relevo-generacional-y-reapertura-de-locales.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2024-12-31T00:00:00+01:00",
+    "textInicio": "Día siguiente a la publicación en el BON",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156393,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Bases_convocatoria_subvenciones_relevo_generacional_y_reapertura_de_locales.pdf",
+            "long": 361415,
+            "datMod": "2024-11-08T13:15:04.000+01:00",
+            "datPublicacion": "2024-11-08T13:15:04.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

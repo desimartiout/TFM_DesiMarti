@@ -1,0 +1,64 @@
+{
+    "id": 997355,
+    "organo": {
+        "nivel1": "MURCIA",
+        "nivel2": "AYUNTAMIENTO DE MURCIA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.murcia.es/",
+    "codigoBDNS": "795795",
+    "fechaRecepcion": "2024-11-08T14:18:10+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 205000,
+    "mrr": false,
+    "descripcion": "2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Otro transporte terrestre de pasajeros",
+            "codigo": "49.3"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES62 - REGION DE MURCIA"
+        }
+    ],
+    "descripcionFinalidad": "Subvenciones al transporte",
+    "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA",
+    "urlBasesReguladoras": "https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-11-04T00:00:00+01:00",
+    "fechaFinSolicitud": "2024-11-15T00:00:00+01:00",
+    "textInicio": "Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156541,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf",
+            "long": 525735,
+            "datMod": "2024-11-08T15:15:04.000+01:00",
+            "datPublicacion": "2024-11-08T15:15:04.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

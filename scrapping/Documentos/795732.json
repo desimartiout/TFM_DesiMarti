@@ -1,0 +1,72 @@
+{
+    "id": 997292,
+    "organo": {
+        "nivel1": "PASAIA",
+        "nivel2": "AYUNTAMIENTO DE PASAIA",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.pasaia.net",
+    "codigoBDNS": "795732",
+    "fechaRecepcion": "2024-11-08T12:52:17+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 3000,
+    "mrr": false,
+    "descripcion": "Subvenciones de la campaña deportiva UDA.  2024WDIR0008",
+    "descripcionLeng": "UDA kirol kanpainaren dirulaguntzak.2024WDIR0008",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Otras Prestaciones económicas",
+    "descripcionBasesReguladoras": "Plan etratégico de subvenciones 2023-2025",
+    "urlBasesReguladoras": "https://www.pasaia.eus/documents/90521/31152469/GAO.pdf/b7a24284-d958-3c9d-a085-6e7ad2ad7949",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-11-15T00:00:00+01:00",
+    "fechaFinSolicitud": "2024-12-16T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156369,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "wdir0008.pdf",
+            "long": 311514,
+            "datMod": "2024-11-08T13:15:06.000+01:00",
+            "datPublicacion": "2024-11-08T13:15:06.000+01:00"
+        },
+        {
+            "id": 1156379,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "wdir0008.pdf",
+            "long": 311514,
+            "datMod": "2024-11-08T13:15:06.000+01:00",
+            "datPublicacion": "2024-11-08T13:15:06.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,64 @@
+{
+    "id": 997353,
+    "organo": {
+        "nivel1": "MADRID",
+        "nivel2": "DISTRITO DE CHAMBERÍ",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.madrid.es/portal/site/tramites/menuitem.c61bb691882ed9d32e202e2084f1a5a0/?vgnextoid=5a9d5d53be9a0210VgnVCM100000171f5a0aRCRD&vgnextchannel=5a9d5d53be9a0210VgnVCM100000171f5a0aRCRD&vgnextfmt=default",
+    "codigoBDNS": "795793",
+    "fechaRecepcion": "2024-11-08T14:12:39+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 2000,
+    "mrr": false,
+    "descripcion": "Concurso de Belenes del Distrito de Chamberí 2024",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de creación, artísticas y espectáculos",
+            "codigo": "90"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES300 - Madrid"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "ORDENANZA BBRR GENERALES PARA CONCESIÓN SUBVENCIONES POR AYTO MADRID Y OP",
+    "urlBasesReguladoras": "https://www.bocm.es/boletin/CM_Orden_BOCM/2013/11/22/BOCM-20131122-34.PDF",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "DIA SIGUIENTE DE SU PUBLICACIÓN EN EL BOCM",
+    "textFin": "10 DIAS HÁBILES",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156537,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "BASES DE LA CONVOCATORIA CONCURSO DE BELENES DEL DISTRITO DE CHAMBERÍ DE 2024.PDF",
+            "long": 1309420,
+            "datMod": "2024-11-08T15:15:05.000+01:00",
+            "datPublicacion": "2024-11-08T15:15:05.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

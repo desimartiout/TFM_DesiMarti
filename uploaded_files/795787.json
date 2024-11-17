@@ -1,0 +1,68 @@
+{
+    "id": 997347,
+    "organo": {
+        "nivel1": "DURANGO",
+        "nivel2": "AYUNTAMIENTO DE DURANGO",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://egoitza-sede.durango.eus/sta",
+    "codigoBDNS": "795787",
+    "fechaRecepcion": "2024-11-08T14:09:28+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 3300,
+    "mrr": false,
+    "descripcion": "CONCURSO ESCAPARATES NAVIDEÑOS",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Comercio al por menor, excepto de vehículos de motor y motocicletas",
+            "codigo": "47"
+        },
+        {
+            "descripcion": "Servicios de comidas y bebidas",
+            "codigo": "56"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES213 - Bizkaia"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "Ordenanza Reguladora de subvenciones y ayudas del Ayuntamiento de Durango",
+    "urlBasesReguladoras": "https://www.durango.eus/documents/36953/54700/Reguladora+de+Subvenciones+y+Ayudas.pdf/d27dcff4-b992-d438-1356-7b85d6933263?t=1604496634039",
+    "sePublicaDiarioOficial": true,
+    "abierto": true,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "día siguiente a la publicación en el BOB.",
+    "textFin": "fin adhesiones.",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1156529,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Resolución W Territorio.PDF",
+            "long": 299293,
+            "datMod": "2024-11-08T15:15:06.000+01:00",
+            "datPublicacion": "2024-11-08T15:15:06.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}
