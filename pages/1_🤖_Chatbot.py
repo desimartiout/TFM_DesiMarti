@@ -17,7 +17,7 @@ setup_logging()  # Configures logging for the application
 logger = logging.getLogger(__name__)
 
 # Set page configuration
-st.set_page_config(page_title="Jam with AI - Chatbot", page_icon="🤖")
+st.set_page_config(page_title="HelpMe.AI - Chatbot", page_icon="🤖")
 
 # Apply custom CSS
 st.markdown(
@@ -56,7 +56,7 @@ def render_chatbot_page() -> None:
         st.session_state["temperature"] = 0.7
 
     # Initialize OpenSearch client
-    with st.spinner("Connecting to OpenSearch..."):
+    with st.spinner("Conectando a OpenSearch..."):
         client = get_opensearch_client()
     index_name = OPENSEARCH_INDEX
 
@@ -65,17 +65,17 @@ def render_chatbot_page() -> None:
 
     # Sidebar settings for hybrid search toggle, result count, and temperature
     st.session_state["use_hybrid_search"] = st.sidebar.checkbox(
-        "Enable RAG mode", value=st.session_state["use_hybrid_search"]
+        "Habilitar modo RAG", value=st.session_state["use_hybrid_search"]
     )
     st.session_state["num_results"] = st.sidebar.number_input(
-        "Number of Results in Context Window",
+        "Número de resultados en la ventana de contexto",
         min_value=1,
         max_value=10,
         value=st.session_state["num_results"],
         step=1,
     )
     st.session_state["temperature"] = st.sidebar.slider(
-        "Response Temperature",
+        "Temperatura de respuesta",
         min_value=0.0,
         max_value=1.0,
         value=st.session_state["temperature"],
@@ -86,17 +86,17 @@ def render_chatbot_page() -> None:
     logo_path = "images/jamwithai_logo.png"
     if os.path.exists(logo_path):
         st.sidebar.image(logo_path, width=220)
-        logger.info("Logo displayed.")
+        logger.info("Logo mostrado.")
     else:
         st.sidebar.markdown("### Logo Placeholder")
-        logger.warning("Logo not found, displaying placeholder.")
+        logger.warning("Logo no encontrado, mostrando placeholder.")
 
     # Sidebar headers and footer
     st.sidebar.markdown(
-        "<h2 style='text-align: center;'>Jam with AI</h2>", unsafe_allow_html=True
+        "<h2 style='text-align: center;'>HelpMe.ai</h2>", unsafe_allow_html=True
     )
     st.sidebar.markdown(
-        "<h4 style='text-align: center;'>Your Conversational Platform</h4>",
+        "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional</h4>",
         unsafe_allow_html=True,
     )
 
@@ -104,25 +104,25 @@ def render_chatbot_page() -> None:
     st.sidebar.markdown(
         """
         <div class="footer-text">
-            © 2024 Jam with AI
+            © 2024 Desi Martí
         </div>
         """,
         unsafe_allow_html=True,
     )
-    logger.info("Sidebar configured with headers and footer.")
+    logger.info("Barra lateral configurada.")
 
     # Display loading spinner at the top of the main content area
     with model_loading_placeholder.container():
-        st.spinner("Loading models for chat...")
+        st.spinner("Cargando modelos para el chat...")
 
     # Load models if not already loaded
     if "embedding_models_loaded" not in st.session_state:
         with model_loading_placeholder:
-            with st.spinner("Loading Embedding and Ollama models for Hybrid Search..."):
+            with st.spinner("Cargando modelos de embedding y Ollama para búsqueda híbrida..."):
                 get_embedding_model()
                 ensure_model_pulled(OLLAMA_MODEL_NAME)
                 st.session_state["embedding_models_loaded"] = True
-        logger.info("Embedding model loaded.")
+        logger.info("Modelo de embedding cargado.")
         model_loading_placeholder.empty()
 
     # Initialize chat history in session state if not already present
@@ -135,15 +135,15 @@ def render_chatbot_page() -> None:
             st.markdown(message["content"])
 
     # Process user input and generate response
-    if prompt := st.chat_input("Type your message here..."):
+    if prompt := st.chat_input("Escribe tu consulta aquí..."):
         with st.chat_message("user"):
             st.markdown(prompt)
         st.session_state["chat_history"].append({"role": "user", "content": prompt})
-        logger.info("User input received.")
+        logger.info("Entrada recibida.")
 
         # Generate response from assistant
         with st.chat_message("assistant"):
-            with st.spinner("Generating response..."):
+            with st.spinner("Generando respuesta..."):
                 response_placeholder = st.empty()
                 response_text = ""
 
@@ -166,13 +166,13 @@ def render_chatbot_page() -> None:
                         response_text += chunk["message"]["content"]
                         response_placeholder.markdown(response_text + "▌")
                     else:
-                        logger.error("Unexpected chunk format in response stream.")
+                        logger.error("Formato de chunk no esperado en la respuesta.")
 
             response_placeholder.markdown(response_text)
             st.session_state["chat_history"].append(
                 {"role": "assistant", "content": response_text}
             )
-            logger.info("Response generated and displayed.")
+            logger.info("Respuesta generada y mostrada.")
 
 
 # Main execution

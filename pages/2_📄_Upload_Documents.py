@@ -22,7 +22,7 @@ setup_logging()  # Set up centralized logging configuration
 logger = logging.getLogger(__name__)
 
 # Set page config with title, icon, and layout
-st.set_page_config(page_title="Jam with AI - Upload Documents", page_icon="📂")
+st.set_page_config(page_title="HelpMe.AI - Carga de documentos", page_icon="📂")
 
 # Custom CSS to style the page and sidebar
 st.markdown(
@@ -50,14 +50,14 @@ if os.path.exists(logo_path):
     st.sidebar.image(logo_path, width=220)
 else:
     st.sidebar.markdown("### Logo Placeholder")
-    logger.warning("Logo not found, displaying placeholder.")
+    logger.warning("Logo no encontrado.")
 
 # Sidebar header
 st.sidebar.markdown(
-    "<h2 style='text-align: center;'>Jam with AI</h2>", unsafe_allow_html=True
+    "<h2 style='text-align: center;'>HelpMe.ai</h2>", unsafe_allow_html=True
 )
 st.sidebar.markdown(
-    "<h4 style='text-align: center;'>Your Document Assistant</h4>",
+    "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional</h4>",
     unsafe_allow_html=True,
 )
 
@@ -65,7 +65,7 @@ st.sidebar.markdown(
 st.sidebar.markdown(
     """
     <div class="footer-text">
-        © 2024 Jam with AI
+        © 2024 Desi Martí
     </div>
     """,
     unsafe_allow_html=True,
@@ -100,7 +100,7 @@ def render_upload_page() -> None:
     Shows only the documents that are present in the OpenSearch index.
     """
 
-    st.title("Upload Documents")
+    st.title("Cargar documentos")
     # Placeholder for the loading spinner at the top
     model_loading_placeholder = st.empty()
 
@@ -110,14 +110,14 @@ def render_upload_page() -> None:
             with st.spinner("Loading models for document processing..."):
                 get_embedding_model()
                 st.session_state["embedding_models_loaded"] = True
-        logger.info("Embedding models loaded.")
+        logger.info("Modelo de embeddings cargado.")
         model_loading_placeholder.empty()  # Clear the placeholder after loading
 
     UPLOAD_DIR = "uploaded_files"
     os.makedirs(UPLOAD_DIR, exist_ok=True)
 
     # Initialize OpenSearch client
-    with st.spinner("Connecting to OpenSearch..."):
+    with st.spinner("Conectando con OpenSearch..."):
         client = get_opensearch_client()
     index_name = OPENSEARCH_INDEX
 
@@ -135,15 +135,12 @@ def render_upload_page() -> None:
     response = client.search(index=index_name, body=query)
     buckets = response["aggregations"]["unique_docs"]["buckets"]
     document_names = [bucket["key"] for bucket in buckets]
-    logger.info("Retrieved document names from OpenSearch.")
+    logger.info("Obtenidos nombres de documentos desde OpenSearch.")
 
     # Load document information from the index
     for document_name in document_names:
         file_path = os.path.join(UPLOAD_DIR, document_name)
         if os.path.exists(file_path):
-            
-            """ reader = PdfReader(file_path)
-            text = "".join([page.extract_text() for page in reader.pages]) """
             text = leer_json_como_string(file_path)
 
             st.session_state["documents"].append(
@@ -157,27 +154,26 @@ def render_upload_page() -> None:
 
     if "deleted_file" in st.session_state:
         st.success(
-            f"The file '{st.session_state['deleted_file']}' was successfully deleted."
+            f"El fichero '{st.session_state['deleted_file']}' fué correctamente borrado."
         )
         del st.session_state["deleted_file"]
 
     # Allow users to upload PDF files
     uploaded_files = st.file_uploader(
-        "Upload JSON documents", type="json", accept_multiple_files=True
+        "Cargar documentos con formato JSON", type="json", accept_multiple_files=True
     )
 
     if uploaded_files:
-        with st.spinner("Uploading and processing documents. Please wait..."):
+        with st.spinner("CArgando y procesando documentos. Espere por favor..."):
             for uploaded_file in uploaded_files:
                 if uploaded_file.name in document_names:
                     st.warning(
-                        f"The file '{uploaded_file.name}' already exists in the index."
+                        f"El fichero '{uploaded_file.name}' ya existe en el índice."
                     )
                     continue
 
                 file_path = save_uploaded_file(uploaded_file)
-                """ reader = PdfReader(file_path)
-                 text = "".join([page.extract_text() for page in reader.pages]) """
+
                 #file_path = 'ruta/del/archivo.json'
                 text = leer_json_como_string(file_path)
 
@@ -202,18 +198,18 @@ def render_upload_page() -> None:
                     }
                 )
                 document_names.append(uploaded_file.name)
-                logger.info(f"File '{uploaded_file.name}' uploaded and indexed.")
+                logger.info(f"Fichero '{uploaded_file.name}' cargado e indexado.")
 
-        st.success("Files uploaded and indexed successfully!")
+        st.success("Ficheros cargados e indexados correctamente!")
 
     if st.session_state["documents"]:
-        st.markdown("### Uploaded Documents")
-        with st.expander("Manage Uploaded Documents", expanded=True):
+        st.markdown("### Cargar Documentos")
+        with st.expander("Administrar documentos cargados", expanded=True):
             for idx, doc in enumerate(st.session_state["documents"], 1):
                 col1, col2 = st.columns([4, 1])
                 with col1:
                     st.write(
-                        f"{idx}. {doc['filename']} - {len(doc['content'])} characters extracted"
+                        f"{idx}. {doc['filename']} - {len(doc['content'])} caracteres extraidos"
                     )
                 with col2:
                     delete_button = st.button(
@@ -226,14 +222,14 @@ def render_upload_page() -> None:
                             try:
                                 os.remove(doc["file_path"])
                                 logger.info(
-                                    f"Deleted file '{doc['filename']}' from filesystem."
+                                    f"Fichero '{doc['filename']}' borrado del sistema de ficheros."
                                 )
                             except FileNotFoundError:
                                 st.error(
-                                    f"File '{doc['filename']}' not found in filesystem."
+                                    f"Fichero '{doc['filename']}' no encontrado en el sistema de ficheros."
                                 )
                                 logger.error(
-                                    f"File '{doc['filename']}' not found during deletion."
+                                    f"Fichero '{doc['filename']}' no encontrado."
                                 )
                         delete_documents_by_document_name(doc["filename"])
                         st.session_state["documents"].pop(idx - 1)
@@ -243,20 +239,11 @@ def render_upload_page() -> None:
 
 
 def save_uploaded_file(uploaded_file) -> str:  # type: ignore
-    """
-    Saves an uploaded file to the local file system.
-
-    Args:
-        uploaded_file: The uploaded file to save.
-
-    Returns:
-        str: The file path where the uploaded file is saved.
-    """
     UPLOAD_DIR = "uploaded_files"
     file_path = os.path.join(UPLOAD_DIR, uploaded_file.name)
     with open(file_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
-    logger.info(f"File '{uploaded_file.name}' saved to '{file_path}'.")
+    logger.info(f"Fichero '{uploaded_file.name}' guardado en '{file_path}'.")
     return file_path
 
 

@@ -94,7 +94,7 @@ def generate_response_streaming(
 
     # Include hybrid search results if enabled
     if use_hybrid_search:
-        logger.info("Haciendo bíusqueda híbrida.")
+        logger.info("Haciendo búsqueda híbrida.")
         if ASSYMETRIC_EMBEDDING:
             prefixed_query = f"passage: {query}"
         else:
@@ -104,7 +104,7 @@ def generate_response_streaming(
             prefixed_query
         ).tolist()  # Convert tensor to list of floats
         search_results = hybrid_search(query, query_embedding, top_k=num_results)
-        logger.info("Búsqueda híbrida completada.")
+        logger.info("Haciendo búsqueda híbrida.")
 
         # Collect text from search results
         for i, result in enumerate(search_results):

@@ -98,7 +98,7 @@ def display_main_content() -> None:
         """
         Bienvenido al Chatbot Ayuda.me 👋
         
-        Esta ayuda permite la búsqueda de información de ayudas y subvenciones del Gobierno de Espala
+        Esta ayuda permite la búsqueda de información de ayudas y subvenciones del Gobierno de España
         
         """
     )

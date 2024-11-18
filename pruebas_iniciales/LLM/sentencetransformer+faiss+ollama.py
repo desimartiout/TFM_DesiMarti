@@ -68,7 +68,8 @@ db = FAISS.from_documents(documents, embeddings) """
 
 # Paso 2: Crear una base de datos vectorial con FAISS usando embeddings open source
 documents = [document]
-model = SentenceTransformer('all-MiniLM-L6-v2')  # Modelo open source para embeddings
+#model = SentenceTransformer('all-MiniLM-L6-v2')  # Modelo open source para embeddings
+model = SentenceTransformer('paraphrase-multilingual-mpnet-base-v2')  # Modelo open source para embeddings
 
 # Generamos embeddings manualmente
 texts = [doc.page_content for doc in documents]

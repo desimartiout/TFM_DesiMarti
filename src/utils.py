@@ -30,14 +30,14 @@ def clean_text(text: str) -> str:
     text = re.sub(r"[ \t]+", " ", text)
 
     cleaned_text = text.strip()
-    logging.info("Text cleaned.")
+    logging.info("TExto limpiado.")
     return cleaned_text
 
 
 def chunk_text(text: str, chunk_size: int, overlap: int = 100) -> List[str]:
     # Clean the text before chunking
     text = clean_text(text)
-    logging.info("Text prepared for chunking.")
+    logging.info("Texto preparado para trocear.")
 
     # Tokenize the text into words
     tokens = text.split(" ")
@@ -52,6 +52,6 @@ def chunk_text(text: str, chunk_size: int, overlap: int = 100) -> List[str]:
         start = end - overlap  # Move back by 'overlap' tokens
 
     logging.info(
-        f"Text split into {len(chunks)} chunks with chunk size {chunk_size} and overlap {overlap}."
+        f"TExto separado en {len(chunks)} partes con tamaño de parte {chunk_size} and overlap {overlap}."
     )
     return chunks

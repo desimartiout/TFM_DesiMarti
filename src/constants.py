@@ -1,5 +1,7 @@
 #EMBEDDING_MODEL_PATH = "microsoft/mpnet-base"  # OR Path of local eg. "embedding_model/"" or the name of SentenceTransformer model eg. "sentence-transformers/all-mpnet-base-v2" from Hugging Face
-EMBEDDING_MODEL_PATH = "sentence-transformers/all-mpnet-base-v2"
+#EMBEDDING_MODEL_PATH = "sentence-transformers/all-mpnet-base-v2"
+EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+#paraphrase-multilingual-mpnet-base-v2
 ASSYMETRIC_EMBEDDING = False  # Flag for asymmetric embedding
 EMBEDDING_DIMENSION = 768  # Embedding model settings
 TEXT_CHUNK_SIZE = 300  # Maximum number of characters in each text chunk for
