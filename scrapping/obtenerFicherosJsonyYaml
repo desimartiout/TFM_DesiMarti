@@ -41,10 +41,11 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
 
         # Plantilla del texto
         template = """
+        \"""
         Convocatoria de ayuda o  subvención: {codigoBDNS}
         Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/{codigoBDNS}
-        Órgano convocante: {organo_nivel1} - {organo_nivel2}
-        Enlace a sede electrónica presentación ayuda: {sedeElectronica}
+        Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: {organo_nivel1} - {organo_nivel2}
+        Enlace / url a sede electrónica presentación ayuda: {sedeElectronica}
         Fecha de recepción: {fechaRecepcion}
         Tipo de ayuda: {instrumentos}
         Tipo de convocatoria: {tipoConvocatoria}
@@ -52,7 +53,7 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
         Descripción: {descripcion}
         Tipos de beneficiarios: {tiposBeneficiarios}
         Sectores involucrados: {sectores}
-        Regiones, comunidades, autonomías o provincias: {regiones}
+        Región de impacto: {regiones}
         Finalidad: {descripcionFinalidad}
         Bases reguladoras: {descripcionBasesReguladoras}
         URL Bases Reguladoras: {urlBasesReguladoras}
@@ -63,7 +64,8 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
         Inicio de convocatoria: {textInicio}
         Fin de convocatoria: {textFin}
         Reglamento: {reglamento}
-        Documentos: {documentos}
+        Otros documentos de la convocatoria: {documentos}
+        \"""
         """
 
         # Generar texto
@@ -134,11 +136,10 @@ def safe_format(data, template):
             "textInicio": safe_value(data.get("textInicio")),
             "textFin": safe_value(data.get("textFin")),
             "reglamento": safe_value(
-                #data.get("reglamento", {}).get("descripcion")
                 safe_value_inner(data,"reglamento","descripcion")
             ),
             "documentos": ", ".join(
-                f"Descripción: {safe_value(d.get('descripcion'))}, "
+                f"\n\t\tDescripción: {safe_value(d.get('descripcion'))}, "
                 f"Nombre: {safe_value(d.get('nombreFic'))}, "
                 f"Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/{safe_value(data.get('codigoBDNS'))}/document/{safe_value(d.get('id'))} "
                 for d in data.get("documentos", [])

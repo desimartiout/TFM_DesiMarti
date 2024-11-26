@@ -3,7 +3,8 @@
 EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 #paraphrase-multilingual-mpnet-base-v2
 ASSYMETRIC_EMBEDDING = False  # Flag for asymmetric embedding
-EMBEDDING_DIMENSION = 768  # Embedding model settings
+#EMBEDDING_DIMENSION = 768  # Embedding model settings
+EMBEDDING_DIMENSION = 384  # Embedding model settings
 TEXT_CHUNK_SIZE = 300  # Maximum number of characters in each text chunk for
 
 """ OLLAMA_MODEL_NAME = (

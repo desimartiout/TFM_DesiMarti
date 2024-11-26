@@ -44,7 +44,7 @@ logger.info("Custom CSS applied.")
 # Main chatbot page rendering function
 def render_chatbot_page() -> None:
     # Set up a placeholder at the very top of the main content area
-    st.title("Jam with AI - Chatbot 🤖")
+    st.title("HelpMe.AI - Chatbot 🤖")
     model_loading_placeholder = st.empty()
 
     # Initialize session state variables for chatbot settings

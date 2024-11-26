@@ -12,10 +12,40 @@ Bienvenido al Chatbot especializado en búsqueda de ayudas y subvenciones úblic
 3. Configurar fichero de parámetros en `constants.py` para elegir el modelo de embeddings y las configuraciones de OpenSearch.
 4. Ejecutar la aplicación Streamlit: `streamlit run welcome.py`
 
-### 📘 Arrancar OpenSearch
+
+### 📘 Descargar imágenes de docket de OpenSearch y arrancarlas
 
 docker run -d --name opensearch -p 9200:9200 -p 9600:9600 -e "discovery.type=single-node" -e "DISABLE_SECURITY_PLUGIN=true" opensearchproject/opensearch:2.11.0
 docker run -d --name opensearch-dashboards -p 5601:5601 --link opensearch:opensearch -e "OPENSEARCH_HOSTS=http://opensearch:9200" -e "DISABLE_SECURITY_DASHBOARDS_PLUGIN=true" opensearchproject/opensearch-dashboards:2.11.0
+
+### Abrir dashboard de OpenSearch
+http://localhost:5601/app/home
+
+### Crear el pipeline para la búsqueda híbrida
+En el dashboard de OpenSearch acceder a Dev tools y ejecutar este comando http
+
+PUT /_search/pipeline/nlp-search-pipeline
+{
+  "description": "Post processor for hybrid search",
+  "phase_results_processors": [
+    {
+      "normalization-processor": {
+        "normalization": {
+          "technique": "min_max"
+        },
+        "combination": {
+          "technique": "arithmetic_mean",
+          "parameters": {
+            "weights": [
+              0.3,
+              0.7
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
 
 ### 📘 Instalar Streamlit
 pip install streamlit
@@ -34,6 +64,11 @@ https://www.youtube.com/watch?v=Ts2wDG6OEko
 
 https://github.com/mosh98/RAG_With_Models/blob/main/evaluation/RAGAS%20DEMO.ipynb
 ---
+
+### Arrancar el modelo con OLlama
+ollama run llama3.2:1b
+
+
 
 ### 📘 Referencias
 

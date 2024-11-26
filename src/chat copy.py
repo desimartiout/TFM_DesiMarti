@@ -47,61 +47,33 @@ def run_llama_streaming(prompt: str, temperature: float) -> Optional[Iterable[st
 
 def prompt_template(query: str, context: str, history: List[Dict[str, str]]) -> str:
     prompt = """
-            Eres un asistente experto en subvenciones. A continuación, te proporcionaré los datos de una convocatoria en formato estructurado YAML. Tu tarea es:
-            1. Analizar el contenido.
-            2. Resumirlo en formato claro y comprensible.
-            3. Destacar las partes más importantes: enlaces, beneficiarios, fechas clave y presupuesto.
+            Eres un asistente chat (chatbot) para ayudar obtener ingformación de ayudas y subvenciones del Gobierno de España, tus principales misiones son:            
+            * Ayudar al usuario para encontrar las subvenciones que necesite el usuario en base a sus criterios de búsqueda.
+            * Deberás de identificar las oportunidades de ayudas y subvenciones.
+            * Proporciona detalles el organismo que la publica, la descripción de la convocatoria, el importe, región finalidad y beneficiarios de la ayuda o subvención.
+            * Ofrece consejos sobre cómo mejorar mi aplicación y aumentar mis posibilidades de éxito.
+            * Cuando te pregunten por las ayudas y subvenciones centrate en la información que te proporciona el contexto.
 
-            Aquí tienes los datos:
-
-            El formato que espero del listado de ayudas está en YAML y es el siguiente:
-
-            **Convocatoria de Ayuda: 795795**
-            - **Órgano convocante:** MURCIA - AYUNTAMIENTO DE MURCIA
-            - **Enlace a la convocatoria:** [Acceder](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795)
-            - **Sede electrónica para presentar solicitud:** [Ir a sede](https://sede.murcia.es/areas?idCategoria=10004)
-            - **Presupuesto total:** 205,000 Euros
-            - **Descripción:** Subvenciones para costes de explotación de taxis adaptados.
-            - **Beneficiarios:** PYME y personas físicas que desarrollan actividad económica.
-            - **Sectores involucrados:** Otro transporte terrestre de pasajeros.
-            - **Región de impacto:** Región de Murcia (ES62).
-            - **Estado de convocatoria:** Cerrada.
-            - **Fechas importantes:**
-            - Inicio solicitudes: 15/11/2024
-            - Fin solicitudes: 28/11/2024
-            - **Documentos relevantes:**
-            1. **Publicación en el BORM:** [PUBLICACION_BORM.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031)
-            2. **Certificado:** [Certificado_2024.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030)
-            
+            * Es importante que los resultados sean precisos y actualizados.
+            * No te inventes información ni rellenes los datos vacios. Si no tienes ayudas que cumplan el criterio di que no tienes. Como eres un chat amigable :) también tienes la capacidad de reponder a preguntas no relaccionadas con las ayudas de subvenciones.
             """
     
     if context:
         prompt += (
-            "\nAquí tienes el contexto de las convocatorias encontradas en la búsqueda:\nContexto:\n \""""
+            "Utiliza este contexto para responder a la pregunta.\nContext:\n"
             + context
-            + "\"""\n"
-            + "He detectado que me has proporcionado múltiples documentos YAML. Enumeraré primero las convocatorias y luego procederé a resumir cada una:\n"
-            + "1. Convocatoria 795795\n"
-            + "2. Convocatoria XXXX...\n"
-            + "Resumen de cada convocatoria:\n"
-            + "---\n"
-            + "**Convocatoria 795795**\n"
-            + "[Resumen aquí]\n"
-            + "---\n"
-            + "**Convocatoria XXXX**\n"
-            + "[Resumen aquí]\n"
-
+            + "\n"
         )
     else:
         prompt += "Responde a las preguntas con lo mejor de tu conocimiento.\n"
 
-    """ if history:
+    if history:
         prompt += "Historial de conversación:\n"
         for msg in history:
             role = "User" if msg["role"] == "user" else "Assistant"
             content = msg["content"]
             prompt += f"{role}: {content}\n"
-        prompt += "\n" """
+        prompt += "\n"
 
     prompt += f"User: {query}\nAssistant:"
     logger.info("Prompt construido con contexto e historial de conversación.")

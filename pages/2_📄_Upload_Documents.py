@@ -83,7 +83,7 @@ def leer_json(file_path):
     except Exception as e:
         print(f"Ocurrió un error: {e}")
 
-def leer_json_como_string(file_path):
+def leer_yaml_como_string(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             datos = file.read()
@@ -141,7 +141,7 @@ def render_upload_page() -> None:
     for document_name in document_names:
         file_path = os.path.join(UPLOAD_DIR, document_name)
         if os.path.exists(file_path):
-            text = leer_json_como_string(file_path)
+            text = leer_yaml_como_string(file_path)
 
             st.session_state["documents"].append(
                 {"filename": document_name, "content": text, "file_path": file_path}
@@ -150,7 +150,7 @@ def render_upload_page() -> None:
             st.session_state["documents"].append(
                 {"filename": document_name, "content": "", "file_path": None}
             )
-            logger.warning(f"File '{document_name}' does not exist locally.")
+            logger.warning(f"El fichero '{document_name}' no existe localmente.")
 
     if "deleted_file" in st.session_state:
         st.success(
@@ -160,11 +160,11 @@ def render_upload_page() -> None:
 
     # Allow users to upload PDF files
     uploaded_files = st.file_uploader(
-        "Cargar documentos con formato JSON", type="json", accept_multiple_files=True
+        "Cargar documentos con formato yaml", type="yaml", accept_multiple_files=True
     )
 
     if uploaded_files:
-        with st.spinner("CArgando y procesando documentos. Espere por favor..."):
+        with st.spinner("Cargando y procesando documentos. Espere por favor..."):
             for uploaded_file in uploaded_files:
                 if uploaded_file.name in document_names:
                     st.warning(
@@ -175,7 +175,7 @@ def render_upload_page() -> None:
                 file_path = save_uploaded_file(uploaded_file)
 
                 #file_path = 'ruta/del/archivo.json'
-                text = leer_json_como_string(file_path)
+                text = leer_yaml_como_string(file_path)
 
                 chunks = chunk_text(text, chunk_size=TEXT_CHUNK_SIZE, overlap=100)
                 embeddings = generate_embeddings(chunks)
