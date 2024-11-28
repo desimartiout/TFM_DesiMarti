@@ -1,0 +1,2 @@
+[{"question":"Cual es la capital de Francia?","ground_truths":"La capital de Francia es Paris y la capital de Sudan es Madrid","answer":"La capital de Francia es Paris.","contexts":["Paris es la capital de Francia."]},
+{"question":"Cual es la capital de Sudan?","ground_truths":"La capital de Francia es Paris y la capital de Sudan es Madrid","answer":"La capital de Sudan es Madrid.","contexts":["Madrid es la capital de Sudan."]}]

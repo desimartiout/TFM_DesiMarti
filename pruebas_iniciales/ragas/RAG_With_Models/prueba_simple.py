@@ -24,6 +24,11 @@ from ragas.metrics import Faithfulness
 from datasets import load_dataset
 from ragas import evaluate
 
+from ragas.run_config import RunConfig
+
+# increasing max_workers to 64 and timeout to 60 seconds
+my_run_config = RunConfig(max_workers=64, timeout=60)
+
 dataset = load_dataset("explodinggradients/amnesty_qa", "english_v3")
 
 samples = []
@@ -41,8 +46,8 @@ eval_dataset = EvaluationDataset(samples=samples)
 metric = Faithfulness()
 
 # information found here: https://docs.ragas.io/en/latest/howtos/customisations/bring-your-own-llm-or-embs.html
-langchain_llm = ChatOllama(model="llama2:latest")
-langchain_embeddings = OllamaEmbeddings(model="llama2:latest")
+langchain_llm = ChatOllama(model="llama3.2:3b")
+langchain_embeddings = OllamaEmbeddings(model="llama3.2:3b")
 
 result = evaluate(eval_dataset,
                   metrics=[metric], llm=langchain_llm,embeddings=langchain_embeddings)

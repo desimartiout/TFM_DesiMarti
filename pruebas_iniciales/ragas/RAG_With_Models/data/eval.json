@@ -1,1 +1,2 @@
-[{"user_input":"Cual es la capital de Francia?","reference":"La capital de Francia es Paris y la capital de Sudan es Madrid","response":"La capital de Francia es Paris.","retrieved_contexts":["Paris es la capital de Francia."]}]
+[{"user_input":"Cual es la capital de Francia?","reference":"La capital de Francia es Paris y la capital de Sudan es Madrid","response":"La capital de Francia es Paris.","retrieved_contexts":["Paris es la capital de Francia."]},
+{"user_input":"Cual es la capital de Sudan?","reference":"La capital de Francia es Paris y la capital de Sudan es Madrid","response":"La capital de Sudan es Madrid.","retrieved_contexts":["Madrid es la capital de Sudan."]}]
