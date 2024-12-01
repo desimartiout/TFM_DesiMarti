@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 # Set page config with title, icon, and layout
 st.set_page_config(
-    page_title="Chatbot Ayuda.me", page_icon="🤖"
+    page_title="Chatbot HelpMe.ai", page_icon=""
 )
 
 
@@ -93,7 +93,7 @@ def display_logo(logo_path: str) -> None:
         logger.warning("Logo not found, displaying placeholder.")
 
 def display_main_content() -> None:
-    st.title("Chatbot para búsqueda de ayudas y subvenciones del Gobierno de España 📄🤖")
+    st.title("Chatbot para búsqueda de ayudas y subvenciones del Gobierno de España ")
     st.markdown(
         """
         Bienvenido al Chatbot Ayuda.me 👋

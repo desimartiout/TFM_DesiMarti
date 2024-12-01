@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 
 from src.utils import setup_logging
-from src.constants import MOCK_IDS, MOCK_DOCCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, SENTENCE_TRANSFORMER
+from src.constants import MOCK_IDS, MOCK_DOCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, SENTENCE_TRANSFORMER
 
 
 # Inicializo el logger
@@ -19,16 +19,36 @@ model = SentenceTransformer(SENTENCE_TRANSFORMER)  # Modelo open source para emb
 
 def cargarDocumentosMOCK(collection):
     # Generamos embeddings manualmente
-    texts = [doc for doc in MOCK_DOCCUMENTS]
+    texts = [doc for doc in MOCK_DOCUMENTS]
     embeddings = model.encode(texts)  # Generar embeddings para la lista de textos
 
     collection.add(
-        documents=MOCK_DOCCUMENTS,
+        documents=MOCK_DOCUMENTS,
         metadatas=MOCK_METADATAS,
         ids=MOCK_IDS,
         embeddings=embeddings
     )
     #Si los ids son iguales los reemplaza
+
+# Función para obtener todos los documentos
+def get_all_documents():
+    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
+    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
+
+    #Si no tengo documentos cargados los moqueo para poder tener datos.
+    if (collection.count()==0):
+        cargarDocumentosMOCK(collection)
+    
+    #Listar los documentos de la colección
+    logger.info(f"SEARCH_CHROMA - Documentos en la colección {collection.count()}")
+
+    documents = collection.get()
+
+    # Display the documents
+    for ids in documents['ids']:
+        logger.info(f"SEARCH_CHROMA - Id {ids}")
+
+    return documents
 
 # Función para realizar una consulta (simulando una búsqueda por texto)
 def query_documents(query_text: str, top_k: int = 3):
@@ -42,7 +62,7 @@ def query_documents(query_text: str, top_k: int = 3):
     #Listar los documentos de la colección
     logger.info(f"SEARCH_CHROMA - Documentos en la colección {collection.count()}")
 
-    collection = client.get_collection(CHROMA_COLLECTION_NAME)
+    #collection = client.get_collection(CHROMA_COLLECTION_NAME)
     
     # Generar el embedding para la consulta
     query_embedding = model.encode([query_text]).tolist()
@@ -53,6 +73,9 @@ def query_documents(query_text: str, top_k: int = 3):
         n_results=top_k
     )
     return results
+
+
+# OTROS MÉTODOS QUE AHORA NO SE UTILIZAN PERO PARA LAS PRUEBAS INICIALES FUERON ÚTILES
 
 # Método para consultar en la base de datos vectorial
 def consultaChromadb(query_text, top_k):

@@ -54,7 +54,7 @@ SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
 
 # MOCK OBJECTS
 MOCK_IDS=["795795", "795802", "795828"]
-MOCK_DOCCUMENTS=[
+MOCK_DOCUMENTS=[
         """Convocatoria de ayuda o  subvención: 795795
             Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
             Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA

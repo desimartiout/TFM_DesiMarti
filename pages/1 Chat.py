@@ -8,7 +8,6 @@ from src.chat import (  # type: ignore
     generate_response_streaming,
     get_embedding_model,
 )
-from src.ingestion import create_index, get_opensearch_client
 from src.constants import OLLAMA_MODEL_NAME, OPENSEARCH_INDEX
 from src.utils import setup_logging
 
@@ -44,7 +43,7 @@ logger.info("Custom CSS applied.")
 # Main chatbot page rendering function
 def render_chatbot_page() -> None:
     # Set up a placeholder at the very top of the main content area
-    st.title("HelpMe.AI - Chatbot 🤖")
+    st.title("HelpMe.AI - Chatbot")
     model_loading_placeholder = st.empty()
 
     # Initialize session state variables for chatbot settings
@@ -55,13 +54,6 @@ def render_chatbot_page() -> None:
     if "temperature" not in st.session_state:
         st.session_state["temperature"] = 0.7
 
-    # Initialize OpenSearch client
-    with st.spinner("Conectando a OpenSearch..."):
-        client = get_opensearch_client()
-    index_name = OPENSEARCH_INDEX
-
-    # Ensure the index exists
-    create_index(client)
 
     # Sidebar settings for hybrid search toggle, result count, and temperature
     st.session_state["use_hybrid_search"] = st.sidebar.checkbox(
@@ -83,7 +75,7 @@ def render_chatbot_page() -> None:
     )
 
     # Display logo or placeholder
-    logo_path = "images/jamwithai_logo.png"
+    logo_path = "images/logo.png"
     if os.path.exists(logo_path):
         st.sidebar.image(logo_path, width=220)
         logger.info("Logo mostrado.")
