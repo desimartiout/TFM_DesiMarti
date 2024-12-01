@@ -6,7 +6,7 @@ import streamlit as st
 #from PyPDF2 import PdfReader
 
 from src.embeddings import generate_embeddings, get_embedding_model
-from src.searchchromadb import get_all_documents
+from src.searchchromadb import get_all_documents, cargarDocumento
 from src.utils import chunk_text, setup_logging
 
 import json
@@ -65,18 +65,6 @@ st.sidebar.markdown(
     unsafe_allow_html=True,
 )
 
-def leer_json(file_path):
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            datos = json.load(file)
-        return datos
-    except FileNotFoundError:
-        print(f"El archivo en la ruta {file_path} no se encontró.")
-    except json.JSONDecodeError:
-        print(f"Error al decodificar el archivo JSON en la ruta {file_path}.")
-    except Exception as e:
-        print(f"Ocurrió un error: {e}")
-
 def leer_yaml_como_string(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -113,6 +101,7 @@ def render_upload_page() -> None:
     # Initialize or clear the documents list in session state
     st.session_state["documents"] = []
 
+    #Obtenemos los documentos de chromadb
     document_names = get_all_documents()
     logger.info(document_names)
 
@@ -142,8 +131,40 @@ def render_upload_page() -> None:
         )
         del st.session_state["deleted_file"]
 
+    #Permitir que se añadan nuevos documentos
+    uploaded_files = st.file_uploader(
+        "Cargar documentos YAML", type="yaml", accept_multiple_files=True
+    )
+
+    if uploaded_files:
+        with st.spinner("Uploading and processing documents. Please wait..."):
+            for uploaded_file in uploaded_files:
+                if uploaded_file.name in document_names:
+                    st.warning(
+                        f"El fichero  '{uploaded_file.name}' ya existe."
+                    )
+                    continue
+
+                file_path = save_uploaded_file(uploaded_file)
+
+                text = leer_yaml_como_string(file_path)
+
+                cargarDocumento(text,"",uploaded_file.name)
+
+                st.session_state["documents"].append(
+                    {
+                        "filename": uploaded_file.name,
+                        "content": text,
+                        "file_path": file_path,
+                    }
+                )
+
+                logger.info(f"Fichero '{uploaded_file.name}' cargado e indexado.")
+
+        st.success("Ficheros cargados e indexados correctamente!!!!")
+
     if st.session_state["documents"]:
-        st.markdown("### Cargar Documentos")
+        #st.markdown("### Cargar Documentos")
         with st.expander("Administrar documentos cargados", expanded=True):
             for idx, doc in enumerate(st.session_state["documents"], 1):
                 col1, col2 = st.columns([4, 1])

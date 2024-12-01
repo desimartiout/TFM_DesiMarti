@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 
 from src.utils import setup_logging
-from src.constants import MOCK_IDS, MOCK_DOCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, SENTENCE_TRANSFORMER
+from src.constants import MOCK_IDS, MOCK_DOCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, CHROMA_NUMDOCUMENTS, OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, SENTENCE_TRANSFORMER
 
 
 # Inicializo el logger
@@ -30,6 +30,21 @@ def cargarDocumentosMOCK(collection):
     )
     #Si los ids son iguales los reemplaza
 
+
+def cargarDocumento(documento, metadato, id):
+    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
+    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
+
+    embeddings = model.encode([documento])  # Generar embeddings para la lista de textos
+
+    #TODO: Hay que arreglar lo de los metadatos, espera un diccionario  -> array json con par clave valor
+    collection.add(
+        documents=[documento],
+        metadatas=None,
+        ids=[id],
+        embeddings=embeddings
+    )
+
 # Función para obtener todos los documentos
 def get_all_documents():
     client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
@@ -38,6 +53,9 @@ def get_all_documents():
     #Si no tengo documentos cargados los moqueo para poder tener datos.
     if (collection.count()==0):
         cargarDocumentosMOCK(collection)
+
+    #Prueba de agregar un solo documento.   
+    #cargarDocumento("documento","medatadooooooosss","id_1")
     
     #Listar los documentos de la colección
     logger.info(f"SEARCH_CHROMA - Documentos en la colección {collection.count()}")
@@ -51,7 +69,7 @@ def get_all_documents():
     return documents
 
 # Función para realizar una consulta (simulando una búsqueda por texto)
-def query_documents(query_text: str, top_k: int = 3):
+def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
     client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
     collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
 

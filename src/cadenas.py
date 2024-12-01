@@ -24,13 +24,13 @@ class Cadenas:
             {context}
             </context>
 
-            Question: {input}
+            Pregunta: {input}
             """
 
     @staticmethod
     def obtener_ayuda():
         """
-        Método estático que devuelve el codigo HTML estático que ayuda a manejar Oel chatbot
+        Método estático que devuelve el codigo HTML estático que ayuda a manejar el chatbot
         :param
         :return: HTML de ayuda
         """

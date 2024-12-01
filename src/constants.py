@@ -49,11 +49,13 @@ PROMPT_TEMPLATE = """
 
 CHROMA_COLLECTION_NAME = "subvenciones"
 CHROMA_PERSIST_PATH = "./store/"
+CHROMA_NUMDOCUMENTS = 5
 
 SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
 
 # MOCK OBJECTS
 MOCK_IDS=["795795", "795802", "795828"]
+
 MOCK_DOCUMENTS=[
         """Convocatoria de ayuda o  subvención: 795795
             Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
@@ -130,6 +132,7 @@ MOCK_DOCUMENTS=[
             Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
             Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 """
   ]
+
 MOCK_METADATAS=[
    {"source": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795"},
    {"source": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795802"},

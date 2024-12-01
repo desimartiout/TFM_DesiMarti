@@ -52,6 +52,6 @@ def chunk_text(text: str, chunk_size: int, overlap: int = 100) -> List[str]:
         start = end - overlap  # Move back by 'overlap' tokens
 
     logging.info(
-        f"TExto separado en {len(chunks)} partes con tamaño de parte {chunk_size} and overlap {overlap}."
+        f"Texto separado en {len(chunks)} partes con tamaño de parte {chunk_size} and overlap {overlap}."
     )
     return chunks

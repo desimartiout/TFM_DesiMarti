@@ -8,7 +8,7 @@ from src.chat import (  # type: ignore
     generate_response_streaming,
     get_embedding_model,
 )
-from src.constants import OLLAMA_MODEL_NAME, OPENSEARCH_INDEX
+from src.constants import OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS
 from src.utils import setup_logging
 
 # Initialize logger
@@ -47,18 +47,13 @@ def render_chatbot_page() -> None:
     model_loading_placeholder = st.empty()
 
     # Initialize session state variables for chatbot settings
-    if "use_hybrid_search" not in st.session_state:
-        st.session_state["use_hybrid_search"] = True
     if "num_results" not in st.session_state:
-        st.session_state["num_results"] = 5
+        st.session_state["use_hybrid_search"] = False
+    if "num_results" not in st.session_state:
+        st.session_state["num_results"] = CHROMA_NUMDOCUMENTS
     if "temperature" not in st.session_state:
-        st.session_state["temperature"] = 0.7
+        st.session_state["temperature"] = OLLAMA_TEMPERATURE
 
-
-    # Sidebar settings for hybrid search toggle, result count, and temperature
-    st.session_state["use_hybrid_search"] = st.sidebar.checkbox(
-        "Habilitar modo RAG", value=st.session_state["use_hybrid_search"]
-    )
     st.session_state["num_results"] = st.sidebar.number_input(
         "Número de resultados en la ventana de contexto",
         min_value=1,
