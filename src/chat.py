@@ -6,7 +6,9 @@ import streamlit as st
 
 from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME
 from src.embeddings import get_embedding_model
-from src.opensearch import hybrid_search
+#from src.opensearch import hybrid_search
+from src.searchchromadb import consultaChromadb
+
 from src.utils import setup_logging
 
 setup_logging()
@@ -118,25 +120,8 @@ def generate_response_streaming(
     chat_history = chat_history or []
     max_history_messages = 10
     history = chat_history[-max_history_messages:]
-    context = ""
-
-    # Include hybrid search results if enabled
-    if use_hybrid_search:
-        logger.info("Haciendo búsqueda híbrida.")
-        if ASSYMETRIC_EMBEDDING:
-            prefixed_query = f"passage: {query}"
-        else:
-            prefixed_query = f"{query}"
-        embedding_model = get_embedding_model()
-        query_embedding = embedding_model.encode(
-            prefixed_query
-        ).tolist()  # Convert tensor to list of floats
-        search_results = hybrid_search(query, query_embedding, top_k=num_results)
-        logger.info("Haciendo búsqueda híbrida.")
-
-        # Collect text from search results
-        for i, result in enumerate(search_results):
-            context += f"Ayuda {i}:\n{result['_source']['text']}\n\n"
+    
+    context = consultaChromadb(query, num_results)
 
     # Generate prompt using the prompt_template function
     prompt = prompt_template(query, context, history)

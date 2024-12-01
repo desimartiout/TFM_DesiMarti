@@ -11,7 +11,7 @@ setup_logging()
 logger = logging.getLogger(__name__)
 
 
-def get_opensearch_client() -> OpenSearch:
+def get_opensearch_client_1() -> OpenSearch:
     client = OpenSearch(
         hosts=[{"host": OPENSEARCH_HOST, "port": OPENSEARCH_PORT}],
         http_compress=True,
@@ -23,7 +23,7 @@ def get_opensearch_client() -> OpenSearch:
     return client
 
 
-def hybrid_search(
+def hybrid_search_1(
     query_text: str, query_embedding: List[float], top_k: int = 5
 ) -> List[Dict[str, Any]]:
     client = get_opensearch_client()
