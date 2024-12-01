@@ -1,13 +1,14 @@
 import chromadb
+import json
 from sentence_transformers import SentenceTransformer
+from langchain_ollama import OllamaLLM
 
 #https://medium.com/@pierrelouislet/getting-started-with-chroma-db-a-beginners-tutorial-6efa32300902
 #Ejemplo básico y para luego dockerizar chromadb
 
-
 #https://docs.trychroma.com/guides
 
-collection_name = "test"
+collection_name = "subvenciones"
 
 client = chromadb.PersistentClient(path="./pruebas_iniciales/dbvector/chromadb/store/")
 
@@ -101,36 +102,27 @@ metadatas=[
 #model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 model = SentenceTransformer('all-MiniLM-L6-v2')  # Modelo open source para embeddings
 
-""" Default: all-MiniLM-L6-v2#
-By default, Chroma uses the Sentence Transformers all-MiniLM-L6-v2 model to create embeddings. This embedding model can create sentence and document embeddings that can be used for a wide variety of tasks. This embedding function runs locally on your machine, and may require you download the model files (this will happen automatically).
+def cargarDocumentos():
+    # Generamos embeddings manualmente
+    texts = [doc for doc in documents]
+    embeddings = model.encode(texts)  # Generar embeddings para la lista de textos
 
-from chromadb.utils import embedding_functions
-default_ef = embedding_functions.DefaultEmbeddingFunction()
+    collection.add(
+        documents=documents,
+        metadatas=metadatas,
+        ids=ids,
+        embeddings=embeddings
+    )
+    #Si los ids son iguales los reemplaza
 
-Podemos cambiar el modelo
-sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2") 
-
-Listado de modelos compatibles
-https://www.sbert.net/docs/sentence_transformer/pretrained_models.html
-"""
-
-# Generamos embeddings manualmente
-texts = [doc for doc in documents]
-embeddings = model.encode(texts)  # Generar embeddings para la lista de textos
-
-collection.add(
-    documents=documents,
-    metadatas=metadatas,
-    ids=ids,
-    embeddings=embeddings
-)
-#Si los ids son iguales los reemplaza
+if (collection.count()==0):
+    cargarDocumentos()
 
 #Listar los documentos de la colección
-print(collection.count())
+#print(collection.count())
 
 # Listas las colecciones almacenadas
-print(client.list_collections())
+#print(client.list_collections())
 
 # Función para realizar una consulta (simulando una búsqueda por texto)
 def query_documents(client, collection_name, query_text):
@@ -150,32 +142,62 @@ query_text = "SUBVENCIONES DELEGACIÓN DE SALUD"
 
 results = query_documents(client, collection_name, query_text)
 
+contexto = ""
+
 # Mostrar resultados de la consulta
-print("Resultados de la consulta:")
+#print("Resultados de la consulta:")
 for result in results["documents"]:
-    print(result)
+    #print(result)
+    contexto += f"Texto: {result}\n"
+
+#print(f"Contexto {contexto}:")
+
+model="llama3.2:1b"
+temperature=0.7
+
+def consultaBasica():
+    #Consulta básica sin Prompt
+    llm = OllamaLLM(model=model, temperature=temperature)
+    prompt = f"Usando esta información: {contexto} \n Responde: {query_text}]"
+    #Basada en el resultado de ChromaDB
+    respuesta = llm(prompt)
+
+    # Imprimir la respuesta
+    print(f"Respuesta: {prompt}")
+    # Imprimir la respuesta
+    print(f"Respuesta: {respuesta}")
+
+def consultaPrompt():
+    from langchain_core.prompts import ChatPromptTemplate
+    from langchain_ollama import ChatOllama
+
+    llm = ChatOllama(
+        model=model,
+        temperature=temperature,
+    )
+
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                "Tu eres un asistente virtual para contestar a ayudas públicas del gobierno de españa, te adjuntaré una información que debes usar para proporcionar la respuesta. No te inventes información que no esté en esta información.",
+            ),
+            ("human", "{input}"),
+        ]
+    )
+
+    queryContext = f"Usando esta información: {contexto}. Responde: {query_text}" 
+
+    chain = prompt | llm
+    ai_msg = chain.invoke(
+        {
+            "input": f"{queryContext}",
+        }
+    )
+    print(f"queryContext: {queryContext}")
+    print(ai_msg.content)
 
 
-#Opciones de consulta https://docs.trychroma.com/guides
-""" collection.query(
-    query_embeddings=[[11.1, 12.1, 13.1],[1.1, 2.3, 3.2], ...],
-    n_results=10,
-    where={"metadata_field": "is_equal_to_this"},
-    whe re_document={"$contains":"search_string"}
-)"""
+#consultaBasica()
 
-#Obtener documentos por id 
-""" collection.get(
-	ids=["id1", "id2", "id3", ...],
-	where={"style": "style1"}
-) """
-
-#legir que devolvemos en la respuesta
-# Only get documents and ids
-""" collection.get(
-    include=["documents"]
-)
-collection.query(
-    query_embeddings=[[11.1, 12.1, 13.1],[1.1, 2.3, 3.2], ...],
-    include=["documents"]
-) """
+consultaPrompt()
