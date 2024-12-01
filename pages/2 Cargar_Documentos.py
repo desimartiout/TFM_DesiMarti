@@ -149,7 +149,9 @@ def render_upload_page() -> None:
 
                 text = leer_yaml_como_string(file_path)
 
-                cargarDocumento(text,"",uploaded_file.name)
+
+                file_without_extension, _ = os.path.splitext(uploaded_file.name)
+                cargarDocumento(text,"", file_without_extension)
 
                 st.session_state["documents"].append(
                     {

@@ -51,8 +51,8 @@ def get_all_documents():
     collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
 
     #Si no tengo documentos cargados los moqueo para poder tener datos.
-    if (collection.count()==0):
-        cargarDocumentosMOCK(collection)
+    #if (collection.count()==0):
+        #cargarDocumentosMOCK(collection)
 
     #Prueba de agregar un solo documento.   
     #cargarDocumento("documento","medatadooooooosss","id_1")
@@ -74,8 +74,8 @@ def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
     collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
 
     #Si no tengo documentos cargados los moqueo para poder tener datos.
-    if (collection.count()==0):
-        cargarDocumentosMOCK(collection)
+    #if (collection.count()==0):
+        #cargarDocumentosMOCK(collection)
     
     #Listar los documentos de la colección
     logger.info(f"SEARCH_CHROMA - Documentos en la colección {collection.count()}")

@@ -2,6 +2,7 @@ import logging
 import os
 
 import streamlit as st
+from streamlit_feedback import streamlit_feedback
 
 from src.chat import (  # type: ignore
     ensure_model_pulled,
@@ -160,7 +161,23 @@ def render_chatbot_page() -> None:
                 {"role": "assistant", "content": response_text}
             )
             logger.info("Respuesta generada y mostrada.")
+            
+            st.toast(f"Respuesta generada y mostrada.") # Mensaje TOAST
 
+            #Feedback from th user https://github.com/trubrics/streamlit-feedback
+            #feedback = streamlit_feedback(feedback_type="thumbs", align="flex-start")
+            #feedback = streamlit_feedback(feedback_type="faces", on_submit=_submit_feedback)
+            #streamlit_feedback(
+            #    feedback_type="thumbs",on_submit=_submit_feedback
+            #)
+            # para ejecutar npm en powershell
+            # #Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ​
+
+
+def _submit_feedback(user_response, emoji=None):
+    st.toast(f"Feedback submitted: {user_response}", icon=emoji)
+    logger.info("Feedback submitted: {user_response}")
+    #return user_response.update({"some metadata": 123})
 
 # Main execution
 if __name__ == "__main__":
