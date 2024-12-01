@@ -1,16 +1,19 @@
 import logging
 import os
 
+import numpy as np
+import pandas as pd
+
 import streamlit as st
-from streamlit_feedback import streamlit_feedback
+#from streamlit_feedback import streamlit_feedback
 
 from src.chat import (  # type: ignore
     ensure_model_pulled,
     generate_response_streaming,
     get_embedding_model,
 )
-from src.constants import OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS
-from src.utils import setup_logging
+from src.constants import OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, CHATBOT_INTRO, LOGO_URL_LARGE, LOGO_URL_SMALL, AI_ICON, HUMAN_ICON
+from src.utils import setup_logging, stream_data
 
 # Initialize logger
 setup_logging()  # Configures logging for the application
@@ -18,6 +21,12 @@ logger = logging.getLogger(__name__)
 
 # Set page configuration
 st.set_page_config(page_title="HelpMe.AI - Chatbot", page_icon="🤖")
+
+st.logo(
+    LOGO_URL_LARGE,
+    link="https://www.desimarti.es",
+    icon_image=LOGO_URL_SMALL,
+)
 
 # Apply custom CSS
 st.markdown(
@@ -39,7 +48,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 logger.info("Custom CSS applied.")
-
 
 # Main chatbot page rendering function
 def render_chatbot_page() -> None:
@@ -106,10 +114,12 @@ def render_chatbot_page() -> None:
     # Load models if not already loaded
     if "embedding_models_loaded" not in st.session_state:
         with model_loading_placeholder:
-            with st.spinner("Cargando modelos de embedding y Ollama para búsqueda híbrida..."):
-                get_embedding_model()
-                ensure_model_pulled(OLLAMA_MODEL_NAME)
-                st.session_state["embedding_models_loaded"] = True
+            with st.status("Descargando datos...", expanded=True) as status:
+                st.write("Cargando modelos de embedding...")
+                #st.session_state["embedding"]= get_embedding_model()
+                st.write("Cargando modelo LLM Ollama...")
+                #ensure_model_pulled(OLLAMA_MODEL_NAME)
+                
         logger.info("Modelo de embedding cargado.")
         model_loading_placeholder.empty()
 
@@ -117,20 +127,27 @@ def render_chatbot_page() -> None:
     if "chat_history" not in st.session_state:
         st.session_state["chat_history"] = []
 
+        message = st.chat_message("assistant", avatar=AI_ICON)
+        message.write_stream(stream_data(CHATBOT_INTRO))
+
     # Display chat history
     for message in st.session_state["chat_history"]:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+        if message["role"]=="assistant":
+            message = st.chat_message("assistant", avatar=AI_ICON)
+            message.markdown(message["content"])
+        else:
+            message = st.chat_message("user", avatar=HUMAN_ICON)
+            message.markdown(message["content"])
 
     # Process user input and generate response
     if prompt := st.chat_input("Escribe tu consulta aquí..."):
-        with st.chat_message("user"):
+        with st.chat_message("user", avatar=HUMAN_ICON):
             st.markdown(prompt)
         st.session_state["chat_history"].append({"role": "user", "content": prompt})
         logger.info("Entrada recibida.")
 
         # Generate response from assistant
-        with st.chat_message("assistant"):
+        with st.chat_message("assistant", avatar=AI_ICON):
             with st.spinner("Generando respuesta..."):
                 response_placeholder = st.empty()
                 response_text = ""
@@ -164,6 +181,12 @@ def render_chatbot_page() -> None:
             
             st.toast(f"Respuesta generada y mostrada.") # Mensaje TOAST
 
+            sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]
+            selected = st.feedback("thumbs")
+            if selected is not None:
+                st.markdown(f"You selected: {sentiment_mapping[selected]}")
+                st.toast(f"You selected: {sentiment_mapping[selected]}", icon=None)
+
             #Feedback from th user https://github.com/trubrics/streamlit-feedback
             #feedback = streamlit_feedback(feedback_type="thumbs", align="flex-start")
             #feedback = streamlit_feedback(feedback_type="faces", on_submit=_submit_feedback)
@@ -172,7 +195,6 @@ def render_chatbot_page() -> None:
             #)
             # para ejecutar npm en powershell
             # #Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ​
-
 
 def _submit_feedback(user_response, emoji=None):
     st.toast(f"Feedback submitted: {user_response}", icon=emoji)

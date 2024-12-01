@@ -100,10 +100,13 @@ def consultaChromadb(query_text, top_k):
     results = query_documents(query_text, top_k)
     contexto = ""
 
+    logger.info(f"SEARCH_CHROMA - results {results}:")
     # Mostrar resultados de la consulta
     for result in results["documents"]:
-        #print(result)
-        contexto += f"Texto: {result}\n"
+        for texto in result:
+            #print(result)
+            contexto += f"Convocatoria: {texto}\n"
+        
 
     logger.info(f"SEARCH_CHROMA - Contexto {contexto}:")
 

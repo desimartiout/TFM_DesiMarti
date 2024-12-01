@@ -3,6 +3,7 @@
 import logging
 import re
 from typing import List
+import time
 
 from src.constants import LOG_FILE_PATH
 
@@ -30,7 +31,7 @@ def clean_text(text: str) -> str:
     text = re.sub(r"[ \t]+", " ", text)
 
     cleaned_text = text.strip()
-    logging.info("TExto limpiado.")
+    logging.info("Texto limpiado.")
     return cleaned_text
 
 
@@ -55,3 +56,8 @@ def chunk_text(text: str, chunk_size: int, overlap: int = 100) -> List[str]:
         f"Texto separado en {len(chunks)} partes con tamaño de parte {chunk_size} and overlap {overlap}."
     )
     return chunks
+
+def stream_data(texto):
+    for word in texto.split(" "):
+        yield word + " "
+        time.sleep(0.04)

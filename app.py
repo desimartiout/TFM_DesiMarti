@@ -3,7 +3,8 @@ import os
 
 import streamlit as st
 
-from src.utils import setup_logging
+from src.utils import setup_logging, stream_data
+from src.constants import LOGO_URL_LARGE, LOGO_URL_SMALL, CHATBOT_WELLCOME
 
 # Initialize logger
 setup_logging()  # Set up logging configuration
@@ -11,9 +12,14 @@ logger = logging.getLogger(__name__)
 
 # Set page config with title, icon, and layout
 st.set_page_config(
-    page_title="Chatbot HelpMe.ai", page_icon=""
+    page_title="Chatbot HelpMe.ai", page_icon=LOGO_URL_SMALL
 )
 
+st.logo(
+    LOGO_URL_LARGE,
+    link="https://www.desimarti.es",
+    icon_image=LOGO_URL_SMALL,
+)
 
 # Custom CSS to style the page and sidebar
 def apply_custom_css() -> None:
@@ -94,25 +100,20 @@ def display_logo(logo_path: str) -> None:
 
 def display_main_content() -> None:
     st.title("Chatbot para búsqueda de ayudas y subvenciones del Gobierno de España ")
-    st.markdown(
-        """
-        Bienvenido al Chatbot Ayuda.me 👋
-        
-        Esta ayuda permite la búsqueda de información de ayudas y subvenciones del Gobierno de España
-        
-        """
-    )
+    st.write_stream(stream_data(CHATBOT_WELLCOME))
     logger.info("Mostrar página bienvenida.")
 
-
 def display_sidebar_content() -> None:
+    # Sidebar headers and footer
     st.sidebar.markdown(
-        "<h2 style='text-align: center;'>Jam with AI</h2>", unsafe_allow_html=True
+        "<h2 style='text-align: center;'>HelpMe.ai</h2>", unsafe_allow_html=True
     )
     st.sidebar.markdown(
-        "<h4 style='text-align: center;'>Tu Chatbot de ayudas</h4>",
+        "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional</h4>",
         unsafe_allow_html=True,
     )
+
+    # Footer text
     st.sidebar.markdown(
         """
         <div class="footer-text">
@@ -121,6 +122,7 @@ def display_sidebar_content() -> None:
         """,
         unsafe_allow_html=True,
     )
+
     logger.info("Mostrar barra lateral.")
 
 

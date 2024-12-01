@@ -138,7 +138,7 @@ def query_documents(client, collection_name, query_text):
     )
     return results
 
-query_text = "SUBVENCIONES DELEGACIÓN DE SALUD"
+query_text = "tienes ayudas de murcia?"
 
 results = query_documents(client, collection_name, query_text)
 
@@ -150,7 +150,7 @@ for result in results["documents"]:
     #print(result)
     contexto += f"Texto: {result}\n"
 
-#print(f"Contexto {contexto}:")
+print(f"Contexto {contexto}:")
 
 model="llama3.2:1b"
 temperature=0.7

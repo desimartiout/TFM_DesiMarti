@@ -41,31 +41,29 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
 
         # Plantilla del texto
         template = """
-        \"""
-        Convocatoria de ayuda o  subvención: {codigoBDNS}
-        Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/{codigoBDNS}
-        Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: {organo_nivel1} - {organo_nivel2}
-        Enlace / url a sede electrónica presentación ayuda: {sedeElectronica}
-        Fecha de recepción: {fechaRecepcion}
-        Tipo de ayuda: {instrumentos}
-        Tipo de convocatoria: {tipoConvocatoria}
-        Presupuesto total: {presupuestoTotal} Euros
-        Descripción: {descripcion}
-        Tipos de beneficiarios: {tiposBeneficiarios}
-        Sectores involucrados: {sectores}
-        Región de impacto: {regiones}
-        Finalidad: {descripcionFinalidad}
-        Bases reguladoras: {descripcionBasesReguladoras}
-        URL Bases Reguladoras: {urlBasesReguladoras}
-        Publicación en diario oficial: {sePublicaDiarioOficial}
-        Estado de convocatoria abierta: {abierto}
-        Fecha de inicio de solicitudes: {fechaInicioSolicitud}
-        Fecha de fin de solicitudes: {fechaFinSolicitud}
-        Inicio de convocatoria: {textInicio}
-        Fin de convocatoria: {textFin}
-        Reglamento: {reglamento}
-        Otros documentos de la convocatoria: {documentos}
-        \"""
+Detalle de la convocatoria de ayuda o  subvención: {codigoBDNS}
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/{codigoBDNS}
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: {organo_nivel1} - {organo_nivel2}
+Enlace / url a sede electrónica presentación ayuda: {sedeElectronica}
+Fecha de recepción: {fechaRecepcion}
+Tipo de ayuda: {instrumentos}
+Tipo de convocatoria: {tipoConvocatoria}
+Presupuesto total: {presupuestoTotal} Euros
+Descripción: {descripcion}
+Tipos de beneficiarios: {tiposBeneficiarios}
+Sectores involucrados: {sectores}
+Región de impacto: {regiones}
+Finalidad: {descripcionFinalidad}
+Bases reguladoras: {descripcionBasesReguladoras}
+URL Bases Reguladoras: {urlBasesReguladoras}
+Publicación en diario oficial: {sePublicaDiarioOficial}
+Estado de convocatoria abierta: {abierto}
+Fecha de inicio de solicitudes: {fechaInicioSolicitud}
+Fecha de fin de solicitudes: {fechaFinSolicitud}
+Inicio de convocatoria: {textInicio}
+Fin de convocatoria: {textFin}
+Reglamento: {reglamento}
+Otros documentos de la convocatoria: {documentos}
         """
 
         # Generar texto
@@ -139,7 +137,7 @@ def safe_format(data, template):
                 safe_value_inner(data,"reglamento","descripcion")
             ),
             "documentos": ", ".join(
-                f"\n\t\tDescripción: {safe_value(d.get('descripcion'))}, "
+                f"\nDescripción: {safe_value(d.get('descripcion'))}, "
                 f"Nombre: {safe_value(d.get('nombreFic'))}, "
                 f"Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/{safe_value(data.get('codigoBDNS'))}/document/{safe_value(d.get('id'))} "
                 for d in data.get("documentos", [])

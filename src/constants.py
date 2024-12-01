@@ -1,7 +1,8 @@
 #EMBEDDING_MODEL_PATH = "microsoft/mpnet-base"  # OR Path of local eg. "embedding_model/"" or the name of SentenceTransformer model eg. "sentence-transformers/all-mpnet-base-v2" from Hugging Face
 #EMBEDDING_MODEL_PATH = "sentence-transformers/all-mpnet-base-v2"
-EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-#paraphrase-multilingual-mpnet-base-v2
+#EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+#EMBEDDING_MODEL_PATH = "all-MiniLM-L6-v2"
 ASSYMETRIC_EMBEDDING = False  # Flag for asymmetric embedding
 #EMBEDDING_DIMENSION = 768  # Embedding model settings
 EMBEDDING_DIMENSION = 384  # Embedding model settings
@@ -11,45 +12,51 @@ TEXT_CHUNK_SIZE = 300  # Maximum number of characters in each text chunk for
     "llama3.2:1b"  # Name of the model used in Ollama for chat functionality
 ) """
 
-OLLAMA_MODEL_NAME = (
+""" OLLAMA_MODEL_NAME = (
     "llama3.1"  # Name of the model used in Ollama for chat functionality
-)
-OLLAMA_TEMPERATURE=0.7
+) """
+
+OLLAMA_MODEL_NAME = "llamaAyudas:latest"
+OLLAMA_TEMPERATURE = 0.9
+
+LOGO_URL_LARGE = "images/LogoLargo.png"
+LOGO_URL_SMALL = "images/LogoCorto1.png"
+
+HUMAN_ICON = "images/user.png"
+AI_ICON = "images/gpt.png"
+#Web hacer logo https://www.design.com/maker/logo/helping-hand-charity-heart-2930187?text=Ayuda.Me&colorPalette=blue&isVariation=True
 
 ####################################################################################################
 # Dont change the following settings
 ####################################################################################################
 
 # Logging
-LOG_FILE_PATH = "logs/app.log"  # File path for the application log file
+LOG_FILE_PATH = "logs/applog.txt"  # File path for the application log file
 # OpenSearch settings
 OPENSEARCH_HOST = "localhost"  # Hostname for the OpenSearch instance
 OPENSEARCH_PORT = 9200  # Port number for OpenSearch
 OPENSEARCH_INDEX = "documents"  # Index name for storing documents in OpenSearch
 PROMPT_TEMPLATE = """
-            Eres un asistente chat (chatbot) para ayudar obtener ingformación de ayudas y subvenciones del Gobierno de España, tus principales misiones son:            
+            Eres un asistente chat (chatbot) para ayudar obtener información de ayudas y subvenciones del Gobierno de España, tus principales misiones son:            
             * Ayudar al usuario para encontrar las subvenciones que necesite el usuario en base a sus criterios de búsqueda.
-            * Deberás de identificar las oportunidades de ayudas y subvenciones.
-            * Proporciona detalles el organismo que la publica, la descripción de la convocatoria, el importe, región finalidad y beneficiarios de la ayuda o subvención.
-            * Ofrece consejos sobre cómo mejorar mi aplicación y aumentar mis posibilidades de éxito.
-            * Cuando te pregunten por las ayudas y subvenciones centrate en la información que te proporciona el contexto.
-
-            * Es importante que los resultados sean precisos y actualizados.
+            * Proporciona detalles del organismo que la publica, la descripción de la convocatoria, el importe, región finalidad y beneficiarios de la ayuda o subvención.
+            * Sofo ofrece información a partir del Contexto proporcionado.
             * No te inventes información ni rellenes los datos vacios. Si no tienes ayudas que cumplan el criterio di que no tienes. Como eres un chat amigable :) también tienes la capacidad de reponder a preguntas no relaccionadas con las ayudas de subvenciones.
 
-            <context>
-            {context}
-            </context>
+            ----
+            Contexto:
+                {context}
+            ....
 
-            Question: {input}
+            Pregunta: 
+                {input}
             """
 
 
 # CHROMADB
-
 CHROMA_COLLECTION_NAME = "subvenciones"
 CHROMA_PERSIST_PATH = "./store/"
-CHROMA_NUMDOCUMENTS = 5
+CHROMA_NUMDOCUMENTS = 3
 
 SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
 
@@ -138,3 +145,45 @@ MOCK_METADATAS=[
    {"source": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795802"},
    {"source": "https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828"}
   ]
+
+
+CHATBOT_WELLCOME = """
+**Bienvenido al Chatbot de Ayudas y Subvenciones Públicas 👋**  
+Este chatbot está diseñado para facilitarte la búsqueda de información sobre **ayudas** y **subvenciones** en España.  
+Con un lenguaje sencillo y ejemplos prácticos, podrás encontrar la información que necesitas de manera rápida y eficiente.
+
+#### **¿Cómo utilizar este chatbot?**
+1. **Describe tu necesidad o interés**: Puedes preguntar sobre ayudas específicas o hacer consultas más generales.
+2. **Filtra la información**: Usa términos como región, sector, tipo de beneficiario o palabra clave para precisar tu búsqueda.
+3. **Recibe resultados claros**: Obtendrás información detallada sobre las ayudas disponibles, como su descripción, fechas clave y enlaces relevantes.
+
+#### **Ejemplos básicos de consulta**
+- **Por región**:  
+  _"¿Qué ayudas están disponibles en la Comunidad Valenciana?"_
+- **Por sector**:  
+  _"¿Hay subvenciones para el sector agrícola?"_
+- **Por tipo de beneficiario**:  
+  _"¿Existen ayudas para PYMES en Madrid?"_
+- **Por palabras clave**:  
+  _"Busco subvenciones para mejora de viviendas."_
+
+#### **Consejos útiles**
+- Sé lo más específico posible para obtener resultados más relevantes.  
+- Si no encuentras lo que buscas, prueba combinando criterios:  
+  _"Ayudas en Andalucía para autónomos en el sector tecnológico."_
+
+---
+**¡Empieza ahora!** Escribe tu primera consulta y verás qué fácil es de usar.
+"""
+
+CHATBOT_INTRO = """
+##### **Recordatorio: Uso del Chatbot de Ayudas y Subvenciones**  
+- **Describe tu necesidad**: Pregunta por ayudas específicas o generales.  
+    Ej.: _"¿Qué ayudas hay en Madrid para autónomos?"_  
+- **Usa filtros**: Región, sector, tipo de beneficiario o palabras clave.  
+    Ej.: _"Subvenciones para innovación tecnológica."_  
+- **Sé específico**: Combina criterios para resultados más relevantes.  
+    Ej.: _"Ayudas en Andalucía para pymes agrícolas."_  
+
+**¡Prueba ahora y encuentra lo que necesitas!**
+"""
