@@ -36,7 +36,7 @@ my_run_config = RunConfig(max_workers=64, timeout=60)
 import json
 
 # Leer el JSON desde un archivo local
-with open("c:/Users/desim/Documents/GitHub/TFM_DesiMarti/pruebas_iniciales/ragas/RAG_With_Models/data/datasets.json", "r") as file:
+with open("c:/Users/desim/Documents/GitHub/TFM_DesiMarti/pruebas_iniciales/ragas/RAG_With_Models/data/dataset.json", "r") as file:
     data = json.load(file)
 
 # Crear un DatasetDict para simular la estructura de Hugging Face
@@ -77,10 +77,10 @@ def create_ragas_dataset(eval_dataset):
   rag_dataset = []
   for row in eval_dataset["eval"]:
     rag_dataset.append(
-        {"question" : row["question"],
-         "answer" : row["response"],
-         "contexts" : row["context"],
-         "ground_truths" : [row["ground_truth"]]
+        {"user_input" : row["question"],
+         "response" : row["answer"],
+         "retrieved_contexts" : row["contexts"],
+         "reference" : [row["ground_truths"]]
          }
     )
   rag_df = pd.DataFrame(rag_dataset)

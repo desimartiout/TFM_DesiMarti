@@ -32,7 +32,7 @@ from ragas.run_config import RunConfig
 my_run_config = RunConfig(max_workers=64, timeout=60)
 
 # Leer el JSON desde un archivo local
-with open("c:/Users/desim/Documents/GitHub/TFM_DesiMarti/pruebas_iniciales/ragas/RAG_With_Models/data/eval.json", "r") as file:
+with open("c:/Users/desim/Documents/GitHub/TFM_DesiMarti/ragas/dataset/eval.json", "r") as file:
     data = json.load(file)
 
 # Crear un DatasetDict para simular la estructura de Hugging Face
@@ -67,15 +67,16 @@ from ragas.metrics import (
     context_precision
 )
 
+
+
 # information found here: https://docs.ragas.io/en/latest/howtos/customisations/bring-your-own-llm-or-embs.html
-langchain_llm = ChatOllama(model="llama3.2:3b")
-langchain_embeddings = OllamaEmbeddings(model="llama3.2:3b")
+langchain_llm = ChatOllama(model="llamaAyudas:latest")
+langchain_embeddings = OllamaEmbeddings(model="llamaAyudas:latest")
 
 result = evaluate(eval_dataset,
                   metrics=[
         faithfulness,
         answer_relevancy,
         context_recall,context_precision], llm=langchain_llm,embeddings=langchain_embeddings,run_config=my_run_config)
-
-print(result)
+print(result.to_pandas())
 print("----------")
