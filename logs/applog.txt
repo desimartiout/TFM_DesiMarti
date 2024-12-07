@@ -11835,3 +11835,1445 @@ Descripción: Texto en castellano de la convocatoria, Nombre: Resolución Consejer
 2024-12-01 20:13:53,321 - INFO - Logo mostrado.
 2024-12-01 20:13:53,322 - INFO - Barra lateral configurada.
 2024-12-01 20:13:53,438 - INFO - Modelo de embedding cargado.
+2024-12-07 16:04:02,667 - INFO - Css aplicado.
+2024-12-07 16:04:02,690 - INFO - Logo displayed.
+2024-12-07 16:04:02,690 - INFO - Mostrar barra lateral.
+2024-12-07 16:04:12,420 - INFO - Mostrar página bienvenida.
+2024-12-07 16:04:18,102 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 16:04:20,152 - INFO - Use pytorch device_name: cuda
+2024-12-07 16:04:20,153 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 16:04:22,336 - INFO - Cargando modelo de embeddings desde la ruta: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 16:04:22,339 - INFO - Use pytorch device_name: cuda
+2024-12-07 16:04:22,339 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 16:04:26,531 - INFO - Modelo de embeddings cargado.
+2024-12-07 16:04:26,549 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 16:04:26,693 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 16:04:26,694 - INFO - SEARCH_CHROMA - Id 795795
+2024-12-07 16:04:26,694 - INFO - SEARCH_CHROMA - Id 795802
+2024-12-07 16:04:26,694 - INFO - SEARCH_CHROMA - Id 795817
+2024-12-07 16:04:26,694 - INFO - SEARCH_CHROMA - Id 795828
+2024-12-07 16:04:26,694 - INFO - SEARCH_CHROMA - Id 795851
+2024-12-07 16:04:26,694 - INFO - SEARCH_CHROMA - Id 795852
+2024-12-07 16:04:26,694 - INFO - SEARCH_CHROMA - Id 795854
+2024-12-07 16:04:26,694 - INFO - {'ids': ['795795', '795802', '795817', '795828', '795851', '795852', '795854'], 'embeddings': None, 'documents': ['\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795802\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795802\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CHICLANA DE LA FRONTERA - AYUNTAMIENTO DE CHICLANA DE LA FRONTERA\nEnlace / url a sede electrónica presentación ayuda: https://www.chiclana.es\nFecha de recepción: 2024-11-08T14:30:52+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 22000 Euros\nDescripción: CONVOCATORIA PÚBLICA DE SUBVENCIONES DE SALUD EJERCICIO 2024.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Prestación de servicios a la comunidad en general\nRegión de impacto: ES61 - ANDALUCIA\nFinalidad: Sanidad\nBases reguladoras: CONVOCATORIA SUBVENCIONES DELEGACIÓN DE SALUD 2024.\nURL Bases Reguladoras: https://www.chiclana.es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DÍA SIGUIENTE AL DE SU PUBLICACIÓN EN EL B.O.P. DE CÁDIZ\nFin de convocatoria: TREINTA DÍAS NATURALES SIGUIENTE AL DE SU PUBLICACIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: CSV-2024_JuntaGobiernoLocal_Sanidad_2.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795802/document/1156556 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795817\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795817\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CABILDO INSULAR DE LA PALMA - EXCMO. CABILDO INSULAR DE LA PALMA\nEnlace / url a sede electrónica presentación ayuda: https://sedeelectronica.cabildodelapalma.es/sta/CarpetaPublic/Login?APP_CODE=STA&PAGE_CODE=PTS2_HOME\nFecha de recepción: 2024-11-08T14:50:26+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 400000 Euros\nDescripción: CONVOCATORIA, POR PROCEDIMIENTO ANTICIPADO DEL GASTO, PARA LA SELECCIÓN DE UNA ENTIDAD COLABORADORA PARA LA GESTIÓN DE LA SUBVENCIÓN DIRECTA BONO BONITO LA PALMA 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Comercio al por menor, excepto de vehículos de motor y motocicletas\nRegión de impacto: ES707 - La Palma\nFinalidad: Comercio, Turismo y Pymes\nBases reguladoras: SUBVENCIÓN BONO BONITO LA PALMA 2024\nURL Bases Reguladoras: https://www.bopsantacruzdetenerife.es/bopsc2/index.php\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-01-01T00:00:00+01:00\nFecha de fin de solicitudes: 2024-12-31T00:00:00+01:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: Resolución Consejero/a de Promoción Económica.PDF, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795817/document/1156575 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795851\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795851\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: VIGO - AYUNTAMIENTO DE VIGO\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T23:14:30+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 100000 Euros\nDescripción: Subvenciones para la organización y difusión de actos sociales y encuentros vecinales para el año 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Actividades recreativas y de entretenimiento\nRegión de impacto: ES114 - Pontevedra\nFinalidad: Cultura\nBases reguladoras: BASES REGULADORAS DE LAS SUBVENCIONES PARA CONTRIBUIR A LA FINANCIACIÓN DE LOS GASTOS DE LA ORGANIZACIÓN Y DIFUSIÓN DE ACTOS SOCIALES Y ENCUENTROS VECINALES DE FOMENTO DE LA PARTICIPACIÓN CIUDADANA\nURL Bases Reguladoras: https://sede.vigo.org/expedientes//avisos/?lang=es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DESDE EL DÍA SIGUIENTE A LA PUBLICACIÓN DEL EXTRACTO DE LA CONVOCATORIA EN EL BOP\nFin de convocatoria: 10 DÍAS NATURALES DESDE EL INICIO DEL PERÍODO DE ADMISIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en otra lengua de la convocatoria, Nombre: convocatoria_actos_sociais_e_publicacions_2024124717299.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156765 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Convocatoria castellano124717272.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156764 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795852\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795852\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ULLDECONA - AYUNTAMIENTO DE ULLDECONA\nEnlace / url a sede electrónica presentación ayuda: https://tramits.ulldecona.cat/subvencio_escola/\nFecha de recepción: 2024-11-09T15:26:20+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 35000 Euros\nDescripción: Convocatoria de subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria. Curso 2024-2025.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN\nRegión de impacto: ES514 - Tarragona\nFinalidad: Educación\nBases reguladoras: Bases reguladoras de las subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria.\nURL Bases Reguladoras: https://www.diputaciodetarragona.cat/ebop/index.php?op=dwn&tipus=i&data=20171004&anyp=2017&num=08001&v=i\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: 2024-12-02T00:00:00+01:00\nInicio de convocatoria: A partir de la publicación de la convocatoria\nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en lengua cooficial, Nombre: Convocatoria_catala.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156766 , \nDescripción: Documento de la convocatoria en español, Nombre: Convocatoria castella.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156767 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        '], 'uris': None, 'data': None, 'metadatas': [None, None, None, None, None, None, None], 'included': [<IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2024-12-07 16:04:26,695 - INFO - Obtenidos nombres de documentos desde Chromadb.
+2024-12-07 16:04:29,896 - INFO - Custom CSS applied.
+2024-12-07 16:04:29,919 - INFO - Logo mostrado.
+2024-12-07 16:04:29,920 - INFO - Barra lateral configurada.
+2024-12-07 16:05:14,728 - INFO - Custom CSS applied.
+2024-12-07 16:05:14,750 - INFO - Logo mostrado.
+2024-12-07 16:05:14,752 - INFO - Barra lateral configurada.
+2024-12-07 16:05:14,765 - INFO - Entrada recibida.
+2024-12-07 16:05:14,775 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 16:05:14,976 - INFO - SEARCH_CHROMA - results {'ids': [['795854', '795795', '795828']], 'embeddings': None, 'documents': [['\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9748428420569348, 0.9798780488729208, 1.0125712817512447]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}:
+2024-12-07 16:05:14,976 - INFO - SEARCH_CHROMA - Contexto Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+:
+2024-12-07 16:05:14,976 - INFO - Prompt construido con contexto e historial de conversación.
+2024-12-07 16:05:14,976 - INFO - prompt: 
+        Eres un asistente experto en subvenciones que recibe un listado de documentos en formato YAML. Tu tarea es:
+            1. Analizar el contenido.
+            2. Resumirlo en formato claro y comprensible.
+            3. Destacar las partes más importantes: enlaces, beneficiarios, fechas clave y presupuesto.
+            4. No te inventes nada.
+
+            El formato de cada documento YAML es:
+            Convocatoria: 
+            Detalle de la convocatoria de ayuda o  subvención: 795854
+            Enlace a convocatoria: 
+            Órgano, comunidad, autonomía, región, provincia o ayuntamiento convocante: 
+            Enlace / url a sede electr\ufffdnica presentaci\ufffdn ayuda: 
+            Fecha de recepci\ufffdn: 
+            Tipo de ayuda: 
+            Tipo de convocatoria: 
+            Presupuesto total: 
+            Descripción: 
+            Tipos de beneficiarios: 
+            Sectores involucrados: 
+            Regi\ufffdn de impacto: 
+            Finalidad: 
+            Bases reguladoras: 
+            URL Bases Reguladoras: 
+            Publicaci\ufffdn en diario oficial: 
+            Estado de convocatoria abierta: 
+            Fecha de inicio de solicitudes: 
+            Fecha de fin de solicitudes: 
+            Inicio de convocatoria: 
+            Fin de convocatoria: 
+            Reglamento: 
+            Otros documentos de la convocatoria: 
+            
+            El formato que espero del listado de ayudas es el siguiente:
+
+            **Convocatoria de Ayuda: 795795**
+            - **Órgano convocante:** MURCIA - AYUNTAMIENTO DE MURCIA
+            - **Enlace a la convocatoria:** [Acceder](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795)
+            - **Sede electrónica para presentar solicitud:** [Ir a sede](https://sede.murcia.es/areas?idCategoria=10004)
+            - **Presupuesto total:** 205,000 Euros
+            - **Descripción:** Subvenciones para costes de explotaci\ufffdn de taxis adaptados.
+            - **Beneficiarios:** PYME y personas f\ufffdsicas que desarrollan actividad econ\ufffdmica.
+            - **Sectores involucrados:** Otro transporte terrestre de pasajeros.
+            - **Región de impacto:** Regi\ufffdn de Murcia (ES62).
+            - **Estado de convocatoria:** Cerrada.
+            - **Fechas importantes:**
+            - Inicio solicitudes: 15/11/2024
+            - Fin solicitudes: 28/11/2024
+            - **Documentos relevantes:**
+            1. **Publicación en el BORM:** [PUBLICACION_BORM.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031)
+            2. **Certificado:** [Certificado_2024.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030)
+
+            
+        Usando esta información: Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+
+        Responde: Puedes darme todo el contexto de ayudas en Murcia?]
+        
+2024-12-07 16:05:14,976 - INFO - Respuesta desde el modelo OLlama.
+2024-12-07 16:05:18,458 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-12-07 16:05:25,113 - INFO - Respuesta generada y mostrada.
+2024-12-07 16:07:16,180 - INFO - Css aplicado.
+2024-12-07 16:07:16,200 - INFO - Logo displayed.
+2024-12-07 16:07:16,201 - INFO - Mostrar barra lateral.
+2024-12-07 16:07:25,900 - INFO - Mostrar página bienvenida.
+2024-12-07 16:07:30,723 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 16:07:32,735 - INFO - Use pytorch device_name: cuda
+2024-12-07 16:07:32,735 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 16:07:35,538 - INFO - Cargando modelo de embeddings desde la ruta: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 16:07:35,542 - INFO - Use pytorch device_name: cuda
+2024-12-07 16:07:35,542 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 16:07:38,712 - INFO - Modelo de embeddings cargado.
+2024-12-07 16:07:38,731 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 16:07:38,869 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 16:07:38,870 - INFO - SEARCH_CHROMA - Id 795795
+2024-12-07 16:07:38,870 - INFO - SEARCH_CHROMA - Id 795802
+2024-12-07 16:07:38,871 - INFO - SEARCH_CHROMA - Id 795817
+2024-12-07 16:07:38,871 - INFO - SEARCH_CHROMA - Id 795828
+2024-12-07 16:07:38,871 - INFO - SEARCH_CHROMA - Id 795851
+2024-12-07 16:07:38,871 - INFO - SEARCH_CHROMA - Id 795852
+2024-12-07 16:07:38,871 - INFO - SEARCH_CHROMA - Id 795854
+2024-12-07 16:07:38,871 - INFO - {'ids': ['795795', '795802', '795817', '795828', '795851', '795852', '795854'], 'embeddings': None, 'documents': ['\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795802\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795802\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CHICLANA DE LA FRONTERA - AYUNTAMIENTO DE CHICLANA DE LA FRONTERA\nEnlace / url a sede electrónica presentación ayuda: https://www.chiclana.es\nFecha de recepción: 2024-11-08T14:30:52+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 22000 Euros\nDescripción: CONVOCATORIA PÚBLICA DE SUBVENCIONES DE SALUD EJERCICIO 2024.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Prestación de servicios a la comunidad en general\nRegión de impacto: ES61 - ANDALUCIA\nFinalidad: Sanidad\nBases reguladoras: CONVOCATORIA SUBVENCIONES DELEGACIÓN DE SALUD 2024.\nURL Bases Reguladoras: https://www.chiclana.es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DÍA SIGUIENTE AL DE SU PUBLICACIÓN EN EL B.O.P. DE CÁDIZ\nFin de convocatoria: TREINTA DÍAS NATURALES SIGUIENTE AL DE SU PUBLICACIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: CSV-2024_JuntaGobiernoLocal_Sanidad_2.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795802/document/1156556 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795817\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795817\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CABILDO INSULAR DE LA PALMA - EXCMO. CABILDO INSULAR DE LA PALMA\nEnlace / url a sede electrónica presentación ayuda: https://sedeelectronica.cabildodelapalma.es/sta/CarpetaPublic/Login?APP_CODE=STA&PAGE_CODE=PTS2_HOME\nFecha de recepción: 2024-11-08T14:50:26+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 400000 Euros\nDescripción: CONVOCATORIA, POR PROCEDIMIENTO ANTICIPADO DEL GASTO, PARA LA SELECCIÓN DE UNA ENTIDAD COLABORADORA PARA LA GESTIÓN DE LA SUBVENCIÓN DIRECTA BONO BONITO LA PALMA 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Comercio al por menor, excepto de vehículos de motor y motocicletas\nRegión de impacto: ES707 - La Palma\nFinalidad: Comercio, Turismo y Pymes\nBases reguladoras: SUBVENCIÓN BONO BONITO LA PALMA 2024\nURL Bases Reguladoras: https://www.bopsantacruzdetenerife.es/bopsc2/index.php\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-01-01T00:00:00+01:00\nFecha de fin de solicitudes: 2024-12-31T00:00:00+01:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: Resolución Consejero/a de Promoción Económica.PDF, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795817/document/1156575 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795851\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795851\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: VIGO - AYUNTAMIENTO DE VIGO\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T23:14:30+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 100000 Euros\nDescripción: Subvenciones para la organización y difusión de actos sociales y encuentros vecinales para el año 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Actividades recreativas y de entretenimiento\nRegión de impacto: ES114 - Pontevedra\nFinalidad: Cultura\nBases reguladoras: BASES REGULADORAS DE LAS SUBVENCIONES PARA CONTRIBUIR A LA FINANCIACIÓN DE LOS GASTOS DE LA ORGANIZACIÓN Y DIFUSIÓN DE ACTOS SOCIALES Y ENCUENTROS VECINALES DE FOMENTO DE LA PARTICIPACIÓN CIUDADANA\nURL Bases Reguladoras: https://sede.vigo.org/expedientes//avisos/?lang=es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DESDE EL DÍA SIGUIENTE A LA PUBLICACIÓN DEL EXTRACTO DE LA CONVOCATORIA EN EL BOP\nFin de convocatoria: 10 DÍAS NATURALES DESDE EL INICIO DEL PERÍODO DE ADMISIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en otra lengua de la convocatoria, Nombre: convocatoria_actos_sociais_e_publicacions_2024124717299.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156765 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Convocatoria castellano124717272.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156764 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795852\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795852\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ULLDECONA - AYUNTAMIENTO DE ULLDECONA\nEnlace / url a sede electrónica presentación ayuda: https://tramits.ulldecona.cat/subvencio_escola/\nFecha de recepción: 2024-11-09T15:26:20+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 35000 Euros\nDescripción: Convocatoria de subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria. Curso 2024-2025.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN\nRegión de impacto: ES514 - Tarragona\nFinalidad: Educación\nBases reguladoras: Bases reguladoras de las subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria.\nURL Bases Reguladoras: https://www.diputaciodetarragona.cat/ebop/index.php?op=dwn&tipus=i&data=20171004&anyp=2017&num=08001&v=i\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: 2024-12-02T00:00:00+01:00\nInicio de convocatoria: A partir de la publicación de la convocatoria\nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en lengua cooficial, Nombre: Convocatoria_catala.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156766 , \nDescripción: Documento de la convocatoria en español, Nombre: Convocatoria castella.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156767 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        '], 'uris': None, 'data': None, 'metadatas': [None, None, None, None, None, None, None], 'included': [<IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2024-12-07 16:07:38,871 - INFO - Obtenidos nombres de documentos desde Chromadb.
+2024-12-07 16:07:41,784 - INFO - Custom CSS applied.
+2024-12-07 16:07:41,814 - INFO - Logo mostrado.
+2024-12-07 16:07:41,816 - INFO - Barra lateral configurada.
+2024-12-07 16:07:56,697 - INFO - Custom CSS applied.
+2024-12-07 16:07:56,721 - INFO - Logo mostrado.
+2024-12-07 16:07:56,721 - INFO - Barra lateral configurada.
+2024-12-07 16:07:56,724 - INFO - Entrada recibida.
+2024-12-07 16:07:56,735 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 16:07:56,948 - INFO - SEARCH_CHROMA - results {'ids': [['795854', '795795', '795828']], 'embeddings': None, 'documents': [['\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9748428420569348, 0.9798780488729208, 1.0125712817512447]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}:
+2024-12-07 16:07:56,948 - INFO - SEARCH_CHROMA - Contexto Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+:
+2024-12-07 16:07:56,948 - INFO - Prompt construido OPENAI con contexto e historial de conversación.
+2024-12-07 16:07:56,948 - INFO - prompt: 
+        Usando esta información: Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+
+        Responde: Puedes darme todo el contexto de ayudas en Murcia?]
+        
+2024-12-07 16:07:56,948 - INFO - Respuesta desde el modelo OpenAI GPT-3.5 Turbo.
+2024-12-07 16:11:29,010 - INFO - Css aplicado.
+2024-12-07 16:11:29,030 - INFO - Logo displayed.
+2024-12-07 16:11:29,032 - INFO - Mostrar barra lateral.
+2024-12-07 16:11:39,477 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 16:11:41,271 - INFO - Use pytorch device_name: cuda
+2024-12-07 16:11:41,271 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 16:11:44,195 - INFO - Custom CSS applied.
+2024-12-07 16:11:44,217 - INFO - Logo mostrado.
+2024-12-07 16:11:44,218 - INFO - Barra lateral configurada.
+2024-12-07 16:11:44,342 - INFO - Modelo de embedding cargado.
+2024-12-07 16:11:51,634 - INFO - Custom CSS applied.
+2024-12-07 16:11:51,659 - INFO - Logo mostrado.
+2024-12-07 16:11:51,660 - INFO - Barra lateral configurada.
+2024-12-07 16:11:51,786 - INFO - Modelo de embedding cargado.
+2024-12-07 16:11:51,789 - INFO - Entrada recibida.
+2024-12-07 16:11:51,814 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 16:11:51,959 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 16:11:52,123 - INFO - SEARCH_CHROMA - results {'ids': [['795854', '795795', '795828']], 'embeddings': None, 'documents': [['\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9748428420569348, 0.9798780488729208, 1.0125712817512447]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}:
+2024-12-07 16:11:52,123 - INFO - SEARCH_CHROMA - Contexto Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+:
+2024-12-07 16:11:52,123 - INFO - Prompt construido OPENAI con contexto e historial de conversación.
+2024-12-07 16:11:52,123 - INFO - prompt: 
+        Usando esta información: Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+
+        Responde: Puedes darme todo el contexto de ayudas en Murcia?]
+        
+2024-12-07 16:11:52,124 - INFO - Respuesta desde el modelo OpenAI GPT-3.5 Turbo.
+2024-12-07 16:17:45,181 - INFO - Css aplicado.
+2024-12-07 16:17:45,200 - INFO - Logo displayed.
+2024-12-07 16:17:45,201 - INFO - Mostrar barra lateral.
+2024-12-07 16:17:54,917 - INFO - Mostrar página bienvenida.
+2024-12-07 16:19:02,128 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 16:19:03,786 - INFO - Use pytorch device_name: cuda
+2024-12-07 16:19:03,786 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 16:19:06,252 - INFO - Custom CSS applied.
+2024-12-07 16:19:06,275 - INFO - Logo mostrado.
+2024-12-07 16:19:06,276 - INFO - Barra lateral configurada.
+2024-12-07 16:19:06,402 - INFO - Modelo de embedding cargado.
+2024-12-07 16:19:13,309 - INFO - Custom CSS applied.
+2024-12-07 16:19:13,331 - INFO - Logo mostrado.
+2024-12-07 16:19:13,332 - INFO - Barra lateral configurada.
+2024-12-07 16:19:13,450 - INFO - Modelo de embedding cargado.
+2024-12-07 16:19:13,452 - INFO - Entrada recibida.
+2024-12-07 16:19:13,474 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 16:19:13,628 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 16:19:13,804 - INFO - SEARCH_CHROMA - results {'ids': [['795854', '795795', '795828']], 'embeddings': None, 'documents': [['\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9748428420569348, 0.9798780488729208, 1.0125712817512447]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}:
+2024-12-07 16:19:13,804 - INFO - SEARCH_CHROMA - Contexto Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+:
+2024-12-07 16:19:20,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:19:20,498 - INFO - Respuesta generada y mostrada.
+2024-12-07 16:24:24,499 - INFO - Css aplicado.
+2024-12-07 16:24:24,521 - INFO - Logo displayed.
+2024-12-07 16:24:24,522 - INFO - Mostrar barra lateral.
+2024-12-07 16:24:34,260 - INFO - Mostrar página bienvenida.
+2024-12-07 16:24:39,862 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 16:24:41,525 - INFO - Use pytorch device_name: cuda
+2024-12-07 16:24:41,525 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 16:24:43,815 - INFO - Custom CSS applied.
+2024-12-07 16:24:43,838 - INFO - Logo mostrado.
+2024-12-07 16:24:43,839 - INFO - Barra lateral configurada.
+2024-12-07 16:24:43,960 - INFO - Modelo de embedding cargado.
+2024-12-07 16:24:50,347 - INFO - Custom CSS applied.
+2024-12-07 16:24:50,370 - INFO - Logo mostrado.
+2024-12-07 16:24:50,371 - INFO - Barra lateral configurada.
+2024-12-07 16:24:50,485 - INFO - Modelo de embedding cargado.
+2024-12-07 16:24:50,487 - INFO - Entrada recibida.
+2024-12-07 16:24:50,510 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 16:24:50,655 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 16:24:50,824 - INFO - SEARCH_CHROMA - results {'ids': [['795854', '795795', '795828']], 'embeddings': None, 'documents': [['\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9748428420569348, 0.9798780488729208, 1.0125712817512447]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}:
+2024-12-07 16:24:50,824 - INFO - SEARCH_CHROMA - Contexto Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+:
+2024-12-07 16:25:01,662 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:26:01,440 - INFO - Css aplicado.
+2024-12-07 16:26:01,465 - INFO - Logo displayed.
+2024-12-07 16:26:01,467 - INFO - Mostrar barra lateral.
+2024-12-07 16:26:11,212 - INFO - Mostrar página bienvenida.
+2024-12-07 16:26:19,002 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 16:26:20,676 - INFO - Use pytorch device_name: cuda
+2024-12-07 16:26:20,676 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 16:26:22,972 - INFO - Custom CSS applied.
+2024-12-07 16:26:22,997 - INFO - Logo mostrado.
+2024-12-07 16:26:22,997 - INFO - Barra lateral configurada.
+2024-12-07 16:26:23,125 - INFO - Modelo de embedding cargado.
+2024-12-07 16:26:31,233 - INFO - Custom CSS applied.
+2024-12-07 16:26:31,255 - INFO - Logo mostrado.
+2024-12-07 16:26:31,256 - INFO - Barra lateral configurada.
+2024-12-07 16:26:31,383 - INFO - Modelo de embedding cargado.
+2024-12-07 16:26:31,386 - INFO - Entrada recibida.
+2024-12-07 16:26:31,409 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 16:26:31,555 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 16:26:31,725 - INFO - SEARCH_CHROMA - results {'ids': [['795854', '795795', '795828']], 'embeddings': None, 'documents': [['\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9748428420569348, 0.9798780488729208, 1.0125712817512447]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}:
+2024-12-07 16:26:31,725 - INFO - SEARCH_CHROMA - Contexto Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+:
+2024-12-07 16:26:39,025 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:26:49,713 - INFO - Respuesta generada y mostrada.
+2024-12-07 16:36:19,532 - INFO - Css aplicado.
+2024-12-07 16:36:19,564 - INFO - Logo displayed.
+2024-12-07 16:36:19,567 - INFO - Mostrar barra lateral.
+2024-12-07 16:36:31,164 - INFO - Css aplicado.
+2024-12-07 16:36:31,185 - INFO - Logo displayed.
+2024-12-07 16:36:31,186 - INFO - Mostrar barra lateral.
+2024-12-07 16:36:31,466 - INFO - Css aplicado.
+2024-12-07 16:36:31,494 - INFO - Logo displayed.
+2024-12-07 16:36:31,496 - INFO - Mostrar barra lateral.
+2024-12-07 16:36:40,998 - INFO - Mostrar página bienvenida.
+2024-12-07 16:45:06,263 - INFO - Css aplicado.
+2024-12-07 16:45:06,289 - INFO - Logo displayed.
+2024-12-07 16:45:06,291 - INFO - Mostrar barra lateral.
+2024-12-07 16:45:15,601 - INFO - Mostrar página bienvenida.
+2024-12-07 16:45:45,661 - INFO - Css aplicado.
+2024-12-07 16:45:45,684 - INFO - Logo displayed.
+2024-12-07 16:45:45,809 - INFO - Mostrar barra lateral.
+2024-12-07 16:45:55,113 - INFO - Mostrar página bienvenida.
+2024-12-07 16:47:11,975 - INFO - Css aplicado.
+2024-12-07 16:47:11,998 - INFO - Logo displayed.
+2024-12-07 16:47:12,004 - INFO - Mostrar barra lateral.
+2024-12-07 16:47:21,337 - INFO - Mostrar página bienvenida.
+2024-12-07 16:49:19,220 - INFO - Css aplicado.
+2024-12-07 16:49:19,243 - INFO - Logo displayed.
+2024-12-07 16:49:19,247 - INFO - Mostrar barra lateral.
+2024-12-07 16:49:28,551 - INFO - Mostrar página bienvenida.
+2024-12-07 16:52:15,886 - INFO - Css aplicado.
+2024-12-07 16:52:15,908 - INFO - Logo displayed.
+2024-12-07 16:52:15,913 - INFO - Mostrar barra lateral.
+2024-12-07 16:52:25,260 - INFO - Mostrar página bienvenida.
+2024-12-07 16:54:36,411 - INFO - Css aplicado.
+2024-12-07 16:54:36,433 - INFO - Logo displayed.
+2024-12-07 16:54:36,438 - INFO - Mostrar barra lateral.
+2024-12-07 16:54:45,758 - INFO - Mostrar página bienvenida.
+2024-12-07 16:55:26,391 - INFO - Css aplicado.
+2024-12-07 16:55:26,415 - INFO - Logo displayed.
+2024-12-07 16:55:26,419 - INFO - Mostrar barra lateral.
+2024-12-07 16:55:35,760 - INFO - Mostrar página bienvenida.
+2024-12-07 16:55:38,756 - INFO - Css aplicado.
+2024-12-07 16:55:38,778 - INFO - Logo displayed.
+2024-12-07 16:55:38,783 - INFO - Mostrar barra lateral.
+2024-12-07 16:55:48,078 - INFO - Mostrar página bienvenida.
+2024-12-07 16:56:06,985 - INFO - Css aplicado.
+2024-12-07 16:56:07,008 - INFO - Logo displayed.
+2024-12-07 16:56:07,012 - INFO - Mostrar barra lateral.
+2024-12-07 16:56:16,315 - INFO - Mostrar página bienvenida.
+2024-12-07 16:57:10,056 - INFO - Css aplicado.
+2024-12-07 16:57:10,078 - INFO - Logo displayed.
+2024-12-07 16:57:10,085 - INFO - Mostrar barra lateral.
+2024-12-07 16:57:19,406 - INFO - Mostrar página bienvenida.
+2024-12-07 16:57:55,226 - INFO - Css aplicado.
+2024-12-07 16:57:55,249 - INFO - Logo displayed.
+2024-12-07 16:57:55,257 - INFO - Mostrar barra lateral.
+2024-12-07 16:58:04,571 - INFO - Mostrar página bienvenida.
+2024-12-07 16:59:07,632 - INFO - Css aplicado.
+2024-12-07 16:59:07,656 - INFO - Logo displayed.
+2024-12-07 16:59:07,665 - INFO - Mostrar barra lateral.
+2024-12-07 16:59:16,975 - INFO - Mostrar página bienvenida.
+2024-12-07 16:59:19,792 - INFO - Css aplicado.
+2024-12-07 16:59:19,815 - INFO - Logo displayed.
+2024-12-07 16:59:19,820 - INFO - Mostrar barra lateral.
+2024-12-07 16:59:29,128 - INFO - Mostrar página bienvenida.
+2024-12-07 17:01:05,678 - INFO - Css aplicado.
+2024-12-07 17:01:05,735 - INFO - Logo displayed.
+2024-12-07 17:01:05,800 - INFO - Mostrar barra lateral.
+2024-12-07 17:01:15,523 - INFO - Mostrar página bienvenida.
+2024-12-07 17:01:33,179 - INFO - Css aplicado.
+2024-12-07 17:01:33,201 - INFO - Logo displayed.
+2024-12-07 17:01:33,206 - INFO - Mostrar barra lateral.
+2024-12-07 17:01:42,547 - INFO - Mostrar página bienvenida.
+2024-12-07 17:13:20,979 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 17:13:22,703 - INFO - Use pytorch device_name: cuda
+2024-12-07 17:13:22,703 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 17:13:25,699 - INFO - Custom CSS applied.
+2024-12-07 17:13:25,723 - INFO - Logo mostrado.
+2024-12-07 17:13:25,724 - INFO - Barra lateral configurada.
+2024-12-07 17:13:25,843 - INFO - Modelo de embedding cargado.
+2024-12-07 17:13:42,251 - INFO - Css aplicado.
+2024-12-07 17:13:42,272 - INFO - Logo displayed.
+2024-12-07 17:13:42,279 - INFO - Mostrar barra lateral.
+2024-12-07 17:13:51,580 - INFO - Mostrar página bienvenida.
+2024-12-07 17:13:57,767 - INFO - Custom CSS applied.
+2024-12-07 17:13:57,793 - INFO - Logo mostrado.
+2024-12-07 17:13:57,794 - INFO - Barra lateral configurada.
+2024-12-07 17:13:57,919 - INFO - Modelo de embedding cargado.
+2024-12-07 17:14:06,186 - INFO - Custom CSS applied.
+2024-12-07 17:14:06,207 - INFO - Logo mostrado.
+2024-12-07 17:14:06,209 - INFO - Barra lateral configurada.
+2024-12-07 17:14:06,328 - INFO - Modelo de embedding cargado.
+2024-12-07 17:14:07,378 - INFO - Custom CSS applied.
+2024-12-07 17:14:07,402 - INFO - Logo mostrado.
+2024-12-07 17:14:07,403 - INFO - Barra lateral configurada.
+2024-12-07 17:14:07,523 - INFO - Modelo de embedding cargado.
+2024-12-07 17:14:11,701 - INFO - Cargando modelo de embeddings desde la ruta: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 17:14:11,706 - INFO - Use pytorch device_name: cuda
+2024-12-07 17:14:11,706 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 17:14:14,817 - INFO - Modelo de embeddings cargado.
+2024-12-07 17:14:14,834 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 17:14:15,085 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 17:14:15,086 - INFO - SEARCH_CHROMA - Id 795795
+2024-12-07 17:14:15,086 - INFO - SEARCH_CHROMA - Id 795802
+2024-12-07 17:14:15,086 - INFO - SEARCH_CHROMA - Id 795817
+2024-12-07 17:14:15,086 - INFO - SEARCH_CHROMA - Id 795828
+2024-12-07 17:14:15,086 - INFO - SEARCH_CHROMA - Id 795851
+2024-12-07 17:14:15,086 - INFO - SEARCH_CHROMA - Id 795852
+2024-12-07 17:14:15,086 - INFO - SEARCH_CHROMA - Id 795854
+2024-12-07 17:14:15,086 - INFO - {'ids': ['795795', '795802', '795817', '795828', '795851', '795852', '795854'], 'embeddings': None, 'documents': ['\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795802\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795802\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CHICLANA DE LA FRONTERA - AYUNTAMIENTO DE CHICLANA DE LA FRONTERA\nEnlace / url a sede electrónica presentación ayuda: https://www.chiclana.es\nFecha de recepción: 2024-11-08T14:30:52+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 22000 Euros\nDescripción: CONVOCATORIA PÚBLICA DE SUBVENCIONES DE SALUD EJERCICIO 2024.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Prestación de servicios a la comunidad en general\nRegión de impacto: ES61 - ANDALUCIA\nFinalidad: Sanidad\nBases reguladoras: CONVOCATORIA SUBVENCIONES DELEGACIÓN DE SALUD 2024.\nURL Bases Reguladoras: https://www.chiclana.es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DÍA SIGUIENTE AL DE SU PUBLICACIÓN EN EL B.O.P. DE CÁDIZ\nFin de convocatoria: TREINTA DÍAS NATURALES SIGUIENTE AL DE SU PUBLICACIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: CSV-2024_JuntaGobiernoLocal_Sanidad_2.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795802/document/1156556 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795817\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795817\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CABILDO INSULAR DE LA PALMA - EXCMO. CABILDO INSULAR DE LA PALMA\nEnlace / url a sede electrónica presentación ayuda: https://sedeelectronica.cabildodelapalma.es/sta/CarpetaPublic/Login?APP_CODE=STA&PAGE_CODE=PTS2_HOME\nFecha de recepción: 2024-11-08T14:50:26+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 400000 Euros\nDescripción: CONVOCATORIA, POR PROCEDIMIENTO ANTICIPADO DEL GASTO, PARA LA SELECCIÓN DE UNA ENTIDAD COLABORADORA PARA LA GESTIÓN DE LA SUBVENCIÓN DIRECTA BONO BONITO LA PALMA 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Comercio al por menor, excepto de vehículos de motor y motocicletas\nRegión de impacto: ES707 - La Palma\nFinalidad: Comercio, Turismo y Pymes\nBases reguladoras: SUBVENCIÓN BONO BONITO LA PALMA 2024\nURL Bases Reguladoras: https://www.bopsantacruzdetenerife.es/bopsc2/index.php\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-01-01T00:00:00+01:00\nFecha de fin de solicitudes: 2024-12-31T00:00:00+01:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: Resolución Consejero/a de Promoción Económica.PDF, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795817/document/1156575 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795851\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795851\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: VIGO - AYUNTAMIENTO DE VIGO\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T23:14:30+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 100000 Euros\nDescripción: Subvenciones para la organización y difusión de actos sociales y encuentros vecinales para el año 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Actividades recreativas y de entretenimiento\nRegión de impacto: ES114 - Pontevedra\nFinalidad: Cultura\nBases reguladoras: BASES REGULADORAS DE LAS SUBVENCIONES PARA CONTRIBUIR A LA FINANCIACIÓN DE LOS GASTOS DE LA ORGANIZACIÓN Y DIFUSIÓN DE ACTOS SOCIALES Y ENCUENTROS VECINALES DE FOMENTO DE LA PARTICIPACIÓN CIUDADANA\nURL Bases Reguladoras: https://sede.vigo.org/expedientes//avisos/?lang=es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DESDE EL DÍA SIGUIENTE A LA PUBLICACIÓN DEL EXTRACTO DE LA CONVOCATORIA EN EL BOP\nFin de convocatoria: 10 DÍAS NATURALES DESDE EL INICIO DEL PERÍODO DE ADMISIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en otra lengua de la convocatoria, Nombre: convocatoria_actos_sociais_e_publicacions_2024124717299.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156765 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Convocatoria castellano124717272.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156764 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795852\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795852\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ULLDECONA - AYUNTAMIENTO DE ULLDECONA\nEnlace / url a sede electrónica presentación ayuda: https://tramits.ulldecona.cat/subvencio_escola/\nFecha de recepción: 2024-11-09T15:26:20+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 35000 Euros\nDescripción: Convocatoria de subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria. Curso 2024-2025.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN\nRegión de impacto: ES514 - Tarragona\nFinalidad: Educación\nBases reguladoras: Bases reguladoras de las subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria.\nURL Bases Reguladoras: https://www.diputaciodetarragona.cat/ebop/index.php?op=dwn&tipus=i&data=20171004&anyp=2017&num=08001&v=i\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: 2024-12-02T00:00:00+01:00\nInicio de convocatoria: A partir de la publicación de la convocatoria\nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en lengua cooficial, Nombre: Convocatoria_catala.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156766 , \nDescripción: Documento de la convocatoria en español, Nombre: Convocatoria castella.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156767 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        '], 'uris': None, 'data': None, 'metadatas': [None, None, None, None, None, None, None], 'included': [<IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2024-12-07 17:14:15,087 - INFO - Obtenidos nombres de documentos desde Chromadb.
+2024-12-07 17:14:16,821 - INFO - Custom CSS applied.
+2024-12-07 17:14:16,853 - INFO - Logo mostrado.
+2024-12-07 17:14:16,857 - INFO - Barra lateral configurada.
+2024-12-07 17:14:36,452 - INFO - Custom CSS applied.
+2024-12-07 17:14:36,476 - INFO - Logo mostrado.
+2024-12-07 17:14:36,477 - INFO - Barra lateral configurada.
+2024-12-07 17:14:36,600 - INFO - Modelo de embedding cargado.
+2024-12-07 17:14:58,474 - INFO - Css aplicado.
+2024-12-07 17:14:58,498 - INFO - Logo displayed.
+2024-12-07 17:14:58,568 - INFO - Mostrar barra lateral.
+2024-12-07 17:15:08,376 - INFO - Mostrar página bienvenida.
+2024-12-07 17:15:21,368 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 17:15:23,026 - INFO - Use pytorch device_name: cuda
+2024-12-07 17:15:23,026 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 17:15:25,579 - INFO - Custom CSS applied.
+2024-12-07 17:15:25,605 - INFO - Logo mostrado.
+2024-12-07 17:15:25,605 - INFO - Barra lateral configurada.
+2024-12-07 17:15:25,723 - INFO - Modelo de embedding cargado.
+2024-12-07 17:15:42,183 - INFO - Custom CSS applied.
+2024-12-07 17:15:42,205 - INFO - Logo mostrado.
+2024-12-07 17:15:42,206 - INFO - Barra lateral configurada.
+2024-12-07 17:15:42,334 - INFO - Modelo de embedding cargado.
+2024-12-07 17:15:42,335 - INFO - Entrada recibida.
+2024-12-07 17:15:42,361 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 17:15:42,510 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 17:15:42,698 - INFO - SEARCH_CHROMA - results {'ids': [['795854', '795795', '795828']], 'embeddings': None, 'documents': [['\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9748428420569348, 0.9798780488729208, 1.0125712817512447]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}:
+2024-12-07 17:15:42,698 - INFO - SEARCH_CHROMA - Contexto Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+:
+2024-12-07 17:15:49,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:15:59,890 - INFO - Respuesta generada y mostrada.
+2024-12-07 17:18:57,196 - INFO - Css aplicado.
+2024-12-07 17:18:57,220 - INFO - Logo displayed.
+2024-12-07 17:18:57,226 - INFO - Mostrar barra lateral.
+2024-12-07 17:19:06,556 - INFO - Mostrar página bienvenida.
+2024-12-07 17:20:34,961 - INFO - Css aplicado.
+2024-12-07 17:20:34,984 - INFO - Logo displayed.
+2024-12-07 17:20:34,988 - INFO - Mostrar barra lateral.
+2024-12-07 17:20:44,300 - INFO - Mostrar página bienvenida.
+2024-12-07 17:23:02,304 - INFO - Css aplicado.
+2024-12-07 17:23:02,330 - INFO - Logo displayed.
+2024-12-07 17:23:02,335 - INFO - Mostrar barra lateral.
+2024-12-07 17:23:11,691 - INFO - Mostrar página bienvenida.
+2024-12-07 17:25:42,742 - INFO - Css aplicado.
+2024-12-07 17:25:42,764 - INFO - Logo displayed.
+2024-12-07 17:25:42,823 - INFO - Mostrar barra lateral.
+2024-12-07 17:27:26,672 - INFO - Css aplicado.
+2024-12-07 17:27:26,694 - INFO - Logo displayed.
+2024-12-07 17:27:26,701 - INFO - Mostrar barra lateral.
+2024-12-07 17:27:36,012 - INFO - Mostrar página bienvenida.
+2024-12-07 17:28:46,536 - INFO - Css aplicado.
+2024-12-07 17:28:46,560 - INFO - Logo displayed.
+2024-12-07 17:28:46,567 - INFO - Mostrar barra lateral.
+2024-12-07 17:28:55,913 - INFO - Mostrar página bienvenida.
+2024-12-07 17:29:08,518 - INFO - Css aplicado.
+2024-12-07 17:29:08,540 - INFO - Logo displayed.
+2024-12-07 17:29:08,547 - INFO - Mostrar barra lateral.
+2024-12-07 17:29:17,890 - INFO - Mostrar página bienvenida.
+2024-12-07 17:38:43,504 - INFO - Use pytorch device_name: cuda
+2024-12-07 17:38:43,504 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 17:41:16,705 - INFO - Use pytorch device_name: cuda
+2024-12-07 17:41:16,706 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 17:45:41,578 - INFO - Css aplicado.
+2024-12-07 17:45:41,598 - INFO - Logo displayed.
+2024-12-07 17:45:41,656 - INFO - Mostrar barra lateral.
+2024-12-07 17:45:51,368 - INFO - Mostrar página bienvenida.
+2024-12-07 17:49:44,253 - INFO - Css aplicado.
+2024-12-07 17:49:44,272 - INFO - Logo displayed.
+2024-12-07 17:49:44,331 - INFO - Mostrar barra lateral.
+2024-12-07 17:49:54,030 - INFO - Mostrar página bienvenida.
+2024-12-07 17:55:08,721 - INFO - Css aplicado.
+2024-12-07 17:55:08,742 - INFO - Logo displayed.
+2024-12-07 17:55:08,795 - INFO - Mostrar barra lateral.
+2024-12-07 17:55:18,491 - INFO - Mostrar página bienvenida.
+2024-12-07 17:58:21,758 - INFO - Css aplicado.
+2024-12-07 17:58:21,778 - INFO - Logo displayed.
+2024-12-07 17:58:21,836 - INFO - Mostrar barra lateral.
+2024-12-07 17:58:31,533 - INFO - Mostrar página bienvenida.
+2024-12-07 18:01:05,202 - INFO - Css aplicado.
+2024-12-07 18:01:05,225 - INFO - Logo displayed.
+2024-12-07 18:01:05,231 - INFO - Mostrar barra lateral.
+2024-12-07 18:01:14,541 - INFO - Mostrar página bienvenida.
+2024-12-07 18:01:18,061 - INFO - Css aplicado.
+2024-12-07 18:01:18,083 - INFO - Logo displayed.
+2024-12-07 18:01:18,089 - INFO - Mostrar barra lateral.
+2024-12-07 18:01:27,390 - INFO - Mostrar página bienvenida.
+2024-12-07 18:01:54,974 - INFO - Css aplicado.
+2024-12-07 18:01:54,996 - INFO - Logo displayed.
+2024-12-07 18:01:55,001 - INFO - Mostrar barra lateral.
+2024-12-07 18:02:04,305 - INFO - Mostrar página bienvenida.
+2024-12-07 18:02:07,421 - INFO - Css aplicado.
+2024-12-07 18:02:07,443 - INFO - Logo displayed.
+2024-12-07 18:02:07,466 - INFO - Mostrar barra lateral.
+2024-12-07 18:02:16,819 - INFO - Mostrar página bienvenida.
+2024-12-07 18:02:42,129 - INFO - Css aplicado.
+2024-12-07 18:02:42,153 - INFO - Logo displayed.
+2024-12-07 18:02:42,167 - INFO - Mostrar barra lateral.
+2024-12-07 18:02:51,472 - INFO - Mostrar página bienvenida.
+2024-12-07 18:03:23,042 - INFO - Css aplicado.
+2024-12-07 18:03:23,064 - INFO - Logo displayed.
+2024-12-07 18:03:23,069 - INFO - Mostrar barra lateral.
+2024-12-07 18:03:32,374 - INFO - Mostrar página bienvenida.
+2024-12-07 18:03:42,748 - INFO - Css aplicado.
+2024-12-07 18:03:42,769 - INFO - Logo displayed.
+2024-12-07 18:03:42,825 - INFO - Mostrar barra lateral.
+2024-12-07 18:03:51,811 - INFO - Css aplicado.
+2024-12-07 18:03:51,856 - INFO - Logo displayed.
+2024-12-07 18:03:51,865 - INFO - Mostrar barra lateral.
+2024-12-07 18:04:01,195 - INFO - Mostrar página bienvenida.
+2024-12-07 18:05:33,266 - INFO - Css aplicado.
+2024-12-07 18:05:33,291 - INFO - Logo displayed.
+2024-12-07 18:05:33,301 - INFO - Mostrar barra lateral.
+2024-12-07 18:05:42,661 - INFO - Mostrar página bienvenida.
+2024-12-07 18:08:33,563 - INFO - Css aplicado.
+2024-12-07 18:08:33,583 - INFO - Logo displayed.
+2024-12-07 18:08:33,642 - INFO - Mostrar barra lateral.
+2024-12-07 18:08:43,345 - INFO - Mostrar página bienvenida.
+2024-12-07 18:09:31,154 - INFO - Css aplicado.
+2024-12-07 18:09:31,177 - INFO - Logo displayed.
+2024-12-07 18:09:53,895 - INFO - Css aplicado.
+2024-12-07 18:09:53,920 - INFO - Logo displayed.
+2024-12-07 18:10:00,012 - INFO - Mostrar barra lateral.
+2024-12-07 18:10:09,336 - INFO - Mostrar página bienvenida.
+2024-12-07 18:11:17,390 - INFO - Css aplicado.
+2024-12-07 18:11:17,412 - INFO - Logo displayed.
+2024-12-07 18:11:17,420 - INFO - Mostrar barra lateral.
+2024-12-07 18:11:26,723 - INFO - Mostrar página bienvenida.
+2024-12-07 18:12:17,920 - INFO - Css aplicado.
+2024-12-07 18:12:17,944 - INFO - Logo displayed.
+2024-12-07 18:12:17,951 - INFO - Mostrar barra lateral.
+2024-12-07 18:12:27,250 - INFO - Mostrar página bienvenida.
+2024-12-07 18:12:41,482 - INFO - Css aplicado.
+2024-12-07 18:12:41,487 - INFO - Mostrar barra lateral.
+2024-12-07 18:12:50,812 - INFO - Mostrar página bienvenida.
+2024-12-07 18:13:01,626 - INFO - Css aplicado.
+2024-12-07 18:13:01,680 - INFO - Mostrar barra lateral.
+2024-12-07 18:13:11,395 - INFO - Mostrar página bienvenida.
+2024-12-07 18:13:23,798 - INFO - Css aplicado.
+2024-12-07 18:13:23,804 - INFO - Mostrar barra lateral.
+2024-12-07 18:13:33,116 - INFO - Mostrar página bienvenida.
+2024-12-07 18:13:46,265 - INFO - Css aplicado.
+2024-12-07 18:13:46,267 - INFO - Mostrar barra lateral.
+2024-12-07 18:13:55,604 - INFO - Mostrar página bienvenida.
+2024-12-07 18:14:02,940 - INFO - Css aplicado.
+2024-12-07 18:14:02,943 - INFO - Mostrar barra lateral.
+2024-12-07 18:14:11,159 - INFO - Css aplicado.
+2024-12-07 18:14:11,161 - INFO - Mostrar barra lateral.
+2024-12-07 18:14:12,311 - INFO - Mostrar página bienvenida.
+2024-12-07 18:14:20,488 - INFO - Mostrar página bienvenida.
+2024-12-07 18:14:32,379 - INFO - Css aplicado.
+2024-12-07 18:14:32,381 - INFO - Mostrar barra lateral.
+2024-12-07 18:14:35,660 - INFO - Css aplicado.
+2024-12-07 18:14:35,662 - INFO - Mostrar barra lateral.
+2024-12-07 18:14:41,699 - INFO - Mostrar página bienvenida.
+2024-12-07 18:14:44,983 - INFO - Mostrar página bienvenida.
+2024-12-07 18:14:59,023 - INFO - Css aplicado.
+2024-12-07 18:14:59,026 - INFO - Mostrar barra lateral.
+2024-12-07 18:15:02,432 - INFO - Css aplicado.
+2024-12-07 18:15:02,433 - INFO - Mostrar barra lateral.
+2024-12-07 18:15:08,725 - INFO - Mostrar página bienvenida.
+2024-12-07 18:15:11,799 - INFO - Mostrar página bienvenida.
+2024-12-07 18:15:18,225 - INFO - Css aplicado.
+2024-12-07 18:15:18,227 - INFO - Mostrar barra lateral.
+2024-12-07 18:15:20,921 - INFO - Css aplicado.
+2024-12-07 18:15:20,923 - INFO - Mostrar barra lateral.
+2024-12-07 18:15:27,550 - INFO - Mostrar página bienvenida.
+2024-12-07 18:15:30,280 - INFO - Mostrar página bienvenida.
+2024-12-07 18:15:33,748 - INFO - Css aplicado.
+2024-12-07 18:15:33,751 - INFO - Mostrar barra lateral.
+2024-12-07 18:15:40,457 - INFO - Css aplicado.
+2024-12-07 18:15:40,461 - INFO - Mostrar barra lateral.
+2024-12-07 18:15:41,059 - INFO - Css aplicado.
+2024-12-07 18:15:41,062 - INFO - Mostrar barra lateral.
+2024-12-07 18:15:50,220 - INFO - Mostrar página bienvenida.
+2024-12-07 18:16:39,299 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 18:16:41,427 - INFO - Use pytorch device_name: cuda
+2024-12-07 18:16:41,427 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 18:16:43,724 - INFO - Cargando modelo de embeddings desde la ruta: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 18:16:43,729 - INFO - Use pytorch device_name: cuda
+2024-12-07 18:16:43,729 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 18:16:46,840 - INFO - Modelo de embeddings cargado.
+2024-12-07 18:16:46,860 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 18:16:47,018 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 18:16:47,020 - INFO - SEARCH_CHROMA - Id 795795
+2024-12-07 18:16:47,020 - INFO - SEARCH_CHROMA - Id 795802
+2024-12-07 18:16:47,020 - INFO - SEARCH_CHROMA - Id 795817
+2024-12-07 18:16:47,020 - INFO - SEARCH_CHROMA - Id 795828
+2024-12-07 18:16:47,020 - INFO - SEARCH_CHROMA - Id 795851
+2024-12-07 18:16:47,020 - INFO - SEARCH_CHROMA - Id 795852
+2024-12-07 18:16:47,020 - INFO - SEARCH_CHROMA - Id 795854
+2024-12-07 18:16:47,020 - INFO - {'ids': ['795795', '795802', '795817', '795828', '795851', '795852', '795854'], 'embeddings': None, 'documents': ['\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795802\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795802\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CHICLANA DE LA FRONTERA - AYUNTAMIENTO DE CHICLANA DE LA FRONTERA\nEnlace / url a sede electrónica presentación ayuda: https://www.chiclana.es\nFecha de recepción: 2024-11-08T14:30:52+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 22000 Euros\nDescripción: CONVOCATORIA PÚBLICA DE SUBVENCIONES DE SALUD EJERCICIO 2024.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Prestación de servicios a la comunidad en general\nRegión de impacto: ES61 - ANDALUCIA\nFinalidad: Sanidad\nBases reguladoras: CONVOCATORIA SUBVENCIONES DELEGACIÓN DE SALUD 2024.\nURL Bases Reguladoras: https://www.chiclana.es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DÍA SIGUIENTE AL DE SU PUBLICACIÓN EN EL B.O.P. DE CÁDIZ\nFin de convocatoria: TREINTA DÍAS NATURALES SIGUIENTE AL DE SU PUBLICACIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: CSV-2024_JuntaGobiernoLocal_Sanidad_2.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795802/document/1156556 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795817\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795817\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CABILDO INSULAR DE LA PALMA - EXCMO. CABILDO INSULAR DE LA PALMA\nEnlace / url a sede electrónica presentación ayuda: https://sedeelectronica.cabildodelapalma.es/sta/CarpetaPublic/Login?APP_CODE=STA&PAGE_CODE=PTS2_HOME\nFecha de recepción: 2024-11-08T14:50:26+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 400000 Euros\nDescripción: CONVOCATORIA, POR PROCEDIMIENTO ANTICIPADO DEL GASTO, PARA LA SELECCIÓN DE UNA ENTIDAD COLABORADORA PARA LA GESTIÓN DE LA SUBVENCIÓN DIRECTA BONO BONITO LA PALMA 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Comercio al por menor, excepto de vehículos de motor y motocicletas\nRegión de impacto: ES707 - La Palma\nFinalidad: Comercio, Turismo y Pymes\nBases reguladoras: SUBVENCIÓN BONO BONITO LA PALMA 2024\nURL Bases Reguladoras: https://www.bopsantacruzdetenerife.es/bopsc2/index.php\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-01-01T00:00:00+01:00\nFecha de fin de solicitudes: 2024-12-31T00:00:00+01:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: Resolución Consejero/a de Promoción Económica.PDF, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795817/document/1156575 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795851\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795851\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: VIGO - AYUNTAMIENTO DE VIGO\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T23:14:30+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 100000 Euros\nDescripción: Subvenciones para la organización y difusión de actos sociales y encuentros vecinales para el año 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Actividades recreativas y de entretenimiento\nRegión de impacto: ES114 - Pontevedra\nFinalidad: Cultura\nBases reguladoras: BASES REGULADORAS DE LAS SUBVENCIONES PARA CONTRIBUIR A LA FINANCIACIÓN DE LOS GASTOS DE LA ORGANIZACIÓN Y DIFUSIÓN DE ACTOS SOCIALES Y ENCUENTROS VECINALES DE FOMENTO DE LA PARTICIPACIÓN CIUDADANA\nURL Bases Reguladoras: https://sede.vigo.org/expedientes//avisos/?lang=es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DESDE EL DÍA SIGUIENTE A LA PUBLICACIÓN DEL EXTRACTO DE LA CONVOCATORIA EN EL BOP\nFin de convocatoria: 10 DÍAS NATURALES DESDE EL INICIO DEL PERÍODO DE ADMISIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en otra lengua de la convocatoria, Nombre: convocatoria_actos_sociais_e_publicacions_2024124717299.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156765 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Convocatoria castellano124717272.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156764 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795852\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795852\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ULLDECONA - AYUNTAMIENTO DE ULLDECONA\nEnlace / url a sede electrónica presentación ayuda: https://tramits.ulldecona.cat/subvencio_escola/\nFecha de recepción: 2024-11-09T15:26:20+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 35000 Euros\nDescripción: Convocatoria de subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria. Curso 2024-2025.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN\nRegión de impacto: ES514 - Tarragona\nFinalidad: Educación\nBases reguladoras: Bases reguladoras de las subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria.\nURL Bases Reguladoras: https://www.diputaciodetarragona.cat/ebop/index.php?op=dwn&tipus=i&data=20171004&anyp=2017&num=08001&v=i\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: 2024-12-02T00:00:00+01:00\nInicio de convocatoria: A partir de la publicación de la convocatoria\nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en lengua cooficial, Nombre: Convocatoria_catala.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156766 , \nDescripción: Documento de la convocatoria en español, Nombre: Convocatoria castella.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156767 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        '], 'uris': None, 'data': None, 'metadatas': [None, None, None, None, None, None, None], 'included': [<IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2024-12-07 18:16:47,020 - INFO - Obtenidos nombres de documentos desde Chromadb.
+2024-12-07 18:16:50,657 - INFO - Custom CSS applied.
+2024-12-07 18:16:50,685 - INFO - Logo mostrado.
+2024-12-07 18:16:50,686 - INFO - Barra lateral configurada.
+2024-12-07 18:17:14,490 - INFO - Css aplicado.
+2024-12-07 18:17:14,492 - INFO - Mostrar barra lateral.
+2024-12-07 18:17:23,799 - INFO - Mostrar página bienvenida.
+2024-12-07 18:35:17,530 - INFO - Css aplicado.
+2024-12-07 18:35:17,532 - INFO - Mostrar barra lateral.
+2024-12-07 18:35:28,239 - INFO - Mostrar página bienvenida.
+2024-12-07 18:36:06,381 - INFO - PyTorch version 2.5.1+cu118 available.
+2024-12-07 18:36:09,190 - INFO - Use pytorch device_name: cuda
+2024-12-07 18:36:09,190 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-12-07 18:36:12,497 - INFO - Custom CSS applied.
+2024-12-07 18:36:12,520 - INFO - Logo mostrado.
+2024-12-07 18:36:12,522 - INFO - Barra lateral configurada.
+2024-12-07 18:36:12,641 - INFO - Modelo de embedding cargado.
+2024-12-07 18:36:26,280 - INFO - Custom CSS applied.
+2024-12-07 18:36:26,304 - INFO - Logo mostrado.
+2024-12-07 18:36:26,305 - INFO - Barra lateral configurada.
+2024-12-07 18:36:26,420 - INFO - Modelo de embedding cargado.
+2024-12-07 18:36:26,423 - INFO - Entrada recibida.
+2024-12-07 18:36:26,466 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-12-07 18:36:26,692 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 18:36:26,909 - INFO - SEARCH_CHROMA - results {'ids': [['795854', '795795', '795828']], 'embeddings': None, 'documents': [['\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9748428420569348, 0.9798780488729208, 1.0125712817512447]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}:
+2024-12-07 18:36:26,909 - INFO - SEARCH_CHROMA - Contexto Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795854
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA
+Enlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/
+Fecha de recepción: 2024-11-10T12:42:47+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 3900 Euros
+Descripción: Ayudas a las familias 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: OTROS SERVICIOS
+Región de impacto: ES241 - Huesca
+Finalidad: Otras actuaciones de carácter económico
+Bases reguladoras: Ayudas a las familias 2024
+URL Bases Reguladoras: https://www.estadilla.es/
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00
+Fecha de fin de solicitudes: 2024-09-30T00:00:00+02:00
+Inicio de convocatoria: 
+Fin de convocatoria: 
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795795
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA
+Enlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004
+Fecha de recepción: 2024-11-08T14:18:10+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 205000 Euros
+Descripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795
+Tipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: Otro transporte terrestre de pasajeros
+Región de impacto: ES62 - REGION DE MURCIA
+Finalidad: Subvenciones al transporte
+Bases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA
+URL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00
+Fecha de fin de solicitudes: 2024-11-28T00:00:00+01:00
+Inicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM
+Fin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , 
+Descripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 
+        
+Convocatoria: 
+Detalle de la convocatoria de ayuda o  subvención: 795828
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ
+Enlace / url a sede electrónica presentación ayuda: 
+Fecha de recepción: 2024-11-08T15:03:45+01:00
+Tipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN 
+Tipo de convocatoria: Concurrencia competitiva - canónica
+Presupuesto total: 53464 Euros
+Descripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024
+Tipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA
+Sectores involucrados: EDUCACIÓN, OTROS SERVICIOS
+Región de impacto: ES613 - Córdoba
+Finalidad: Cultura
+Bases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez
+URL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf
+Publicación en diario oficial: Sí
+Estado de convocatoria abierta: No
+Fecha de inicio de solicitudes: 
+Fecha de fin de solicitudes: 
+Inicio de convocatoria: Día siguiente a la  la publicacion en el BOP
+Fin de convocatoria: 10 días hábiles
+Reglamento: 
+Otros documentos de la convocatoria: 
+Descripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , 
+Descripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 
+        
+:
+2024-12-07 18:36:32,674 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 18:36:41,633 - INFO - Respuesta generada y mostrada.
+2024-12-07 18:36:55,131 - INFO - Cargando modelo de embeddings desde la ruta: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 18:36:55,137 - INFO - Use pytorch device_name: cuda
+2024-12-07 18:36:55,137 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2024-12-07 18:36:58,764 - INFO - Modelo de embeddings cargado.
+2024-12-07 18:36:58,771 - INFO - SEARCH_CHROMA - Documentos en la colección 7
+2024-12-07 18:36:58,772 - INFO - SEARCH_CHROMA - Id 795795
+2024-12-07 18:36:58,773 - INFO - SEARCH_CHROMA - Id 795802
+2024-12-07 18:36:58,773 - INFO - SEARCH_CHROMA - Id 795817
+2024-12-07 18:36:58,773 - INFO - SEARCH_CHROMA - Id 795828
+2024-12-07 18:36:58,773 - INFO - SEARCH_CHROMA - Id 795851
+2024-12-07 18:36:58,773 - INFO - SEARCH_CHROMA - Id 795852
+2024-12-07 18:36:58,773 - INFO - SEARCH_CHROMA - Id 795854
+2024-12-07 18:36:58,773 - INFO - {'ids': ['795795', '795802', '795817', '795828', '795851', '795852', '795854'], 'embeddings': None, 'documents': ['\nDetalle de la convocatoria de ayuda o  subvención: 795795\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: MURCIA - AYUNTAMIENTO DE MURCIA\nEnlace / url a sede electrónica presentación ayuda: https://sede.murcia.es/areas?idCategoria=10004\nFecha de recepción: 2024-11-08T14:18:10+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 205000 Euros\nDescripción: 2024_Conc_Costes explotación taxis adaptados_2024 049 4411 47906_100217_795795\nTipos de beneficiarios: PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Otro transporte terrestre de pasajeros\nRegión de impacto: ES62 - REGION DE MURCIA\nFinalidad: Subvenciones al transporte\nBases reguladoras: ORDENANZA GENERAL DE SUBVENCIONES Y PREMIOS DEL AYUNTAMIENTO DE MURCIA\nURL Bases Reguladoras: https://www.borm.es/services/anuncio/ano/2023/numero/843/pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-11-15T00:00:00+01:00\nFecha de fin de solicitudes: 2024-11-28T00:00:00+01:00\nInicio de convocatoria: Plazo inicia el 1º dia hábil siguiente a la publicación del extracto en el BORM\nFin de convocatoria: 10 días desde el día siguiente a la publicación del extracto en el BORM\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: PUBLICACION EN EL BORM, Nombre: PUBLICACION_BORM.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Certificado_[2024_049_000185]_-_Copia_autentica_(1).pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795802\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795802\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CHICLANA DE LA FRONTERA - AYUNTAMIENTO DE CHICLANA DE LA FRONTERA\nEnlace / url a sede electrónica presentación ayuda: https://www.chiclana.es\nFecha de recepción: 2024-11-08T14:30:52+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 22000 Euros\nDescripción: CONVOCATORIA PÚBLICA DE SUBVENCIONES DE SALUD EJERCICIO 2024.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA, PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Prestación de servicios a la comunidad en general\nRegión de impacto: ES61 - ANDALUCIA\nFinalidad: Sanidad\nBases reguladoras: CONVOCATORIA SUBVENCIONES DELEGACIÓN DE SALUD 2024.\nURL Bases Reguladoras: https://www.chiclana.es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DÍA SIGUIENTE AL DE SU PUBLICACIÓN EN EL B.O.P. DE CÁDIZ\nFin de convocatoria: TREINTA DÍAS NATURALES SIGUIENTE AL DE SU PUBLICACIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: CSV-2024_JuntaGobiernoLocal_Sanidad_2.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795802/document/1156556 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795817\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795817\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: CABILDO INSULAR DE LA PALMA - EXCMO. CABILDO INSULAR DE LA PALMA\nEnlace / url a sede electrónica presentación ayuda: https://sedeelectronica.cabildodelapalma.es/sta/CarpetaPublic/Login?APP_CODE=STA&PAGE_CODE=PTS2_HOME\nFecha de recepción: 2024-11-08T14:50:26+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 400000 Euros\nDescripción: CONVOCATORIA, POR PROCEDIMIENTO ANTICIPADO DEL GASTO, PARA LA SELECCIÓN DE UNA ENTIDAD COLABORADORA PARA LA GESTIÓN DE LA SUBVENCIÓN DIRECTA BONO BONITO LA PALMA 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Comercio al por menor, excepto de vehículos de motor y motocicletas\nRegión de impacto: ES707 - La Palma\nFinalidad: Comercio, Turismo y Pymes\nBases reguladoras: SUBVENCIÓN BONO BONITO LA PALMA 2024\nURL Bases Reguladoras: https://www.bopsantacruzdetenerife.es/bopsc2/index.php\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-01-01T00:00:00+01:00\nFecha de fin de solicitudes: 2024-12-31T00:00:00+01:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en castellano de la convocatoria, Nombre: Resolución Consejero/a de Promoción Económica.PDF, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795817/document/1156575 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795828\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795828\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: FERNÁN-NÚÑEZ - AYUNTAMIENTO DE FERNÁN-NÚÑEZ\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T15:03:45+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 53464 Euros\nDescripción: SUBVENCIONES A ENTIDADES LOCALES SIN ÁNIMO DE LUCRO PARA EL AÑO 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN, OTROS SERVICIOS\nRegión de impacto: ES613 - Córdoba\nFinalidad: Cultura\nBases reguladoras: Extracto de la convocatoria de subvenciones a entidades locales sin ánimo de lucro de Fernán Núñez\nURL Bases Reguladoras: https://bop.dipucordoba.es/visor-pdf/26-02-2019/BOP-A-2019-475.pdf\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: Día siguiente a la  la publicacion en el BOP\nFin de convocatoria: 10 días hábiles\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Bases reguladoras de la subvenciones a entidades locales sin animo de lucro 2024, Nombre: Bases Reguladoras Convocatoria Subvenciones sin animo de lucro2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156590 , \nDescripción: Documento de la convocatoria en español, Nombre: Extracto de la Convocatoria subvenciones sin ánimo de lucro 2024.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795828/document/1156584 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795851\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795851\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: VIGO - AYUNTAMIENTO DE VIGO\nEnlace / url a sede electrónica presentación ayuda: \nFecha de recepción: 2024-11-08T23:14:30+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 100000 Euros\nDescripción: Subvenciones para la organización y difusión de actos sociales y encuentros vecinales para el año 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: Actividades recreativas y de entretenimiento\nRegión de impacto: ES114 - Pontevedra\nFinalidad: Cultura\nBases reguladoras: BASES REGULADORAS DE LAS SUBVENCIONES PARA CONTRIBUIR A LA FINANCIACIÓN DE LOS GASTOS DE LA ORGANIZACIÓN Y DIFUSIÓN DE ACTOS SOCIALES Y ENCUENTROS VECINALES DE FOMENTO DE LA PARTICIPACIÓN CIUDADANA\nURL Bases Reguladoras: https://sede.vigo.org/expedientes//avisos/?lang=es\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: \nInicio de convocatoria: DESDE EL DÍA SIGUIENTE A LA PUBLICACIÓN DEL EXTRACTO DE LA CONVOCATORIA EN EL BOP\nFin de convocatoria: 10 DÍAS NATURALES DESDE EL INICIO DEL PERÍODO DE ADMISIÓN\nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Texto en otra lengua de la convocatoria, Nombre: convocatoria_actos_sociais_e_publicacions_2024124717299.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156765 , \nDescripción: Texto en castellano de la convocatoria, Nombre: Convocatoria castellano124717272.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795851/document/1156764 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795852\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795852\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ULLDECONA - AYUNTAMIENTO DE ULLDECONA\nEnlace / url a sede electrónica presentación ayuda: https://tramits.ulldecona.cat/subvencio_escola/\nFecha de recepción: 2024-11-09T15:26:20+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 35000 Euros\nDescripción: Convocatoria de subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria. Curso 2024-2025.\nTipos de beneficiarios: PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: EDUCACIÓN\nRegión de impacto: ES514 - Tarragona\nFinalidad: Educación\nBases reguladoras: Bases reguladoras de las subvenciones municipales para la adquisición de material escolar (excepto libros) para los estudios de educación primaria y secundaria.\nURL Bases Reguladoras: https://www.diputaciodetarragona.cat/ebop/index.php?op=dwn&tipus=i&data=20171004&anyp=2017&num=08001&v=i\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: \nFecha de fin de solicitudes: 2024-12-02T00:00:00+01:00\nInicio de convocatoria: A partir de la publicación de la convocatoria\nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en lengua cooficial, Nombre: Convocatoria_catala.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156766 , \nDescripción: Documento de la convocatoria en español, Nombre: Convocatoria castella.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795852/document/1156767 \n        ', '\nDetalle de la convocatoria de ayuda o  subvención: 795854\nEnlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795854\nÓrgano, comunidad, autonomía, provincia o ayuntamiento convocante: ESTADILLA - AYUNTAMIENTO DE ESTADILLA\nEnlace / url a sede electrónica presentación ayuda: https://estadilla.sedipualba.es/\nFecha de recepción: 2024-11-10T12:42:47+01:00\nTipo de ayuda: SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN \nTipo de convocatoria: Concurrencia competitiva - canónica\nPresupuesto total: 3900 Euros\nDescripción: Ayudas a las familias 2024\nTipos de beneficiarios: PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA\nSectores involucrados: OTROS SERVICIOS\nRegión de impacto: ES241 - Huesca\nFinalidad: Otras actuaciones de carácter económico\nBases reguladoras: Ayudas a las familias 2024\nURL Bases Reguladoras: https://www.estadilla.es/\nPublicación en diario oficial: Sí\nEstado de convocatoria abierta: No\nFecha de inicio de solicitudes: 2024-07-01T00:00:00+02:00\nFecha de fin de solicitudes: 2024-09-30T00:00:00+02:00\nInicio de convocatoria: \nFin de convocatoria: \nReglamento: \nOtros documentos de la convocatoria: \nDescripción: Documento de la convocatoria en español, Nombre: 20241110131520436.pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795854/document/1156801 \n        '], 'uris': None, 'data': None, 'metadatas': [None, None, None, None, None, None, None], 'included': [<IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2024-12-07 18:36:58,773 - INFO - Obtenidos nombres de documentos desde Chromadb.
+2024-12-07 18:37:10,440 - INFO - Custom CSS applied.
+2024-12-07 18:37:10,463 - INFO - Logo mostrado.
+2024-12-07 18:37:10,465 - INFO - Barra lateral configurada.

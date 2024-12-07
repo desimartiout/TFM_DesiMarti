@@ -1,5 +1,6 @@
 import logging
 import os
+import time
 
 import streamlit as st
 
@@ -12,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 # Set page config with title, icon, and layout
 st.set_page_config(
-    page_title="Chatbot HelpMe.ai", page_icon=LOGO_URL_SMALL
+    page_title="Chatbot AyudaMe.ai", page_icon=LOGO_URL_SMALL
 )
 
 st.logo(
@@ -106,12 +107,27 @@ def display_main_content() -> None:
 def display_sidebar_content() -> None:
     # Sidebar headers and footer
     st.sidebar.markdown(
-        "<h2 style='text-align: center;'>HelpMe.ai</h2>", unsafe_allow_html=True
+        "<h2 style='text-align: center;'>AyudaMe.ai</h2>", unsafe_allow_html=True
     )
     st.sidebar.markdown(
-        "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional</h4>",
+        "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional para búsqueda de ayudas públicas del Gobierno de España</h4>",
         unsafe_allow_html=True,
     )
+
+    st.sidebar.divider()
+
+    st.sidebar.markdown("**Origen de los datos:**", unsafe_allow_html=True)
+    # st.sidebar.image("images/iconoWebEstado.ico", width=50)
+    st.sidebar.markdown("Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. <a href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/inicio'>🔗</a>", unsafe_allow_html=True)
+    st.sidebar.markdown("***Intervención General de la Administración del Estado***", unsafe_allow_html=True)
+    st.sidebar.markdown("<a href='Aviso_legal'>Página aviso legal</a>", unsafe_allow_html=True)
+
+    # st.sidebar.html(
+    #     """ <div style="display: flex; align-items: center;">
+    #         <img src="images/iconoWebEstado.ico" style="margin-right: 20px; width: 50px;">
+    #         <p>Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas <a href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/inicio'>🔗</a></p>
+    #     </div> """
+    # )
 
     # Footer text
     st.sidebar.markdown(
@@ -128,7 +144,10 @@ def display_sidebar_content() -> None:
 
 # Main execution
 if __name__ == "__main__":
+    
     apply_custom_css()
-    display_logo("images/logo.png")
+
+
+    # display_logo("images/logo.png")
     display_sidebar_content()
     display_main_content()

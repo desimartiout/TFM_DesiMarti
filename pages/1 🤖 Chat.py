@@ -10,6 +10,7 @@ import streamlit as st
 from src.chat import (  # type: ignore
     ensure_model_pulled,
     generate_response_streaming,
+    generate_response_streaming_openai,
     get_embedding_model,
 )
 from src.constants import OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, CHATBOT_INTRO, LOGO_URL_LARGE, LOGO_URL_SMALL, AI_ICON, HUMAN_ICON
@@ -152,7 +153,15 @@ def render_chatbot_page() -> None:
                 response_placeholder = st.empty()
                 response_text = ""
 
-                response_stream = generate_response_streaming(
+                # response_stream = generate_response_streaming(
+                #     prompt,
+                #     use_hybrid_search=st.session_state["use_hybrid_search"],
+                #     num_results=st.session_state["num_results"],
+                #     temperature=st.session_state["temperature"],
+                #     chat_history=st.session_state["chat_history"],
+                # )
+
+                response_text = generate_response_streaming_openai(
                     prompt,
                     use_hybrid_search=st.session_state["use_hybrid_search"],
                     num_results=st.session_state["num_results"],
@@ -161,19 +170,21 @@ def render_chatbot_page() -> None:
                 )
 
             # Stream response content if response_stream is valid
-            if response_stream is not None:
-                for chunk in response_stream:
-                    if (
-                        isinstance(chunk, dict)
-                        and "message" in chunk
-                        and "content" in chunk["message"]
-                    ):
-                        response_text += chunk["message"]["content"]
-                        response_placeholder.markdown(response_text + "▌")
-                    else:
-                        logger.error("Formato de chunk no esperado en la respuesta.")
+            # """if response_stream is not None:
+            #      for chunk in response_stream:
+            #         if (
+            #             isinstance(chunk, dict)
+            #             and "message" in chunk
+            #             and "content" in chunk["message"]
+            #         ):
+            #             response_text += chunk["message"]["content"]
+            #             response_placeholder.markdown(response_text + "▌")
+            #         else:
+            #             logger.error("Formato de chunk no esperado en la respuesta.") """
 
-            response_placeholder.markdown(response_text)
+
+            # response_placeholder.markdown(response_text)
+            response_placeholder.write_stream(stream_data(response_text))
             st.session_state["chat_history"].append(
                 {"role": "assistant", "content": response_text}
             )
