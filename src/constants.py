@@ -23,6 +23,7 @@ TEXT_CHUNK_SIZE = 300  # Maximum number of characters in each text chunk for
 CHROMA_COLLECTION_NAME = "subvenciones"
 CHROMA_PERSIST_PATH = "./chromadb/"
 CHROMA_NUMDOCUMENTS = 3
+CHROMA_SIMILARITY_THRESHOLD = 1.0
 
 SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
 

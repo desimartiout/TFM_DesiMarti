@@ -16,7 +16,7 @@
     "tipoConvocatoria": "Concesión directa - canónica",
     "presupuestoTotal": 18000,
     "mrr": false,
-    "descripcion": "Decreto 77/2024, de 5 de noviembre, por el que se modifica el Decreto 52/2020, de 1 de septiembre, por el que se regula la concesión directa de subvenciones en el marco del Programa Retorno del Talento. REG (UE) 2023/2832 de minimis, SIEG.    \n",
+    "descripcion": "Decreto 77/2024, de 5 de noviembre, por el que se modifica el Decreto 52/2020, de 1 de septiembre, por el que se regula la concesión directa de subvenciones en el marco del Programa Retorno del Talento. REG (UE) 2023/2832 de minimis, SIEG.       \n",
     "descripcionLeng": null,
     "tiposBeneficiarios": [
         {
@@ -126,12 +126,12 @@
     "sectoresProductos": [],
     "documentos": [
         {
-            "id": 1156459,
+            "id": 1159047,
             "descripcion": "Texto en castellano de la convocatoria",
             "nombreFic": "DECRETO 77-2024_125339.PDF",
             "long": 155825,
-            "datMod": "2024-11-08T15:15:10.000+01:00",
-            "datPublicacion": "2024-11-08T15:15:10.000+01:00"
+            "datMod": "2024-11-14T11:15:12.000+01:00",
+            "datPublicacion": "2024-11-14T11:15:12.000+01:00"
         }
     ],
     "anuncios": [],

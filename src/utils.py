@@ -119,11 +119,6 @@ def display_logo(logger, logo_path: str) -> None:
         st.sidebar.markdown("### Logo Placeholder")
         logger.warning("Logo not found, displaying placeholder.")
 
-def display_main_content(logger) -> None:
-    st.title("Chatbot para búsqueda de ayudas y subvenciones del Gobierno de España ")
-    st.write_stream(stream_data(CHATBOT_WELLCOME))
-    logger.info("Mostrar página bienvenida.")
-
 def display_sidebar_content(logger) -> None:
     st.sidebar.divider()
     # Sidebar headers and footer

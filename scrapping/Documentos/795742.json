@@ -5,7 +5,7 @@
         "nivel2": "AYUNTAMIENTO DE CASTELLAR DEL VALLÈS",
         "nivel3": null
     },
-    "sedeElectronica": "https://seu.castellarvalles.cat/33033/tramit/275/",
+    "sedeElectronica": "https://seu.castellarvalles.cat/33033/tramit/275/#",
     "codigoBDNS": "795742",
     "fechaRecepcion": "2024-11-08T13:06:18+01:00",
     "instrumentos": [
@@ -107,12 +107,20 @@
     "sectoresProductos": [],
     "documentos": [
         {
-            "id": 1156382,
-            "descripcion": "Documento de la convocatoria en español",
-            "nombreFic": "Resolucion Alcaldia 1487 convocatoria subv fomento actividades econ y prof_es.pdf",
-            "long": 144882,
-            "datMod": "2024-11-08T13:15:03.000+01:00",
-            "datPublicacion": "2024-11-08T13:15:03.000+01:00"
+            "id": 1157686,
+            "descripcion": "Ordenanza reguladora de las bases para la concesión de subvenciones para el fomento de nuevas actividades económicas o profesionales para trabajadores autonomos o sociedades",
+            "nombreFic": "Ordenanza subv fomento nuevas actividades econo o profes (2a modif Ple 23-07-24)_es.pdf",
+            "long": 234185,
+            "datMod": "2024-11-12T09:15:01.000+01:00",
+            "datPublicacion": "2024-11-12T09:15:01.000+01:00"
+        },
+        {
+            "id": 1157687,
+            "descripcion": "Ordenan_a reguladora de les bases per a la concessió de subvencions per al foment de noves activitats econòmiques per a treballadors autònoms o societats",
+            "nombreFic": "Ordenan_a subv foment noves activitats econo o profes (2a modif Ple 23-07-24).pdf",
+            "long": 218585,
+            "datMod": "2024-11-12T09:15:01.000+01:00",
+            "datPublicacion": "2024-11-12T09:15:01.000+01:00"
         },
         {
             "id": 1156405,
@@ -123,22 +131,42 @@
             "datPublicacion": "2024-11-08T13:15:03.000+01:00"
         },
         {
-            "id": 1156397,
-            "descripcion": "Publicación en Diario Oficial BOPB de la convocatoria el 8 de septiembre de 2024",
-            "nombreFic": "BOPB convocatoria subv nuevas actividades 24_es.pdf",
-            "long": 138503,
-            "datMod": "2024-11-08T13:15:03.000+01:00",
-            "datPublicacion": "2024-11-08T13:15:03.000+01:00"
-        },
-        {
             "id": 1156385,
             "descripcion": "Documento de la convocatoria en lengua cooficial",
             "nombreFic": "Resolució Alcaldia 1487 convocatoria subv foment activitats eco o prof.pdf",
             "long": 141972,
             "datMod": "2024-11-08T13:15:03.000+01:00",
             "datPublicacion": "2024-11-08T13:15:03.000+01:00"
+        },
+        {
+            "id": 1156382,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Resolucion Alcaldia 1487 convocatoria subv fomento actividades econ y prof_es.pdf",
+            "long": 144882,
+            "datMod": "2024-11-08T13:15:03.000+01:00",
+            "datPublicacion": "2024-11-08T13:15:03.000+01:00"
+        },
+        {
+            "id": 1156397,
+            "descripcion": "Publicación en Diario Oficial BOPB de la convocatoria el 8 de septiembre de 2024",
+            "nombreFic": "BOPB convocatoria subv nuevas actividades 24_es.pdf",
+            "long": 138503,
+            "datMod": "2024-11-08T13:15:03.000+01:00",
+            "datPublicacion": "2024-11-08T13:15:03.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 170092,
+            "titulo": "Convocatoria a regularizar",
+            "tituloLeng": null,
+            "texto": "Convocatoria a regularizar",
+            "textoLeng": null,
+            "url": "http://bop.diba.cat/anunci/3695126/convocatoria-per-a-la-concessio-de-subvencions-per-al-foment-de-noves-activitats-economiques-o-professionals-per-treballadors-es-autonoms-es-o-societats-per-a-l-any-2024-ajuntament-de-castellar-del-valles",
+            "cve": null,
+            "desDiarioOficial": "B.O.P. DE BARCELONA",
+            "datPublicacion": "2024-11-08T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

@@ -72,19 +72,17 @@ def get_all_documents():
 def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
     client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
     collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
-
     #Si no tengo documentos cargados los moqueo para poder tener datos.
     #if (collection.count()==0):
         #cargarDocumentosMOCK(collection)
-    
+  
     #Listar los documentos de la colección
     logger.info(f"SEARCH_CHROMA - Documentos en la colección {collection.count()}")
-
     #collection = client.get_collection(CHROMA_COLLECTION_NAME)
-    
+  
     # Generar el embedding para la consulta
     query_embedding = model.encode([query_text]).tolist()
-    
+  
     # Realizar una búsqueda de similitud
     results = collection.query(
         query_embeddings=query_embedding,
@@ -93,19 +91,66 @@ def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
     return results
 
 
+# def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS, similarity_threshold: float = 0.8):
+#     # Crear cliente persistente
+#     client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
+#     collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
+
+#     # Verificar si hay documentos cargados
+#     logger.info(f"SEARCH_CHROMA - Documentos en la colección {collection.count()}")
+
+#     # Preprocesar la consulta
+#     preprocessed_query = preprocess_text(query_text)
+    
+#     # Generar el embedding para la consulta
+#     query_embedding = model.encode([preprocessed_query]).tolist()
+    
+#     # Realizar una búsqueda de similitud
+#     results = collection.query(
+#         query_embeddings=query_embedding,
+#         n_results=top_k
+#     )
+
+#     logger.info(f"SEARCH_CHROMA - results {results}")
+    
+#     # Filtrar resultados según umbral de similitud
+#     filtered_results = [
+#         result for result in results['documents'] 
+#         if result['score'] >= similarity_threshold
+#     ]
+
+#     logger.info(f"SEARCH_CHROMA - Resultados filtrados: {len(filtered_results)}")
+#     logger.info(f"SEARCH_CHROMA - results {filtered_results}")
+
+#     return filtered_results
+
+# def preprocess_text(text: str) -> str:
+#     # Limpieza básica del texto
+#     return text.lower().strip()
+
 # OTROS MÉTODOS QUE AHORA NO SE UTILIZAN PERO PARA LAS PRUEBAS INICIALES FUERON ÚTILES
 
 # Método para consultar en la base de datos vectorial
-def consultaChromadb(query_text, top_k):
+def consultaChromadb(query_text, top_k, similarity_threshold: float = 1.0):
+    logger.info(f"SEARCH_CHROMA - query_text: {query_text}")
     results = query_documents(query_text, top_k)
     contexto = ""
 
     logger.info(f"SEARCH_CHROMA - results {results}:")
     # Mostrar resultados de la consulta
-    for result in results["documents"]:
-        for texto in result:
-            #print(result)
-            contexto += f"Convocatoria: {texto}\n"
+    # for result in results["documents"]:
+    #     for texto in result:
+    #         #print(result)
+    #         contexto += f"Convocatoria: {texto}\n"
+    
+    for i in range(len(results["documents"])):
+        result = results["documents"][i]
+        logger.info(f"SEARCH_CHROMA - distances {results['distances'][i]}:")
+        for j in range(len(result)):
+            if results['distances'][i][j] <= similarity_threshold:
+                logger.info(f"SEARCH_CHROMA - {results['distances'][i][j]}:")    
+                texto = result[j]
+                contexto += f"Convocatoria: {texto}\n"
         
 
     logger.info(f"SEARCH_CHROMA - Contexto {contexto}:")
@@ -113,7 +158,8 @@ def consultaChromadb(query_text, top_k):
     return contexto
 
 #Método para consultar en la bd vectorial y con el resultado ir al LLM a completar la contestación de una forma básica
-def consultaBasica(query_text: str, top_k: int = 5):
+def consultaBasica_NOUSO(query_text: str, top_k: int = 5):
+    logger.info(f"SEARCH_CHROMA - query_text: {query_text}")
     contexto = consultaChromadb(query_text, top_k)
 
     #Consulta básica sin Prompt
@@ -128,7 +174,7 @@ def consultaBasica(query_text: str, top_k: int = 5):
     logger.info(f"SEARCH_CHROMA - Respuesta: {respuesta}")
 
 #Método para consultar en la bd vectorial y con el resultado ir al LLM a completar la contestación mediante prompt
-def consultaPrompt(query_text: str, top_k: int = 5):
+def consultaPrompt_NOUSO(query_text: str, top_k: int = 5):
     contexto = consultaChromadb(query_text, top_k)
 
     llm = ChatOllama(

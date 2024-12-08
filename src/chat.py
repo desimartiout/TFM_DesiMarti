@@ -11,7 +11,7 @@ import ollama
 import time
 import streamlit as st
 
-from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, OPENAI_TEMPLATE
+from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, OPENAI_TEMPLATE, CHROMA_SIMILARITY_THRESHOLD
 from src.embeddings import get_embedding_model
 #from src.opensearch import hybrid_search
 from src.searchchromadb import consultaChromadb
@@ -162,7 +162,7 @@ def generate_response_streaming_ollama(
     max_history_messages = 10
     history = chat_history[-max_history_messages:]
     
-    context = consultaChromadb(query, num_results)
+    context = consultaChromadb(query, num_results, CHROMA_SIMILARITY_THRESHOLD)
 
     # Generate prompt using the prompt_template function
     prompt = prompt_template(query, context, history)
@@ -182,7 +182,7 @@ def generate_response_streaming_new(
     max_history_messages = 10
     history = chat_history[-max_history_messages:]
 
-    context = consultaChromadb(query, num_results)
+    context = consultaChromadb(query, num_results, CHROMA_SIMILARITY_THRESHOLD)
 
     llm = ChatOllama(
         model=OLLAMA_MODEL_NAME,
@@ -261,7 +261,7 @@ def generate_response_streaming_openai(
     max_history_messages = 10
     history = chat_history[-max_history_messages:]
     
-    context = consultaChromadb(query, num_results)
+    context = consultaChromadb(query, num_results,CHROMA_SIMILARITY_THRESHOLD)
 
     # Generate prompt using the prompt_template function
     #prompt = prompt_template_openai(query, context, history)

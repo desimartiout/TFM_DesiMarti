@@ -3,6 +3,7 @@ from string import Template
 import requests
 import os
 from collections import defaultdict
+from constantes import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC
 
 def leer_json(file_path):
     """Lee un archivo JSON y devuelve su contenido como un diccionario."""
@@ -17,10 +18,10 @@ def leer_json(file_path):
     except Exception as e:
         print(f"Ocurrió un error: {e}")
 
+
 def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
     """Descarga el JSON de una URL usando el id del elemento y lo guarda en una carpeta destino."""
-    url = f"https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv={elemento['numeroConvocatoria']}&vpd=GE"  # Cambia la URL base según corresponda
-    #https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=790767&vpd=GE
+    url = URL_CONVOCATORIA + f"{elemento['numeroConvocatoria']}" + URL_CONVOCATORIA_POST  # Cambiamos la URL base según corresponda
 
     try:
         print(url)
@@ -39,48 +40,23 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
         
         print(f"Datos guardados en {archivo_destino}")
 
-        # Plantilla del texto
-        template = """
-Detalle de la convocatoria de ayuda o  subvención: {codigoBDNS}
-Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/{codigoBDNS}
-Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: {organo_nivel1} - {organo_nivel2}
-Enlace / url a sede electrónica presentación ayuda: {sedeElectronica}
-Fecha de recepción: {fechaRecepcion}
-Tipo de ayuda: {instrumentos}
-Tipo de convocatoria: {tipoConvocatoria}
-Presupuesto total: {presupuestoTotal} Euros
-Descripción: {descripcion}
-Tipos de beneficiarios: {tiposBeneficiarios}
-Sectores involucrados: {sectores}
-Región de impacto: {regiones}
-Finalidad: {descripcionFinalidad}
-Bases reguladoras: {descripcionBasesReguladoras}
-URL Bases Reguladoras: {urlBasesReguladoras}
-Publicación en diario oficial: {sePublicaDiarioOficial}
-Estado de convocatoria abierta: {abierto}
-Fecha de inicio de solicitudes: {fechaInicioSolicitud}
-Fecha de fin de solicitudes: {fechaFinSolicitud}
-Inicio de convocatoria: {textInicio}
-Fin de convocatoria: {textFin}
-Reglamento: {reglamento}
-Otros documentos de la convocatoria: {documentos}
-        """
-
         # Generar texto
-        formatted_text = safe_format(json_data, template)
+        formatted_text = safe_format(json_data, TEMPLATE_DOC)
         print(formatted_text)
 
         archivo_destino = os.path.join(carpeta_destino, f"{elemento['numeroConvocatoria']}.yaml")
-        with open(archivo_destino, 'w', encoding='utf-8') as archivo:
-            resultado = aplicar_plantilla(json_data, formatted_text)
-            archivo.write(resultado)
-        
-        print(f"Datos guardados en {archivo_destino}")
+
+        resultado = aplicar_plantilla(json_data, formatted_text)
+        if resultado!= None:
+            with open(archivo_destino, 'w', encoding='utf-8') as archivo:        
+                archivo.write(resultado)
+            print(f"Datos guardados en {archivo_destino}")
         
     except requests.RequestException as e:
         print(f"Error al descargar el JSON para ID {elemento['inumeroConvocatoria']}: {e}")
     except json.JSONDecodeError:
         print(f"Error al decodificar el JSON descargado para ID {elemento['numeroConvocatoria']}.")
+
 
 # Función para convertir `None` en vacío
 def safe_value(value):
@@ -90,10 +66,12 @@ def safe_value(value):
         return "Sí" if value else "No"
     return value
 
+
 def safe_value_inner(data, value, field):
     if data.get(value, {}) is None:
         return ""
     return data.get(value, {}).get("descripcion")
+
 
 # Función para aplanar y procesar el JSON
 def safe_format(data, template):
@@ -184,14 +162,26 @@ def aplicar_plantilla(datos_json, plantilla_texto):
         print(f"Ocurrió un error: {ex}")
 
 def procesar_json(file_path, carpeta_destino):
-    """Lee el JSON y descarga y guarda datos para cada elemento de 'content'."""
+    """
+    Lee el JSON y descarga y guarda datos para cada elemento de 'content'.
+
+    Parámetros:
+        file_path (str): Ruta del fichero Json que tiene los documentos a cargar.
+        carpeta_destino (str): Ruta de la carpeta de destino donde dejará los documentos yaml.
+
+    Devuelve:
+        Nada
+    """
     datos = leer_json(file_path)
     if datos and "content" in datos:
         for elemento in datos["content"]:
             descargar_y_guardar_json_por_id(elemento, carpeta_destino)
 
+
+ruta_actual = os.getcwd()   #Ruta donde se ejecuta el fichero python
+
 # Ejemplo de uso
-file_path = f'C:/Users/desim/Documents/GitHub/TFM_DesiMarti/scrapping/listado.json'
-carpeta_destino = os.path.expanduser('C:/Users/desim/Documents/GitHub/TFM_DesiMarti/scrapping/Documentos')
+file_path = f"{ruta_actual}\scrapping\listado2.json"
+carpeta_destino = f"{ruta_actual}\scrapping\Documentos"
 
 procesar_json(file_path, carpeta_destino)

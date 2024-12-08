@@ -67,6 +67,18 @@
             "datPublicacion": "2024-11-08T15:15:10.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 169958,
+            "titulo": "Resolución n.º 2461/2024 de 07 de noviembre de 2024, de la Alcaldía del Ayuntamiento de Pasaia, por la que se aprueba la convocatoria para la concesión de subvenciones con el siguiente objeto: Subvenciones para el acceso universal al Deporte Escolar.",
+            "tituloLeng": "Pasaiako Udaleko Alkatetzaren 2461/2024 ebazpena, 2024ko azaroaren 07a(e)koa, dirulaguntzak emateko deialdi hau onartzen duena: Eskola Kirolarako sarbide unibertsalarako diru-laguntza.",
+            "texto": "<p>1.- Objeto de la subvención: Subvenciones para el acceso universal al Deporte Escolar .</p><p>2.-Importe de la subvención:</p><p>El importe máximo de la suma de las subvenciones a conceder asciende a la cantidad de 3.000,00 €, con cargo a la partida 13.480.01.341.00 2024.</p><p>3.- Plazo de presentación de solicitudes: El plazo de presentación de solicitudes será de será de 30 días naturales, contado a partir del día siguiente a la publicación del anuncio en el BOLETIN OFICIAL de Gipuzkoa.</p><p> </p><p>La información detallada se encuentra a disposición de las personas o colectivos interesados en la siguiente páginas web:</p><p>Ayuntamiento: https://www.pasaia.eus/es/subvenciones</p>",
+            "textoLeng": "<p>1.- Dirulaguntzaren xedea: Eskola Kirolarako sarbide unibertsalarako diru-laguntza.</p><p>2.- Dirulaguntzaren zenbatekoa:</p><p>Emango diren dirulaguntzen batura, gehienez ere 3.000,00€-koa izango da, 13.480.01.341.00 2024 kontu-sailaren kontura.</p><p>3.- Eskaerak aurkezteko epea: eskaerak aurkezteko epea 30 egun naturalekoa izango da, deialdiaren iragarkia Gipuzkoako ALDIZKARI OFIZIALEAN argitaratu eta biharamunetik hasita.</p><p>Pertsona edo kolektibo interesdunek ondorengo web orrian aurkitu dezakete informazio zehatza:</p><p>Udala:</p><p>https://www.pasaia.eus/eu/dirulaguntzak</p>",
+            "url": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2024/11/14/c2408198.pdf",
+            "cve": "GAO-I-2024-08198",
+            "desDiarioOficial": "B.O. DE GIPUZKOA",
+            "datPublicacion": "2024-11-14T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }
