@@ -21,17 +21,17 @@ ollama run llama3.2:1b
 ### 📘 OPENAI
 
 # SI QUIERES VER SI TIENES LA VARAIBLE DE ENTORNO PUEDES USAR ESTE CÓDIGO
-# import os
+import os
 
-# # Cargar la clave desde las variables de entorno
-# openai_api_key = os.getenv("OPENAI_API_KEY")
+# Cargar la clave desde las variables de entorno
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
-# if not openai_api_key:
-#     raise ValueError("La clave de OpenAI no está configurada como variable de entorno.")
+if not openai_api_key:
+    raise ValueError("La clave de OpenAI no está configurada como variable de entorno.")
 
-# # Usar la clave en tu código
-# import openai
-# openai.api_key = openai_api_key -->
+# Usar la clave en tu código
+import openai
+openai.api_key = openai_api_key -->
 
 ### 📘 Web Scrapping de web de ayudas
 Ejecutar .....
