@@ -18,6 +18,21 @@ ollama run llama3.2:1b
 3. Configurar fichero de parámetros en `constants.py` para elegir el modelo de embeddings y el modelo de LLM.
 4. Ejecutar la aplicación Streamlit: `streamlit run Inicio.py`
 
+### 📘 OPENAI
+
+# SI QUIERES VER SI TIENES LA VARAIBLE DE ENTORNO PUEDES USAR ESTE CÓDIGO
+# import os
+
+# # Cargar la clave desde las variables de entorno
+# openai_api_key = os.getenv("OPENAI_API_KEY")
+
+# if not openai_api_key:
+#     raise ValueError("La clave de OpenAI no está configurada como variable de entorno.")
+
+# # Usar la clave en tu código
+# import openai
+# openai.api_key = openai_api_key -->
+
 ### 📘 Web Scrapping de web de ayudas
 Ejecutar .....
 
@@ -26,6 +41,7 @@ Ejecutar .....
 Ejecutar ....
 
 ### 📘 Referencias
+**Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas** (https://www.pap.hacienda.gob.es/bdnstrans/)
 **Streamlit** (https://streamlit.io/)
 **RAGAS** (https://docs.ragas.io/)
 **CHROMA DB** (https://www.trychroma.com/)

@@ -9,40 +9,22 @@ import streamlit as st
 
 from src.chat import (  # type: ignore
     ensure_model_pulled,
-    generate_response_streaming,
+    generate_response_streaming_ollama,
     generate_response_streaming_openai,
     get_embedding_model,
 )
-from src.constants import OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, CHATBOT_INTRO, LOGO_URL_LARGE, LOGO_URL_SMALL, AI_ICON, HUMAN_ICON, ESTILOS
-from src.utils import setup_logging, stream_data, apply_cab, apply_custom_css, display_sidebar_content, apply_cab_chat
+from src.constants import OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, CHATBOT_INTRO, LOGO_URL_LARGE, LOGO_URL_SMALL, AI_ICON, HUMAN_ICON, ESTILOS, LLM_MODELO_SELECCIONADO,LLM_TIPOMODELO_OPENAI,LLM_TIPOMODELO_OLLAMA
+from src.utils import setup_logging, stream_data, apply_cab, apply_custom_css, display_sidebar_content, apply_cab_chat, apply_custom_css_chat
 
 # Initialize logger
-# setup_logging()  # Configures logging for the application
 logger = logging.getLogger(__name__)
-
-# # Set page configuration
-# st.set_page_config(page_title="HelpMe.AI - Chatbot", page_icon="🤖")
-
-# st.logo(
-#     LOGO_URL_LARGE,
-#     link="https://www.desimarti.es",
-#     icon_image=LOGO_URL_SMALL,
-# )
-
-# # Apply custom CSS
-# st.markdown(
-#     ESTILOS,
-#     unsafe_allow_html=True,
-# )
-
 apply_cab_chat("HelpMe.ai - Chatbot")
-apply_custom_css(logger)
-
+apply_custom_css_chat(logger)
 
 # Main chatbot page rendering function
 def render_chatbot_page() -> None:
     # Set up a placeholder at the very top of the main content area
-    st.title("HelpMe.AI - Chatbot")
+    st.title("Chatbot - Historial de conversación")
     model_loading_placeholder = st.empty()
 
     # Initialize session state variables for chatbot settings
@@ -69,35 +51,6 @@ def render_chatbot_page() -> None:
         step=0.1,
     )
 
-    # # Display logo or placeholder
-    # logo_path = "images/logo.png"
-    # if os.path.exists(logo_path):
-    #     st.sidebar.image(logo_path, width=220)
-    #     logger.info("Logo mostrado.")
-    # else:
-    #     st.sidebar.markdown("### Logo Placeholder")
-    #     logger.warning("Logo no encontrado, mostrando placeholder.")
-
-    # # Sidebar headers and footer
-    # st.sidebar.markdown(
-    #     "<h2 style='text-align: center;'>HelpMe.ai</h2>", unsafe_allow_html=True
-    # )
-    # st.sidebar.markdown(
-    #     "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional</h4>",
-    #     unsafe_allow_html=True,
-    # )
-
-    # # Footer text
-    # st.sidebar.markdown(
-    #     """
-    #     <div class="footer-text">
-    #         © 2024 Desi Martí
-    #     </div>
-    #     """,
-    #     unsafe_allow_html=True,
-    # )
-    # logger.info("Barra lateral configurada.")
-
     # Display loading spinner at the top of the main content area
     with model_loading_placeholder.container():
         st.spinner("Cargando modelos para el chat...")
@@ -121,14 +74,20 @@ def render_chatbot_page() -> None:
         message = st.chat_message("assistant", avatar=AI_ICON)
         message.write_stream(stream_data(CHATBOT_INTRO))
 
+    logger.info("------------------")
+    logger.info(st.session_state["chat_history"])
+    logger.info("------------------")
+
     # Display chat history
     for message in st.session_state["chat_history"]:
+        texto = message['content']
         if message["role"]=="assistant":
             message = st.chat_message("assistant", avatar=AI_ICON)
-            message.markdown(message["content"])
+            message.markdown(texto)
         else:
             message = st.chat_message("user", avatar=HUMAN_ICON)
-            message.markdown(message["content"])
+            logger.info(f"Historico user: {texto}")
+            message.markdown(texto)
 
     # Process user input and generate response
     if prompt := st.chat_input("Escribe tu consulta aquí..."):
@@ -143,43 +102,45 @@ def render_chatbot_page() -> None:
                 response_placeholder = st.empty()
                 response_text = ""
 
-                # response_stream = generate_response_streaming(
-                #     prompt,
-                #     use_hybrid_search=st.session_state["use_hybrid_search"],
-                #     num_results=st.session_state["num_results"],
-                #     temperature=st.session_state["temperature"],
-                #     chat_history=st.session_state["chat_history"],
-                # )
+                if LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OLLAMA:
+                    response_stream = generate_response_streaming_ollama(
+                        prompt,
+                        use_hybrid_search=st.session_state["use_hybrid_search"],
+                        num_results=st.session_state["num_results"],
+                        temperature=st.session_state["temperature"],
+                        chat_history=st.session_state["chat_history"],
+                    )
 
-                response_text = generate_response_streaming_openai(
-                    prompt,
-                    use_hybrid_search=st.session_state["use_hybrid_search"],
-                    num_results=st.session_state["num_results"],
-                    temperature=st.session_state["temperature"],
-                    chat_history=st.session_state["chat_history"],
-                )
+                    # Stream response content if response_stream is valid
+                    if response_stream is not None:
+                        for chunk in response_stream:
+                            if (
+                                isinstance(chunk, dict)
+                                and "message" in chunk
+                                and "content" in chunk["message"]
+                            ):
+                                response_text += chunk["message"]["content"]
+                                response_placeholder.markdown(response_text + "▌")
+                            else:
+                                logger.error("Formato de chunk no esperado en la respuesta.")
 
-            # Stream response content if response_stream is valid
-            # """if response_stream is not None:
-            #      for chunk in response_stream:
-            #         if (
-            #             isinstance(chunk, dict)
-            #             and "message" in chunk
-            #             and "content" in chunk["message"]
-            #         ):
-            #             response_text += chunk["message"]["content"]
-            #             response_placeholder.markdown(response_text + "▌")
-            #         else:
-            #             logger.error("Formato de chunk no esperado en la respuesta.") """
+                elif LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OPENAI:
+                    response_text = generate_response_streaming_openai(
+                        prompt,
+                        use_hybrid_search=st.session_state["use_hybrid_search"],
+                        num_results=st.session_state["num_results"],
+                        temperature=st.session_state["temperature"],
+                        chat_history=st.session_state["chat_history"],
+                    )
 
-
-            # response_placeholder.markdown(response_text)
-            response_placeholder.write_stream(stream_data(response_text))
+                    # response_placeholder.markdown(response_text)
+                    response_placeholder.write_stream(stream_data(response_text))
+            
             st.session_state["chat_history"].append(
                 {"role": "assistant", "content": response_text}
             )
-            logger.info("Respuesta generada y mostrada.")
             
+            logger.info("Respuesta generada y mostrada.")
             st.toast(f"Respuesta generada y mostrada.") # Mensaje TOAST
 
             sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]

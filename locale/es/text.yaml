@@ -1,0 +1,126 @@
+prompt_template: |
+    Eres un asistente chat (chatbot) para ayudar obtener información de ayudas y subvenciones del Gobierno de España, tus principales misiones son:            
+    * Ayudar al usuario para encontrar las subvenciones que necesite el usuario en base a sus criterios de búsqueda.
+    * Proporciona detalles del organismo que la publica, la descripción de la convocatoria, el importe, región finalidad y beneficiarios de la ayuda o subvención.
+    * Sofo ofrece información a partir del Contexto proporcionado.
+    * No te inventes información ni rellenes los datos vacios. Si no tienes ayudas que cumplan el criterio di que no tienes. Como eres un chat amigable :) también tienes la capacidad de reponder a preguntas no relaccionadas con las ayudas de subvenciones.
+
+    ----
+    Contexto:
+        {context}
+    ....
+
+    Pregunta: 
+        {input}
+
+openai_template: |
+    Eres un asistente experto en subvenciones que recibe un listado de documentos en formato YAML. Tu tarea es:
+        1. Analizar el contenido.
+        2. Resumirlo en formato claro y comprensible.
+        3. Destacar las partes más importantes: enlaces, beneficiarios, fechas clave y presupuesto.
+        4. No te inventes nada.
+
+        El formato de cada documento YAML es:
+        Convocatoria: 
+        Detalle de la convocatoria de ayuda o  subvención: 795854
+        Enlace a convocatoria: 
+        Órgano, comunidad, autonomía, región, provincia o ayuntamiento convocante: 
+        Enlace / url a sede electr�nica presentaci�n ayuda: 
+        Fecha de recepci�n: 
+        Tipo de ayuda: 
+        Tipo de convocatoria: 
+        Presupuesto total: 
+        Descripción: 
+        Tipos de beneficiarios: 
+        Sectores involucrados: 
+        Regi�n de impacto: 
+        Finalidad: 
+        Bases reguladoras: 
+        URL Bases Reguladoras: 
+        Publicaci�n en diario oficial: 
+        Estado de convocatoria abierta: 
+        Fecha de inicio de solicitudes: 
+        Fecha de fin de solicitudes: 
+        Inicio de convocatoria: 
+        Fin de convocatoria: 
+        Reglamento: 
+        Otros documentos de la convocatoria: 
+        
+        El formato que espero del listado de ayudas es el siguiente, esto es solo un ejemplo:
+
+        **Convocatoria de Ayuda: 795795**
+        - **Órgano convocante:** MURCIA - AYUNTAMIENTO DE MURCIA
+        - **Enlace a la convocatoria:** [Acceder](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795)
+        - **Sede electrónica para presentar solicitud:** [Ir a sede](https://sede.murcia.es/areas?idCategoria=10004)
+        - **Presupuesto total:** 205,000 Euros
+        - **Descripción:** Subvenciones para costes de explotaci�n de taxis adaptados.
+        - **Beneficiarios:** PYME y personas f�sicas que desarrollan actividad econ�mica.
+        - **Sectores involucrados:** Otro transporte terrestre de pasajeros.
+        - **Región de impacto:** Regi�n de Murcia (ES62).
+        - **Estado de convocatoria:** Cerrada.
+        - **Fechas importantes:**
+        - Inicio solicitudes: 15/11/2024
+        - Fin solicitudes: 28/11/2024
+        - **Documentos relevantes:**
+        1. **Publicación en el BORM:** [PUBLICACION_BORM.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031)
+        2. **Certificado:** [Certificado_2024.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030)
+
+chatbot_wellcome: |
+    **Bienvenido al Chatbot de Ayudas y Subvenciones Públicas 👋**  
+    Este chatbot está diseñado para facilitarte la búsqueda de información sobre **ayudas** y **subvenciones** en España.  
+    Con un lenguaje sencillo y ejemplos prácticos, podrás encontrar la información que necesitas de manera rápida y eficiente.
+
+    #### **¿Cómo utilizar este chatbot?**
+    1. **Describe tu necesidad o interés**: Puedes preguntar sobre ayudas específicas o hacer consultas más generales.
+    2. **Filtra la información**: Usa términos como región, sector, tipo de beneficiario o palabra clave para precisar tu búsqueda.
+    3. **Recibe resultados claros**: Obtendrás información detallada sobre las ayudas disponibles, como su descripción, fechas clave y enlaces relevantes.
+
+    #### **Ejemplos básicos de consulta**
+    - **Por región**:  
+    _"¿Qué ayudas están disponibles en la Comunidad Valenciana?"_
+    - **Por sector**:  
+    _"¿Hay subvenciones para el sector agrícola?"_
+    - **Por tipo de beneficiario**:  
+    _"¿Existen ayudas para PYMES en Madrid?"_
+    - **Por palabras clave**:  
+    _"Busco subvenciones para mejora de viviendas."_
+
+    #### **Consejos útiles**
+    - Sé lo más específico posible para obtener resultados más relevantes.  
+    - Si no encuentras lo que buscas, prueba combinando criterios:  
+    _"Ayudas en Andalucía para autónomos en el sector tecnológico."_
+
+    ---
+    **¡Empieza ahora!** Escribe tu primera consulta y verás qué fácil es de usar.
+
+
+chatbot_intro: |
+    ##### **Recordatorio: Uso del Chatbot de Ayudas y Subvenciones**  
+    - **Describe tu necesidad**: Pregunta por ayudas específicas o generales.  
+        Ej.: _"¿Qué ayudas hay en Madrid para autónomos?"_  
+    - **Usa filtros**: Región, sector, tipo de beneficiario o palabras clave.  
+        Ej.: _"Subvenciones para innovación tecnológica."_  
+    - **Sé específico**: Combina criterios para resultados más relevantes.  
+        Ej.: _"Ayudas en Andalucía para pymes agrícolas."_  
+
+    **¡Prueba ahora y encuentra lo que necesitas!**
+
+texto_avisolegal: |
+    **⚠️ Aviso importante ⚠️**
+
+    El presente asistente ha sido diseñado para proporcionar información basada en datos obtenidos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas <a href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/inicio'>(url acceso)</a> de la Intervención General de la Administración del Estado del 🏛️ Gobierno de España 🏛️. 
+
+    ℹ️ La Internvención General del Estado **NO apoya ni patrocina** este asistente, siendo agena a la existencia del mismo ℹ️.
+
+    **Descargo de responsabilidad**
+
+    A pesar de los esfuerzos realizados para garantizar la precisión y actualidad de la información proporcionada, no podemos garantizar que dicha información sea siempre completa, precisa o libre de errores.
+
+    El usuario reconoce que la información suministrada por el asistente puede contener imprecisiones, omisiones o errores, y se compromete a verificar la exactitud y validez de la información antes de tomar cualquier decisión basada en ella.
+
+    El uso del asistente es bajo el propio riesgo del usuario. En ningún caso nos hacemos responsables de los posibles errores, perjuicios o daños que puedan derivarse del uso o de la interpretación incorrecta de la información proporcionada, incluyendo pero no limitándose a decisiones de carácter administrativo, legal, financiero o de cualquier otro tipo.
+
+    Se recomienda encarecidamente al usuario que consulte con un experto o recurra a las fuentes oficiales para confirmar cualquier información relevante antes de actuar en base a la misma.
+
+    ***Fecha de última actualización de los datos de las ayudas: 15/12/2024 a las 23:45 horas.***
+

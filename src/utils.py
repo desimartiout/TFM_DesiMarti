@@ -6,7 +6,7 @@ from typing import List
 import time
 import streamlit as st
 
-from src.constants import LOG_FILE_PATH, CHATBOT_WELLCOME, ESTILOS_INICIO, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB
+from src.constants import LOG_FILE_PATH, CHATBOT_WELLCOME, ESTILOS_INICIO, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB, ESTILOS
 
 
 def setup_logging() -> None:
@@ -97,6 +97,15 @@ def apply_custom_css(logger) -> None:
     logger.info("Css aplicado.")
 
 
+def apply_custom_css_chat(logger) -> None:
+    """Applies custom CSS styling to the Streamlit page and sidebar."""
+    st.markdown(
+        ESTILOS,
+        unsafe_allow_html=True,
+    )
+    logger.info("Css aplicado.")
+
+
 def display_logo(logger, logo_path: str) -> None:
     """Displays the logo in the sidebar or a placeholder if the logo is not found.
 
@@ -122,7 +131,7 @@ def display_sidebar_content(logger) -> None:
         "<h2 style='text-align: center;'>AyudaMe.ai</h2>", unsafe_allow_html=True
     )
     st.sidebar.markdown(
-        "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional para búsqueda de ayudas públicas del Gobierno de España</h4>",
+        "<h4 style='text-align: center;'>Tu chatbot conversacional para búsqueda de ayudas públicas del Gobierno de España</h4>",
         unsafe_allow_html=True,
     )
 

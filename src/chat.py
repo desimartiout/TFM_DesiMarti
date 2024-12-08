@@ -1,11 +1,17 @@
 import logging
 from typing import Dict, Iterable, List, Optional
 
+import openai
+import logging
+from typing import Optional, Iterable
+from langchain.prompts.chat import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
+
 import ollama
 import time
 import streamlit as st
 
-from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME
+from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, OPENAI_TEMPLATE
 from src.embeddings import get_embedding_model
 #from src.opensearch import hybrid_search
 from src.searchchromadb import consultaChromadb
@@ -17,6 +23,9 @@ from src.utils import setup_logging
 setup_logging()
 logger = logging.getLogger(__name__)
 
+####################################################################################################
+#                                           OLLAMA
+####################################################################################################
 
 @st.cache_resource(show_spinner=False)
 def ensure_model_pulled(model: str) -> bool:
@@ -48,171 +57,6 @@ def run_llama_streaming(prompt: str, temperature: float) -> Optional[Iterable[st
         return None
 
     return stream
-
-import openai
-import logging
-from typing import Optional, Iterable
-from langchain.prompts.chat import ChatPromptTemplate
-from langchain_openai import ChatOpenAI
-
-# Configura el logger
-logger = logging.getLogger(__name__)
-
-# Configura tu clave API de OpenAI
-#openai.api_key = "TU_API_KEY"
-
-# Define el modelo a usar (en este caso GPT-3.5 Turbo)
-OPENAI_MODEL_NAME = "gpt-3.5-turbo"
-
-def run_openai_streaming(contexto: str,query: str, temperature: float):
-    llm = ChatOpenAI(
-        model="gpt-3.5-turbo",
-        temperature=temperature,  # Utiliza la temperatura definida
-    )
-    
-    # Crear el prompt en formato Chat
-    prompt = ChatPromptTemplate.from_messages(
-        [
-            (
-                "system",
-                """
-                Eres un asistente experto en subvenciones que recibe un listado de documentos en formato YAML. Tu tarea es:
-                    1. Analizar el contenido.
-                    2. Resumirlo en formato claro y comprensible.
-                    3. Destacar las partes más importantes: enlaces, beneficiarios, fechas clave y presupuesto.
-                    4. No te inventes nada.
-
-                    El formato de cada documento YAML es:
-                    Convocatoria: 
-                    Detalle de la convocatoria de ayuda o  subvención: 795854
-                    Enlace a convocatoria: 
-                    Órgano, comunidad, autonomía, región, provincia o ayuntamiento convocante: 
-                    Enlace / url a sede electr�nica presentaci�n ayuda: 
-                    Fecha de recepci�n: 
-                    Tipo de ayuda: 
-                    Tipo de convocatoria: 
-                    Presupuesto total: 
-                    Descripción: 
-                    Tipos de beneficiarios: 
-                    Sectores involucrados: 
-                    Regi�n de impacto: 
-                    Finalidad: 
-                    Bases reguladoras: 
-                    URL Bases Reguladoras: 
-                    Publicaci�n en diario oficial: 
-                    Estado de convocatoria abierta: 
-                    Fecha de inicio de solicitudes: 
-                    Fecha de fin de solicitudes: 
-                    Inicio de convocatoria: 
-                    Fin de convocatoria: 
-                    Reglamento: 
-                    Otros documentos de la convocatoria: 
-                    
-                    El formato que espero del listado de ayudas es el siguiente, esto es solo un ejemplo:
-
-                    **Convocatoria de Ayuda: 795795**
-                    - **Órgano convocante:** MURCIA - AYUNTAMIENTO DE MURCIA
-                    - **Enlace a la convocatoria:** [Acceder](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795)
-                    - **Sede electrónica para presentar solicitud:** [Ir a sede](https://sede.murcia.es/areas?idCategoria=10004)
-                    - **Presupuesto total:** 205,000 Euros
-                    - **Descripción:** Subvenciones para costes de explotaci�n de taxis adaptados.
-                    - **Beneficiarios:** PYME y personas f�sicas que desarrollan actividad econ�mica.
-                    - **Sectores involucrados:** Otro transporte terrestre de pasajeros.
-                    - **Región de impacto:** Regi�n de Murcia (ES62).
-                    - **Estado de convocatoria:** Cerrada.
-                    - **Fechas importantes:**
-                    - Inicio solicitudes: 15/11/2024
-                    - Fin solicitudes: 28/11/2024
-                    - **Documentos relevantes:**
-                    1. **Publicación en el BORM:** [PUBLICACION_BORM.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031)
-                    2. **Certificado:** [Certificado_2024.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030)
-
-                    """,
-            ),
-            ("human", "{input}"),
-        ]
-    )
-    
-    queryContext = f"Usando esta información: {contexto}. Responde: {query}"
-
-    # Encadenar el prompt con el modelo
-    chain = prompt | llm
-    ai_msg = chain.invoke({"input": queryContext})
-
-    return ai_msg.content
-
-
-def run_openai_streaming1(prompt: str, temperature: float) -> Optional[Iterable[str]]:
-    try:
-        logger.info("Respuesta desde el modelo OpenAI GPT-3.5 Turbo.")
-        
-        # Realiza la llamada con streaming habilitado
-        response = openai.ChatCompletion.create(
-            model=OPENAI_MODEL_NAME,
-            messages=[
-                {"role": "system", "content": """
-                Eres un asistente experto en subvenciones que recibe un listado de documentos en formato YAML. Tu tarea es:
-                    1. Analizar el contenido.
-                    2. Resumirlo en formato claro y comprensible.
-                    3. Destacar las partes más importantes: enlaces, beneficiarios, fechas clave y presupuesto.
-                    4. No te inventes nada.
-
-                    El formato de cada documento YAML es:
-                    Convocatoria: 
-                    Detalle de la convocatoria de ayuda o  subvención: 795854
-                    Enlace a convocatoria: 
-                    Órgano, comunidad, autonomía, región, provincia o ayuntamiento convocante: 
-                    Enlace / url a sede electr�nica presentaci�n ayuda: 
-                    Fecha de recepci�n: 
-                    Tipo de ayuda: 
-                    Tipo de convocatoria: 
-                    Presupuesto total: 
-                    Descripción: 
-                    Tipos de beneficiarios: 
-                    Sectores involucrados: 
-                    Regi�n de impacto: 
-                    Finalidad: 
-                    Bases reguladoras: 
-                    URL Bases Reguladoras: 
-                    Publicaci�n en diario oficial: 
-                    Estado de convocatoria abierta: 
-                    Fecha de inicio de solicitudes: 
-                    Fecha de fin de solicitudes: 
-                    Inicio de convocatoria: 
-                    Fin de convocatoria: 
-                    Reglamento: 
-                    Otros documentos de la convocatoria: 
-                    
-                    El formato que espero del listado de ayudas es el siguiente, esto es solo un ejemplo:
-
-                    **Convocatoria de Ayuda: 795795**
-                    - **Órgano convocante:** MURCIA - AYUNTAMIENTO DE MURCIA
-                    - **Enlace a la convocatoria:** [Acceder](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795)
-                    - **Sede electrónica para presentar solicitud:** [Ir a sede](https://sede.murcia.es/areas?idCategoria=10004)
-                    - **Presupuesto total:** 205,000 Euros
-                    - **Descripción:** Subvenciones para costes de explotaci�n de taxis adaptados.
-                    - **Beneficiarios:** PYME y personas f�sicas que desarrollan actividad econ�mica.
-                    - **Sectores involucrados:** Otro transporte terrestre de pasajeros.
-                    - **Región de impacto:** Regi�n de Murcia (ES62).
-                    - **Estado de convocatoria:** Cerrada.
-                    - **Fechas importantes:**
-                    - Inicio solicitudes: 15/11/2024
-                    - Fin solicitudes: 28/11/2024
-                    - **Documentos relevantes:**
-                    1. **Publicación en el BORM:** [PUBLICACION_BORM.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031)
-                    2. **Certificado:** [Certificado_2024.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030)
-
-                    """},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=temperature,
-            stream=True,  # Habilitar streaming
-        )
-
-    except openai.error.OpenAIError as e:
-        logger.error(f"Error durante llamada al modelo OpenAI: {e}")
-        return None
- 
 
 def prompt_template_old(query: str, context: str, history: List[Dict[str, str]]) -> str:
     prompt = """
@@ -307,16 +151,7 @@ def prompt_template(query: str, context: str, history: List[Dict[str, str]]) -> 
     logger.info("Prompt construido con contexto e historial de conversación.")
     return prompt
 
-def prompt_template_openai(query: str, context: str, history: List[Dict[str, str]]) -> str:
-    prompt = f"""
-        Usando esta información: {context}
-        Responde: {query}]
-        """
-    logger.info("Prompt construido OPENAI con contexto e historial de conversación.")
-    return prompt
-
-
-def generate_response_streaming(
+def generate_response_streaming_ollama(
     query: str,
     use_hybrid_search: bool,
     num_results: int,
@@ -335,25 +170,6 @@ def generate_response_streaming(
     logger.info(f"prompt: {prompt}")
 
     return run_llama_streaming(prompt, temperature)
-
-def generate_response_streaming_openai(
-    query: str,
-    use_hybrid_search: bool,
-    num_results: int,
-    temperature: float,
-    chat_history: Optional[List[Dict[str, str]]] = None,
-) -> Optional[Iterable[str]]:
-    chat_history = chat_history or []
-    max_history_messages = 10
-    history = chat_history[-max_history_messages:]
-    
-    context = consultaChromadb(query, num_results)
-
-    # Generate prompt using the prompt_template function
-    #prompt = prompt_template_openai(query, context, history)
-    #logger.info(f"prompt: {prompt}")
-
-    return run_openai_streaming(context, query , temperature)
 
 def generate_response_streaming_new(
     query: str,
@@ -396,4 +212,132 @@ def generate_response_streaming_new(
     logger.info(f"Respuesta: {ai_msg.content}")
     
     return ai_msg.content
+
+####################################################################################################
+#                                           OPENAI
+####################################################################################################
+
+def run_openai_streaming(contexto: str,query: str, temperature: float):
+    llm = ChatOpenAI(
+        model="gpt-3.5-turbo",
+        temperature=temperature,  # Utiliza la temperatura definida
+    )
+    
+    # Crear el prompt en formato Chat
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                OPENAI_TEMPLATE,
+            ),
+            ("human", "{input}"),
+        ]
+    )
+    
+    queryContext = f"Usando esta información: {contexto}. Responde: {query}"
+
+    # Encadenar el prompt con el modelo
+    chain = prompt | llm
+    ai_msg = chain.invoke({"input": queryContext})
+
+    return ai_msg.content
+
+def prompt_template_openai(query: str, context: str, history: List[Dict[str, str]]) -> str:
+    prompt = f"""
+        Usando esta información: {context}
+        Responde: {query}]
+        """
+    logger.info("Prompt construido OPENAI con contexto e historial de conversación.")
+    return prompt
+
+def generate_response_streaming_openai(
+    query: str,
+    use_hybrid_search: bool,
+    num_results: int,
+    temperature: float,
+    chat_history: Optional[List[Dict[str, str]]] = None,
+) -> Optional[Iterable[str]]:
+    chat_history = chat_history or []
+    max_history_messages = 10
+    history = chat_history[-max_history_messages:]
+    
+    context = consultaChromadb(query, num_results)
+
+    # Generate prompt using the prompt_template function
+    #prompt = prompt_template_openai(query, context, history)
+    #logger.info(f"prompt: {prompt}")
+
+    return run_openai_streaming(context, query , temperature)
+
+def run_openai_streaming1(prompt: str, temperature: float) -> Optional[Iterable[str]]:
+    try:
+        logger.info("Respuesta desde el modelo OpenAI GPT-3.5 Turbo.")
+        
+        # Realiza la llamada con streaming habilitado
+        response = openai.ChatCompletion.create(
+            model=OPENAI_MODEL_NAME,
+            messages=[
+                {"role": "system", "content": """
+                Eres un asistente experto en subvenciones que recibe un listado de documentos en formato YAML. Tu tarea es:
+                    1. Analizar el contenido.
+                    2. Resumirlo en formato claro y comprensible.
+                    3. Destacar las partes más importantes: enlaces, beneficiarios, fechas clave y presupuesto.
+                    4. No te inventes nada.
+
+                    El formato de cada documento YAML es:
+                    Convocatoria: 
+                    Detalle de la convocatoria de ayuda o  subvención: 795854
+                    Enlace a convocatoria: 
+                    Órgano, comunidad, autonomía, región, provincia o ayuntamiento convocante: 
+                    Enlace / url a sede electr�nica presentaci�n ayuda: 
+                    Fecha de recepci�n: 
+                    Tipo de ayuda: 
+                    Tipo de convocatoria: 
+                    Presupuesto total: 
+                    Descripción: 
+                    Tipos de beneficiarios: 
+                    Sectores involucrados: 
+                    Regi�n de impacto: 
+                    Finalidad: 
+                    Bases reguladoras: 
+                    URL Bases Reguladoras: 
+                    Publicaci�n en diario oficial: 
+                    Estado de convocatoria abierta: 
+                    Fecha de inicio de solicitudes: 
+                    Fecha de fin de solicitudes: 
+                    Inicio de convocatoria: 
+                    Fin de convocatoria: 
+                    Reglamento: 
+                    Otros documentos de la convocatoria: 
+                    
+                    El formato que espero del listado de ayudas es el siguiente, esto es solo un ejemplo:
+
+                    **Convocatoria de Ayuda: 795795**
+                    - **Órgano convocante:** MURCIA - AYUNTAMIENTO DE MURCIA
+                    - **Enlace a la convocatoria:** [Acceder](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795)
+                    - **Sede electrónica para presentar solicitud:** [Ir a sede](https://sede.murcia.es/areas?idCategoria=10004)
+                    - **Presupuesto total:** 205,000 Euros
+                    - **Descripción:** Subvenciones para costes de explotaci�n de taxis adaptados.
+                    - **Beneficiarios:** PYME y personas f�sicas que desarrollan actividad econ�mica.
+                    - **Sectores involucrados:** Otro transporte terrestre de pasajeros.
+                    - **Región de impacto:** Regi�n de Murcia (ES62).
+                    - **Estado de convocatoria:** Cerrada.
+                    - **Fechas importantes:**
+                    - Inicio solicitudes: 15/11/2024
+                    - Fin solicitudes: 28/11/2024
+                    - **Documentos relevantes:**
+                    1. **Publicación en el BORM:** [PUBLICACION_BORM.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031)
+                    2. **Certificado:** [Certificado_2024.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030)
+
+                    """},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=temperature,
+            stream=True,  # Habilitar streaming
+        )
+
+    except openai.error.OpenAIError as e:
+        logger.error(f"Error durante llamada al modelo OpenAI: {e}")
+        return None
+ 
 
