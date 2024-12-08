@@ -7,7 +7,8 @@ import streamlit as st
 
 from src.embeddings import generate_embeddings, get_embedding_model
 from src.searchchromadb import get_all_documents, cargarDocumento
-from src.utils import chunk_text, setup_logging
+from src.utils import chunk_text, setup_logging, apply_cab, apply_custom_css, display_sidebar_content
+from src.constants import ESTILOS
 
 import json
 
@@ -15,55 +16,44 @@ import json
 setup_logging()  # Set up centralized logging configuration
 logger = logging.getLogger(__name__)
 
-# Set page config with title, icon, and layout
-st.set_page_config(page_title="HelpMe.AI - Carga de documentos", page_icon="📂")
+apply_cab("HelpMe.ai - Carga de documentos")
+apply_custom_css(logger)
 
-# Custom CSS to style the page and sidebar
-st.markdown(
-    """
-    <style>
-    /* Main background and text colors */
-    body { background-color: #f0f8ff; color: #002B5B; }
-    .sidebar .sidebar-content { background-color: #006d77; color: white; padding: 20px; border-right: 2px solid #003d5c; }
-    .sidebar h2, .sidebar h4 { color: white; }
-    .block-container { background-color: white; border-radius: 10px; padding: 20px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); }
-    .footer-text { font-size: 1.1rem; font-weight: bold; color: black; text-align: center; margin-top: 10px; }
-    .stButton button { background-color: #118ab2; color: white; border-radius: 5px; padding: 10px 20px; font-size: 16px; }
-    .stButton button:hover { background-color: #07a6c2; color: white; }
-    .stButton.delete-button button { background-color: #e63946; color: white; font-size: 14px; }
-    .stButton.delete-button button:hover { background-color: #ff4c4c; }
-    h1, h2, h3, h4 { color: #006d77; }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+# # Set page config with title, icon, and layout
+# st.set_page_config(page_title="HelpMe.AI - Carga de documentos", page_icon="📂")
 
-# Add a logo (replace with your own image file path or URL)
-logo_path = "images/logo.png"  # Replace with your logo file
-if os.path.exists(logo_path):
-    st.sidebar.image(logo_path, width=220)
-else:
-    st.sidebar.markdown("### Logo Placeholder")
-    logger.warning("Logo no encontrado.")
+# # Custom CSS to style the page and sidebar
+# st.markdown(
+#     ESTILOS,
+#     unsafe_allow_html=True,
+# )
 
-# Sidebar header
-st.sidebar.markdown(
-    "<h2 style='text-align: center;'>HelpMe.ai</h2>", unsafe_allow_html=True
-)
-st.sidebar.markdown(
-    "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional</h4>",
-    unsafe_allow_html=True,
-)
+# # Add a logo (replace with your own image file path or URL)
+# logo_path = "images/logo.png"  # Replace with your logo file
+# if os.path.exists(logo_path):
+#     st.sidebar.image(logo_path, width=220)
+# else:
+#     st.sidebar.markdown("### Logo Placeholder")
+#     logger.warning("Logo no encontrado.")
 
-# Footer
-st.sidebar.markdown(
-    """
-    <div class="footer-text">
-        © 2024 Desi Martí
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+# # Sidebar header
+# st.sidebar.markdown(
+#     "<h2 style='text-align: center;'>HelpMe.ai</h2>", unsafe_allow_html=True
+# )
+# st.sidebar.markdown(
+#     "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional</h4>",
+#     unsafe_allow_html=True,
+# )
+
+# # Footer
+# st.sidebar.markdown(
+#     """
+#     <div class="footer-text">
+#         © 2024 Desi Martí
+#     </div>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
 def leer_yaml_como_string(file_path):
     try:
@@ -195,3 +185,4 @@ if __name__ == "__main__":
     if "documents" not in st.session_state:
         st.session_state["documents"] = []
     render_upload_page()
+    display_sidebar_content(logger)

@@ -132,7 +132,7 @@ def query_documents(client, collection_name, query_text):
     )
     return results
 
-query_text = "Puedes darme todo el contexto de ayudas en Murcia?"
+query_text = "  "
 
 results = query_documents(client, collection_name, query_text)
 

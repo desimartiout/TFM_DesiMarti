@@ -4,8 +4,9 @@ import logging
 import re
 from typing import List
 import time
+import streamlit as st
 
-from src.constants import LOG_FILE_PATH
+from src.constants import LOG_FILE_PATH, CHATBOT_WELLCOME, ESTILOS_INICIO, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB
 
 
 def setup_logging() -> None:
@@ -61,3 +62,86 @@ def stream_data(texto):
     for word in texto.split(" "):
         yield word + " "
         time.sleep(0.04)
+
+
+################### HTML y Estilos ###################
+
+def apply_cab_chat(title) -> None:
+    st.set_page_config(
+        page_title=title, page_icon=LOGO_URL_SMALL
+    )
+
+    st.logo(
+        LOGO_URL_LARGE,
+        link=URL_WEB,
+        icon_image=LOGO_URL_SMALL,
+    )
+
+def apply_cab(title) -> None:
+    st.set_page_config(
+        page_title=title, page_icon=LOGO_URL_SMALL, layout="wide"
+    )
+
+    st.logo(
+        LOGO_URL_LARGE,
+        link=URL_WEB,
+        icon_image=LOGO_URL_SMALL,
+    )
+
+def apply_custom_css(logger) -> None:
+    """Applies custom CSS styling to the Streamlit page and sidebar."""
+    st.markdown(
+        ESTILOS_INICIO,
+        unsafe_allow_html=True,
+    )
+    logger.info("Css aplicado.")
+
+
+def display_logo(logger, logo_path: str) -> None:
+    """Displays the logo in the sidebar or a placeholder if the logo is not found.
+
+    Args:
+        logo_path (str): The file path for the logo image.
+    """
+    if os.path.exists(logo_path):
+        st.sidebar.image(logo_path, width=220)
+        logger.info("Logo displayed.")
+    else:
+        st.sidebar.markdown("### Logo Placeholder")
+        logger.warning("Logo not found, displaying placeholder.")
+
+def display_main_content(logger) -> None:
+    st.title("Chatbot para búsqueda de ayudas y subvenciones del Gobierno de España ")
+    st.write_stream(stream_data(CHATBOT_WELLCOME))
+    logger.info("Mostrar página bienvenida.")
+
+def display_sidebar_content(logger) -> None:
+    st.sidebar.divider()
+    # Sidebar headers and footer
+    st.sidebar.markdown(
+        "<h2 style='text-align: center;'>AyudaMe.ai</h2>", unsafe_allow_html=True
+    )
+    st.sidebar.markdown(
+        "<h4 style='text-align: center;'>Tu chatbot de ayuda conversacional para búsqueda de ayudas públicas del Gobierno de España</h4>",
+        unsafe_allow_html=True,
+    )
+
+    st.sidebar.divider()
+
+    st.sidebar.markdown("**Origen de los datos:**", unsafe_allow_html=True)
+    # st.sidebar.image("images/iconoWebEstado.ico", width=50)
+    st.sidebar.markdown("Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas. <a href='https://www.pap.hacienda.gob.es/bdnstrans/GE/es/inicio'>🔗</a>", unsafe_allow_html=True)
+    st.sidebar.markdown("***Intervención General de la Administración del Estado***", unsafe_allow_html=True)
+    st.sidebar.markdown("<a href='Aviso_legal'>Página aviso legal</a>", unsafe_allow_html=True)
+
+    # Footer text
+    st.sidebar.markdown(
+        """
+        <div class="footer-text">
+            © 2024 Desi Martí
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    logger.info("Mostrar barra lateral.")
