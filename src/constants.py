@@ -112,6 +112,18 @@ ESTILOS = """
         text-align: right;
         background-color: white;
     }
+    .st-emotion-cache-1dj3ksd {
+        background-color: #00233A;
+    }
+    .st-emotion-cache-1373cj4 {
+        color: #00233A;
+    }
+    .st-cf {
+        background: linear-gradient(to right, rgb(0, 36, 58) 0%, rgb(0, 36, 58) 90%, rgba(151, 166, 195, 0.25) 90%, rgba(151, 166, 195, 0.25) 100%);
+    }
+    ::-webkit-scrollbar:active {
+        background: #00233A;
+    }
     </style>
     """
 
@@ -168,6 +180,19 @@ ESTILOS_INICIO = """
   h1, h2, h3, h4 {
       color: #00233A;
   }
+  
+    .st-emotion-cache-1dj3ksd {
+        background-color: #00233A;
+    }
+    .st-emotion-cache-1373cj4 {
+        color: #00233A;
+    }
+    .st-cf {
+        background: linear-gradient(to right, rgb(0, 36, 58) 0%, rgb(0, 36, 58) 90%, rgba(151, 166, 195, 0.25) 90%, rgba(151, 166, 195, 0.25) 100%);
+    }
+    ::-webkit-scrollbar:active {
+        background: #00233A;
+    }
   </style>
   """
 
