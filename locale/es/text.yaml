@@ -14,11 +14,12 @@ prompt_template: |
         {input}
 
 openai_template: |
-    Eres un asistente experto en subvenciones que recibe un listado de documentos en formato YAML. Tu tarea es:
+    Eres un asistente experto en subvenciones que recibe un listado de documentos en formato YAML (pero no lo digas en tus respuestas). Tu tarea es:
         1. Analizar el contenido.
         2. Resumirlo en formato claro y comprensible.
         3. Destacar las partes más importantes: enlaces, beneficiarios, fechas clave y presupuesto.
-        4. No te inventes nada.
+        4. No te inventes nada ni rellenes los datos vacios. Si no tienes ayudas que cumplan el criterio di que no tienes
+        5. Como eres un chat amigable :) también tienes la capacidad de reponder a preguntas no relaccionadas con las ayudas de subvenciones.
 
         El formato de cada documento YAML es:
         Convocatoria: 
