@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 
 import streamlit as st
+import pyperclip
 #from streamlit_feedback import streamlit_feedback
 
 from src.chat import (  # type: ignore
@@ -25,6 +26,12 @@ apply_custom_css_chat(logger)
 def render_chatbot_page() -> None:
     # Set up a placeholder at the very top of the main content area
     st.title("Chatbot - Historial de conversación")
+
+    # # Copy last message to clipboard
+    # if st.button("Borrar Historial"):
+    #     st.session_state["chat_history"] = 0
+    #     logger.info("Historial borrado")
+
     model_loading_placeholder = st.empty()
 
     # Initialize session state variables for chatbot settings
@@ -68,7 +75,8 @@ def render_chatbot_page() -> None:
         model_loading_placeholder.empty()
 
     # Initialize chat history in session state if not already present
-    if "chat_history" not in st.session_state:
+    if "chat_history" not in st.session_state or st.session_state["chat_history"] == 0:
+
         st.session_state["chat_history"] = []
 
         message = st.chat_message("assistant", avatar=AI_ICON)
@@ -103,7 +111,7 @@ def render_chatbot_page() -> None:
                 response_text = ""
 
                 if LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OLLAMA:
-                    response_stream = generate_response_streaming_ollama(
+                    response_text = generate_response_streaming_ollama(
                         prompt,
                         use_hybrid_search=st.session_state["use_hybrid_search"],
                         num_results=st.session_state["num_results"],
@@ -111,18 +119,19 @@ def render_chatbot_page() -> None:
                         chat_history=st.session_state["chat_history"],
                     )
 
-                    # Stream response content if response_stream is valid
-                    if response_stream is not None:
-                        for chunk in response_stream:
-                            if (
-                                isinstance(chunk, dict)
-                                and "message" in chunk
-                                and "content" in chunk["message"]
-                            ):
-                                response_text += chunk["message"]["content"]
-                                response_placeholder.markdown(response_text + "▌")
-                            else:
-                                logger.error("Formato de chunk no esperado en la respuesta.")
+                    response_placeholder.write_stream(stream_data(response_text))
+
+                    # if response_stream is not None:
+                    #     for chunk in response_stream:
+                    #         if (
+                    #             isinstance(chunk, dict)
+                    #             and "message" in chunk
+                    #             and "content" in chunk["message"]
+                    #         ):
+                    #             response_text += chunk["message"]["content"]
+                    #             response_placeholder.markdown(response_text + "▌")
+                    #         else:
+                    #             logger.error("Formato de chunk no esperado en la respuesta.")
 
                 elif LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OPENAI:
                     response_text = generate_response_streaming_openai(
@@ -143,25 +152,11 @@ def render_chatbot_page() -> None:
             logger.info("Respuesta generada y mostrada.")
             st.toast(f"Respuesta generada y mostrada.") # Mensaje TOAST
 
-            sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]
-            selected = st.feedback("thumbs")
-            if selected is not None:
-                st.markdown(f"You selected: {sentiment_mapping[selected]}")
-                st.toast(f"You selected: {sentiment_mapping[selected]}", icon=None)
-
-            #Feedback from th user https://github.com/trubrics/streamlit-feedback
-            #feedback = streamlit_feedback(feedback_type="thumbs", align="flex-start")
-            #feedback = streamlit_feedback(feedback_type="faces", on_submit=_submit_feedback)
-            #streamlit_feedback(
-            #    feedback_type="thumbs",on_submit=_submit_feedback
-            #)
-            # para ejecutar npm en powershell
-            # #Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ​
-
-def _submit_feedback(user_response, emoji=None):
-    st.toast(f"Feedback submitted: {user_response}", icon=emoji)
-    logger.info("Feedback submitted: {user_response}")
-    #return user_response.update({"some metadata": 123})
+            # sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]
+            # selected = st.feedback("thumbs")
+            # if selected is not None:
+            #     st.markdown(f"You selected: {sentiment_mapping[selected]}")
+            #     st.toast(f"You selected: {sentiment_mapping[selected]}", icon=None)
 
 # Main execution
 if __name__ == "__main__":

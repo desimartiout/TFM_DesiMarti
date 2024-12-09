@@ -5,13 +5,25 @@ import re
 from typing import List
 import time
 import streamlit as st
+from datetime import datetime
+import os
 
 from src.constants import LOG_FILE_PATH, CHATBOT_WELLCOME, ESTILOS_INICIO, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB, ESTILOS
 
 
 def setup_logging() -> None:
+
+    current_date = datetime.now().strftime("%Y-%m-%d")
+
+    ruta_actual = os.getcwd()   #Ruta donde se ejecuta el fichero python
+
+    ruta_log = ruta_actual + LOG_FILE_PATH
+
+    # Crear el nombre del archivo con la fecha
+    log_file_path = os.path.join(ruta_log, f"{current_date}.log")
+
     logging.basicConfig(
-        filename=LOG_FILE_PATH,
+        filename=log_file_path,
         filemode="a",
         format="%(asctime)s - %(levelname)s - %(message)s",
         level=logging.INFO,

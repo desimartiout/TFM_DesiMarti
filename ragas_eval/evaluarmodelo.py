@@ -15,6 +15,8 @@ https://github.com/mosh98/RAG_With_Models/blob/main/evaluation/RAGAS%20DEMO.ipyn
 !pip install nltk
  """
 
+import logging
+
 #1. Prepare Dataset
 from datasets import Dataset, DatasetDict
 import pandas as pd
@@ -29,10 +31,15 @@ from ragas import EvaluationDataset, SingleTurnSample
 
 from ragas.run_config import RunConfig
 
+from constantes import OLLAMA_MODEL_NAME_LLM, OLLAMA_MODEL_NAME_EMBED
+from utils import setup_logging_ragas, write_eval_to_txt
+
 my_run_config = RunConfig(max_workers=64, timeout=60)
 
+setup_logging_ragas()
+
 # Leer el JSON desde un archivo local
-with open("c:/Users/desim/Documents/GitHub/TFM_DesiMarti/ragas/dataset/eval.json", "r") as file:
+with open("c:/Users/desim/Documents/GitHub/TFM_DesiMarti/ragas_eval/dataset/eval.json", "r") as file:
     data = json.load(file)
 
 # Crear un DatasetDict para simular la estructura de Hugging Face
@@ -67,16 +74,17 @@ from ragas.metrics import (
     context_precision
 )
 
-
-
 # information found here: https://docs.ragas.io/en/latest/howtos/customisations/bring-your-own-llm-or-embs.html
-langchain_llm = ChatOllama(model="llamaAyudas:latest")
-langchain_embeddings = OllamaEmbeddings(model="llamaAyudas:latest")
+langchain_llm = ChatOllama(model=OLLAMA_MODEL_NAME_LLM)
+langchain_embeddings = OllamaEmbeddings(model=OLLAMA_MODEL_NAME_EMBED)
 
 result = evaluate(eval_dataset,
                   metrics=[
         faithfulness,
         answer_relevancy,
         context_recall,context_precision], llm=langchain_llm,embeddings=langchain_embeddings,run_config=my_run_config)
-print(result.to_pandas())
-print("----------")
+# logging.info(result.to_pandas())
+logging.info(result.to_pandas())
+write_eval_to_txt(result.to_pandas())
+logging.info("Evaluación del modelo realizada correctamente")
+print("Proceso completado")

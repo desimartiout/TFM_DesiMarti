@@ -151,54 +151,53 @@ def consultaChromadb(query_text, top_k, similarity_threshold: float = 1.0):
                 logger.info(f"SEARCH_CHROMA - {results['distances'][i][j]}:")    
                 texto = result[j]
                 contexto += f"Convocatoria: {texto}\n"
-        
 
     logger.info(f"SEARCH_CHROMA - Contexto {contexto}:")
 
     return contexto
 
-#Método para consultar en la bd vectorial y con el resultado ir al LLM a completar la contestación de una forma básica
-def consultaBasica_NOUSO(query_text: str, top_k: int = 5):
-    logger.info(f"SEARCH_CHROMA - query_text: {query_text}")
-    contexto = consultaChromadb(query_text, top_k)
+# #Método para consultar en la bd vectorial y con el resultado ir al LLM a completar la contestación de una forma básica
+# def consultaBasica_NOUSO(query_text: str, top_k: int = 5):
+#     logger.info(f"SEARCH_CHROMA - query_text: {query_text}")
+#     contexto = consultaChromadb(query_text, top_k)
 
-    #Consulta básica sin Prompt
-    llm = OllamaLLM(model=OLLAMA_MODEL_NAME, temperature=OLLAMA_TEMPERATURE)
-    prompt = f"Usando esta información: {contexto} \n Responde: {query_text}]"
-    #Basada en el resultado de ChromaDB
-    respuesta = llm(prompt)
+#     #Consulta básica sin Prompt
+#     llm = OllamaLLM(model=OLLAMA_MODEL_NAME, temperature=OLLAMA_TEMPERATURE)
+#     prompt = f"Usando esta información: {contexto} \n Responde: {query_text}]"
+#     #Basada en el resultado de ChromaDB
+#     respuesta = llm(prompt)
 
-    # Imprimir la respuesta
-    logger.info(f"SEARCH_CHROMA - Prompt: {prompt}")
-    # Imprimir la respuesta
-    logger.info(f"SEARCH_CHROMA - Respuesta: {respuesta}")
+#     # Imprimir la respuesta
+#     logger.info(f"SEARCH_CHROMA - Prompt: {prompt}")
+#     # Imprimir la respuesta
+#     logger.info(f"SEARCH_CHROMA - Respuesta: {respuesta}")
 
-#Método para consultar en la bd vectorial y con el resultado ir al LLM a completar la contestación mediante prompt
-def consultaPrompt_NOUSO(query_text: str, top_k: int = 5):
-    contexto = consultaChromadb(query_text, top_k)
+# #Método para consultar en la bd vectorial y con el resultado ir al LLM a completar la contestación mediante prompt
+# def consultaPrompt_NOUSO(query_text: str, top_k: int = 5):
+#     contexto = consultaChromadb(query_text, top_k)
 
-    llm = ChatOllama(
-        model=OLLAMA_MODEL_NAME,
-        temperature=OLLAMA_TEMPERATURE,
-    )
+#     llm = ChatOllama(
+#         model=OLLAMA_MODEL_NAME,
+#         temperature=OLLAMA_TEMPERATURE,
+#     )
 
-    prompt = ChatPromptTemplate.from_messages(
-        [
-            (
-                "system",
-                "Tu eres un asistente virtual para contestar a ayudas públicas del gobierno de españa, te adjuntaré una información que debes usar para proporcionar la respuesta. No te inventes información que no esté en esta información.",
-            ),
-            ("human", "{input}"),
-        ]
-    )
+#     prompt = ChatPromptTemplate.from_messages(
+#         [
+#             (
+#                 "system",
+#                 "Tu eres un asistente virtual para contestar a ayudas públicas del gobierno de españa, te adjuntaré una información que debes usar para proporcionar la respuesta. No te inventes información que no esté en esta información.",
+#             ),
+#             ("human", "{input}"),
+#         ]
+#     )
 
-    queryContext = f"Usando esta información: {contexto}. Responde: {query_text}" 
+#     queryContext = f"Usando esta información: {contexto}. Responde: {query_text}" 
 
-    chain = prompt | llm
-    ai_msg = chain.invoke(
-        {
-            "input": f"{queryContext}",
-        }
-    )
-    logger.info(f"SEARCH_CHROMA - queryContext: {queryContext}")
-    logger.info(f"SEARCH_CHROMA - {ai_msg}")
+#     chain = prompt | llm
+#     ai_msg = chain.invoke(
+#         {
+#             "input": f"{queryContext}",
+#         }
+#     )
+#     logger.info(f"SEARCH_CHROMA - queryContext: {queryContext}")
+#     logger.info(f"SEARCH_CHROMA - {ai_msg}")

@@ -32,7 +32,7 @@ LLM_TIPOMODELO_OLLAMA = "OLLAMA"
 LLM_TIPOMODELO_OPENAI = "OPENAI"
 
 # CONFIGURACIÓN DEL MODELO A UTILIZAR OLLAMA (requiere su instalación en local) o OPENAI (Requiere tener una API KEY de OPENAI)
-#LLM_MODELO_SELECCIONADO = LLM_TIPOMODELO_OLLAMA
+LLM_MODELO_SELECCIONADO = LLM_TIPOMODELO_OLLAMA
 OLLAMA_MODEL_NAME = "llamaAyudas:latest"
 # OLLAMA_MODEL_NAME = (
 #     "llama3.2:1b"
@@ -42,7 +42,7 @@ OLLAMA_MODEL_NAME = "llamaAyudas:latest"
 # )
 OLLAMA_TEMPERATURE = 0.9
 
-LLM_MODELO_SELECCIONADO = LLM_TIPOMODELO_OPENAI #--> OPCION CON OPENAI QUE REQUIERE DE TENER LA VARIABLE DE ENTORNO CON EL API KEY DE OPENAI
+# LLM_MODELO_SELECCIONADO = LLM_TIPOMODELO_OPENAI #--> OPCION CON OPENAI QUE REQUIERE DE TENER LA VARIABLE DE ENTORNO CON EL API KEY DE OPENAI
 OPENAI_MODEL_NAME = "gpt-3.5-turbo"     #(en este caso GPT-3.5 Turbo)
 # SI QUIERES VER SI TIENES LA VARAIBLE DE ENTORNO PUEDES USAR ESTE CÓDIGO
 # import os
@@ -59,7 +59,7 @@ OPENAI_MODEL_NAME = "gpt-3.5-turbo"     #(en este caso GPT-3.5 Turbo)
 ####################################################################################################
 
 # Logging
-LOG_FILE_PATH = "./logs/applog.txt"  # File path for the application log file
+LOG_FILE_PATH = "/logs/"  # File path for the application log file
 # # OpenSearch settings
 # OPENSEARCH_HOST = "localhost"  # Hostname for the OpenSearch instance
 # OPENSEARCH_PORT = 9200  # Port number for OpenSearch
