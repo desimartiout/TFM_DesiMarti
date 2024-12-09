@@ -6,19 +6,25 @@ Bienvenido al Chatbot especializado en búsqueda de ayudas y subvenciones úblic
 - **Consultas bd vectoriales:** Uso de búsquedas vectoriales con Chromadb.
 - **Local LLM** Búsqueda de información en documentos mediante el uso de bases de datos vectoriales y LLM local  con Ollama o OPENAI.
 
-### Ollama instalar modelo en local desde línea de comando on ollama
-ollama pull llama3.2:1b
-
-### Arrancar el modelo con OLlama
-ollama run llama3.2:1b
 
 ### 🚀 Como comenzar
 1. Clonar el repositorio: `git clone https://github.com/desimartiout/TFM_DesiMarti.git`
 2. Instalar dependencias: `pip install -r requirements.txt`
-3. Configurar fichero de parámetros en `constants.py` para elegir el modelo de embeddings y el modelo de LLM.
+3. Configurar fichero de parámetros en `src/constants.py` para elegir el modelo de embeddings y el modelo de LLM.
 4. Ejecutar la aplicación Streamlit: `streamlit run Inicio.py`
 
-### 📘 OPENAI
+## 📘 OLLAMA
+
+### Ollama instalar modelo en local desde línea de comando on ollama
+ollama pull llama3.2:1b
+
+Si queremos hacer una copia del modelo para no trabajar directamente sobre el descargado lo podemos hacer así
+ollama cp llamaAyudas:latest
+
+### Arrancar el modelo con OLlama
+ollama run llamaAyudas:latest
+
+## 📘 OPENAI
 
 # SI QUIERES VER SI TIENES LA VARAIBLE DE ENTORNO PUEDES USAR ESTE CÓDIGO
 import os
@@ -39,6 +45,17 @@ Ejecutar .....
 
 ### 📘 Instalar ragas
 Ejecutar ....
+
+**Evaluar el modelo**
+python.exe evaluarmodelo.py eval.json
+
+Esto genera un fichero csv con los resultados de la evaluación en el directorio ragas_eval/results cuyo nombre contiene la fecha y hora de la evaluación, por ejemplo 2024_12_09_19_38_39_ragas_results.csv
+
+El formato del fichero es este:
+
+"user_input";"retrieved_contexts";"response";"reference";"faithfulness";"answer_relevancy";"context_recall";"context_precision"
+
+Donde los campos "user_input";"retrieved_contexts";"response";"reference" contienen los datos evaluados y los campos "faithfulness";"answer_relevancy";"context_recall";"context_precision" contienen los datos de la evaluación.
 
 ### 📘 Referencias
 **Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas** (https://www.pap.hacienda.gob.es/bdnstrans/)

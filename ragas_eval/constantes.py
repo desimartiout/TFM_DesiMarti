@@ -1,7 +1,7 @@
 import os
 
-OLLAMA_MODEL_NAME_LLM = "llamaAyudas:latest"
-OLLAMA_MODEL_NAME_EMBED = "llamaAyudas:latest"
+OLLAMA_MODEL_NAME_RAGAS_LLM = "llamaAyudas:latest"
+OLLAMA_MODEL_NAME_RAGAS_EMBED = "llamaAyudas:latest"
 
 #Ruta base donde se almacenan los datasets de evaluación para ragas
 RAGAS_FILE_PATH = os.getcwd() + "/ragas_eval/datasets/"
