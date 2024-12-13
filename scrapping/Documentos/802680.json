@@ -1,0 +1,64 @@
+{
+    "id": 1004240,
+    "organo": {
+        "nivel1": "COMUNIDAD FORAL DE NAVARRA",
+        "nivel2": "DEPARTAMENTO DE DERECHOS SOCIALES, ECONOMIA SOCIAL Y EMPLEO",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.navarra.es",
+    "codigoBDNS": "802680",
+    "fechaRecepcion": "2024-12-12T16:32:13+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 410000,
+    "mrr": false,
+    "descripcion": "Subvención a  organizaciones empresariales y sindicales para la ejecución de proyectos colaborativos sobre  riesgos laborales, a través de la figura del Delegado Territorial de Prevención, de 2025.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades asociativas",
+            "codigo": "94"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES22 - COMUNIDAD FORAL DE NAVARRA"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Subvención a  organizaciones empresariales y sindicales para la ejecución de proyectos colaborativos sobre  riesgos laborales, a través de la figura del Delegado Territorial de Prevención, de 2025.",
+    "urlBasesReguladoras": "www.navarra.es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "día siguiente al de su publicación en el BON",
+    "textFin": "15 días hábiles a contar desde el día siguiente al de su publicación en el BON",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175917,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Orden Foral aprobación BBRR_01_1141E-2024_CSV.pdf",
+            "long": 333432,
+            "datMod": "2024-12-12T18:15:03.000+01:00",
+            "datPublicacion": "2024-12-12T18:15:03.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

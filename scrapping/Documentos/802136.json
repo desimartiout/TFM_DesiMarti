@@ -1,0 +1,144 @@
+{
+    "id": 1003696,
+    "organo": {
+        "nivel1": "IRUN",
+        "nivel2": "AYUNTAMIENTO DE IRUN",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.irun.org/sac",
+    "codigoBDNS": "802136",
+    "fechaRecepcion": "2024-12-11T11:33:59+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 28000,
+    "mrr": false,
+    "descripcion": "Subvención para la concesión de una ayuda a las personas jurídicas que se encargarán de la publicación de una revista en euskera en 2025",
+    "descripcionLeng": "2025ean euskarazko aldizkaria argitaratzeaz arduratuko diren pertsona juridikoei dirulaguntza ematea",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "INFORMACIÓN Y COMUNICACIONES",
+            "codigo": "J"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Ordenantza Orokorra, Irungo Udalak deialdi bidezko dirulaguntzak emateko oinarriak arautzen dituena // Ordenanza General Reguladora de las Bases para la concesión de subvenciones mediante convocatoria por el Ayuntamiento de Irun",
+    "urlBasesReguladoras": "https://egoitza.gipuzkoa.eus/gao-bog/castell/bog/2017/06/29/c1704626.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Día siguiente al de la publicación de la convocatoria en el Boletín Oficial de Gipuzkoa",
+    "textFin": "Quince días naturales contados a partir del día siguiente a la publicación de la convocatoria",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174548,
+            "descripcion": "Justifikatzeko inprimakia",
+            "nombreFic": "JUSTIFIKAZIOA C eranskina docx.docx",
+            "long": 60534,
+            "datMod": "2024-12-11T13:15:27.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:27.000+01:00"
+        },
+        {
+            "id": 1174543,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "2025 IRUNERO  DEIALDIA.docx",
+            "long": 98799,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174544,
+            "descripcion": "Eskatzeko inprimakia",
+            "nombreFic": "ESKATZEKO ORRIA (A eranskina).docx",
+            "long": 61404,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174547,
+            "descripcion": "Proiekturako gida",
+            "nombreFic": "EGITASMOA B eranskina.docx",
+            "long": 32558,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174559,
+            "descripcion": "Fakturen zerrenda",
+            "nombreFic": "SUBVENCIONES - Relación de facturas.docx",
+            "long": 30048,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174551,
+            "descripcion": "Diru-sarreren eta gastuen kontu justifikatiboa",
+            "nombreFic": "SUBVENCIONES - Cuenta justificativa (balance econ).docx",
+            "long": 30228,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174553,
+            "descripcion": "Bestelako diru-sarreren aitorpena",
+            "nombreFic": "SUBVENCIONES - Declaracion Otros Ingresos.docx",
+            "long": 60831,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174557,
+            "descripcion": "Ardurapeko adierazpena",
+            "nombreFic": "SUBVENCIONES - Declaración Responsable v2019-RGPD.docx",
+            "long": 62218,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174558,
+            "descripcion": "Aurrekontua",
+            "nombreFic": "SUBVENCIONES - Presupuesto.docx",
+            "long": 30051,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174541,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "2025 IRUNERO  DEIALDIA.docx",
+            "long": 98799,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        },
+        {
+            "id": 1174549,
+            "descripcion": "Memoriarako gida",
+            "nombreFic": "MEMORIA D eranskina.docx",
+            "long": 30227,
+            "datMod": "2024-12-11T13:15:26.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:26.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

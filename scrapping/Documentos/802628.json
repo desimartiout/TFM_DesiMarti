@@ -1,0 +1,72 @@
+{
+    "id": 1004188,
+    "organo": {
+        "nivel1": "VILA-SECA",
+        "nivel2": "AYUNTAMIENTO DE VILA-SECA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802628",
+    "fechaRecepcion": "2024-12-12T14:15:08+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 3000,
+    "mrr": false,
+    "descripcion": "Concesión de subvención a la Asociación la Tramoia de Vila-seca 2024",
+    "descripcionLeng": "Concessió de subvenció a la Associació la Tramoia de Vila-seca 2024",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES514 - Tarragona"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "https://www.seu-e.cat/ca/web/vilaseca/govern-obert-i-transparencia/contractes-convenis-i-subvencions/convenis-i-subvencions/pla-estrategic-de-subvencions-188",
+    "urlBasesReguladoras": "https://www.seu-e.cat/ca/web/vilaseca/govern-obert-i-transparencia/contractes-convenis-i-subvencions/convenis-i-subvencions/pla-estrategic-de-subvencions-188",
+    "sePublicaDiarioOficial": true,
+    "abierto": true,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175797,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "carta subvenció cat 2024.pdf",
+            "long": 312616,
+            "datMod": "2024-12-12T15:15:05.000+01:00",
+            "datPublicacion": null
+        },
+        {
+            "id": 1175798,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "carta subvenció cast2024.pdf",
+            "long": 27331,
+            "datMod": "2024-12-12T15:15:05.000+01:00",
+            "datPublicacion": null
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

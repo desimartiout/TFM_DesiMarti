@@ -1,0 +1,79 @@
+{
+    "id": 1003993,
+    "organo": {
+        "nivel1": "EXTREMADURA",
+        "nivel2": "SECRETARÍA GENERAL DE ECONOMÍA, EMPRESA Y COMERCIO",
+        "nivel3": null
+    },
+    "sedeElectronica": "HTTPS://WWW.JUNTAEX.ES/W/0654923?INHERITREDIRECT=TRUE",
+    "codigoBDNS": "802433",
+    "fechaRecepcion": "2024-12-12T09:56:14+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 360000,
+    "mrr": false,
+    "descripcion": "Ayudas 2025 para el fomento del empleo especializado en comercio exterior, según convocatoria efectuada por Resolución de 3 de diciembre de 2024.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+            "codigo": "M"
+        },
+        {
+            "descripcion": "Comercio al por mayor e intermediarios del comercio, excepto de vehículos de motor y motocicletas",
+            "codigo": "46"
+        },
+        {
+            "descripcion": "INDUSTRIA MANUFACTURERA",
+            "codigo": "C"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES43 - EXTREMADURA"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "Decreto 59/2023, de 24 de mayo, de bases reguladoras de las ayudas para el fomento del empleo especializado en comercio exterior, y se aprueba la primera convocatoria correspondiente al ejercicio 2023",
+    "urlBasesReguladoras": "https://doe.juntaex.es/pdfs/doe/2023/1110o/23040102.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "El día siguiente a la publicación",
+    "textFin": "Cinco meses desde el día siguiente a la publicación",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FSE+ - FONDO SOCIAL EUROPEO PLUS"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 2023/2831 de minimis, General",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175269,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Ayudas 2025 para el fomento del empleo especializado en comercio exterior, según convocatoria efectuada por Resolución de 3 de diciembre de 2024_.PDF",
+            "long": 625112,
+            "datMod": "2024-12-12T11:15:13.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:13.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,72 @@
+{
+    "id": 1003686,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD DE ALICANTE",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802126",
+    "fechaRecepcion": "2024-12-11T11:16:11+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 200,
+    "mrr": false,
+    "descripcion": "CONCURSO DE CARTELES CON MOTIVO DEL DÍA INTERNACIONAL DE LA MUJER Y LA NIÑA EN LA CIENCIA 2025, DE LA UNIVERSIDAD DE ALICANTE",
+    "descripcionLeng": "CONCURS DE CARTELLS AMB MOTIU DEL DIA INTERNACIONAL DE LA DONA I LA XIQUETA EN LA CIÈNCIA 2025 DE LA UNIVERSITAT D'ALACANT",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación postsecundaria",
+            "codigo": "85.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES - ESPAÑA "
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "CONCURSO DE CARTELES CON MOTIVO DEL DÍA INTERNACIONAL DE LA MUJER Y LA NIÑA EN LA CIENCIA 2025, DE LA UNIVERSIDAD DE ALICANTE",
+    "urlBasesReguladoras": "https://www.boua.ua.es/Acuerdos/DescargarAcuerdo/54661",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-08T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-04T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174535,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "011.pdf",
+            "long": 206634,
+            "datMod": "2024-12-11T13:15:28.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:28.000+01:00"
+        },
+        {
+            "id": 1174534,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "011.pdf",
+            "long": 206634,
+            "datMod": "2024-12-11T13:15:28.000+01:00",
+            "datPublicacion": "2024-12-11T13:15:28.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

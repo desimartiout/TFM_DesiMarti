@@ -1,6 +1,7 @@
 import logging
 import chromadb
 from sentence_transformers import SentenceTransformer
+from chromadb.config import Settings
 from langchain_ollama import OllamaLLM
 
 from langchain_core.prompts import ChatPromptTemplate
@@ -32,7 +33,14 @@ def cargarDocumentosMOCK(collection):
 
 
 def cargarDocumento(documento, metadato, id):
-    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
+    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH, settings=Settings(anonymized_telemetry=False))
+
+    # collection = client.create_collection(
+    #     name="collection_name",
+    #     metadata={"hnsw:space": "cosine"} # l2 is the default
+    # )
+    # Valid options for hnsw:space are "l2", "ip, "or "cosine". The default is "l2" which is the squared L2 norm.
+    # https://docs.trychroma.com/guides
     collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
 
     embeddings = model.encode([documento])  # Generar embeddings para la lista de textos
@@ -47,8 +55,8 @@ def cargarDocumento(documento, metadato, id):
 
 # Función para obtener todos los documentos
 def get_all_documents():
-    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
-    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
+    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH, settings=Settings(anonymized_telemetry=False))
+    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME,)
 
     #Si no tengo documentos cargados los moqueo para poder tener datos.
     #if (collection.count()==0):
@@ -70,7 +78,7 @@ def get_all_documents():
 
 # Función para realizar una consulta (simulando una búsqueda por texto)
 def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
-    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH)
+    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH, settings=Settings(anonymized_telemetry=False))
     collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
     #Si no tengo documentos cargados los moqueo para poder tener datos.
     #if (collection.count()==0):
@@ -82,12 +90,18 @@ def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
   
     # Generar el embedding para la consulta
     query_embedding = model.encode([query_text]).tolist()
-  
+
+    logger.info(f"SEARCH_CHROMA - Previo a consulta")
+
     # Realizar una búsqueda de similitud
     results = collection.query(
         query_embeddings=query_embedding,
         n_results=top_k
     )
+
+
+    logger.info(f"SEARCH_CHROMA - resultados: {results}")
+
     return results
 
 

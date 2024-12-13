@@ -1,0 +1,76 @@
+{
+    "id": 1003839,
+    "organo": {
+        "nivel1": "VILLANUEVA DE LOS INFANTES",
+        "nivel2": "AYUNTAMIENTO DE VILLANUEVA DE LOS INFANTES",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://infantes.org/sede-electronica/",
+    "codigoBDNS": "802279",
+    "fechaRecepcion": "2024-12-11T14:43:28+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 15443.63,
+    "mrr": false,
+    "descripcion": "DECRETO DE ALCALDÍA Nº 2024/443 DE FECHA 10/12/2024 POR EL QUE SE APRUEBA LA 2ª CONVOCATORIA DE SUBVENCIONES PARA ASOCIACIONES CULTURALES DE VILLANUEVA DE LOS INFANTES PARA EL EJERCICIO 2024.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES422 - Ciudad Real"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "BASES PARA LA CONCESIÓN DE SUBVENCIONES PARA ASOCIACIONES CULTURALES DE VILLANUEVA DE LOS INFANTES EJERCICIO 2024 (2ª CONVOCATORIA).",
+    "urlBasesReguladoras": "https://infantes.org/wp-content/uploads/2024/10/BASESCONVOCATORIA- SUBVENCIONES-ASOCIACIONESCULTURALES- 2024.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "DÍA SIGUIENTE A LA PUBLICACIÓN EN EL BOP ",
+    "textFin": "5 DÍAS HÁBILES",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174876,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Decreto Directo 2ª convocatoria subvenciones asociaciones culturales 2024.pdf",
+            "long": 143728,
+            "datMod": "2024-12-11T15:15:20.000+01:00",
+            "datPublicacion": "2024-12-11T15:15:20.000+01:00"
+        }
+    ],
+    "anuncios": [
+        {
+            "numAnuncio": 171738,
+            "titulo": "2ª CONVOCATORIA PARA LA CONCESIÓN DE SUBVENCIONES PARA ASOCIACIONES CULTURALES DE VILLANUEVA DE LOS INFANTES, PARA  EL EJERCICIO 2024.",
+            "tituloLeng": null,
+            "texto": "<p>Primero.- Objeto. El objeto de las presentes bases es regular la concesión de subvenciones a asociaciones cultura les de Villanueva de los Infantes y que participen de forma activa en los distintos actos turísticos, históricos y culturales del municipio.</p><p>Segundo.- Requisitos de los sujetos beneficiarios.</p><p>Podrán ser beneficiarios de esta convocatoria de subvenciones:</p><p>- Las asociaciones y entidades sin ánimo de lucro debidamente inscritas en el Registro municipal de asociaciones vecinales y que lo soliciten de acuerdo con el contenido de esta convocatoria por re gistro telemático.</p><p>No podrán obtener la condición de beneficiarias las entidades en quienes concurra alguna de las circunstancias contempladas en el art. 13.2 y 3 de la Ley 38/2003, General de Subvenciones.</p><p>No podrán ser beneficiarias aquellas entidades que no se encuentren al corriente de sus obliga ciones fiscales con el Ayuntamiento de Villanueva de los Infantes, así como de sus obligaciones tributa rias y con la Seguridad Social.</p><p>No podrán ser beneficiarias aquellas entidades que, habiendo recibido ayudas con anterioridad, no hayan procedido a su justificación, de acuerdo con las normas reguladoras de la convocatoria correspondiente.</p><p>No podrán ser beneficiarias aquellas entidades a las que se les haya concedido una subvención en la primera convocatoria de estas ayudas.</p><p>Tercero.- Crédito presupuestario. Las subvenciones de la presente convocatoria se financiarán con cargo a la aplicación presupues taria 334 481 “Promoción cultural. Subvenciones.” del Presupuesto Municipal vigente, con un presu puesto total para esta convocatoria de 15.443,63 €.</p><p>Cuarto.- Solicitudes.</p><p>Las solicitudes y el resto de la documentación requerida en estas Bases, se encontrarán a disposición de los interesados en las Oficinas Generales del Ayuntamiento de Villanueva de los Infantes, en la web municipal (https://infantes.org) y en la Base de Datos Nacional de Subvenciones.</p><p>La solicitud se formalizará mediante instancia dirigida a la Sra. Alcaldesa-Presidenta del Ayunta miento de Villanueva de los Infantes, conforme al Anexo I de las presentes Bases y se presentará en el Registro Electrónico del Ayuntamiento de Villanueva de los Infantes, de acuerdo con lo establecido en la Ley 39/2015, de 1 de octubre del Procedimiento Administrativo Común de las Administraciones Públicas.</p><p>El plazo para presentar las solicitudes a las que se refiere esta convocatoria será de 5 días hábi les contados a partir del día siguiente a su publicación en el Boletín Oficial de la Provincia de Ciudad Real. Si el último día del plazo fuese inhábil, se entenderá prorrogado al primer día hábil siguiente.</p>",
+            "textoLeng": null,
+            "url": "https://se1.dipucr.es:4443/SIGEM_BuscadorDocsWeb/getDocument.do?entidad=005&doc=6680292",
+            "cve": "H5dMSiEwgFimq4/NSWCg",
+            "desDiarioOficial": "B.O.P. DE CIUDAD REAL",
+            "datPublicacion": "2024-12-13T00:00:00.000+01:00"
+        }
+    ],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

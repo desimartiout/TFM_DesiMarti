@@ -1,0 +1,64 @@
+{
+    "id": 1003823,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD DE BURGOS",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802263",
+    "fechaRecepcion": "2024-12-11T13:59:49+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 950,
+    "mrr": false,
+    "descripcion": "Resolución de 5 de diciembre de 2024, del Rector de la Universidad de Burgos, por la que se convoca la IX Liga de Debate Preuniversitaria para el curso 2024/2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES412 - Burgos"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Resolución de 18 de diciembre de 2019, del Rectorado de la Universidad de Burgos, por la que se publican las bases reguladoras de la concesión de becas y ayudas de la Universidad de Burgos (BOCYL 15 de enero de 2020)",
+    "urlBasesReguladoras": "https://bocyl.jcyl.es/boletines/2020/01/15/pdf/BOCYL-D-15012020-3.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-24T00:00:00+01:00",
+    "textInicio": "Desde el día siguiente a la publicación de este extracto en el Boletín Oficial de Castilla y León ",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174822,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria IX Liga Preuniversitaria 2024 2025 firmada.pdf",
+            "long": 470126,
+            "datMod": "2024-12-11T15:15:25.000+01:00",
+            "datPublicacion": "2024-12-11T15:15:25.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

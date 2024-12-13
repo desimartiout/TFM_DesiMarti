@@ -47,7 +47,7 @@ openai_template: |
         Reglamento: 
         Otros documentos de la convocatoria: 
         
-        El formato que espero del listado de ayudas es el siguiente, esto es solo un ejemplo:
+        El formato que espero del listado de ayudas es el siguiente, los datos solo son un ejemplo:
 
         **Convocatoria de Ayuda: 795795**
         - **Órgano convocante:** MURCIA - AYUNTAMIENTO DE MURCIA
@@ -78,11 +78,13 @@ chatbot_wellcome: |
 
     #### **Ejemplos básicos de consulta**
     - **Por región**:  
-    _"¿Qué ayudas están disponibles en la Comunidad Valenciana?"_
+    _"¿Qué ayudas hay disponibles en Murcia?"_
     - **Por sector**:  
     _"¿Hay subvenciones para el sector agrícola?"_
     - **Por tipo de beneficiario**:  
-    _"¿Existen ayudas para PYMES en Madrid?"_
+    _"¿Existen ayudas para PYME en Cataluña?"_
+    - **Por organismo emisor**:  
+    _"¿Qué ayudas hay de la Diputación de Alicante?"_
     - **Por palabras clave**:  
     _"Busco subvenciones para mejora de viviendas."_
 
@@ -97,12 +99,16 @@ chatbot_wellcome: |
 
 chatbot_intro: |
     ##### **Recordatorio: Uso del Chatbot de Ayudas y Subvenciones**  
-    - **Describe tu necesidad**: Pregunta por ayudas específicas o generales.  
-        Ej.: _"¿Qué ayudas hay en Madrid para autónomos?"_  
-    - **Usa filtros**: Región, sector, tipo de beneficiario o palabras clave.  
-        Ej.: _"Subvenciones para innovación tecnológica."_  
-    - **Sé específico**: Combina criterios para resultados más relevantes.  
-        Ej.: _"Ayudas en Andalucía para pymes agrícolas."_  
+    - **Por región**:  
+    _ Ej.: "¿Qué ayudas hay disponibles en Murcia?"_
+    - **Por sector**:  
+    _ Ej.: "¿Hay subvenciones para el sector agrícola?"_
+    - **Por tipo de beneficiario**:  
+    _ Ej.: "¿Existen ayudas para PYME en Cataluña?"_
+    - **Por organismo emisor**:  
+    _ Ej.: "¿Qué ayudas hay de la Diputación de Alicante?"_
+    - **Por palabras clave**:  
+    _ Ej.: "Busco subvenciones para mejora de viviendas."_
 
     **¡Prueba ahora y encuentra lo que necesitas!**
 

@@ -1,0 +1,88 @@
+{
+    "id": 1003998,
+    "organo": {
+        "nivel1": "IRURA",
+        "nivel2": "AYUNTAMIENTO DE IRURA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.irura.eus/eu/",
+    "codigoBDNS": "802438",
+    "fechaRecepcion": "2024-12-12T10:14:51+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 5000,
+    "mrr": false,
+    "descripcion": "Bases reguladoras y convocatoria de los bonos para la compra en los establecimientos comerciales, hosteleros y de servicios de la localidad de Irura.",
+    "descripcionLeng": "Irurako herriko merkataritza, ostalaritza eta zerbitzuetako establezimenduetan erosteko bonuak arautzeko oinarri eta deialdia.",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Servicios de comidas y bebidas",
+            "codigo": "56"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "Bases reguladoras y convocatoria de los bonos para la compra en los establecimientos comerciales, hosteleros y de servicios de la localidad de Irura.",
+    "urlBasesReguladoras": "https://www.irura.eus/eu/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Deialdia argitaratu eta hurrengo egunetik hasita",
+    "textFin": "4 eguneko epea",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175284,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Erosketa bonoen oinarriak GAZTELANIA.pdf",
+            "long": 163114,
+            "datMod": "2024-12-12T11:15:11.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:11.000+01:00"
+        },
+        {
+            "id": 1175288,
+            "descripcion": "Eranskinak",
+            "nombreFic": "Eranskinak batera.pdf",
+            "long": 281554,
+            "datMod": "2024-12-12T11:15:11.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:11.000+01:00"
+        },
+        {
+            "id": 1175287,
+            "descripcion": "Anexos",
+            "nombreFic": "Eranskinak batera CAST.pdf",
+            "long": 284221,
+            "datMod": "2024-12-12T11:15:11.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:11.000+01:00"
+        },
+        {
+            "id": 1175285,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "Erosketa bonoen oinarriak.pdf",
+            "long": 161073,
+            "datMod": "2024-12-12T11:15:11.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:11.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

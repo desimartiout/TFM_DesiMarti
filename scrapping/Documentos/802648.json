@@ -1,0 +1,64 @@
+{
+    "id": 1004208,
+    "organo": {
+        "nivel1": "MEDINA DE RIOSECO",
+        "nivel2": "AYUNTAMIENTO DE MEDINA DE RIOSECO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802648",
+    "fechaRecepcion": "2024-12-12T14:33:24+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 2000,
+    "mrr": false,
+    "descripcion": "BASES Y CONVOCATORIA DE LA CAMPAÑA DE PROMOCIÓN COMERCIAL “MEDINA DE RIOSECO. PUERTO COMERCIAL DE LOS REYES MAGOS”",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Comercio al por menor, excepto de vehículos de motor y motocicletas",
+            "codigo": "47"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES418 - Valladolid"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "Ordenanza General de Subvenciones del Ayuntamiento de Medina de Rioseco (B.O.P. de la Provincia de Valladolid nº 249, de 28 de diciembre de 2018).",
+    "urlBasesReguladoras": "https://medinaderioseco.sedelectronica.es/transparency/a12e2147-500a-402b-9df7-2d9c32d1c012/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde el día siguiente de la publicación en el Boletín Oficial de la Provincia",
+    "textFin": "Hasta 10 días del día siguiente de la publicación en el Boletín Oficial de la Provincia",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175825,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "BASES REGULADORAS CAMPAÑA COMERCIO NAVIDAD 2024-2025.pdf",
+            "long": 386838,
+            "datMod": "2024-12-12T15:15:03.000+01:00",
+            "datPublicacion": "2024-12-12T15:15:03.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

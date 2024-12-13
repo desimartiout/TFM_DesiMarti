@@ -1,0 +1,99 @@
+{
+    "id": 1003727,
+    "organo": {
+        "nivel1": "OURENSE",
+        "nivel2": "AYUNTAMIENTO DE OURENSE",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802167",
+    "fechaRecepcion": "2024-12-11T12:29:58+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1812800,
+    "mrr": true,
+    "descripcion": "Acuerdo de la Junta de Gobierno Local del Ayuntamiento de Ourense por el que se aprueban las Bases y la convocatoria de subvenciones de las Ayudas de Barrios- ERRP- financiado por la UE Nextgeneration",
+    "descripcionLeng": "Acordo da Xunta de Goberno local do Concello de Ourense polo que se aproban as Bases e a convocatoria de subvencións das Axudas de Barrios- ERRP- financiado pola UE Nextgeneration",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "CONSTRUCCIÓN",
+            "codigo": "F"
+        },
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES113 - Ourense"
+        }
+    ],
+    "descripcionFinalidad": "Otras Prestaciones económicas",
+    "descripcionBasesReguladoras": "Ordenanza general de subvenciones del Ayuntamiento de Ourense",
+    "urlBasesReguladoras": "https://sede.ourense.gob.es/public/publications/list/municipalregulations/ORDE/details/50040757",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "8:30h del día siguiente a la publicación en el BOP",
+    "textFin": "6 meses desde la publicación",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174624,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "ACUERDO XGL CAST.pdf",
+            "long": 499083,
+            "datMod": "2024-12-11T13:15:17.000+01:00",
+            "datPublicacion": "2024-12-12T14:18:51.000+01:00"
+        },
+        {
+            "id": 1174629,
+            "descripcion": "Bases gallego",
+            "nombreFic": "BASES_GALLEGO.pdf",
+            "long": 773438,
+            "datMod": "2024-12-11T13:15:17.000+01:00",
+            "datPublicacion": "2024-12-12T14:18:51.000+01:00"
+        },
+        {
+            "id": 1174627,
+            "descripcion": "Bases castellano",
+            "nombreFic": "BASES_CASTELLANO.pdf",
+            "long": 728067,
+            "datMod": "2024-12-11T13:15:17.000+01:00",
+            "datPublicacion": "2024-12-12T14:18:51.000+01:00"
+        },
+        {
+            "id": 1174626,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "ACUERDO.pdf",
+            "long": 440999,
+            "datMod": "2024-12-11T13:15:17.000+01:00",
+            "datPublicacion": "2024-12-12T14:18:51.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

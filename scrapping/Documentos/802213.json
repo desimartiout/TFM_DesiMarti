@@ -1,0 +1,64 @@
+{
+    "id": 1003773,
+    "organo": {
+        "nivel1": "REGIÓN DE MURCIA",
+        "nivel2": "INSTITUTO DE INDUSTRIAS CULTURALES Y DE LAS ARTES DE LA REGIÓN DE MURCIA ( ICA )",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802213",
+    "fechaRecepcion": "2024-12-11T13:13:47+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 600000,
+    "mrr": false,
+    "descripcion": "RESOLUCIÓN DIRECTOR GENERAL DEL INSTITUTO DE INDUSTRIAS CULTURALES Y LAS ARTES REGIÓN DE MURCIA QUE CONVOCA AYUDAS ECONÓMICAS, EN RÉGIMEN DE CONCURRENCIA COMPETITIVA, DESTINADAS A LA PRODUCCIÓN DE OBRAS AUDIOVISUALES PARA CINE, TV Y PLATAFORMAS DIGITALES",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades cinematográficas, de vídeo y de programas de televisión",
+            "codigo": "59.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES62 - REGION DE MURCIA"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Orden de 27 de mayo de 2016 de la Consejería de Cultura y Portavocía (BORM nº 126, de 1 de junio), Modificada por Orden de 7 de octubre de 2019, de la Consejera de Educación y Cultura (BORM nº 247, de 25 de octubre de 2019).",
+    "urlBasesReguladoras": "https://www.borm.es/#/home/anuncio/01-06-2016/4818",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde publicación en BORM y para el 2º 01/06/2025",
+    "textFin": "Dos meses desde publicación y el 31/07/2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174716,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Resolución Ayudas Producción Obras Audiovisuales (COPIA).pdf",
+            "long": 644393,
+            "datMod": "2024-12-11T13:15:00.000+01:00",
+            "datPublicacion": "2024-12-11T13:17:37.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

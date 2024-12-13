@@ -1,0 +1,68 @@
+{
+    "id": 1004225,
+    "organo": {
+        "nivel1": "COMUNIDAD FORAL DE NAVARRA",
+        "nivel2": "DEPARTAMENTO DE DESARROLLO RURAL, MEDIO AMBIENTE Y ADMINISTRACIÓN LOCAL",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802665",
+    "fechaRecepcion": "2024-12-12T15:00:41+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 25000,
+    "mrr": false,
+    "descripcion": "Convocatoria de la subvención \"Ayudas a Entidades Locales de Navarra para la prevención de daños provocados por especies cinegéticas, 2025\".",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Caza, captura de animales y servicios relacionados con las mismas",
+            "codigo": "01.7"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES22 - COMUNIDAD FORAL DE NAVARRA"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "La Ley Foral 4/2014, de 4 de abril, que modifica la Ley Foral 17/2005, de 22 de diciembre, de Caza y Pesca de Navarra, en su artículo 52 “Medidas de fomento de la actividad cinegética”",
+    "urlBasesReguladoras": "www.navarra.es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": ".",
+    "textFin": ".",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175869,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "2025_Caza_EELL DAÑOS 2025-.pdf",
+            "long": 888608,
+            "datMod": "2024-12-12T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-12T15:30:00.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,254 @@
+{
+    "id": 1003961,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802401",
+    "fechaRecepcion": "2024-12-12T09:26:13+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 10000000,
+    "mrr": false,
+    "descripcion": "Bases Inviste 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": " Silvicultura y explotación forestal",
+            "codigo": "02"
+        },
+        {
+            "descripcion": "ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES",
+            "codigo": "N"
+        },
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        },
+        {
+            "descripcion": "Actividades de apoyo a la agricultura, a la ganadería y de preparación posterior a la cosecha",
+            "codigo": "01.6"
+        },
+        {
+            "descripcion": "Actividades de descontaminación y otros servicios de gestión de residuos",
+            "codigo": "39"
+        },
+        {
+            "descripcion": "ACTIVIDADES FINANCIERAS Y DE SEGUROS",
+            "codigo": "K"
+        },
+        {
+            "descripcion": "ACTIVIDADES INMOBILIARIAS",
+            "codigo": "L"
+        },
+        {
+            "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+            "codigo": "M"
+        },
+        {
+            "descripcion": "ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES",
+            "codigo": "Q"
+        },
+        {
+            "descripcion": "ADMINISTRACIÓN PÚBLICA Y DEFENSA; SEGURIDAD SOCIAL OBLIGATORIA",
+            "codigo": "O"
+        },
+        {
+            "descripcion": "Artes gráficas y reproducción de soportes grabados",
+            "codigo": "18"
+        },
+        {
+            "descripcion": "Captación, depuración y distribución de agua",
+            "codigo": "36"
+        },
+        {
+            "descripcion": "Caza, captura de animales y servicios relacionados con las mismas",
+            "codigo": "01.7"
+        },
+        {
+            "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHÍCULOS DE MOTOR Y MOTOCICLETAS",
+            "codigo": "G"
+        },
+        {
+            "descripcion": "Confección de prendas de vestir",
+            "codigo": "14"
+        },
+        {
+            "descripcion": "CONSTRUCCIÓN",
+            "codigo": "F"
+        },
+        {
+            "descripcion": "Extracción de minerales metálicos",
+            "codigo": "07"
+        },
+        {
+            "descripcion": "Fabricación de bebidas",
+            "codigo": "11"
+        },
+        {
+            "descripcion": "Fabricación de maquinaria y equipo n.c.o.p.",
+            "codigo": "28"
+        },
+        {
+            "descripcion": "Fabricación de material y equipo eléctrico",
+            "codigo": "27"
+        },
+        {
+            "descripcion": "Fabricación de muebles",
+            "codigo": "31"
+        },
+        {
+            "descripcion": "Fabricación de otro material de transporte",
+            "codigo": "30"
+        },
+        {
+            "descripcion": "Fabricación de otros productos minerales no metálicos",
+            "codigo": "23"
+        },
+        {
+            "descripcion": "Fabricación de productos de caucho y plásticos",
+            "codigo": "22"
+        },
+        {
+            "descripcion": "Fabricación de productos farmacéuticos",
+            "codigo": "21"
+        },
+        {
+            "descripcion": "Fabricación de productos informáticos, electrónicos y ópticos",
+            "codigo": "26"
+        },
+        {
+            "descripcion": "Fabricación de productos metálicos, excepto maquinaria y equipo",
+            "codigo": "25"
+        },
+        {
+            "descripcion": "Fabricación de vehículos de motor, remolques y semirremolques",
+            "codigo": "29"
+        },
+        {
+            "descripcion": "HOSTELERÍA",
+            "codigo": "I"
+        },
+        {
+            "descripcion": "Industria de la alimentación",
+            "codigo": "10"
+        },
+        {
+            "descripcion": "Industria de la madera y del corcho, excepto muebles; cestería y espartería",
+            "codigo": "16"
+        },
+        {
+            "descripcion": "Industria del cuero y del calzado",
+            "codigo": "15"
+        },
+        {
+            "descripcion": "Industria del papel",
+            "codigo": "17"
+        },
+        {
+            "descripcion": "Industria química",
+            "codigo": "20"
+        },
+        {
+            "descripcion": "Industria textil",
+            "codigo": "13"
+        },
+        {
+            "descripcion": "INFORMACIÓN Y COMUNICACIONES",
+            "codigo": "J"
+        },
+        {
+            "descripcion": "Metalurgia; fabricación de productos de hierro, acero y ferroaleaciones",
+            "codigo": "24"
+        },
+        {
+            "descripcion": "Otras industrias extractivas",
+            "codigo": "08"
+        },
+        {
+            "descripcion": "Otras industrias manufactureras",
+            "codigo": "32"
+        },
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        },
+        {
+            "descripcion": "Recogida, tratamiento y eliminación de residuos; valorización",
+            "codigo": "38"
+        },
+        {
+            "descripcion": "Recogida y tratamiento de aguas residuales",
+            "codigo": "37"
+        },
+        {
+            "descripcion": "Reparación e instalación de maquinaria y equipo",
+            "codigo": "33"
+        },
+        {
+            "descripcion": "Suministro de vapor y aire acondicionado",
+            "codigo": "35.3"
+        },
+        {
+            "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+            "codigo": "H"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "Resolución pola que se dá publicidade do Acordo do Consello de Dirección que aproba as bases reguladoras das axudas a proxectos de investimento empresarial para o ano 2025",
+    "urlBasesReguladoras": "www.xunta.gal/diario-oficial-galicia",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-20T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-09-30T00:00:00+02:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": "SA.56851",
+    "urlAyudaEstado": "https://competition-cases.ec.europa.eu/cases/SA.56851",
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 651/2014, DE 17 DE JUNIO, de exención de notificación",
+        "orden": null
+    },
+    "objetivos": [
+        {
+            "descripcion": "ART. 14 AYUDAS REGIONALES A LA INVERSIÓN "
+        },
+        {
+            "descripcion": "ART. 17 AYUDAS A LAS PYME. A LA INVERSIÓN EN FAVOR DE LAS PYME."
+        }
+    ],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175210,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Bases atracción de empresas 2025 (ca)_20241211_152631.pdf",
+            "long": 846871,
+            "datMod": "2024-12-12T11:15:20.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:20.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

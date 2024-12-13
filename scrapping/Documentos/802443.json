@@ -1,0 +1,107 @@
+{
+    "id": 1004003,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "CÁMARA DE COMERCIO DE CÁDIZ",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.camara.es/sede/cadiz",
+    "codigoBDNS": "802443",
+    "fechaRecepcion": "2024-12-12T10:31:39+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 46566.4,
+    "mrr": false,
+    "descripcion": "Convocatoria Pyme Global 2025 - Misión Comercial Singapur (Singapur) para empresas y autónomos de la provincia de Cádiz",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES INMOBILIARIAS",
+            "codigo": "L"
+        },
+        {
+            "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+            "codigo": "M"
+        },
+        {
+            "descripcion": "CONSTRUCCIÓN",
+            "codigo": "F"
+        },
+        {
+            "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+            "codigo": "H"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES612 - Cádiz"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Convocatoria Pyme Global 2025",
+    "urlBasesReguladoras": "https://www.camaracadiz.com/mision-comercial-singapur-2025",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-17T00:00:00+01:00",
+    "textInicio": "A las 09:00h desde el día hábil siguiente a la publicación del extracto en el BOP Cádiz",
+    "textFin": "A las 14:00h ",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 2023/2831 de minimis, General",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175310,
+            "descripcion": "Anexo I - Declaraciones Responsables",
+            "nombreFic": "Anexo I (SINGAPUR).pdf",
+            "long": 1670843,
+            "datMod": "2024-12-12T11:15:10.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:10.000+01:00"
+        },
+        {
+            "id": 1175311,
+            "descripcion": "Anexo II - Resolución de Admisión (MODELO)",
+            "nombreFic": "Anexo II - Modelo de Resolucion de admision Convocatoria Ayuda (SINGAPUR).pdf",
+            "long": 444083,
+            "datMod": "2024-12-12T11:15:10.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:10.000+01:00"
+        },
+        {
+            "id": 1175312,
+            "descripcion": "Anexo III - Tipología de Gastos Elegibles y Justificación",
+            "nombreFic": "Anexo III - Tipologia Gastos Elegibles y Justificacion (SINGAPUR).pdf",
+            "long": 482256,
+            "datMod": "2024-12-12T11:15:09.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:09.000+01:00"
+        },
+        {
+            "id": 1175309,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria (SINGAPUR).pdf",
+            "long": 412102,
+            "datMod": "2024-12-12T11:15:09.000+01:00",
+            "datPublicacion": "2024-12-12T11:15:09.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

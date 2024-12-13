@@ -1,0 +1,71 @@
+{
+    "id": 1003808,
+    "organo": {
+        "nivel1": "ANDALUCÍA",
+        "nivel2": "AGENCIA ANDALUZA DE INSTITUCIONES CULTURALES",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802248",
+    "fechaRecepcion": "2024-12-11T13:42:52+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 415000,
+    "mrr": false,
+    "descripcion": "Resolución de 11 de diciembre de 2024, de la AAIICC por la que se convocan para el año 2025 Subv. a producción de largometrajes, documentales y otras obras audiovisuales en Andalucía. Línea 3: Producción de documentales",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades cinematográficas, de vídeo y de programas de televisión",
+            "codigo": "59.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES61 - ANDALUCIA"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Orden de 11 de mayo de 2022, por la que se establecen las bases reguladoras de concesión de subvenciones, en régimen de concurrencia competitiva,a la producción de proyectos de largometrajes, de documentales y de otras obras audiovisuales en Andalucía",
+    "urlBasesReguladoras": "https://juntadeandalucia.es/eboja/2022/96/BOJA22-096-00050-8035-01_00261310.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-16T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-30T00:00:00+01:00",
+    "textInicio": "1er día hábil siguiente a la publicación en BOJA",
+    "textFin": "Hasta el 30 de enero de 2025",
+    "ayudaEstado": "SA.113120",
+    "urlAyudaEstado": "https://competition-cases.ec.europa.eu/cases/SA.113120",
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "REG (UE) 651/2014, DE 17 DE JUNIO, de exención de notificación",
+        "orden": null
+    },
+    "objetivos": [
+        {
+            "descripcion": "ART. 54 REGÍMENES DE AYUDA PARA OBRAS AUDIOVISUALES"
+        }
+    ],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174797,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "TextoConvocatoria.pdf",
+            "long": 1708456,
+            "datMod": "2024-12-11T15:15:33.000+01:00",
+            "datPublicacion": "2024-12-11T15:15:33.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,88 @@
+{
+    "id": 1003889,
+    "organo": {
+        "nivel1": "IRURA",
+        "nivel2": "AYUNTAMIENTO DE IRURA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.irura.eus/eu",
+    "codigoBDNS": "802329",
+    "fechaRecepcion": "2024-12-11T18:11:40+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 200,
+    "mrr": false,
+    "descripcion": "Convocatoria de Subvenciones para las personas del municipio de Irura para la realización de cursos en euskera en verano de 2024 organizados por la UEU y la UPV.",
+    "descripcionLeng": "2024ko udan UEUk eta EHUk euskaraz antolatzen dituzten ikastaroetan ikasteko, Irurako herritarrei dirulaguntzak emateko deialdia.",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "subvenciones para cursos de verano impartidos en euskera de la Universidad Vasca de Verano (UEU) y la Universidad del País Vasco. Udako Euskal Unibertsitateko eta Euskal Herriko Unibertsitateko udako euskarazko ikastaroetarako dirulaguntzak.",
+    "urlBasesReguladoras": "https://www.irura.eus/eu/hasiera",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Argitaratu eta hurrengo egunetik hasita / Desde el dia siguiente de la fecha de publicación ",
+    "textFin": "10 egun natural / 10 días naturales ",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175014,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "13-DEIALDIA.pdf",
+            "long": 98646,
+            "datMod": "2024-12-11T18:15:00.000+01:00",
+            "datPublicacion": "2024-12-11T18:17:45.000+01:00"
+        },
+        {
+            "id": 1175017,
+            "descripcion": "Oinarriak-bases",
+            "nombreFic": "14-OINARRIAK.pdf",
+            "long": 77050,
+            "datMod": "2024-12-11T18:15:00.000+01:00",
+            "datPublicacion": "2024-12-11T18:17:45.000+01:00"
+        },
+        {
+            "id": 1175016,
+            "descripcion": "Eskaera-Solicitud",
+            "nombreFic": "15-ESKAERA-ORRIA_elebiz.pdf",
+            "long": 182352,
+            "datMod": "2024-12-11T18:15:00.000+01:00",
+            "datPublicacion": "2024-12-11T18:17:45.000+01:00"
+        },
+        {
+            "id": 1175015,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "13-DEIALDIA.pdf",
+            "long": 98646,
+            "datMod": "2024-12-11T18:15:00.000+01:00",
+            "datPublicacion": "2024-12-11T18:17:45.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

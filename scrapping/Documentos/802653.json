@@ -1,0 +1,68 @@
+{
+    "id": 1004213,
+    "organo": {
+        "nivel1": "COMUNIDAD FORAL DE NAVARRA",
+        "nivel2": "DEPARTAMENTO DE DESARROLLO RURAL, MEDIO AMBIENTE Y ADMINISTRACIÓN LOCAL",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802653",
+    "fechaRecepcion": "2024-12-12T14:40:25+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 85000,
+    "mrr": false,
+    "descripcion": "Convocatoria de la subvención \"Ayudas a Entidades Locales de Navarra para la contratación de guardas de caza, 2025\".",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Caza, captura de animales y servicios relacionados con las mismas",
+            "codigo": "01.7"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES22 - COMUNIDAD FORAL DE NAVARRA"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "Ley Foral 11/2005 de Subvenciones",
+    "urlBasesReguladoras": "http://www.navarra.es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": ".",
+    "textFin": ".",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175846,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "2025_Caza_EELL GUARDAS 2025-.pdf",
+            "long": 889305,
+            "datMod": "2024-12-12T15:15:02.000+01:00",
+            "datPublicacion": "2024-12-12T15:30:00.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

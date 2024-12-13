@@ -1,0 +1,76 @@
+{
+    "id": 1004157,
+    "organo": {
+        "nivel1": "VIMIANZO",
+        "nivel2": "AYUNTAMIENTO DE VIMIANZO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802597",
+    "fechaRecepcion": "2024-12-12T13:32:59+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 16000,
+    "mrr": false,
+    "descripcion": "BASES REGULADORAS DE LA CONVOCATORIA DE SUBVENCIONES PARA EL FOMENTO DE ACTIVIDADES CULTURALES Y SOCIALES DEL AÑO 2024 MEDIANTE CONCURRENCIA COMPETITIVA",
+    "descripcionLeng": "BASES REGULADORAS DA CONVOCATORIA ORDINARIA DE SUBVENCIÓNS PARA O FOMENTO DE ACTIVIDADES CULTURAIS E SOCIAIS DO ANO 2024 MEDIANTE CONCORRENCIA COMPETITIVA",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES111 - A Coruña"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "BASES REGULADORAS DA CONVOCATORIA ORDINARIA DE SUBVENCIÓNS PARA O FOMENTO DE ACTIVIDADES CULTURAIS E SOCIAIS DO ANO 2024 MEDIANTE CONCORRENCIA COMPETITIVA",
+    "urlBasesReguladoras": "https://bop.dacoruna.gal/bopportal/publicado/2024/12/11/2024_0000008806.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "DESDE EL DÍA SIGUIENTE A LA PUBLICACIÓN DEL ESTRACTO EN EL BOP",
+    "textFin": "DIEZ DÍAS HÁBILES A CONTAR DESDE EL DÍA SIGUIENTE A LA PUBLICACIÓN DEL EXTRACTO EN EL BOP",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FSE - FONDO SOCIAL EUROPEO "
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175695,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "2024_SUBV CULTURAL.pdf",
+            "long": 4890296,
+            "datMod": "2024-12-12T15:15:11.000+01:00",
+            "datPublicacion": "2024-12-12T15:15:11.000+01:00"
+        },
+        {
+            "id": 1175691,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "2024_SUBV CULTURAL.pdf",
+            "long": 4890296,
+            "datMod": "2024-12-12T15:15:11.000+01:00",
+            "datPublicacion": "2024-12-12T15:15:11.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

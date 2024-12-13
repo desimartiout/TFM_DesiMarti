@@ -1,0 +1,72 @@
+{
+    "id": 1003888,
+    "organo": {
+        "nivel1": "CORUÑA, A",
+        "nivel2": "AYUNTAMIENTO DE CORUÑA, A",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.coruna.gal/sede/gl",
+    "codigoBDNS": "802328",
+    "fechaRecepcion": "2024-12-11T18:09:20+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 125000,
+    "mrr": false,
+    "descripcion": "Resolución de 11 de diciembre de 2024 de la concejala delegada del Área de Bienestar Social, Participación e Igualdad por la que se convocan las ayudas para el transporte en taxi de personas con discapacidad \"Bonotaxi 2025\"",
+    "descripcionLeng": "Resolución de 11 de decembro de 2024 da concelleira delegada da Área de Benestar Social, Participación e Igualdade pola que se convocan as axudas para o transporte en taxi de persoas con discapacidade \"Bonotaxi 2025\"",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de servicios sociales sin alojamiento para personas mayores y con discapacidad",
+            "codigo": "88.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES111 - A Coruña"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Ordenanza municipal de bases reguladoras xerais para concesión de subvencións polo Concello da Coruña e os seus organismos públicos",
+    "urlBasesReguladoras": "https://bop.dicoruna.es/bopportal/publicado/2024/08/16/2024_0000005745.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Al día siguiente al de la publicación del extracto en el BOP",
+    "textFin": "Un mes a partir del día siguiente a la publicación del extracto en el BOP",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175021,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "Bases Gal.pdf",
+            "long": 1994604,
+            "datMod": "2024-12-11T18:15:00.000+01:00",
+            "datPublicacion": "2024-12-11T18:21:34.000+01:00"
+        },
+        {
+            "id": 1175020,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Bases Cast.pdf",
+            "long": 2112801,
+            "datMod": "2024-12-11T18:15:00.000+01:00",
+            "datPublicacion": "2024-12-11T18:21:34.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

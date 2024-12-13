@@ -1,0 +1,64 @@
+{
+    "id": 1003665,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD DE SALAMANCA",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.sede.usal.es",
+    "codigoBDNS": "802105",
+    "fechaRecepcion": "2024-12-11T10:52:45+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 15000,
+    "mrr": false,
+    "descripcion": "Convocatoria de ayudas ERASMUS+ KA131 para la movilidad del Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) de la Universidad de Salamanca y Bases Reguladoras",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "XXXX - TODO EL MUNDO"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Convocatoria de ayudas ERASMUS+ KA131 para la movilidad del Personal Técnico, de Gestión y de Administración y Servicios (PTGAS) de la Universidad de Salamanca y Bases Reguladoras",
+    "urlBasesReguladoras": "https://rel-int.usal.es/images/docs/Movilidad%20Erasmus%20PTGAS/Convocatoria%20Movilidad%20PTGAS_fdo.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-08-30T00:00:00+02:00",
+    "textInicio": "A partir del día siguiente a la publicación en el BOCYL",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174386,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria Movilidad PTGAS.pdf",
+            "long": 320094,
+            "datMod": "2024-12-11T11:15:16.000+01:00",
+            "datPublicacion": "2024-12-11T11:26:32.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

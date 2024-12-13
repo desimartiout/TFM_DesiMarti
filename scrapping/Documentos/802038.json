@@ -1,0 +1,72 @@
+{
+    "id": 1003598,
+    "organo": {
+        "nivel1": "CATALUÑA",
+        "nivel2": "AGÈNCIA DE GESTIÓ D'AJUTS UNIVERSITARIS I DE RECERCA (AGAUR)",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://agaur.gencat.cat/ca/beques-i-ajuts/convocatories-per-temes/Ajuts-postdoctorals-Beatriu-de-Pinos-BP-2024",
+    "codigoBDNS": "802038",
+    "fechaRecepcion": "2024-12-11T09:36:52+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 9684011.4,
+    "mrr": false,
+    "descripcion": "Ayudas postdoctorales Beatriu de Pinós (BP 2024)",
+    "descripcionLeng": "Auts postdoctorals Beatriu de Pinós (BP 2024)",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de investigación",
+            "codigo": "80.3"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES51 - CATALUÑA"
+        }
+    ],
+    "descripcionFinalidad": "Investigación, desarrollo e innovación",
+    "descripcionBasesReguladoras": "RESOLUCIÓN REU/4085/2024, de 14 de noviembre, por la que se aprueban las bases reguladoras de las ayudas posdoctorales Beatriu de Pinós (BP)",
+    "urlBasesReguladoras": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=1000023",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2024-02-04T00:00:00+01:00",
+    "textInicio": "Des de l’endemà de la publicació en el diari oficial de la convocatòria inicial",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174285,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "xxx_Convocatoria_BP_24___CAT_signat.docx.pdf",
+            "long": 236611,
+            "datMod": "2024-12-11T11:15:51.000+01:00",
+            "datPublicacion": "2024-12-11T11:15:51.000+01:00"
+        },
+        {
+            "id": 1174284,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "xxx_Convocatoria_BP_24___ES.pdf",
+            "long": 118904,
+            "datMod": "2024-12-11T11:15:51.000+01:00",
+            "datPublicacion": "2024-12-11T11:15:51.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

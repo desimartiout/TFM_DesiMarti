@@ -1,0 +1,88 @@
+{
+    "id": 1003890,
+    "organo": {
+        "nivel1": "IRURA",
+        "nivel2": "AYUNTAMIENTO DE IRURA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.irura.eus/eu",
+    "codigoBDNS": "802330",
+    "fechaRecepcion": "2024-12-11T18:26:31+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 500,
+    "mrr": false,
+    "descripcion": "Convocatoria 2024 de Subvenciones para páginas web en euskera.",
+    "descripcionLeng": "Euskarazko webguneei dirulaguntzak emateko deialdia 2024.",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Bases para la concesión de subvenciones para páginas web en euskera. / Euskarazko webguneei dirulaguntzak emateko oinarriak.",
+    "urlBasesReguladoras": "https://www.irura.eus/eu/hasiera",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Argitaratu eta hurrengo egunetik hasita / Desde el dia siguiente de la fecha de publicación ",
+    "textFin": "10 egun natural / 10 días naturales ",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175022,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "12-DEIALDIA_Enpresak_ELEB.pdf",
+            "long": 140241,
+            "datMod": "2024-12-11T21:00:05.000+01:00",
+            "datPublicacion": "2024-12-11T21:00:05.000+01:00"
+        },
+        {
+            "id": 1175023,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "12-DEIALDIA_Enpresak_ELEB.pdf",
+            "long": 140241,
+            "datMod": "2024-12-11T21:00:05.000+01:00",
+            "datPublicacion": "2024-12-11T21:00:05.000+01:00"
+        },
+        {
+            "id": 1175024,
+            "descripcion": "Eskaera - Solicitud",
+            "nombreFic": "14-Eskaera-orria_eleb_2024.pdf",
+            "long": 180904,
+            "datMod": "2024-12-11T21:00:04.000+01:00",
+            "datPublicacion": "2024-12-11T21:00:04.000+01:00"
+        },
+        {
+            "id": 1175025,
+            "descripcion": "Oinarriak - Bases",
+            "nombreFic": "13-Oinarriak_Webg_eleb.pdf",
+            "long": 134330,
+            "datMod": "2024-12-11T21:00:04.000+01:00",
+            "datPublicacion": "2024-12-11T21:00:04.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

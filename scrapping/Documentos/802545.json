@@ -1,0 +1,147 @@
+{
+    "id": 1004105,
+    "organo": {
+        "nivel1": "REGIÓN DE MURCIA",
+        "nivel2": "INSTITUTO DE FOMENTO DE LA REGIÓN DE MURCIA (INFO)",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.institutofomentomurcia.es/infodirecto",
+    "codigoBDNS": "802545",
+    "fechaRecepcion": "2024-12-12T12:44:26+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 200000,
+    "mrr": false,
+    "descripcion": "Resolución de 12/12/2024 del Director del Instituto de Fomento de la Región de Murcia, por delegación, por la que se aprueba la segunda convocatoria para 2024 del programa de ayuda a la reactivación comercial y económica del casco Histórico de Lorca.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES",
+            "codigo": "N"
+        },
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        },
+        {
+            "descripcion": "Actividades de apoyo a la agricultura, a la ganadería y de preparación posterior a la cosecha",
+            "codigo": "01.6"
+        },
+        {
+            "descripcion": "ACTIVIDADES DE LOS HOGARES COMO EMPLEADORES DE PERSONAL DOMÉSTICO; ACTIVIDADES DE LOS HOGARES COMO PRODUCTORES DE BIENES Y SERVICIOS PARA USO PROPIO",
+            "codigo": "T"
+        },
+        {
+            "descripcion": "ACTIVIDADES INMOBILIARIAS",
+            "codigo": "L"
+        },
+        {
+            "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+            "codigo": "M"
+        },
+        {
+            "descripcion": "ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES",
+            "codigo": "Q"
+        },
+        {
+            "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHÍCULOS DE MOTOR Y MOTOCICLETAS",
+            "codigo": "G"
+        },
+        {
+            "descripcion": "CONSTRUCCIÓN",
+            "codigo": "F"
+        },
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        },
+        {
+            "descripcion": "HOSTELERÍA",
+            "codigo": "I"
+        },
+        {
+            "descripcion": "INDUSTRIA MANUFACTURERA",
+            "codigo": "C"
+        },
+        {
+            "descripcion": "INDUSTRIAS EXTRACTIVAS",
+            "codigo": "B"
+        },
+        {
+            "descripcion": "INFORMACIÓN Y COMUNICACIONES",
+            "codigo": "J"
+        },
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        },
+        {
+            "descripcion": "Servicios de apoyo a la silvicultura",
+            "codigo": "02.4"
+        },
+        {
+            "descripcion": "SUMINISTRO DE AGUA, ACTIVIDADES DE SANEAMIENTO, GESTIÓN DE RESIDUOS Y DESCONTAMINACIÓN",
+            "codigo": "E"
+        },
+        {
+            "descripcion": "SUMINISTRO DE ENERGÍA ELÉCTRICA, GAS, VAPOR Y AIRE ACONDICIONADO",
+            "codigo": "D"
+        },
+        {
+            "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+            "codigo": "H"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES620 - Murcia"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Orden de 01/05/2023, modificada por orden de 19/12/2023 de la Consejería de Empresa, Economía Social y Autónomos por la que se aprueban las bases reguladoras del programa de ayuda a la reactivación comercial y económica del Casco Histórico de Lorca.",
+    "urlBasesReguladoras": "https://www.borm.es/services/anuncio/ano/2023/numero/7257/pdf?id=823665",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde las 9 horas del día siguiente de la publicación del extracto en el BORM.",
+    "textFin": "Hasta transcurridos dos meses desde dicha publicación.",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "REG (UE) 2023/2831 de minimis, General",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175557,
+            "descripcion": "BB.RR.",
+            "nombreFic": "40 BBRR Lorca.pdf",
+            "long": 2620183,
+            "datMod": "2024-12-12T13:15:20.000+01:00",
+            "datPublicacion": "2024-12-12T13:15:20.000+01:00"
+        },
+        {
+            "id": 1175553,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Segunda Convocatoria PALO 2024 v5DEF.copia.pdf",
+            "long": 120649,
+            "datMod": "2024-12-12T13:15:19.000+01:00",
+            "datPublicacion": "2024-12-12T13:15:19.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

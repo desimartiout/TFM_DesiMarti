@@ -1,0 +1,64 @@
+{
+    "id": 1003833,
+    "organo": {
+        "nivel1": "VALENCIA",
+        "nivel2": "JUNTA CENTRAL FALLERA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802273",
+    "fechaRecepcion": "2024-12-11T14:17:13+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1430,
+    "mrr": false,
+    "descripcion": "Convocatoria de la Junta Central Fallera por el que se otorgan los premios del Concurso de Maquetas en régimen de concurrencia competitiva para el ejercicio 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de creación, artísticas y espectáculos",
+            "codigo": "90"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES523 - Valencia / València"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Convocatoria de la Junta Central Fallera por el que se otorgan los premios del Concurso de Maquetas en régimen de concurrencia competitiva para el ejercicio 2025",
+    "urlBasesReguladoras": "www.fallas.com",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde día siguiente a su publicación en la web de Junta Central Fallera",
+    "textFin": "20 días hábiles desde publicación en la web de Junta Central Fallera",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1174855,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "RESOLUCION (15).zsig.pdf",
+            "long": 53469,
+            "datMod": "2024-12-11T15:15:22.000+01:00",
+            "datPublicacion": "2024-12-11T15:15:22.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

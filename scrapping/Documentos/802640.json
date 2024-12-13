@@ -1,0 +1,68 @@
+{
+    "id": 1004200,
+    "organo": {
+        "nivel1": "CABILDO INSULAR DE TENERIFE",
+        "nivel2": "CABILDO INSULAR DE TENERIFE",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802640",
+    "fechaRecepcion": "2024-12-12T14:27:03+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 2000000,
+    "mrr": false,
+    "descripcion": "Otorgamiento de una subvención directa destinada a la reducción de pérdidas y mejora de la eficiencia de las redes municipales de abastecimiento de agua potable de los municipios de la isla de Tenerife con población inferior a 20.000 habitantes",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "SUMINISTRO DE AGUA, ACTIVIDADES DE SANEAMIENTO, GESTIÓN DE RESIDUOS Y DESCONTAMINACIÓN",
+            "codigo": "E"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES709 - Tenerife"
+        }
+    ],
+    "descripcionFinalidad": "Infraestructuras",
+    "descripcionBasesReguladoras": "Otorgamiento de una subvención directa destinada a la reducción de pérdidas y mejora de la eficiencia de las redes municipales de abastecimiento de agua potable de los municipios de la isla de Tenerife con población inferior a 20.000 habitantes",
+    "urlBasesReguladoras": "https://www.tenerife.es/portalcabtfe/es/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-04-29T00:00:00+02:00",
+    "fechaFinSolicitud": "2024-05-20T00:00:00+02:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175823,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "FirmadoAcuerdoConsejoGobiernoSubvenciónPérdidas (6).pdf",
+            "long": 810844,
+            "datMod": "2024-12-12T15:15:04.000+01:00",
+            "datPublicacion": null
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

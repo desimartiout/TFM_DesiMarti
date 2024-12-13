@@ -1,0 +1,72 @@
+{
+    "id": 1004072,
+    "organo": {
+        "nivel1": "ÁGREDA",
+        "nivel2": "AYUNTAMIENTO DE ÁGREDA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802512",
+    "fechaRecepcion": "2024-12-12T12:03:57+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 4000,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA SUBVENCIONES PARA LA REALIZACIÓN DE ACTIVIDADES CULTURALES Y JUVENILES AÑO 2024",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES417 - Soria"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "SUBVENCIÓNI PARA LA REALIZACIÓN DE ACTIVIDADES CULTURALES Y JUVENILES. AÑO 2024",
+    "urlBasesReguladoras": "https://agreda.sedelectronica.es/transparency/b3ba5a08-24ac-4fd7-ac0d-cb54af8c15f0/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "10 días naturales a contar desde la  publicación del extracto de la presente convocatoria en BOP",
+    "textFin": "10 días naturales a contar desde la publicación del extracto de la presente convocatoria en BOP",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1175471,
+            "descripcion": "BASES SUBVENCIÓN ACTIVIDADES CULTURALES",
+            "nombreFic": "Bases Subvención para la realización de Actividades Culturales y Juveniles. Año 2024.pdf",
+            "long": 428547,
+            "datMod": "2024-12-12T13:15:50.000+01:00",
+            "datPublicacion": "2024-12-12T13:15:50.000+01:00"
+        },
+        {
+            "id": 1175470,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "20241211_Resolución_DECRETO 2024-0950 [Aprobación Convocatoria y Bases Subvención Actividades Culturales año 2024].pdf",
+            "long": 312968,
+            "datMod": "2024-12-12T13:15:50.000+01:00",
+            "datPublicacion": "2024-12-12T13:15:50.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}
