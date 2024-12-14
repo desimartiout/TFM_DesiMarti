@@ -36,19 +36,26 @@ from ragas.run_config import RunConfig
 from constantes import OLLAMA_MODEL_NAME_RAGAS_LLM, OLLAMA_MODEL_NAME_RAGAS_EMBED, RAGAS_FILE_PATH
 from utils import setup_logging_ragas, write_eval_to_txt
 
+
+from ragas.metrics import LLMContextRecall, Faithfulness, FactualCorrectness, SemanticSimilarity, AnswerRelevancy, ContextPrecision
+from ragas.llms import LangchainLLMWrapper
+from ragas.embeddings import LangchainEmbeddingsWrapper
+from langchain_openai import ChatOpenAI
+from langchain_openai import OpenAIEmbeddings
+
 def main():
 
-    # python script.py --log_file mi_log.log
+    #  & C:/Users/desim/anaconda3/envs/faiss_env/python.exe c:/Users/desim/Documents/GitHub/TFM_DesiMarti/ragas_eval/evaluarOPENAI.py 2024_12_09_ragas.json
 
     my_run_config = RunConfig(max_workers=64, timeout=60)
 
     setup_logging_ragas()
 
-    parser = argparse.ArgumentParser(description="Script para configurar logging con un archivo específico.")
+    parser = argparse.ArgumentParser(description="Script para configurar fichero de evaluación.")
     parser.add_argument(
         "json_eval_file",  # Argumento posicional obligatorio
         type=str,
-        help="Nombre del fichero json a evaluar. (Debe estar en la ruta datasets)",
+        help="Nombre del fichero json a evaluar. (Debe estar en la carpeta datasets)",
     )
     
     # Parsear los argumentos
@@ -61,12 +68,12 @@ def main():
     if os.path.isfile(fichero):
         
         # Leer el JSON desde un archivo local
-        with open(RAGAS_FILE_PATH + args.json_eval_file, "r") as file:
+        with open(RAGAS_FILE_PATH + args.json_eval_file, "r", encoding="utf-8") as file:
             data = json.load(file)
 
         # Crear un DatasetDict para simular la estructura de Hugging Face
         amnesty_qa = DatasetDict({
-            "eval": Dataset.from_list(data)  # Puedes cambiar "eval" por el nombre adecuado
+            "eval": Dataset.from_list(data) 
         })
 
         # Seleccionar un subconjunto de los datos
@@ -86,26 +93,23 @@ def main():
             samples.append(sample)
 
         eval_dataset = EvaluationDataset(samples=samples)
-        metric = Faithfulness()
 
-        #2. Initialize model
-        from ragas.metrics import (
-            answer_relevancy,
-            faithfulness,
-            context_recall,
-            context_precision
-        )
+        evaluator_llm = LangchainLLMWrapper(ChatOpenAI(model="gpt-3.5-turbo"))
+        evaluator_embeddings = LangchainEmbeddingsWrapper(OpenAIEmbeddings())
 
-        # information found here: https://docs.ragas.io/en/latest/howtos/customisations/bring-your-own-llm-or-embs.html
-        langchain_llm = ChatOllama(model=OLLAMA_MODEL_NAME_RAGAS_LLM)
-        langchain_embeddings = OllamaEmbeddings(model=OLLAMA_MODEL_NAME_RAGAS_EMBED)
+        metrics = [
+            LLMContextRecall(llm=evaluator_llm), 
+            FactualCorrectness(llm=evaluator_llm), 
+            Faithfulness(llm=evaluator_llm),
+            SemanticSimilarity(embeddings=evaluator_embeddings),
+            AnswerRelevancy(embeddings=evaluator_embeddings),
+            ContextPrecision(llm=evaluator_llm)
+        ]
+        result = evaluate(dataset=eval_dataset, metrics=metrics)
 
-        result = evaluate(eval_dataset,
-                        metrics=[
-                faithfulness,
-                answer_relevancy,
-                context_recall,context_precision], llm=langchain_llm,embeddings=langchain_embeddings,run_config=my_run_config)
-        # logging.info(result.to_pandas())
+        df = result.to_pandas()
+        print(df.head())
+
         logging.info(result.to_pandas())
         write_eval_to_txt(result.to_pandas())
         logging.info("Evaluación del modelo realizada correctamente")

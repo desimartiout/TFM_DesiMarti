@@ -41,6 +41,14 @@ def cargarDocumento(documento, metadato, id):
     # )
     # Valid options for hnsw:space are "l2", "ip, "or "cosine". The default is "l2" which is the squared L2 norm.
     # https://docs.trychroma.com/guides
+    # Selección recomendada según el caso de uso:
+    # Tipo de datos	Recomendación (hnsw:space)
+    # Embeddings de texto	cosine
+    # Embeddings de imágenes	l2
+    # Embeddings de productos	ip (normalizados)
+    # Datos de características tabulares	l2 o manhattan
+    # Casos personalizados	Experimentar con varios
+    
     collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
 
     embeddings = model.encode([documento])  # Generar embeddings para la lista de textos
