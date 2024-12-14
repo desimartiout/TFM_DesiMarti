@@ -7,6 +7,6 @@ OLLAMA_MODEL_NAME_RAGAS_EMBED = "llamaAyudas:latest"
 # RAGAS_FILE_PATH = os.getcwd() + "/ragas_eval/datasets/"
 # RAGAS_FILE_PATH_LOG = "/ragas_eval/logs/"
 # RAGAS_FILE_PATH_RESULTS = os.getcwd() + "/ragas_eval/results/"
-RAGAS_FILE_PATH = os.getcwd() + "/datasets/"
+
 RAGAS_FILE_PATH_RESULTS = os.getcwd() + "/results/"
 RAGAS_FILE_PATH_LOG = "/logs/"

@@ -11,16 +11,14 @@ import ollama
 import time
 import streamlit as st
 
-from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, PROMPT_TEMPLATE, OPENAI_TEMPLATE, CHROMA_SIMILARITY_THRESHOLD
+from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, PROMPT_TEMPLATE, OPENAI_TEMPLATE, CHROMA_SIMILARITY_THRESHOLD, EVAL_SAVE
 from src.embeddings import get_embedding_model
 #from src.opensearch import hybrid_search
 from src.searchchromadb import consultaChromadb
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
-from src.utils import setup_logging
-
-from ragas_eval.utils import write_to_json
+from src.utils import setup_logging, write_eval_to_json
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -161,12 +159,15 @@ def generate_response_streaming_ollama(
             else:
                 logger.error("Formato de chunk no esperado en la respuesta.")
 
-    write_to_json(
-        user_input=query,
-        response=response_text,
-        retrieved_contexts=[context],
-        reference=""
-    )
+    if EVAL_SAVE=="1":
+        logger.info("Vamos a guardar el json para evaluar después")
+        write_eval_to_json(
+            user_input=query,
+            response=response_text,
+            retrieved_contexts=[context],
+            reference=""
+        )
+        logger.info("json guardado correctamente")
 
     return response_text
 
@@ -176,7 +177,7 @@ def generate_response_streaming_ollama(
 
 def run_openai_streaming(contexto: str,query: str, temperature: float):
     llm = ChatOpenAI(
-        model="gpt-3.5-turbo",
+        model=OPENAI_MODEL_NAME,
         temperature=temperature,  # Utiliza la temperatura definida
     )
     
@@ -197,7 +198,19 @@ def run_openai_streaming(contexto: str,query: str, temperature: float):
     chain = prompt | llm
     ai_msg = chain.invoke({"input": queryContext})
 
-    return ai_msg.content
+    response_text = ai_msg.content
+
+    if EVAL_SAVE=="1":
+        logger.info("Vamos a guardar el json para evaluar después")
+        write_eval_to_json(
+            user_input=query,
+            response=response_text,
+            retrieved_contexts=[contexto],
+            reference=""
+        )
+        logger.info("json guardado correctamente")
+
+    return response_text
 
 def prompt_template_openai(query: str, context: str, history: List[Dict[str, str]]) -> str:
     prompt = f"""

@@ -1,4 +1,5 @@
 import yaml
+import os
 
 # Cargar textos desde un archivo YAML
 with open("./locale/es/text.yaml", "r", encoding="utf-8") as file:
@@ -62,6 +63,8 @@ OPENAI_MODEL_NAME = "gpt-3.5-turbo"     #(en este caso GPT-3.5 Turbo)
 
 # Logging
 LOG_FILE_PATH = "/logs/"  # File path for the application log file
+EVAL_SAVE = "1"   # Indica que guarda los resultados de las búsquedas en JSON para luevo poder evaluarlos con RAGAS
+RAGAS_FILE_PATH = os.getcwd() + "/ragas_eval//datasets/"
 # # OpenSearch settings
 # OPENSEARCH_HOST = "localhost"  # Hostname for the OpenSearch instance
 # OPENSEARCH_PORT = 9200  # Port number for OpenSearch

@@ -7,8 +7,9 @@ import time
 import streamlit as st
 from datetime import datetime
 import os
+import json
 
-from src.constants import LOG_FILE_PATH, CHATBOT_WELLCOME, ESTILOS_INICIO, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB, ESTILOS
+from src.constants import LOG_FILE_PATH, CHATBOT_WELLCOME, ESTILOS_INICIO, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB, ESTILOS, RAGAS_FILE_PATH
 
 
 def setup_logging() -> None:
@@ -29,6 +30,51 @@ def setup_logging() -> None:
         level=logging.INFO,
     )
 
+def write_eval_to_json(user_input: str, response: str, retrieved_contexts: list, reference: str) -> None:
+    """
+    Escribe una entrada en un archivo JSON con los datos proporcionados.
+    
+    :param user_input: Pregunta del usuario.
+    :param response: Respuesta generada.
+    :param retrieved_contexts: Lista de contextos recuperados.
+    :param reference: Texto de referencia.
+    """
+
+    # Crear el nombre del archivo con la fecha
+    ragas_file_path = nombre_fichero_ragas_eval()
+
+    # Si el archivo existe, cargarlo; de lo contrario, iniciar una lista vacía
+    if os.path.isfile(ragas_file_path):
+        with open(ragas_file_path, mode="r", encoding="utf-8") as file:
+            data = json.load(file)
+    else:
+        data = []
+
+    # Crear el diccionario con los datos
+    entry = {
+        "user_input": user_input,
+        "reference": reference,
+        "response": response,
+        "retrieved_contexts": retrieved_contexts,
+    }
+    
+    # Agregar la nueva entrada
+    data.append(entry)
+    
+    # Escribir los datos actualizados en el archivo
+    with open(ragas_file_path, mode="w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
+
+def nombre_fichero_ragas_eval() -> str:
+    """
+    Devuelve el nombre del fichero de evaluación donde se alacenarán los datos.
+    """
+    current_date = datetime.now().strftime("%Y_%m_%d")
+
+    # Crear el nombre del archivo con la fecha
+    ragas_file_path = os.path.join(RAGAS_FILE_PATH, f"{current_date}_ragas.json")
+    
+    return ragas_file_path
 
 def clean_text(text: str) -> str:
     # Remove hyphens at line breaks (e.g., 'exam-\nple' -> 'example')

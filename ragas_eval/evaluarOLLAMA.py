@@ -34,7 +34,7 @@ from ragas import EvaluationDataset, SingleTurnSample
 from ragas.run_config import RunConfig
 
 from constantes import OLLAMA_MODEL_NAME_RAGAS_LLM, OLLAMA_MODEL_NAME_RAGAS_EMBED, RAGAS_FILE_PATH
-from utils import setup_logging_ragas, write_eval_to_txt
+from utils import setup_logging_ragas, write_eval_to_csv
 
 def main():
 
@@ -105,7 +105,7 @@ def main():
                 answer_relevancy,
                 context_recall,context_precision], llm=langchain_llm,embeddings=langchain_embeddings,run_config=my_run_config)
         logging.info(result.to_pandas())
-        write_eval_to_txt(result.to_pandas())
+        write_eval_to_csv(result.to_pandas())
         logging.info("Evaluación del modelo realizada correctamente")
         print("Proceso completado")
 

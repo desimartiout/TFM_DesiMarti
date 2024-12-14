@@ -34,7 +34,7 @@ from ragas import EvaluationDataset, SingleTurnSample
 from ragas.run_config import RunConfig
 
 from constantes import OLLAMA_MODEL_NAME_RAGAS_LLM, OLLAMA_MODEL_NAME_RAGAS_EMBED, RAGAS_FILE_PATH
-from utils import setup_logging_ragas, write_eval_to_txt
+from utils import setup_logging_ragas, write_eval_to_csv
 
 
 from ragas.metrics import LLMContextRecall, Faithfulness, FactualCorrectness, SemanticSimilarity, AnswerRelevancy, ContextPrecision
@@ -45,9 +45,9 @@ from langchain_openai import OpenAIEmbeddings
 
 def main():
 
-    #  & C:/Users/desim/anaconda3/envs/faiss_env/python.exe c:/Users/desim/Documents/GitHub/TFM_DesiMarti/ragas_eval/evaluarOPENAI.py 2024_12_09_ragas.json
+    #  C:/Users/desim/anaconda3/envs/faiss_env/python.exe c:/Users/desim/Documents/GitHub/TFM_DesiMarti/ragas_eval/evaluarOPENAI.py 2024_12_09_ragas.json
 
-    my_run_config = RunConfig(max_workers=64, timeout=60)
+    #my_run_config = RunConfig(max_workers=64, timeout=60)
 
     setup_logging_ragas()
 
@@ -111,7 +111,7 @@ def main():
         print(df.head())
 
         logging.info(result.to_pandas())
-        write_eval_to_txt(result.to_pandas())
+        write_eval_to_csv(result.to_pandas())
         logging.info("Evaluación del modelo realizada correctamente")
         print("Proceso completado")
 
