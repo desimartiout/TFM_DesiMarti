@@ -87,6 +87,7 @@ def render_upload_page() -> None:
                     st.code(doc['content'], language="yaml", line_numbers=False, wrap_lines=True)
                 with col2:
                     st.markdown("**Metadatos**")
+                    # st.json(doc['metadata'])
                     st.code(doc['metadata'], language="json", line_numbers=False, wrap_lines=True)
 
 if __name__ == "__main__":

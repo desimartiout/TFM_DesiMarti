@@ -5,8 +5,6 @@ import numpy as np
 import pandas as pd
 
 import streamlit as st
-import pyperclip
-#from streamlit_feedback import streamlit_feedback
 
 from src.chat import (  # type: ignore
     ensure_model_pulled,
@@ -64,6 +62,8 @@ def render_chatbot_page() -> None:
     with model_loading_placeholder.container():
         st.spinner("Cargando modelos para el chat...")
 
+    
+
     # Load models if not already loaded
     if "embedding_models_loaded" not in st.session_state:
         with model_loading_placeholder:
@@ -87,6 +87,14 @@ def render_chatbot_page() -> None:
     logger.info("------------------")
     logger.info(st.session_state["chat_history"])
     logger.info("------------------")
+
+    # tab1, tab2 = st.tabs(["📈 Chat", "🗃 Log"])    
+    # with tab1:
+    #     tab1.subheader("Chat")
+
+    # with tab2:
+    #     tab2.subheader("Historial de la conversación")
+    #     tab2.write(st.session_state["chat_history"])
 
     # Display chat history
     for message in st.session_state["chat_history"]:
