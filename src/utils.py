@@ -12,8 +12,6 @@ import json
 from src.constants import LOG_FILE_PATH, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB, RAGAS_FILE_PATH
 from src.constantesWeb import ESTILOS_INICIO, ESTILOS
 
-
-
 def setup_logging() -> None:
 
     current_date = datetime.now().strftime("%Y-%m-%d")

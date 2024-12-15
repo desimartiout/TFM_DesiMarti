@@ -1,4 +1,4 @@
 CHROMA_COLLECTION_NAME = "subvenciones"
-CHROMA_PERSIST_PATH = "./chromadb/"
+CHROMA_PERSIST_PATH = "../chromadb/"
 CHROMA_SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
 LOG_FILE_PATH = "/logs/"

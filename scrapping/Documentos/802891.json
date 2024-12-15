@@ -1,0 +1,140 @@
+{
+    "id": 1004451,
+    "organo": {
+        "nivel1": "CATALUÑA",
+        "nivel2": "CONSORCI PER A LA FORMACIÓ CONTÍNUA DE CATALUNYA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802891",
+    "fechaRecepcion": "2024-12-13T12:01:27+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 30000,
+    "mrr": false,
+    "descripcion": "Resolución de 12 de diciembre, por la que se abre la convocatoria anticipada para el año 2025 de ayudas y becas a las personas trabajadoras desempleadas que participan en acciones de FPO promovidas por el CFCC (ref. BDNS *******).",
+    "descripcionLeng": "Resolució de 12 de desembre per la qual s'obre la convocatòria anticipada per a l'any 2025 d'ajuts i beques a les persones treballadores desocupades que participen en accions de FPO promogudes pel CFCC  (ref. BDNS *******).",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES",
+            "codigo": "N"
+        },
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        },
+        {
+            "descripcion": "ACTIVIDADES DE ORGANIZACIONES Y ORGANISMOS EXTRATERRITORIALES",
+            "codigo": "U"
+        },
+        {
+            "descripcion": "ACTIVIDADES FINANCIERAS Y DE SEGUROS",
+            "codigo": "K"
+        },
+        {
+            "descripcion": "ACTIVIDADES INMOBILIARIAS",
+            "codigo": "L"
+        },
+        {
+            "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+            "codigo": "M"
+        },
+        {
+            "descripcion": "ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES",
+            "codigo": "Q"
+        },
+        {
+            "descripcion": "AGRICULTURA, GANADERÍA, SILVICULTURA Y PESCA",
+            "codigo": "A"
+        },
+        {
+            "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHÍCULOS DE MOTOR Y MOTOCICLETAS",
+            "codigo": "G"
+        },
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        },
+        {
+            "descripcion": "HOSTELERÍA",
+            "codigo": "I"
+        },
+        {
+            "descripcion": "INDUSTRIA MANUFACTURERA",
+            "codigo": "C"
+        },
+        {
+            "descripcion": "INDUSTRIAS EXTRACTIVAS",
+            "codigo": "B"
+        },
+        {
+            "descripcion": "INFORMACIÓN Y COMUNICACIONES",
+            "codigo": "J"
+        },
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        },
+        {
+            "descripcion": "SUMINISTRO DE AGUA, ACTIVIDADES DE SANEAMIENTO, GESTIÓN DE RESIDUOS Y DESCONTAMINACIÓN",
+            "codigo": "E"
+        },
+        {
+            "descripcion": "SUMINISTRO DE ENERGÍA ELÉCTRICA, GAS, VAPOR Y AIRE ACONDICIONADO",
+            "codigo": "D"
+        },
+        {
+            "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+            "codigo": "H"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES51 - CATALUÑA"
+        }
+    ],
+    "descripcionFinalidad": "Fomento del Empleo",
+    "descripcionBasesReguladoras": "ORDEN EMT/180/2024, de 25 de julio, por la que se aprueban las bases reguladoras del régimen de ayudas y becas",
+    "urlBasesReguladoras": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=991393",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-15T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-10-31T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": "31 de diciembre de 2022",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1176472,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "resolució_convocatòria_beques_2024_12122024_def_es_signed_4.pdf",
+            "long": 270680,
+            "datMod": "2024-12-13T13:15:14.000+01:00",
+            "datPublicacion": "2024-12-13T13:15:14.000+01:00"
+        },
+        {
+            "id": 1176471,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "resolució_convocatòria_beques_2024_12122024_def_es_signed_1.pdf",
+            "long": 337361,
+            "datMod": "2024-12-13T13:15:14.000+01:00",
+            "datPublicacion": "2024-12-13T13:15:14.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

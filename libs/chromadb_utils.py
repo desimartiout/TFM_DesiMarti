@@ -1,3 +1,4 @@
+import json
 import logging
 import chromadb
 from sentence_transformers import SentenceTransformer
@@ -37,10 +38,9 @@ def cargarDocumento(documento, metadato, id):
 
     embeddings = model.encode([documento])  # Generar embeddings para la lista de textos
 
-    #TODO: Hay que arreglar lo de los metadatos, espera un diccionario  -> array json con par clave valor
-    collection.add(
+    collection.upsert(
         documents=[documento],
-        metadatas=None,
+        metadatas=dict(metadato),
         ids=[id],
         embeddings=embeddings
     )

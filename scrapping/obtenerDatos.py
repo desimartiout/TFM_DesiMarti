@@ -14,7 +14,6 @@ from pathlib import Path
 # Añadir el directorio padre a sys.path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-# Ahora puedes importar archivo_fuera.py
 from libs.chromadb_utils import cargarDocumento
 
 def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
@@ -39,23 +38,26 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
         
         logging.info(f"Datos guardados en {archivo_destino}")
 
-        # Generar texto
-        formatted_text = safe_format(json_data, TEMPLATE_DOC)
+        json_aplanado = aplanar_json(json_data)
+        archivo_destino_aplanado = os.path.join(carpeta_destino, f"{numConvocatoria}_aplanado.json")
+        with open(archivo_destino_aplanado, 'w', encoding='utf-8') as f:
+            json.dump(json_aplanado, f, ensure_ascii=False, indent=4)
+            
+        logging.info(f"Datos guardados en {archivo_destino_aplanado}")
+
+        # Generar texto en yaml
+        formatted_text = convert_json_to_yaml(json_aplanado, TEMPLATE_DOC)
         logging.info(formatted_text)
-
         archivo_destino = os.path.join(carpeta_destino, f"{numConvocatoria}.yaml")
-
-        # resultado = aplicar_plantilla(json_data, formatted_text)
         if formatted_text!= None:
             with open(archivo_destino, 'w', encoding='utf-8') as archivo:        
                 archivo.write(formatted_text)
             logging.info(f"Datos guardados en {archivo_destino}")
 
-        
-
         logging.info(f"Vamos a cargar el documento en chromadb {numConvocatoria}")
-        # cargarDocumento(formatted_text,json_data,numConvocatoria)
-        cargarDocumento(formatted_text,"",numConvocatoria)
+
+        cargarDocumento(formatted_text,json_aplanado,numConvocatoria)
+
         logging.info("Documento cargado correctamente")
         
     except requests.RequestException as e:
@@ -72,16 +74,13 @@ def safe_value(value):
         return "Sí" if value else "No"
     return value
 
-
 def safe_value_inner(data, value, field):
     if data.get(value, {}) is None:
         return ""
     return data.get(value, {}).get("descripcion")
 
-
-# Función para aplanar y procesar el JSON
-def safe_format(data, template):
-    flat_data = defaultdict(
+def aplanar_json(data):
+    return defaultdict(
         str,  # Devuelve cadena vacía si falta alguna clave
         {
             "id": safe_value(data.get("id")),
@@ -128,7 +127,39 @@ def safe_format(data, template):
             ),
         },
     )
-    return template.format_map(flat_data)
+
+# def convert_json_to_dict(json_aplanado)
+#     return {
+#         "id": data["id"],
+#         "organo_nivel1": data["organo_nivel1"],
+#         "organo_nivel2": data["organo_nivel2"],
+#         "sedeElectronica": data["sedeElectronica"] if data["sedeElectronica"] else None,
+#         "codigoBDNS": data["codigoBDNS"],
+#         "fechaRecepcion": data["fechaRecepcion"],
+#         "instrumentos": data["instrumentos"],
+#         "tipoConvocatoria": data["tipoConvocatoria"],
+#         "presupuestoTotal": data["presupuestoTotal"],
+#         "descripcion": data["descripcion"],
+#         "tiposBeneficiarios": data["tiposBeneficiarios"],
+#         "sectores": data["sectores"],
+#         "regiones": data["regiones"],
+#         "descripcionFinalidad": data["descripcionFinalidad"],
+#         "descripcionBasesReguladoras": data["descripcionBasesReguladoras"],
+#         "urlBasesReguladoras": data["urlBasesReguladoras"],
+#         "sePublicaDiarioOficial": data["sePublicaDiarioOficial"],
+#         "abierto": data["abierto"],
+#         "fechaInicioSolicitud": data["fechaInicioSolicitud"],
+#         "fechaFinSolicitud": data["fechaFinSolicitud"],
+#         "textInicio": data["textInicio"] if data["textInicio"] else None,
+#         "textFin": data["textFin"] if data["textFin"] else None,
+#         "reglamento": data["reglamento"] if data["reglamento"] else None,
+#         "documentos": data["documentos"].strip() if data["documentos"] else None,
+#     }
+    
+
+# Función para procesar el JSON y convertirlo a Yaml
+def convert_json_to_yaml(json_aplanado, template):
+    return template.format_map(json_aplanado)
 
 def aplicar_plantilla(datos_json, plantilla_texto):
     """Aplica una plantilla de texto a un JSON, sustituyendo las variables."""
