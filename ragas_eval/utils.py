@@ -19,6 +19,7 @@ def setup_logging_ragas() -> None:
         filemode="a",
         format="%(asctime)s - %(levelname)s - %(message)s",
         level=logging.INFO,
+        encoding="utf-8"
     )
 
 def write_eval_to_csv(eval_results: DataFrame) -> None:

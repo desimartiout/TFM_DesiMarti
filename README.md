@@ -39,15 +39,42 @@ Usar la clave en tu código
 import openai
 openai.api_key = openai_api_key -->
 
-### 📘 Web Scrapping de web de ayudas
-Ejecutar .....
+# 📘 Web Chatbot
+Directorio //
+Directorio de logs /logs/
+Fichero de configuración `src/constants.py`
+
+### Configuración
 
 
-## RAGAS - Evaluar el modelo
+### Ejecutar la aplicación Streamlit
 
-# Configuración
+Desde la directorio principal raiz ejecutar el comando `streamlit run Inicio.py`
 
-Fichero /ragas_eval/constantes.py
+# 📘 Web Scrapping de la web de ayudas
+Directorio /scrapping/
+Directorio de logs /scrapping/logs/
+Fichero de configuración /scrapping/constantes.py
+
+### Configuración
+Aquí se especifican las rutas del API de la web de ayudas, los directorios de logs y donde se almacenan los documentos y la plantilla YAML para transformar el JSON resultado de la llamada a un formato más entendible
+
+Se puede tambier especificar los parámetros para la llamada al API
+PAGE_SIZE: Tamaño de resultados por página
+TOTAL_PAGES: Número total de páginas a procesar
+
+### Ejecución
+
+Desde la ruta /scrapping/ ejecutar el comando
+
+**python.exe obtenerDatos.py**
+
+# 📘  RAGAS - Evaluar el modelo
+
+### Configuración
+Directorio /ragas_eval/
+Directorio de logs /ragas_eval/logs/
+Fichero de configuración /ragas_eval/constantes.py
 
 Elegir el LLM a utilizar en la evaluación OPENAI / OLLAMA
 RAGAS_LLM_SELECCIONADO = RAGAS_LLM_TIPOMODELO_OPENAI / RAGAS_LLM_TIPOMODELO_OLLAMA
@@ -56,7 +83,7 @@ Los nombres de los modelos deben estar especificados en estas constantes
 RAGAS_OPENAI_MODEL_NAME = "gpt-3.5-turbo"
 RAGAS_OLLAMA_MODEL_NAME = "llamaAyudas:latest"
 
-# Ejecución
+### Ejecución
 
 Desde la ruta /ragas_eval/ ejecutar el comando
 

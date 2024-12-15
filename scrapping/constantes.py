@@ -1,7 +1,18 @@
 
+import os
+
+URL_BASE_API = "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias/ultimas?vpd=GE&order=fechaRecepcion&direccion=desc"
 URL_CONVOCATORIA= "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv="
 URL_CONVOCATORIA_POST= "&vpd=GE"
 #https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=790767&vpd=GE
+
+PAGE_SIZE = 5
+TOTAL_PAGES = 1 
+
+ruta_actual = os.getcwd()   #Ruta donde se ejecuta el fichero python
+RUTA_DESTINO_DOCUMENTOS = f"{ruta_actual}\Documentos"
+
+SCRAP_FILE_PATH_LOG = "/logs/"
 
 TEMPLATE_DOC = """
 Detalle de la convocatoria de ayuda o  subvención: {codigoBDNS}

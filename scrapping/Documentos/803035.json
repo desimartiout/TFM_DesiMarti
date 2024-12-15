@@ -1,0 +1,68 @@
+{
+    "id": 1004595,
+    "organo": {
+        "nivel1": "CANARIAS",
+        "nivel2": "CONSEJERÍA DE ECONOMÍA, INDUSTRIA, COMERCIO Y AUTÓNOMOS",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.gobiernodecanarias.org/sede",
+    "codigoBDNS": "803035",
+    "fechaRecepcion": "2024-12-13T15:21:23+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 662377.15,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA BECAS PRÁCTICAS PROGRAMA BECAS EN NEGOCIOS INTERNACIONALES 2024-2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES70 - CANARIAS"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "PROGRAMA DE BECAS EN NEGOCIOS INTERNACIONALES",
+    "urlBasesReguladoras": "https://www.gobiernodecanarias.org/boc/2024/035/001.html",
+    "sePublicaDiarioOficial": true,
+    "abierto": true,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "A partir del día siguiente al de la publicación del extracto de la convocatoria en el BOC",
+    "textFin": "Diez (10) días naturales contados desde la fecha de inicio del plazo de presentación de solicitudes",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FSE+ - FONDO SOCIAL EUROPEO PLUS"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1176765,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Documento convocatoria castellano.PDF",
+            "long": 399522,
+            "datMod": "2024-12-13T18:15:02.000+01:00",
+            "datPublicacion": "2024-12-13T18:15:02.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

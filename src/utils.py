@@ -28,6 +28,7 @@ def setup_logging() -> None:
         filemode="a",
         format="%(asctime)s - %(levelname)s - %(message)s",
         level=logging.INFO,
+        encoding="utf-8"
     )
 
 def write_eval_to_json(user_input: str, response: str, retrieved_contexts: list, reference: str) -> None:

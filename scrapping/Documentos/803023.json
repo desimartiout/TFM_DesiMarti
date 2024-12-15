@@ -1,0 +1,105 @@
+{
+    "id": 1004583,
+    "organo": {
+        "nivel1": "FIGUERES",
+        "nivel2": "AYUNTAMIENTO DE FIGUERES",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.figueres.cat/tramits/convocatories",
+    "codigoBDNS": "803023",
+    "fechaRecepcion": "2024-12-13T14:46:40+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 150000,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA PARA El OTORGAMIENTO DE SUBVENCIONES DESTINADAS A LA RESTAURACIÓN Y REHABILITACIÓN DE FACHADAS De EDIFICIOS EN EL MUNICIPIO DE FIGUERES (ejercicio 2024-25)",
+    "descripcionLeng": "CONVOCATÒRIA PER A L’ATORGAMENT DE SUBVENCIONS DESTINADES A LA RESTAURACIÓ I REHABILITACIÓ DE FAÇANES D’EDIFICIS EN EL MUNICIPI DE FIGUERES (exercici 2024-25) ",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "GRAN EMPRESA"
+        },
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "CONSTRUCCIÓN",
+            "codigo": "F"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES512 - Girona"
+        }
+    ],
+    "descripcionFinalidad": "Otras Prestaciones económicas",
+    "descripcionBasesReguladoras": "Bases reguladores de la concessió de subvencions destinades a la rehabilitació i millora dels edificis de la ciutat de Figueres.",
+    "urlBasesReguladoras": "https://ssl4.ddgi.cat/bopV1/pdf/2020/229/202022908688.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "45 dias a partir publicación BOP de la convocatoria",
+    "textFin": "Al final de los 45 dias de la publicaciòn al BOP de la convocatoria",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1176726,
+            "descripcion": "Annex 1 Carta Colors",
+            "nombreFic": "Annex 1 Carta Colors.pdf",
+            "long": 2925040,
+            "datMod": "2024-12-13T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-13T15:15:01.000+01:00"
+        },
+        {
+            "id": 1176727,
+            "descripcion": "Annex 2-aires-condicionats",
+            "nombreFic": "annex-2-aires-condicionats.pdf",
+            "long": 519467,
+            "datMod": "2024-12-13T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-13T15:15:01.000+01:00"
+        },
+        {
+            "id": 1176724,
+            "descripcion": "Instancia Façanes 2024-2025",
+            "nombreFic": "Subvencio façanes 2024-2025 -.pdf",
+            "long": 858753,
+            "datMod": "2024-12-13T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-13T15:15:01.000+01:00"
+        },
+        {
+            "id": 1176722,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "Convocatòria en català.pdf",
+            "long": 254262,
+            "datMod": "2024-12-13T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-13T15:15:01.000+01:00"
+        },
+        {
+            "id": 1176721,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria en castellano.pdf",
+            "long": 255177,
+            "datMod": "2024-12-13T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-13T15:15:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

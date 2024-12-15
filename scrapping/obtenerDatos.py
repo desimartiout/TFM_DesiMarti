@@ -1,22 +1,22 @@
-
+import logging
 import time
 import json
 from string import Template
 import requests
 import os
 from collections import defaultdict
-from constantes import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC
+from utils import setup_logging_scrap
+from constantes import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC, URL_BASE_API, RUTA_DESTINO_DOCUMENTOS, PAGE_SIZE, TOTAL_PAGES
 
 def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
     """Descarga el JSON de una URL usando el id del elemento y lo guarda en una carpeta destino."""
     url = URL_CONVOCATORIA + f"{elemento['numeroConvocatoria']}" + URL_CONVOCATORIA_POST  # Cambiamos la URL base según corresponda
 
     try:
-        print(url)
+        logging.info(url)
         response = requests.get(url)
         response.raise_for_status()  # Genera una excepción para códigos de error HTTP
         json_data = response.json()
-        
         
         # Crear la carpeta si no existe
         os.makedirs(carpeta_destino, exist_ok=True)
@@ -26,24 +26,24 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
         with open(archivo_destino, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=4)
         
-        print(f"Datos guardados en {archivo_destino}")
+        logging.info(f"Datos guardados en {archivo_destino}")
 
         # Generar texto
         formatted_text = safe_format(json_data, TEMPLATE_DOC)
-        print(formatted_text)
+        logging.info(formatted_text)
 
         archivo_destino = os.path.join(carpeta_destino, f"{elemento['numeroConvocatoria']}.yaml")
 
-        resultado = aplicar_plantilla(json_data, formatted_text)
-        if resultado!= None:
+        # resultado = aplicar_plantilla(json_data, formatted_text)
+        if formatted_text!= None:
             with open(archivo_destino, 'w', encoding='utf-8') as archivo:        
-                archivo.write(resultado)
-            print(f"Datos guardados en {archivo_destino}")
+                archivo.write(formatted_text)
+            logging.info(f"Datos guardados en {archivo_destino}")
         
     except requests.RequestException as e:
-        print(f"Error al descargar el JSON para ID {elemento['inumeroConvocatoria']}: {e}")
+        logging.error(f"Error al descargar el JSON para ID {elemento['inumeroConvocatoria']}: {e}")
     except json.JSONDecodeError:
-        print(f"Error al decodificar el JSON descargado para ID {elemento['numeroConvocatoria']}.")
+        logging.error(f"Error al decodificar el JSON descargado para ID {elemento['numeroConvocatoria']}.")
 
 
 # Función para convertir `None` en vacío
@@ -145,9 +145,9 @@ def aplicar_plantilla(datos_json, plantilla_texto):
         resultado = template.substitute(datos)
         return resultado
     except KeyError as e:
-        print(f"Error: la clave {e} no está en el JSON.")
+        logging.error(f"Error: la clave {e} no está en el JSON.")
     except Exception as ex:
-        print(f"Ocurrió un error: {ex}")
+        logging.error(f"Ocurrió un error: {ex}")
 
 def fetch_all_elements(base_url, page_size, carpeta_destino):
     """
@@ -159,7 +159,7 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
     """
     all_elements = []
     page = 0
-    total_pages = 1  # Inicialmente asumimos que hay al menos 1 página.
+    total_pages = TOTAL_PAGES
 
     while page < total_pages:
         # Construir la URL de la página actual
@@ -183,13 +183,13 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
 
             # Actualizar el total de páginas si está disponible
             tot = datos.get("totalPages", 0)
-            print(f"Total de páginas {tot}")
-            #total_pages = datos.get("totalPages", 0)
+            logging.info(f"Total de páginas {tot}")
+            #total_pages = tot
             
-            print(f"Página {page + 1}/{total_pages} descargada. {len(datos.get('content', []))} elementos.")
+            logging.info(f"Página {page + 1}/{total_pages} descargada. {len(datos.get('content', []))} elementos.")
 
         except requests.exceptions.RequestException as e:
-            print(f"Error al procesar la página {page}: {e}")
+            logging.error(f"Error al procesar la página {page}: {e}")
             break
 
         # Incrementar el número de página para la siguiente iteración
@@ -201,25 +201,18 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
     return all_elements
 
 if __name__ == "__main__":
-    # URL base de la API
-    base_api_url = "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias/ultimas?vpd=GE&order=fechaRecepcion&direccion=desc"
 
-    ruta_actual = os.getcwd()   #Ruta donde se ejecuta el fichero python
-    carpeta_destino = f"{ruta_actual}\scrapping\Documentos"
+    setup_logging_scrap()
 
-    # Solicitar al usuario el tamaño de página
-    #page_size = int(input("Introduce el número de elementos por página: "))
-    page_size = 100
-
-    # Descargar todos los elementos
-    elements = fetch_all_elements(base_api_url, page_size, carpeta_destino)
+        # Descargar todos los elementos
+    elements = fetch_all_elements(URL_BASE_API, PAGE_SIZE, RUTA_DESTINO_DOCUMENTOS)
 
     # Guardar o procesar los elementos
-    print(f"Se han descargado {len(elements)} elementos en total.")
+    logging.info(f"Se han descargado {len(elements)} elementos en total.")
 
     # Opcional: Guardar los datos en un archivo JSON
     import json
-    with open(f"{ruta_actual}\scrapping\Documentos\datosDescargadas.json", "w", encoding="utf-8") as f:
+    with open(f"{RUTA_DESTINO_DOCUMENTOS}\datosDescargados.json", "w", encoding="utf-8") as f:
         json.dump(elements, f, ensure_ascii=False, indent=4)
 
-    print("Datos guardados en 'datos.json'.")
+    logging.info("Datos guardados en 'datos.json'.")
