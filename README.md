@@ -43,24 +43,24 @@ openai.api_key = openai_api_key -->
 Ejecutar .....
 
 
-### 📘 Instalar ragas
-Ejecutar ....
+## RAGAS - Evaluar el modelo
 
-**Evaluar el modelo con RAGAS**
+# Configuración
 
-Configuración
+Fichero /ragas_eval/constantes.py
 
-    Configurar en el fichero /ragas_eval/constantes.py el LLM a utilizar en la evaluación OPENAI / OLLAMA
-    RAGAS_LLM_MODELO_SELECCIONADO = RAGAS_LLM_TIPOMODELO_OPENAI / RAGAS_LLM_TIPOMODELO_OLLAMA
+Elegir el LLM a utilizar en la evaluación OPENAI / OLLAMA
+RAGAS_LLM_SELECCIONADO = RAGAS_LLM_TIPOMODELO_OPENAI / RAGAS_LLM_TIPOMODELO_OLLAMA
 
-    En el caso de elegir OPENAI también tendremos que especificar el modelo
-    RAGAS_OPENAI_MODEL_NAME = "gpt-3.5-turbo"
+Los nombres de los modelos deben estar especificados en estas constantes
+RAGAS_OPENAI_MODEL_NAME = "gpt-3.5-turbo"
+RAGAS_OLLAMA_MODEL_NAME = "llamaAyudas:latest"
 
-Ejecución
+# Ejecución
 
 Desde la ruta /ragas_eval/ ejecutar el comando
 
-python.exe evaluar.py 2024_12_14_ragas.json 
+**python.exe evaluar.py 2024_12_14_ragas.json**
 
 Nota: El fichero a evaluar debe estar en el directorio /ragas_eval/datasets/
 

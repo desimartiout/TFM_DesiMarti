@@ -2,12 +2,8 @@ import os
 import csv
 
 import logging
-
 from pandas import DataFrame
-
 from datetime import datetime
-
-# from ragas_eval.constantes import RAGAS_FILE_PATH, RAGAS_FILE_PATH_RESULTS, RAGAS_FILE_PATH_LOG
 from constantes import RAGAS_FILE_PATH_RESULTS, RAGAS_FILE_PATH_LOG
 
 def setup_logging_ragas() -> None:
@@ -44,29 +40,31 @@ def nombre_fichero_ragas_eval_results() -> str:
     
     return ragas_file_path
 
-def write_to_csv(user_input: str, response: str, retrieved_contexts: str, reference: str) -> None:
-    """
-    Escribe una fila en un archivo CSV con los datos proporcionados.
-    
-    :param user_input: Texto ingresado por el usuario.
-    :param response: Respuesta generada.
-    :param retrieved_contexts: Contextos recuperados.
-    :param reference: Referencia adicional.
-    """
 
-    # Crear el nombre del archivo con la fecha
-    file_path = nombre_fichero_ragas_eval()
 
-    # Verificar si el archivo existe
-    file_exists = os.path.isfile(file_path)
+# def write_to_csv(user_input: str, response: str, retrieved_contexts: str, reference: str) -> None:
+#     """
+#     Escribe una fila en un archivo CSV con los datos proporcionados.
     
-    # Abrir el archivo en modo de escritura
-    with open(file_path, mode="a", newline="", encoding="utf-8") as csvfile:
-        writer = csv.writer(csvfile, delimiter=",", quotechar='"', quoting=csv.QUOTE_ALL)
+#     :param user_input: Texto ingresado por el usuario.
+#     :param response: Respuesta generada.
+#     :param retrieved_contexts: Contextos recuperados.
+#     :param reference: Referencia adicional.
+#     """
+
+#     # Crear el nombre del archivo con la fecha
+#     file_path = nombre_fichero_ragas_eval()
+
+#     # Verificar si el archivo existe
+#     file_exists = os.path.isfile(file_path)
+    
+#     # Abrir el archivo en modo de escritura
+#     with open(file_path, mode="a", newline="", encoding="utf-8") as csvfile:
+#         writer = csv.writer(csvfile, delimiter=",", quotechar='"', quoting=csv.QUOTE_ALL)
         
-        # Escribir la cabecera si el archivo es nuevo
-        if not file_exists:
-            writer.writerow(["user_input", "response", "retrieved_contexts", "reference"])
+#         # Escribir la cabecera si el archivo es nuevo
+#         if not file_exists:
+#             writer.writerow(["user_input", "response", "retrieved_contexts", "reference"])
         
-        # Escribir la fila con los datos
-        writer.writerow([user_input, response, retrieved_contexts, reference])
+#         # Escribir la fila con los datos
+#         writer.writerow([user_input, response, retrieved_contexts, reference])
