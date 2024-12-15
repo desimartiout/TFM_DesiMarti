@@ -5,10 +5,10 @@ import time
 import streamlit as st
 #from PyPDF2 import PdfReader
 
-from src.embeddings import generate_embeddings, get_embedding_model
+from src.embeddings import get_embedding_model
 from src.searchchromadb import get_all_documents, cargarDocumento
-from src.utils import chunk_text, setup_logging, apply_cab, apply_custom_css, display_sidebar_content
-from src.constants import ESTILOS
+from src.utils import setup_logging, apply_cab, apply_custom_css, display_sidebar_content
+from src.constantesWeb import ESTILOS
 
 import json
 

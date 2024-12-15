@@ -1,6 +1,6 @@
 import streamlit as st
 import logging
-from src.constants import ESTILOS, TEXTO_AVISOLEGAL
+from src.constantesWeb import ESTILOS, TEXTO_AVISOLEGAL
 from src.utils import apply_custom_css, display_sidebar_content, apply_cab
 
 # # Configuración de la página

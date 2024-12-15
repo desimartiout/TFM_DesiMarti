@@ -11,7 +11,8 @@ import ollama
 import time
 import streamlit as st
 
-from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, PROMPT_TEMPLATE, OPENAI_TEMPLATE, CHROMA_SIMILARITY_THRESHOLD, EVAL_SAVE
+from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, CHROMA_SIMILARITY_THRESHOLD, EVAL_SAVE
+from src.constantesWeb import PROMPT_TEMPLATE, OPENAI_TEMPLATE
 from src.embeddings import get_embedding_model
 #from src.opensearch import hybrid_search
 from src.searchchromadb import consultaChromadb

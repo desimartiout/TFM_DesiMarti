@@ -5,7 +5,8 @@ import time
 import streamlit as st
 
 from src.utils import setup_logging, stream_data, display_sidebar_content, apply_custom_css, apply_cab
-from src.constants import LOGO_URL_LARGE, LOGO_URL_SMALL, CHATBOT_WELLCOME, ESTILOS_INICIO
+from src.constants import LOGO_URL_LARGE, LOGO_URL_SMALL
+from src.constantesWeb import CHATBOT_WELLCOME, ESTILOS_INICIO
 
 # Initialize logger
 setup_logging()  # Set up logging configuration

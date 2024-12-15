@@ -14,8 +14,10 @@ from src.chat import (  # type: ignore
     generate_response_streaming_openai,
     get_embedding_model,
 )
-from src.constants import OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, CHATBOT_INTRO, LOGO_URL_LARGE, LOGO_URL_SMALL, AI_ICON, HUMAN_ICON, ESTILOS, LLM_MODELO_SELECCIONADO,LLM_TIPOMODELO_OPENAI,LLM_TIPOMODELO_OLLAMA
-from src.utils import setup_logging, stream_data, apply_cab, apply_custom_css, display_sidebar_content, apply_cab_chat, apply_custom_css_chat
+from src.constants import OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, AI_ICON, HUMAN_ICON, LLM_MODELO_SELECCIONADO,LLM_TIPOMODELO_OPENAI,LLM_TIPOMODELO_OLLAMA
+from src.constantesWeb import CHATBOT_INTRO
+
+from src.utils import stream_data, display_sidebar_content, apply_cab_chat, apply_custom_css_chat
 
 # Initialize logger
 logger = logging.getLogger(__name__)

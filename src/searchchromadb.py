@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 
 from src.utils import setup_logging
-from src.constants import MOCK_IDS, MOCK_DOCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, CHROMA_NUMDOCUMENTS, OLLAMA_MODEL_NAME, OLLAMA_TEMPERATURE, SENTENCE_TRANSFORMER
+from src.constants import MOCK_IDS, MOCK_DOCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, CHROMA_NUMDOCUMENTS, SENTENCE_TRANSFORMER
 
 
 # Inicializo el logger
@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 model = SentenceTransformer(SENTENCE_TRANSFORMER)  # Modelo open source para embeddings
 
 def cargarDocumentosMOCK(collection):
-    # Generamos embeddings manualmente
+    # Generamos embeddings manualmente a partor de objetos mockeados
     texts = [doc for doc in MOCK_DOCUMENTS]
     embeddings = model.encode(texts)  # Generar embeddings para la lista de textos
 

@@ -8,6 +8,15 @@ from collections import defaultdict
 from utils import setup_logging_scrap
 from constantes import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC, URL_BASE_API, RUTA_DESTINO_DOCUMENTOS, PAGE_SIZE, TOTAL_PAGES
 
+import sys
+from pathlib import Path
+
+# Añadir el directorio padre a sys.path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
+# Ahora puedes importar archivo_fuera.py
+from libs.chromadb_utils import cargarDocumento
+
 def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
     """Descarga el JSON de una URL usando el id del elemento y lo guarda en una carpeta destino."""
     url = URL_CONVOCATORIA + f"{elemento['numeroConvocatoria']}" + URL_CONVOCATORIA_POST  # Cambiamos la URL base según corresponda
@@ -20,9 +29,11 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
         
         # Crear la carpeta si no existe
         os.makedirs(carpeta_destino, exist_ok=True)
+
+        numConvocatoria = elemento['numeroConvocatoria']
         
         # Guardar el JSON descargado en un archivo
-        archivo_destino = os.path.join(carpeta_destino, f"{elemento['numeroConvocatoria']}.json")
+        archivo_destino = os.path.join(carpeta_destino, f"{numConvocatoria}.json")
         with open(archivo_destino, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=4)
         
@@ -32,18 +43,25 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
         formatted_text = safe_format(json_data, TEMPLATE_DOC)
         logging.info(formatted_text)
 
-        archivo_destino = os.path.join(carpeta_destino, f"{elemento['numeroConvocatoria']}.yaml")
+        archivo_destino = os.path.join(carpeta_destino, f"{numConvocatoria}.yaml")
 
         # resultado = aplicar_plantilla(json_data, formatted_text)
         if formatted_text!= None:
             with open(archivo_destino, 'w', encoding='utf-8') as archivo:        
                 archivo.write(formatted_text)
             logging.info(f"Datos guardados en {archivo_destino}")
+
+        
+
+        logging.info(f"Vamos a cargar el documento en chromadb {numConvocatoria}")
+        # cargarDocumento(formatted_text,json_data,numConvocatoria)
+        cargarDocumento(formatted_text,"",numConvocatoria)
+        logging.info("Documento cargado correctamente")
         
     except requests.RequestException as e:
-        logging.error(f"Error al descargar el JSON para ID {elemento['inumeroConvocatoria']}: {e}")
+        logging.error(f"Error al descargar el JSON para ID {numConvocatoria}: {e}")
     except json.JSONDecodeError:
-        logging.error(f"Error al decodificar el JSON descargado para ID {elemento['numeroConvocatoria']}.")
+        logging.error(f"Error al decodificar el JSON descargado para ID {numConvocatoria}.")
 
 
 # Función para convertir `None` en vacío

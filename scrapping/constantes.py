@@ -6,12 +6,11 @@ URL_CONVOCATORIA= "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?n
 URL_CONVOCATORIA_POST= "&vpd=GE"
 #https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=790767&vpd=GE
 
-PAGE_SIZE = 5
+PAGE_SIZE = 2
 TOTAL_PAGES = 1 
 
 ruta_actual = os.getcwd()   #Ruta donde se ejecuta el fichero python
 RUTA_DESTINO_DOCUMENTOS = f"{ruta_actual}\Documentos"
-
 SCRAP_FILE_PATH_LOG = "/logs/"
 
 TEMPLATE_DOC = """
