@@ -2,10 +2,13 @@
 
 Bienvenido al Chatbot especializado en búsqueda de ayudas y subvenciones públicas del Gobierno de España basado en RAG con LLMs locales.
 
+Puedes acceder a la web desplegada en HuggingFace Spaces en la ruta https://huggingface.co/spaces/DesiMarti/TFMCienciaDatos o bien puedes clonar el repositorio y ejecutarla en local
+
 ### 🌟 Características principales
 - **Consultas bd vectoriales:** Uso de búsquedas vectoriales con Chromadb.
-- **Local LLM** Búsqueda de información en documentos mediante el uso de bases de datos vectoriales y LLM local  con Ollama o OPENAI.
-
+- **Scrapping** Puedes ejecutar comandos de scrapping de información de ayudas públicas.
+- **LLM** Búsqueda de información en documentos mediante el uso de bases de datos vectoriales utilizando un LLM local con OLlama u OPENAI.
+- **Evaluación del modelo** Puedes evaluar el modelo bien usando OLlama u OPENAI.
 
 ### 🚀 Como comenzar
 1. Clonar el repositorio: `git clone https://github.com/desimartiout/TFM_DesiMarti.git`
@@ -16,21 +19,26 @@ Bienvenido al Chatbot especializado en búsqueda de ayudas y subvenciones públi
 ## 📘 OLLAMA
 
 ### Ollama instalar modelo en local desde línea de comando on ollama
-ollama pull llama3.2:1b
+`ollama pull llama3.2:1b`
 
 Si queremos hacer una copia del modelo para no trabajar directamente sobre el descargado lo podemos hacer así
-ollama cp llamaAyudas:latest
+`ollama cp llamaAyudas:latest`
 
 ### Arrancar el modelo con OLlama
-ollama run llamaAyudas:latest
+`ollama run llamaAyudas:latest`
 
 ## 📘 OPENAI
 
-# SI QUIERES VER SI TIENES LA VARAIBLE DE ENTORNO PUEDES USAR ESTE CÓDIGO
+Debes tener configurada la clave de entorno `OPENAI_API_KEY` o bien modificar el código para especificarla mediante este comando
+
+`import openai`
+`openai.api_key = TU_OPENAI_API_KEY`
+
+SI QUIERES VER SI TIENES LA VARAIBLE DE ENTORNO PUEDES USAR ESTE CÓDIGO
 import os
 
 Cargar la clave desde las variables de entorno
-openai_api_key = os.getenv("OPENAI_API_KEY")
+`openai_api_key = os.getenv("OPENAI_API_KEY")`
 
 if not openai_api_key:
     raise ValueError("La clave de OpenAI no está configurada como variable de entorno.")
@@ -101,7 +109,26 @@ El formato del fichero es este:
 Donde los campos `"user_input";"retrieved_contexts";"response";"reference"` contienen los datos evaluados y los campos `"context_recall";"factual_correctness";"faithfulness";"semantic_similarity";"answer_relevancy";"context_precision"` contienen los resultados de la evaluación.
 
 ### 📘 Referencias
+
+**Web desplegada en HuggingFace Spaces** (https://huggingface.co/spaces/DesiMarti/TFMCienciaDatos)
+
 **Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas** (https://www.pap.hacienda.gob.es/bdnstrans/)
+
 **Streamlit** (https://streamlit.io/)
+
 **RAGAS** (https://docs.ragas.io/)
+
 **CHROMA DB** (https://www.trychroma.com/)
+
+### Ejemplo práctico de un README
+```markdown
+# Mi Proyecto
+
+Este proyecto hace XYZ. Aquí tienes un ejemplo de cómo usarlo:
+
+## Instalación
+
+Ejecuta el siguiente comando para instalar las dependencias:
+
+```bash
+npm install
