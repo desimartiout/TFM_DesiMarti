@@ -46,16 +46,30 @@ Ejecutar .....
 ### 📘 Instalar ragas
 Ejecutar ....
 
-**Evaluar el modelo**
-python.exe evaluarmodelo.py eval.json
+**Evaluar el modelo con RAGAS**
 
-Esto genera un fichero csv con los resultados de la evaluación en el directorio ragas_eval/results cuyo nombre contiene la fecha y hora de la evaluación, por ejemplo 2024_12_09_19_38_39_ragas_results.csv
+Configuración
+
+    Configurar en el fichero /ragas_eval/constantes.py el LLM a utilizar en la evaluación OPENAI / OLLAMA
+    RAGAS_LLM_MODELO_SELECCIONADO = RAGAS_LLM_TIPOMODELO_OPENAI / RAGAS_LLM_TIPOMODELO_OLLAMA
+
+    En el caso de elegir OPENAI también tendremos que especificar el modelo
+    RAGAS_OPENAI_MODEL_NAME = "gpt-3.5-turbo"
+
+Ejecución
+
+Desde la ruta /ragas_eval/ ejecutar el comando
+
+python.exe evaluar.py 2024_12_14_ragas.json 
+
+Nota: El fichero a evaluar debe estar en el directorio /ragas_eval/datasets/
+
+Esto genera un fichero csv en el directorio /ragas_eval/results/ con los resultados de la evaluación cuyo nombre contiene la fecha y hora de la evaluación, por ejemplo 2024_12_09_19_38_39_ragas_results.csv
 
 El formato del fichero es este:
+"user_input";"retrieved_contexts";"response";"reference";"context_recall";"factual_correctness";"faithfulness";"semantic_similarity";"answer_relevancy";"context_precision"
 
-"user_input";"retrieved_contexts";"response";"reference";"faithfulness";"answer_relevancy";"context_recall";"context_precision"
-
-Donde los campos "user_input";"retrieved_contexts";"response";"reference" contienen los datos evaluados y los campos "faithfulness";"answer_relevancy";"context_recall";"context_precision" contienen los datos de la evaluación.
+Donde los campos "user_input";"retrieved_contexts";"response";"reference" contienen los datos evaluados y los campos "context_recall";"factual_correctness";"faithfulness";"semantic_similarity";"answer_relevancy";"context_precision" contienen los resultados de la evaluación.
 
 ### 📘 Referencias
 **Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas** (https://www.pap.hacienda.gob.es/bdnstrans/)

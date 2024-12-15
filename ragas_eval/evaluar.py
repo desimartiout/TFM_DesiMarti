@@ -1,20 +1,3 @@
-
-
-"""
-Evaluating RAG using Llama 3
-https://www.youtube.com/watch?v=Ts2wDG6OEko
-
-Github
-https://github.com/mosh98/RAG_With_Models/blob/main/evaluation/RAGAS%20DEMO.ipynb
-
- https://github.com/mosh98/RAG_With_Models/blob/main/evaluation/RAGAS%20DEMO.ipynb
-!pip install dataset
-!pip install ragas
-!pip install langchain
-!pip install langchain_community
-!pip install nltk
- """
-
 import os
 import logging
 import argparse
@@ -33,9 +16,8 @@ from ragas import EvaluationDataset, SingleTurnSample
 
 from ragas.run_config import RunConfig
 
-from constantes import OLLAMA_MODEL_NAME_RAGAS_LLM, OLLAMA_MODEL_NAME_RAGAS_EMBED, RAGAS_FILE_PATH
+from constantes import RAGAS_OLLAMA_MODEL_NAME, RAGAS_FILE_PATH, RAGAS_LLM_MODELO_SELECCIONADO, RAGAS_LLM_SELECCIONADO, RAGAS_LLM_TIPOMODELO_OPENAI, RAGAS_OPENAI_MODEL_NAME
 from utils import setup_logging_ragas, write_eval_to_csv
-
 
 from ragas.metrics import LLMContextRecall, Faithfulness, FactualCorrectness, SemanticSimilarity, AnswerRelevancy, ContextPrecision
 from ragas.llms import LangchainLLMWrapper
@@ -45,9 +27,7 @@ from langchain_openai import OpenAIEmbeddings
 
 def main():
 
-    #  C:/Users/desim/anaconda3/envs/faiss_env/python.exe c:/Users/desim/Documents/GitHub/TFM_DesiMarti/ragas_eval/evaluarOPENAI.py 2024_12_09_ragas.json
-
-    #my_run_config = RunConfig(max_workers=64, timeout=60)
+    #  C:/Users/desim/anaconda3/envs/faiss_env/python.exe c:/Users/desim/Documents/GitHub/TFM_DesiMarti/ragas_eval/evaluar.py 2024_12_09_ragas.json
 
     setup_logging_ragas()
 
@@ -94,18 +74,41 @@ def main():
 
         eval_dataset = EvaluationDataset(samples=samples)
 
-        evaluator_llm = LangchainLLMWrapper(ChatOpenAI(model="gpt-3.5-turbo"))
-        evaluator_embeddings = LangchainEmbeddingsWrapper(OpenAIEmbeddings())
+        logging.info("Evaluamos con: " + RAGAS_LLM_SELECCIONADO)
+        if RAGAS_LLM_SELECCIONADO==RAGAS_LLM_TIPOMODELO_OPENAI:
+            evaluator_llm = LangchainLLMWrapper(ChatOpenAI(model=RAGAS_LLM_MODELO_SELECCIONADO))
+            evaluator_embeddings = LangchainEmbeddingsWrapper(OpenAIEmbeddings())
 
-        metrics = [
-            LLMContextRecall(llm=evaluator_llm), 
-            FactualCorrectness(llm=evaluator_llm), 
-            Faithfulness(llm=evaluator_llm),
-            SemanticSimilarity(embeddings=evaluator_embeddings),
-            AnswerRelevancy(embeddings=evaluator_embeddings),
-            ContextPrecision(llm=evaluator_llm)
-        ]
-        result = evaluate(dataset=eval_dataset, metrics=metrics)
+            metrics = [
+                LLMContextRecall(llm=evaluator_llm), 
+                FactualCorrectness(llm=evaluator_llm), 
+                Faithfulness(llm=evaluator_llm),
+                SemanticSimilarity(embeddings=evaluator_embeddings),
+                AnswerRelevancy(embeddings=evaluator_embeddings),
+                ContextPrecision(llm=evaluator_llm)
+            ]
+            result = evaluate(dataset=eval_dataset, metrics=metrics)
+
+        else:
+            metric = Faithfulness()
+
+            from ragas.metrics import (
+                answer_relevancy,
+                faithfulness,
+                context_recall,
+                context_precision
+            )
+
+            langchain_llm = ChatOllama(model=RAGAS_LLM_MODELO_SELECCIONADO)
+            langchain_embeddings = OllamaEmbeddings(model=RAGAS_LLM_MODELO_SELECCIONADO)
+
+            my_run_config = RunConfig(max_workers=64, timeout=60)
+
+            result = evaluate(eval_dataset,
+                            metrics=[
+                    faithfulness,
+                    answer_relevancy,
+                    context_recall,context_precision], llm=langchain_llm,embeddings=langchain_embeddings,run_config=my_run_config)
 
         df = result.to_pandas()
         print(df.head())

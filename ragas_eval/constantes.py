@@ -1,12 +1,21 @@
 import os
 
-OLLAMA_MODEL_NAME_RAGAS_LLM = "llamaAyudas:latest"
-OLLAMA_MODEL_NAME_RAGAS_EMBED = "llamaAyudas:latest"
-
-#Ruta base donde se almacenan los datasets de evaluación para ragas
-# RAGAS_FILE_PATH = os.getcwd() + "/ragas_eval/datasets/"
-# RAGAS_FILE_PATH_LOG = "/ragas_eval/logs/"
-# RAGAS_FILE_PATH_RESULTS = os.getcwd() + "/ragas_eval/results/"
-
+#Rutas base de los datasets de evaluación, logs y resultados
 RAGAS_FILE_PATH_RESULTS = os.getcwd() + "/results/"
 RAGAS_FILE_PATH_LOG = "/logs/"
+RAGAS_FILE_PATH = os.getcwd() + "/datasets/"
+
+#CADENAS A UTILIZAR PARA ASIGNAR EL TIPO DE MODELO A UTILIZAR PARA LA EVALUACIÓN CUANDO LA METRICA LO NECESITA
+RAGAS_LLM_TIPOMODELO_OLLAMA = "OLLAMA"
+RAGAS_LLM_TIPOMODELO_OPENAI = "OPENAI"
+
+RAGAS_OPENAI_MODEL_NAME = "gpt-3.5-turbo"
+RAGAS_OLLAMA_MODEL_NAME = "llamaAyudas:latest"
+
+# CONFIGURACIÓN DEL MODELO A UTILIZAR OLLAMA (requiere su instalación en local) o OPENAI (Requiere tener una API KEY de OPENAI)
+RAGAS_LLM_SELECCIONADO = RAGAS_LLM_TIPOMODELO_OPENAI
+
+if RAGAS_LLM_SELECCIONADO == RAGAS_LLM_TIPOMODELO_OPENAI:
+    RAGAS_LLM_MODELO_SELECCIONADO = RAGAS_OPENAI_MODEL_NAME
+else:
+    RAGAS_LLM_MODELO_SELECCIONADO = RAGAS_OLLAMA_MODEL_NAME

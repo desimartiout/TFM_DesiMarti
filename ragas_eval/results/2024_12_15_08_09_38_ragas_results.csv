@@ -1,0 +1,3 @@
+"user_input";"retrieved_contexts";"response";"reference";"faithfulness";"answer_relevancy";"context_recall";"context_precision"
+"Cual es la capital de Francia?";"['Paris es la capital de Francia.']";"La capital de Francia es Paris.";"La capital de Francia es Paris y la capital de Sudan es Madrid";"";"";"0.5";""
+"Cual es la capital de Sudan?";"['Madrid es la capital de Sudan.']";"La capital de Sudan es Madrid.";"La capital de Francia es Paris y la capital de Sudan es Madrid";"";"";"0.5";""
