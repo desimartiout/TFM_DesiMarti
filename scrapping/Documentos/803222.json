@@ -1,0 +1,64 @@
+{
+    "id": 1004782,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "CONSELLERÍA DE MEDIO AMBIENTE Y CAMBIO CLIMÁTICO",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.xunta.gal/detalle-procedemento?codtram=MT723A&ano=2024&numpub=1&lang=es",
+    "codigoBDNS": "803222",
+    "fechaRecepcion": "2024-12-16T13:31:26+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 270000,
+    "mrr": false,
+    "descripcion": "Ayudas para las personas titulares de terrenos cinegéticos ordenados destinadas al fomento de la riqueza y gestión de los recursos cinegéticos",
+    "descripcionLeng": "Axudas para as persoas titularas de terreos cinexéticos ordeados destinadas ao fomento da riqueza e xestión dos recursos cinexéticos",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Caza, captura de animales y servicios relacionados con las mismas",
+            "codigo": "01.7"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "Ayudas económicas para los titulares de terrenos cinegéticos ordenados, destinadas al fomento de la riqueza y gestión de los recursos cinegéticos.",
+    "urlBasesReguladoras": "https://www.xunta.gal/diario-oficial-galicia",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Al día siguiente al de la publicación",
+    "textFin": "Un mes",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177233,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Orden con anexos_20241216_132759.pdf",
+            "long": 1113723,
+            "datMod": "2024-12-16T15:15:08.000+01:00",
+            "datPublicacion": "2024-12-16T15:15:08.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

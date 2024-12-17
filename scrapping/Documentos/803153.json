@@ -1,0 +1,64 @@
+{
+    "id": 1004713,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE TOLEDO",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE TOLEDO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803153",
+    "fechaRecepcion": "2024-12-16T11:36:20+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 250000,
+    "mrr": false,
+    "descripcion": "BASES REGULADORAS Y CONVOCATORIA ANTICIPADA DEL PROGRAMA DE INICIACIÓN A LAS ARTES (MÚSICA, ARTES ESCÉNICAS Y BELLAS ARTES) PARA LAS ENTIDADES LOCALES DE LA PROVINCIA DE TOLEDO DURANTE EL EJERCICIO 2025.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de creación, artísticas y espectáculos",
+            "codigo": "90"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES425 - Toledo"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Bases 54 a 63 de Ejecución del Presupuesto de Gastos de la Diputación Provincial de Toledo 2025",
+    "urlBasesReguladoras": "BASES\nhttps://www.diputoledo.es/global/53/ver_pdf/33011\nLOCALES DE LA PROVINCIA DE TOLEDO DURANTE EL EJERCICIO 2025.",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-03-31T00:00:00+02:00",
+    "textInicio": "A partir del día siguiente a la publicación del extracto de las Bases en el BOP de Toledo",
+    "textFin": "El 31 de marzo de 2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177034,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Bases PROGRAMA INICIACION ARTES.pdf_597484 (2).pdf",
+            "long": 2462861,
+            "datMod": "2024-12-16T13:15:29.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:29.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

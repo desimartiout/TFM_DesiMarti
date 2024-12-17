@@ -4,7 +4,7 @@ import os
 #                   CONFIGURACIÓN DB VECTORIAL Y GENERACIÓN EMBEDDINGS
 ####################################################################################################
 
-EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+# EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 #EMBEDDING_MODEL_PATH = "sentence-transformers/all-mpnet-base-v2"
 #EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 #EMBEDDING_MODEL_PATH = "microsoft/mpnet-base"  # OR Path of local eg. "embedding_model/"" or the name of SentenceTransformer model eg. "sentence-transformers/all-mpnet-base-v2" from Hugging Face
@@ -13,14 +13,17 @@ EMBEDDING_MODEL_PATH = "sentence-transformers/paraphrase-multilingual-mpnet-base
 ASSYMETRIC_EMBEDDING = False  # Flag for asymmetric embedding
 EMBEDDING_DIMENSION = 384  # Embedding model settings
 #EMBEDDING_DIMENSION = 768  # Embedding model settings
-TEXT_CHUNK_SIZE = 300  # Maximum number of characters in each text chunk for
+TEXT_CHUNK_SIZE = 300  # Maximum number of characters in each text chunk
 
 # CHROMADB
 CHROMA_COLLECTION_NAME = "subvenciones"
 CHROMA_PERSIST_PATH = "./chromadb/"
 CHROMA_NUMDOCUMENTS = 5
-CHROMA_SIMILARITY_THRESHOLD = 2
-SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
+CHROMA_SIMILARITY_THRESHOLD = 0.8
+# SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
+SENTENCE_TRANSFORMER = "paraphrase-multilingual-MiniLM-L12-v2" #peor, no devuelve lo que se pregunta
+# SENTENCE_TRANSFORMER = "paraphrase-multilingual-mpnet-base-v2" #--> EMBEDDING_DIMENSION = 768
+
 
 #CADENAS A UTILIZAR PARA ASIGNAR EL TIPO DE MODELO A LA CONSTANTE LLM_MODELO_SELECCIONADO
 LLM_TIPOMODELO_OLLAMA = "OLLAMA"
@@ -39,8 +42,10 @@ OLLAMA_MODEL_NAME = "llamaAyudas:latest"
 OLLAMA_TEMPERATURE = 0.9
 
 # LLM_MODELO_SELECCIONADO = LLM_TIPOMODELO_OPENAI #--> OPCION CON OPENAI QUE REQUIERE DE TENER LA VARIABLE DE ENTORNO CON EL API KEY DE OPENAI
-OPENAI_MODEL_NAME = "gpt-3.5-turbo"     #(en este caso GPT-3.5 Turbo)
-#OPENAI_MODEL_NAME = "gpt-4o-mini"     #(en este caso GPT-3.5 Turbo)
+#OPENAI_MODEL_NAME = "gpt-3.5-turbo"     #(en este caso GPT-3.5 Turbo)
+OPENAI_MODEL_NAME = "gpt-4o-mini"     #(en este gpt-4o-mini)
+# OPENAI_MODEL_NAME = "gpt-4o"
+
 # SI QUIERES VER SI TIENES LA VARAIBLE DE ENTORNO PUEDES USAR ESTE CÓDIGO
 # import os
 # # Cargar la clave desde las variables de entorno

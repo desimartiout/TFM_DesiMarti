@@ -1,0 +1,70 @@
+{
+    "id": 1005016,
+    "organo": {
+        "nivel1": "ESTADO",
+        "nivel2": "MINISTERIO DE CULTURA",
+        "nivel3": "DIRECCIÓN GENERAL DEL LIBRO, DEL CÓMIC Y DE LA LECTURA"
+    },
+    "sedeElectronica": "https://cultura.sede.gob.es/",
+    "codigoBDNS": "803456",
+    "fechaRecepcion": "2024-12-17T11:07:15+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 2194800,
+    "mrr": false,
+    "descripcion": "RESOLUCIÓN DE 13 DE DICIEMBRE DE 2024, DE LA SECRETARÍA DE ESTADO DE CULTURA, POR LA QUE SE CONVOCAN SUBVENCIONES, EN RÉGIMEN DE CONCURRENCIA COMPETITIVA, PARA LA PROMOCIÓN DE LA LECTURA Y LAS LETRAS ESPAÑOLAS, CORRESPONDIENTES AL AÑO 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "GRAN EMPRESA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de bibliotecas, archivos, museos y otras actividades culturales",
+            "codigo": "91"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES - ESPAÑA "
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Orden CUL/2912/2010, de 10 de noviembre, por la que se establecen las bases reguladoras para la concesión de subvenciones públicas en régimen de concurrencia competitiva del Ministerio de Cultura y de sus organismos públicos",
+    "urlBasesReguladoras": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010- 17455",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Día siguiente a la publicación del extracto en el BOE",
+    "textFin": "Veinticinco días hábiles",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177832,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "report_241211_Convocatoria promoción lectura 2025.pdf",
+            "long": 853099,
+            "datMod": "2024-12-17T11:15:01.000+01:00",
+            "datPublicacion": "2024-12-17T11:15:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,71 @@
+{
+    "id": 1004915,
+    "organo": {
+        "nivel1": "ESTADO",
+        "nivel2": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+        "nivel3": "SUBSECRETARÍA DE AGRICULTURA, PESCA Y ALIMENTACIÓN"
+    },
+    "sedeElectronica": "https://sede.mapa.gob.es/portal/site/seMAPA/procedimientos",
+    "codigoBDNS": "803355",
+    "fechaRecepcion": "2024-12-17T08:57:09+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 6700000,
+    "mrr": false,
+    "descripcion": "Orden de 30 de octubre de 2024, del MAPA, por la que se convocan las subvenciones del Real Decreto 388/2021, de 1 de junio, destinadas a la obtención de avales de SAECA en el sector agroalimentario y pesquero.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "AGRICULTURA, GANADERÍA, SILVICULTURA Y PESCA",
+            "codigo": "A"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES - ESPAÑA "
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "Subvenciones a la financiación del sector agroalimentario y pesquero establecidas en Real Decreto 388/2021, de 1 de junio, destinadas a la obtención de avales de SAECA en el sector agroalimentario y pesquero.",
+    "urlBasesReguladoras": "https://www.boe.es/boe/dias/2021/06/02/pdfs/BOE-A-2021-9174.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2027-09-15T00:00:00+02:00",
+    "textInicio": "A partir del día siguiente de publicación del extracto en el BOE",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "REG (UE) 1408/2013 de minimis, Agrícola",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [
+        {
+            "descripcion": "Todos"
+        }
+    ],
+    "documentos": [
+        {
+            "id": 1177569,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Orden 30-10-24 Convocatoria avales_RD388_21- Jovenes.pdf",
+            "long": 1074739,
+            "datMod": "2024-12-17T09:15:15.000+01:00",
+            "datPublicacion": "2024-12-17T11:10:26.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

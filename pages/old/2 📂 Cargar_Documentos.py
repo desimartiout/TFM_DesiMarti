@@ -98,24 +98,11 @@ def render_upload_page() -> None:
     logger.info("Obtenidos nombres de documentos desde Chromadb.")
 
     if document_names.get('documents'):  # Verifica que 'documents' no sea None o esté vacío
-        # for document_name in document_names['ids']: 
-        #     file_path = os.path.join(UPLOAD_DIR, document_name + ".yaml")
-        #     if os.path.exists(file_path):
-        #         text = leer_yaml_como_string(file_path)
-        #         st.session_state["documents"].append(
-        #             {"filename": document_name, "content": text, "file_path": file_path}
-        #         )
-        #     else:
-        #         st.session_state["documents"].append(
-        #             {"filename": document_name, "content": "", "file_path": None}
-        #         )
-        #         logger.warning(f"El fichero '{document_name}' no existe localmente.")
-
         for id_, document, metadata in zip(document_names['ids'], document_names['documents'], document_names['metadatas']):
             logger.info(f"ID: {id_}, Document: {document}, Metadata: {metadata}")
             text = document
             st.session_state["documents"].append(
-                {"filename": id_, "content": text, "file_path": None}
+                {"filename": id_, "content": len(text), "file_path": None}
             )
     else:
         print("No documents to process.")
@@ -141,9 +128,7 @@ def render_upload_page() -> None:
                     continue
 
                 file_path = save_uploaded_file(uploaded_file)
-
                 text = leer_yaml_como_string(file_path)
-
 
                 file_without_extension, _ = os.path.splitext(uploaded_file.name)
                 cargarDocumento(text,"", file_without_extension)
@@ -167,7 +152,7 @@ def render_upload_page() -> None:
                 col1, col2 = st.columns([4, 1])
                 with col1:
                     st.write(
-                        f"{idx}. {doc['filename']} - {len(doc['content'])} caracteres extraidos"
+                        f"{idx}. {doc['filename']} - {doc['content']} caracteres extraidos"
                     )
                 with col2:
                     delete_button = st.button(

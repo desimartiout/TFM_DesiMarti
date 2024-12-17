@@ -1,0 +1,64 @@
+{
+    "id": 1004728,
+    "organo": {
+        "nivel1": "SAGUNTO/SAGUNT",
+        "nivel2": "AYUNTAMIENTO DE SAGUNTO/SAGUNT",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803168",
+    "fechaRecepcion": "2024-12-16T12:06:20+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 3300,
+    "mrr": false,
+    "descripcion": "Convocatoria concurso llibrets de fallas 2025 y ornamentación e iluminación de calles fallas 2025",
+    "descripcionLeng": "Convocatòria concurs llibrets de falles 2025 i ornamentació i il·luminación de carrers falles 2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES523 - Valencia / València"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Ordenanza reguladora de las bases que rigen el concurso \"premios de fallas\"",
+    "urlBasesReguladoras": "https://aytosagunto.es/sede/es/subvenciones-becas-y-premios/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-02-28T00:00:00+01:00",
+    "textInicio": "el día siguiente al de la publicación de este extracto en el BOP de València ",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177005,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Acord JGL convocàtoria premis llibrets i ornamentació falles 2025.pdf",
+            "long": 739343,
+            "datMod": "2024-12-16T13:15:23.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:23.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

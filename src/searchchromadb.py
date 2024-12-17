@@ -1,11 +1,13 @@
 import logging
 import chromadb
+from chromadb.utils import embedding_functions
 from sentence_transformers import SentenceTransformer
 from chromadb.config import Settings
 from langchain_ollama import OllamaLLM
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
+from langchain_openai import OpenAIEmbeddings
 
 from src.utils import setup_logging
 from src.constants import MOCK_IDS, MOCK_DOCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, CHROMA_NUMDOCUMENTS, SENTENCE_TRANSFORMER
@@ -33,38 +35,38 @@ def cargarDocumentosMOCK(collection):
 
 
 def cargarDocumento(documento, metadato, id):
-    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH, settings=Settings(anonymized_telemetry=False))
-
-    # collection = client.create_collection(
-    #     name="collection_name",
-    #     metadata={"hnsw:space": "cosine"} # l2 is the default
-    # )
-    # Valid options for hnsw:space are "l2", "ip, "or "cosine". The default is "l2" which is the squared L2 norm.
-    # https://docs.trychroma.com/guides
-    # Selección recomendada según el caso de uso:
-    # Tipo de datos	Recomendación (hnsw:space)
-    # Embeddings de texto	cosine
-    # Embeddings de imágenes	l2
-    # Embeddings de productos	ip (normalizados)
-    # Datos de características tabulares	l2 o manhattan
-    # Casos personalizados	Experimentar con varios
+    # client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH, settings=Settings(anonymized_telemetry=False))
+    #  # collection = client.create_collection(
+    # #     name="collection_name",
+    # #     metadata={"hnsw:space": "cosine"} # l2 is the default
+    # # )
+    # # Valid options for hnsw:space are "l2", "ip, "or "cosine". The default is "l2" which is the squared L2 norm.
+    # # https://docs.trychroma.com/guides
+    # # Selección recomendada según el caso de uso:
+    # # Tipo de datos	Recomendación (hnsw:space)
+    # # Embeddings de texto	cosine
+    # # Embeddings de imágenes	l2
+    # # Embeddings de productos	ip (normalizados)
+    # # Datos de características tabulares	l2 o manhattan
+    # # Casos personalizados	Experimentar con varios
     
-    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
+    # collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
 
-    embeddings = model.encode([documento])  # Generar embeddings para la lista de textos
+    # embeddings = model.encode([documento])  # Generar embeddings para la lista de textos
 
-    #TODO: Hay que arreglar lo de los metadatos, espera un diccionario  -> array json con par clave valor
-    collection.add(
-        documents=[documento],
-        metadatas=None,
-        ids=[id],
-        embeddings=embeddings
-    )
+    # #TODO: Hay que arreglar lo de los metadatos, espera un diccionario  -> array json con par clave valor
+    # collection.add(
+    #     documents=[documento],
+    #      metadatas=None,
+    #      ids=[id],
+    #      embeddings=embeddings
+    #  )
+    cadena= ""
 
 # Función para obtener todos los documentos
 def get_all_documents():
     client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH, settings=Settings(anonymized_telemetry=False))
-    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME,)
+    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
 
     #Si no tengo documentos cargados los moqueo para poder tener datos.
     #if (collection.count()==0):
@@ -85,9 +87,13 @@ def get_all_documents():
     return documents
 
 # Función para realizar una consulta (simulando una búsqueda por texto)
-def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
+def query_documents_old(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
     client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH, settings=Settings(anonymized_telemetry=False))
-    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME)
+        
+    sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=SENTENCE_TRANSFORMER)
+
+    # collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME, embedding_function=sentence_transformer_ef, metadata={"hnsw:space": "cosine"})
+    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME, metadata={"hnsw:space": "cosine"})
     #Si no tengo documentos cargados los moqueo para poder tener datos.
     #if (collection.count()==0):
         #cargarDocumentosMOCK(collection)
@@ -96,8 +102,14 @@ def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
     logger.info(f"SEARCH_CHROMA - Documentos en la colección {collection.count()}")
     #collection = client.get_collection(CHROMA_COLLECTION_NAME)
   
+    #Opción Sentence Transformers
     # Generar el embedding para la consulta
     query_embedding = model.encode([query_text]).tolist()
+    
+    # #Opción OPENAI Embeddings
+    # embeddings_model = OpenAIEmbeddings()
+    # # Convertir el texto a embeddings (vectores)
+    # query_embedding = embeddings_model.embed_documents([query_text])[0]
 
     logger.info(f"SEARCH_CHROMA - Previo a consulta")
 
@@ -107,7 +119,30 @@ def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
         n_results=top_k
     )
 
+    logger.info(f"SEARCH_CHROMA - resultados: {results}")
 
+    return results
+
+# Función para realizar una consulta (simulando una búsqueda por texto)
+def query_documents(query_text: str, top_k: int = CHROMA_NUMDOCUMENTS):
+    client = chromadb.PersistentClient(path=CHROMA_PERSIST_PATH, settings=Settings(anonymized_telemetry=False))
+    
+    model_path = "./models/paraphrase-multilingual-MiniLM-L12-v2"
+    sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=model_path)
+
+    # sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=SENTENCE_TRANSFORMER)
+    collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME, embedding_function=sentence_transformer_ef, metadata={"hnsw:space": "cosine"})
+    # collection = client.get_or_create_collection(name=CHROMA_COLLECTION_NAME, embedding_function=sentence_transformer_ef)
+  
+    #Listar los documentos de la colección
+    logger.info(f"SEARCH_CHROMA - Documentos en la colección {collection.count()}")
+
+    logger.info(f"SEARCH_CHROMA - Previo a consulta")
+    # Realizar una búsqueda de similitud
+    results = collection.query(
+        query_texts=[query_text.lower()],
+        n_results=top_k
+    )
     logger.info(f"SEARCH_CHROMA - resultados: {results}")
 
     return results
@@ -169,7 +204,8 @@ def consultaChromadb(query_text, top_k, similarity_threshold: float = 1.0):
         result = results["documents"][i]
         logger.info(f"SEARCH_CHROMA - distances {results['distances'][i]}:")
         for j in range(len(result)):
-            if results['distances'][i][j] <= similarity_threshold:
+            logger.info(f"distante {results['distances'][i][j]} similarity_threshold {similarity_threshold}")
+            if results['distances'][i][j] < similarity_threshold:
                 logger.info(f"SEARCH_CHROMA - {results['distances'][i][j]}:")    
                 texto = result[j]
                 contexto += f"Convocatoria: {texto}\n"

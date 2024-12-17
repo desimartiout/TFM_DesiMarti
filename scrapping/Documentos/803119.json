@@ -1,0 +1,72 @@
+{
+    "id": 1004679,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD DE ALICANTE",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803119",
+    "fechaRecepcion": "2024-12-16T10:19:16+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 100,
+    "mrr": false,
+    "descripcion": "III CONCURSO DE MICRORRELATOS EXPRÉS DE LA UNIVERSIDAD DE ALICANTE - 2025",
+    "descripcionLeng": "III CONCURS DE MICRORELATS EXPRÉS DE LA UNIVERSITAT D'ALACANT - 2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación postsecundaria",
+            "codigo": "85.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES - ESPAÑA "
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "III CONCURSO DE MICRORRELATOS EXPRÉS DE LA UNIVERSIDAD DE ALICANTE - 2025",
+    "urlBasesReguladoras": "https://www.boua.ua.es/Acuerdos/DescargarAcuerdo/54841",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-02-08T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-09T00:00:00+01:00",
+    "textInicio": "Comienza el día 8 de febrero de 2025, a las 12:00 horas.",
+    "textFin": "Termina el mismo día 8 de febrero de 2025.",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1176949,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "026.pdf",
+            "long": 179223,
+            "datMod": "2024-12-16T11:15:07.000+01:00",
+            "datPublicacion": "2024-12-16T11:15:07.000+01:00"
+        },
+        {
+            "id": 1176948,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "026.pdf",
+            "long": 179223,
+            "datMod": "2024-12-16T11:15:07.000+01:00",
+            "datPublicacion": "2024-12-16T11:15:07.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

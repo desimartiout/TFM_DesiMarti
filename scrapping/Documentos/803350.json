@@ -1,0 +1,67 @@
+{
+    "id": 1004910,
+    "organo": {
+        "nivel1": "ESTADO",
+        "nivel2": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+        "nivel3": "SUBSECRETARÍA DE AGRICULTURA, PESCA Y ALIMENTACIÓN"
+    },
+    "sedeElectronica": "https://sede.mapa.gob.es/portal/site/seMAPA/procedimientos",
+    "codigoBDNS": "803350",
+    "fechaRecepcion": "2024-12-17T08:48:42+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 500000,
+    "mrr": false,
+    "descripcion": "Orden de 16 de noviembre de 2024, del MAPA, por la que se convocan las subvenciones el artículo 6 del Real Decreto-ley 4/2022, de 15 de marzo, destinadas la subvención de principal de créditos a jóvenes agricultores y operadores del sector pesquero.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "AGRICULTURA, GANADERÍA, SILVICULTURA Y PESCA",
+            "codigo": "A"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES - ESPAÑA "
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "Subvenciones del artículo artículo 6 del Real Decreto-ley 4/2022, de 15 de marzo, de bonificación del principal de operaciones de financiación formalizadas por operadores del sector agroalimentario y pesquero.",
+    "urlBasesReguladoras": "https://www.boe.es/buscar/pdf/2022/BOE-A-2022-4136-consolidado.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2027-09-15T00:00:00+02:00",
+    "textInicio": "A partir del día siguiente de publicación del extracto en el BOE",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "REG (UE) 717/2014 de minimis, Pesca y acuicultura",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177558,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Orden 16-11-24 - convocatoría linea ICO MAPA SAECA - JOVENES.pdf",
+            "long": 1189111,
+            "datMod": "2024-12-17T09:15:16.000+01:00",
+            "datPublicacion": "2024-12-17T09:15:16.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

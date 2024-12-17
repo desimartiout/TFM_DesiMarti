@@ -1,0 +1,64 @@
+{
+    "id": 1005145,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE CÁCERES",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE CÁCERES",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.dip-caceres.es/carpetaCiudadano/Init.do",
+    "codigoBDNS": "803585",
+    "fechaRecepcion": "2024-12-17T13:46:12+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 150000,
+    "mrr": false,
+    "descripcion": "BBRR y Convocatoria de subvenciones en Régimen de concurrencia competitiva para realizar proyectos de Educación para la Ciudadanía Global destinadas a Organizaciones No Gubernamentales de Desarrollo (ONGD) para el año 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación",
+            "codigo": "85"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES432 - Cáceres"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "BBRR y Convocatoria de subvenciones en Régimen de concurrencia competitiva para realizar proyectos de Educación para la Ciudadanía Global destinadas a Organizaciones No Gubernamentales de Desarrollo (ONGD) para el año 2025",
+    "urlBasesReguladoras": "Pendiente publicación",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde el día siguiente de la publicación de la convocatoria y su extracto en BOP Cáceres",
+    "textFin": "30 días hábiles desde el siguiente de la publicación de la convocatoria y su extracto en BOP Cáceres",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178116,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "03 Borrador BBCC ECG.pdf",
+            "long": 350350,
+            "datMod": "2024-12-17T15:15:09.000+01:00",
+            "datPublicacion": "2024-12-17T15:15:09.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -10,7 +10,7 @@ from src.chat import (  # type: ignore
     ensure_model_pulled,
     generate_response_streaming_ollama,
     generate_response_streaming_openai,
-    get_embedding_model,
+    # get_embedding_model,
 )
 from src.constants import OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, AI_ICON, HUMAN_ICON, LLM_MODELO_SELECCIONADO,LLM_TIPOMODELO_OPENAI,LLM_TIPOMODELO_OLLAMA
 from src.constantesWeb import CHATBOT_INTRO

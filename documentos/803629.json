@@ -1,0 +1,72 @@
+{
+    "id": 1005189,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSITAT DE VALÈNCIA (ESTUDI GENERAL)",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803629",
+    "fechaRecepcion": "2024-12-17T14:45:15+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 4000,
+    "mrr": false,
+    "descripcion": "ayudas al estudio de la UV para el alumnado ganador de la fase local de la Olimpiada de Geología curso 2024-2025",
+    "descripcionLeng": "ajudes a l'estudi de la UV per a l'alumnat guanyador de la fase local de l'Olimpíada Geología curs 2024-2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación postsecundaria",
+            "codigo": "85.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES523 - Valencia / València"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Resolución de 3 de diciembre de 2024, de la vicerrectora de Estudios de la Universitat de València, por la cual se convocan ayudas al estudio de la UV para el alumnado ganador de la fase local de la Olimpiada de Geología curso 2024-2025",
+    "urlBasesReguladoras": "https://webges.uv.es/uvTaeWeb/MuestraInformacionEdictoPublicoFrontAction.do?accion=inicio&idEdictoSeleccionado=76002",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Inicia al día siguiente de la publicación de esta convocatoria en el DOGV",
+    "textFin": "Finaliza el 17  de enero de 2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178201,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "convocatoria val.pdf",
+            "long": 891687,
+            "datMod": "2024-12-17T15:15:03.000+01:00",
+            "datPublicacion": "2024-12-17T15:30:01.000+01:00"
+        },
+        {
+            "id": 1178200,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "convocatoria cas.pdf",
+            "long": 883359,
+            "datMod": "2024-12-17T15:15:03.000+01:00",
+            "datPublicacion": "2024-12-17T15:30:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

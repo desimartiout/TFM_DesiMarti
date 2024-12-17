@@ -13,13 +13,14 @@ import streamlit as st
 
 from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, CHROMA_SIMILARITY_THRESHOLD, EVAL_SAVE
 from src.constantesWeb import PROMPT_TEMPLATE, OPENAI_TEMPLATE
-from src.embeddings import get_embedding_model
+# from src.embeddings import get_embedding_model
 #from src.opensearch import hybrid_search
 from src.searchchromadb import consultaChromadb
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 from src.utils import setup_logging, write_eval_to_json
+from libs.faiss_utils import consultaFaiss
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -119,8 +120,11 @@ def prompt_template(query: str, context: str, history: List[Dict[str, str]]) -> 
     prompt = PROMPT_TEMPLATE
 
     prompt += f"""
-        Usando esta información: {context}
-        Responde: {query}]
+        ### Usando esta información: 
+        {context}
+        
+        ### Responde: 
+        {query}]
         """
     logger.info("Prompt construido con contexto e historial de conversación.")
     return prompt
@@ -193,11 +197,20 @@ def run_openai_streaming(contexto: str,query: str, temperature: float):
         ]
     )
     
-    queryContext = f"Usando esta información: {contexto}. Responde: {query}"
+    # queryContext = f"Usando esta información: {contexto}. Responde: {query}"
+
+    queryContext = f"""
+        ### Convocatorias ayudas: 
+        {contexto}
+
+        ### Consulta: 
+        {query}]
+        """
 
     # Encadenar el prompt con el modelo
     chain = prompt | llm
     ai_msg = chain.invoke({"input": queryContext})
+    logger.info(f"Contexto a LLM: {queryContext}")
 
     response_text = ai_msg.content
 
@@ -213,13 +226,16 @@ def run_openai_streaming(contexto: str,query: str, temperature: float):
 
     return response_text
 
-def prompt_template_openai(query: str, context: str, history: List[Dict[str, str]]) -> str:
-    prompt = f"""
-        Usando esta información: {context}
-        Responde: {query}]
-        """
-    logger.info("Prompt construido OPENAI con contexto e historial de conversación.")
-    return prompt
+# def prompt_template_openai(query: str, context: str, history: List[Dict[str, str]]) -> str:
+#     prompt = f"""
+#         ### Convocatorias ayudas: 
+#         {context}
+
+#         ### Consulta: 
+#         {query}]
+#         """
+#     logger.info("Prompt construido OPENAI con contexto e historial de conversación.")
+#     return prompt
 
 def generate_response_streaming_openai(
     query: str,
@@ -232,7 +248,11 @@ def generate_response_streaming_openai(
     max_history_messages = 10
     history = chat_history[-max_history_messages:]
     
-    context = consultaChromadb(query, num_results,CHROMA_SIMILARITY_THRESHOLD)
+    # Chromadb
+    # context = consultaChromadb(query, num_results,CHROMA_SIMILARITY_THRESHOLD)
+
+    # FAISS
+    context = consultaFaiss(query,num_results)
 
     # Generate prompt using the prompt_template function
     #prompt = prompt_template_openai(query, context, history)

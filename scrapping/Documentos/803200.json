@@ -1,0 +1,88 @@
+{
+    "id": 1004760,
+    "organo": {
+        "nivel1": "ROTA",
+        "nivel2": "AYUNTAMIENTO DE ROTA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803200",
+    "fechaRecepcion": "2024-12-16T12:52:31+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 61700,
+    "mrr": false,
+    "descripcion": "RESOLUCIÓN DE LA ALCADÍA-PRESIDENCIA DEL AYUNTAMIENTO DE ROTA (DECRETO 2024-8499), DE 13 DE DICIEMBRE DE 2024, DE CONVOCATORIA Y BASES DE SUBVENCIONES EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA ACTIVIDADES ECONÓMICAS UBICADAS EN AV MARÍA AUXILIADORA (TRA",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Comercio al por menor, excepto de vehículos de motor y motocicletas",
+            "codigo": "47"
+        },
+        {
+            "descripcion": "HOSTELERÍA",
+            "codigo": "I"
+        },
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES612 - Cádiz"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "CONVOCATORIA Y BASES DE SUBVENCIONES EN RÉGIMEN DE CONCURRENCIA COMPETITIVA PARA ACTIVIDADES ECONÓMICAS UBICADAS EN AV MARÍA AUXILIADORA (TRAMO AV LA MARINA A PZ SAN ROQUE), AV SAN FERNANDO (TRAMO AV MARÍA AUXILIADORA CON AV SEVILLA) Y CL AVIADOR DURÁN E",
+    "urlBasesReguladoras": "www.aytorota.es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "EL DIA SIGUIENTE DE SU PUBLICACION EN EL DIARIO OFICIAL DE LA PROVINCIA DE CADIZ",
+    "textFin": "VEINTE DÍAS DESDE EL DIA SIGUIENTE DE SU PUBLICACION EN EL DIARIO OFICIAL DE LA PROVINCIA DE CADIZ",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177163,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "DECRETO 2024-8499 [2 Decreto aprobación convocatoria MAS-ADH_2024].pdf",
+            "long": 934492,
+            "datMod": "2024-12-16T13:15:06.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:06.000+01:00"
+        },
+        {
+            "id": 1177184,
+            "descripcion": "ANUNCIO EXTRACTO CONVOCATORIA (INCLUYE BASES)",
+            "nombreFic": "Anuncio_3 ANUNCIO EXTRACTO CONVOCATORIA Subvenciones MAS-ADH_2024.pdf",
+            "long": 285727,
+            "datMod": "2024-12-16T13:15:06.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:06.000+01:00"
+        },
+        {
+            "id": 1177182,
+            "descripcion": "MODELO DE SOLICITUD",
+            "nombreFic": "1 SOLICITUD MAS-ADH_2024_p.pdf",
+            "long": 131122,
+            "datMod": "2024-12-16T13:15:06.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:06.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,67 @@
+{
+    "id": 1004968,
+    "organo": {
+        "nivel1": "PALAFRUGELL",
+        "nivel2": "AYUNTAMIENTO DE PALAFRUGELL",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803408",
+    "fechaRecepcion": "2024-12-17T10:11:57+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 250000,
+    "mrr": false,
+    "descripcion": "Convocatoria de subvenciones para la rehabilitación de viviendas",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES512 - Girona"
+        }
+    ],
+    "descripcionFinalidad": "Acceso a la vivienda y fomento de la edificación",
+    "descripcionBasesReguladoras": "Aprobación de las bases generales de subvenciones para el año 2024",
+    "urlBasesReguladoras": "https://cido.diba.cat/subvencions/16952172/bases-generals-reguladores-de-la-concessio-i-justificacio-de-subvencions-municipals-per-a-lany-2024-ajuntament-de-palafrugell",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-17T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-31T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177671,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Certificado convocatoria subv rehab vivienda.pdf",
+            "long": 317886,
+            "datMod": "2024-12-17T11:15:14.000+01:00",
+            "datPublicacion": "2024-12-17T11:15:14.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

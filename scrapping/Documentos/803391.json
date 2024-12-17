@@ -1,0 +1,72 @@
+{
+    "id": 1004951,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+        "nivel3": null
+    },
+    "sedeElectronica": "ujiapps.uji.es/seu/info-adm/tao/convocatoriesRH?pArId=70750",
+    "codigoBDNS": "803391",
+    "fechaRecepcion": "2024-12-17T09:49:16+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1350,
+    "mrr": false,
+    "descripcion": "Becas para la realización de Trabajos de Final de Grado en el Grado en Ingeniería Química en colaboración con la empresa Porcelanosa Grupo 2024/25",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación postsecundaria",
+            "codigo": "85.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES52 - COMUNIDAD VALENCIANA"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Becas para la realización de Trabajos de Final de Grado en el Grado en Ingeniería Química en colaboración con la empresa Porcelanosa Grupo 2024/25",
+    "urlBasesReguladoras": "ujiapps.uji.es/seu/info-adm/tao/convocatoriesRH?pArId=70750",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Periodo de entrega de solicitudes abierto desde  hasta .",
+    "textFin": "Periodo de de entrega de solicitudes cerrado el dia .",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177674,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "2024-2025 Bases de la convocatoria de becas TFG_Porcelanosa IQ_VAL.pdf",
+            "long": 89808,
+            "datMod": "2024-12-17T11:15:15.000+01:00",
+            "datPublicacion": "2024-12-17T11:15:15.000+01:00"
+        },
+        {
+            "id": 1177673,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "2024-2025 Bases de la convocatoria de becas de TFG_PorcelanosaIQ.pdf",
+            "long": 96539,
+            "datMod": "2024-12-17T11:15:15.000+01:00",
+            "datPublicacion": "2024-12-17T11:15:15.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

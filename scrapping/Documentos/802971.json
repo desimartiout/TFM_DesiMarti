@@ -59,6 +59,18 @@
             "datPublicacion": "2024-12-13T15:15:10.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 171874,
+            "titulo": "EXTRACTO de la convocatoria y bases reguladoras de la convocatoria de fecha 12 de diciembre de 2024 por la que se convocan Becas Erasmus de PDI para el BIP “Theories in Translator Training”, en el Polytechnic Institute of Bragança (Portugal) curso 2024/2025",
+            "tituloLeng": null,
+            "texto": "<p>Primero.- Beneficiarios.</p><p>Estas movilidades están destinadas al personal docente e investigador adscrito al Departamento de Traducción e Interpretación que ha estado involucrado en ladocencia en lengua inglesa durante la fase virtual del BIP.</p><p>Segundo.- Objeto.</p><p>Convocar ayudas para el PDI adscrito al Departamento de Traducción e Interpretación que ha estado involucrado en la docencia en lengua inglesa durante la fase virtual del BIP de la Universidad de Salamanca durante el curso académico 2023/2024.</p><p>Tercero.- Bases reguladoras.</p><p>Convocatoria y bases reguladoras de fecha 11 de diciembre de 2024.</p><p>Cuarto.- Cuantía.</p><p>La cuantía global estimada del crédito consignado es de 3.465 euros.</p><p>Quinto.- Plazo de presentación de solicitudes</p><p>Desde su publicación en el BOCyL hasta el 17 de diciembre de 2024.</p>",
+            "textoLeng": null,
+            "url": "https://bocyl.jcyl.es/boletines/2024/12/17/pdf/BOCYL-D-17122024-4.pdf",
+            "cve": "BOCYL-D-17122024-4",
+            "desDiarioOficial": "BOCYL. B.O. DE LA JUNTA DE CASTILLA Y LEÓN",
+            "datPublicacion": "2024-12-17T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

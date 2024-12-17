@@ -1,0 +1,80 @@
+{
+    "id": 1004712,
+    "organo": {
+        "nivel1": "ARTEIXO",
+        "nivel2": "AYUNTAMIENTO DE ARTEIXO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803152",
+    "fechaRecepcion": "2024-12-16T11:36:06+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 50000,
+    "mrr": false,
+    "descripcion": "Convocatoria para el año 2025 de las ayudas de apoyo a la movilidad para personas con diversidad funcional y/o con dependencia",
+    "descripcionLeng": "Convocatoria para o ano 2025 das axudas de apoio á mobilidade para persoas con diversidade funcional e/ou con dependencia.",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Otras actividades de servicios sociales sin alojamiento",
+            "codigo": "88.9"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES111 - A Coruña"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "BASES DA CONVOCATORIA DE AXUDAS Á MOBILIDADE PARA PERSOAS CON DIVERSIDADE FUNCIONAL E/OU CON DEPENDENCIA ACREDITADA",
+    "urlBasesReguladoras": "https://bop.dicoruna.es/bopportal/publicado/2018/12/27/2018_0000009701.html",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-01T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-10-31T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177014,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "CONVOCATORIA PARA  EL AÑO 2025 DE LAS AYUDAS DE APOYO A LA MOVILIDAD PARA PERSONAS CON DIVERSIDAD FUNCIONAL Y O CON DEPENDENCIA.docx",
+            "long": 209476,
+            "datMod": "2024-12-16T13:15:29.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:29.000+01:00"
+        },
+        {
+            "id": 1176995,
+            "descripcion": "APROBACIÓN XGL",
+            "nombreFic": "CERTIFICADO XGL CONVOCATORIA DAS AXUDAS DE APOIO Á MOBILIDADE PARA PERSOAS CON DIVERSIDADE FUNCIONAL E_OU DEPEND_1050029.pdf",
+            "long": 298717,
+            "datMod": "2024-12-16T13:15:29.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:29.000+01:00"
+        },
+        {
+            "id": 1177015,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "CONVOCATORIA PARA O ANO 2025 DAS AXUDAS DE APOIO Á MOBILIDADE PARA PERSOAS CON DIVERSIDADE FUNCIONAL E OU CON DEPENDENCIA.docx",
+            "long": 210463,
+            "datMod": "2024-12-16T13:15:29.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:29.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

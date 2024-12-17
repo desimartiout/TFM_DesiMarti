@@ -1,0 +1,72 @@
+{
+    "id": 1005101,
+    "organo": {
+        "nivel1": "MUNGIA",
+        "nivel2": "AYUNTAMIENTO DE MUNGIA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803541",
+    "fechaRecepcion": "2024-12-17T13:17:52+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 25000,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA 2025 PARA LA CONCESION DE SUBVENCIONES PARA EL USO DEL SERVICIO AUZOTAXI EN MUNGIA",
+    "descripcionLeng": "MUNGIAN AUZOTAXI ZERBITZUA ERABILTZEKO DIRU-LAGUNTZAK EMATEKO 2025EKO DEIALDIA",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Otro transporte terrestre de pasajeros",
+            "codigo": "49.3"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES213 - Bizkaia"
+        }
+    ],
+    "descripcionFinalidad": "Subvenciones al transporte",
+    "descripcionBasesReguladoras": "ORDENANZA REGULADORA PARA LA CONCESIÓN  DE SUBVENCIONES PARA EL USO DEL SERVICIO  DE AUZOTAXI EN MUNGIA",
+    "urlBasesReguladoras": "https://www.mungia.eus/documents/39611/0/BAI_OINARRIAK+AUZOTAXI+ERDERAZ.pdf/78cb1d86-ab6b-1c04-24bc-744a51e8a196?t=1694775396252",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-01T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-12-31T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178037,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "01convocatoria.pdf",
+            "long": 3262012,
+            "datMod": "2024-12-17T15:15:13.000+01:00",
+            "datPublicacion": "2024-12-17T15:15:13.000+01:00"
+        },
+        {
+            "id": 1178036,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "01convocatoria.pdf",
+            "long": 3262012,
+            "datMod": "2024-12-17T15:15:13.000+01:00",
+            "datPublicacion": "2024-12-17T15:15:13.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

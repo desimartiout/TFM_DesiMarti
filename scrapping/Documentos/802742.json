@@ -1,0 +1,74 @@
+{
+    "id": 1004302,
+    "organo": {
+        "nivel1": "ANDALUCÍA",
+        "nivel2": "CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "802742",
+    "fechaRecepcion": "2024-12-13T09:02:38+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 3300000,
+    "mrr": false,
+    "descripcion": "Orden de 12 de diciembre de 2024 por la que se convocan para el año 2024 ayudas por la Parada Temporal de la flota de Arrastre de fondo que faena en el Mediterráneo.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "GRAN EMPRESA"
+        },
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Pesca",
+            "codigo": "03.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES61 - ANDALUCIA"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "Orden de 2 de septiembre de 2022, BB.RR., para la concesión de ayudas en rég.de conc.no compet.,por la paralización temporal de",
+    "urlBasesReguladoras": "https://www.juntadeandalucia.es/eboja/2022/173/BOJA22-173-00027-14064-01_00267344.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-08T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-20T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEMPA – FONDO EUROPEO MARÍTIMO, DE PESCA Y ACUICULTURA"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1176046,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "TextoConvocatoria.pdf",
+            "long": 852043,
+            "datMod": "2024-12-13T09:15:01.000+01:00",
+            "datPublicacion": "2024-12-13T09:30:00.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,96 @@
+{
+    "id": 1004762,
+    "organo": {
+        "nivel1": "ARAGÓN",
+        "nivel2": "DIRECCIÓN GENERAL DE RELACIONES INSTITUCIONALES, ACCIÓN EXTERIOR Y TRANSPARENCIA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803202",
+    "fechaRecepcion": "2024-12-16T13:00:14+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 150000,
+    "mrr": false,
+    "descripcion": "Convocatoria subvenciones cooperación transfronteriza Aragón-Nueva Aquitania 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES DE ORGANIZACIONES Y ORGANISMOS EXTRATERRITORIALES",
+            "codigo": "U"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES24 - ARAGON"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "ORDEN PRI/1331/2021, de 18 de octubre, de bases reguladoras para la concesión de subvenciones destinadas a financiar proyectos de cooperación transfronteriza entre la CA de Aragón y las regiones francesas de Nueva Aquitania y Occitania",
+    "urlBasesReguladoras": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1189128044343",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-02-20T00:00:00+01:00",
+    "textInicio": "desde el día siguiente a publicación en BOA",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177159,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "ORDEN convocatoria subvenciones cooperación transfronteriza Aragón-Nueva Aquitania 2025_firmada.pdf",
+            "long": 896760,
+            "datMod": "2024-12-16T13:15:04.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:04.000+01:00"
+        },
+        {
+            "id": 1177189,
+            "descripcion": "Anexo I - Memoria",
+            "nombreFic": "Anexo I - Memoria.pdf",
+            "long": 190143,
+            "datMod": "2024-12-16T13:15:04.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:04.000+01:00"
+        },
+        {
+            "id": 1177194,
+            "descripcion": "Anexo IV - Compromiso de ejecución",
+            "nombreFic": "Anexo IV - Compromiso de ejecución.pdf",
+            "long": 487977,
+            "datMod": "2024-12-16T13:15:04.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:04.000+01:00"
+        },
+        {
+            "id": 1177192,
+            "descripcion": "Anexo III - Cronograma",
+            "nombreFic": "Anexo III- Cronograma.pdf",
+            "long": 277822,
+            "datMod": "2024-12-16T13:15:04.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:04.000+01:00"
+        },
+        {
+            "id": 1177190,
+            "descripcion": "Anexo II - Plan de financiación",
+            "nombreFic": "Anexo II - Plan de financiación.pdf",
+            "long": 210423,
+            "datMod": "2024-12-16T13:15:04.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:04.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,72 @@
+{
+    "id": 1005181,
+    "organo": {
+        "nivel1": "POBLA DE VALLBONA, LA",
+        "nivel2": "AYUNTAMIENTO DE POBLA DE VALLBONA, LA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://seu.lapobladevallbona.es",
+    "codigoBDNS": "803621",
+    "fechaRecepcion": "2024-12-17T14:29:51+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "OTROS INSTRUMENTOS DE AYUDA"
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1,
+    "mrr": false,
+    "descripcion": "Anuncio de la convocatoria de prestaciones municipales del Servicio de Ayuda a Domicilio (SAD) de la Pobla de Vallbona, ejercicio 2025",
+    "descripcionLeng": "Anunci de la convocatòria de prestacions municipals del Servei d'Ajuda a Domicili (SAD) de la Pobla de Vallbona, exercici 2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de servicios sociales sin alojamiento para personas mayores y con discapacidad",
+            "codigo": "88.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES523 - Valencia / València"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "CONVOCATORIA DEL SERVICIO MUNICIPAL DE AYUDA A DOMICILIO (SAD) 2025",
+    "urlBasesReguladoras": "https://www.lapobladevallbona.es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "A partir del día siguiente a su publicación en el Boletín Oficial de la Provincia",
+    "textFin": "Todo el año",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178183,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "Resolución convocatoria concejal delegado.pdf.PDF",
+            "long": 203598,
+            "datMod": "2024-12-17T15:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T15:15:04.000+01:00"
+        },
+        {
+            "id": 1178182,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Resolución convocatoria concejal delegado.pdf.PDF",
+            "long": 203598,
+            "datMod": "2024-12-17T15:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T15:15:04.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

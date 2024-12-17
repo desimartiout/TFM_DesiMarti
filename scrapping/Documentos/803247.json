@@ -1,0 +1,64 @@
+{
+    "id": 1004807,
+    "organo": {
+        "nivel1": "CASTILLA Y LEÓN",
+        "nivel2": "CONSEJERÍA DE LA PRESIDENCIA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.tramitacastillayleon.jcyl.es",
+    "codigoBDNS": "803247",
+    "fechaRecepcion": "2024-12-16T14:25:50+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 15700,
+    "mrr": false,
+    "descripcion": "Orden de 16 de diciembre, de la Consejería de la Presidencia, por la que se convocan becas de formación práctica en materia de cooperación internacional para el desarrollo, para el año 2025.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Otra educación",
+            "codigo": "85.5"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES41 - CASTILLA Y LEON"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "ORDEN PRE/553/2023, de 26 de abril, por la que se aprueban las bases reguladoras para la concesión de becas de formación práctica en materia de cooperación internacional para el desarrollo",
+    "urlBasesReguladoras": "https://bocyl.jcyl.es/boletines/2023/05/03/pdf/BOCYL-D-03052023-13.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "día siguiente a la publicación del extracto en el Bocyl",
+    "textFin": "transcurridos treinta días hábiles desde el día siguiente a la publicación del extracto en el Bocyl",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177269,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "7.-ORDEN convocatoria BECOS 2025.FDO .pdf",
+            "long": 344944,
+            "datMod": "2024-12-16T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-16T15:15:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

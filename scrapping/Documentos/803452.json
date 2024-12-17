@@ -1,0 +1,88 @@
+{
+    "id": 1005012,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+        "nivel3": null
+    },
+    "sedeElectronica": "ujiapps.uji.es/seu/info-adm/tao/convocatoriesRH?pArId=71085",
+    "codigoBDNS": "803452",
+    "fechaRecepcion": "2024-12-17T10:58:10+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 27000,
+    "mrr": false,
+    "descripcion": "Resolución del Vicerrectorado de Relaciones Internacionales de la Universitat Jaume I, por la cual se convoca el Programa de intercambio de estudiantado de grado con Asia para el curso 2025/26",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación postsecundaria",
+            "codigo": "85.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES52 - COMUNIDAD VALENCIANA"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Resolución del Vicerrectorado de Relaciones Internacionales de la Universitat Jaume I, por la cual se convoca el Programa de intercambio de estudiantado de grado con Asia para el curso 2025/26",
+    "urlBasesReguladoras": "ujiapps.uji.es/seu/info-adm/tao/convocatoriesRH?pArId=71085",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-20T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-15T00:00:00+01:00",
+    "textInicio": "Periodo de entrega de solicitudes abierto desde  hasta .",
+    "textFin": "Periodo de de entrega de solicitudes cerrado el dia .",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177838,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "convocat_esp_asia_2025_26def.pdf",
+            "long": 438672,
+            "datMod": "2024-12-17T11:15:01.000+01:00",
+            "datPublicacion": "2024-12-17T11:30:01.000+01:00"
+        },
+        {
+            "id": 1177841,
+            "descripcion": "ANEXOS",
+            "nombreFic": "anexo_ii_esp_asia_plazas_2025-26.pdf",
+            "long": 270056,
+            "datMod": "2024-12-17T11:15:02.000+01:00",
+            "datPublicacion": "2024-12-17T11:30:01.000+01:00"
+        },
+        {
+            "id": 1177840,
+            "descripcion": "OTROS",
+            "nombreFic": "annex_ii_val_Asia_places_2025-26.pdf",
+            "long": 269193,
+            "datMod": "2024-12-17T11:15:02.000+01:00",
+            "datPublicacion": "2024-12-17T11:30:01.000+01:00"
+        },
+        {
+            "id": 1177839,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "convocat_val_Asia_2025_26def.pdf",
+            "long": 784461,
+            "datMod": "2024-12-17T11:15:01.000+01:00",
+            "datPublicacion": "2024-12-17T11:30:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

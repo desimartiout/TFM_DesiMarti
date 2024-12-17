@@ -15,6 +15,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from libs.chromadb_utils import cargarDocumento
+from libs.faiss_utils import agregar_documento,obtener_todos_documentos
 
 def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
     """Descarga el JSON de una URL usando el id del elemento y lo guarda en una carpeta destino."""
@@ -56,7 +57,11 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
 
         logging.info(f"Vamos a cargar el documento en chromadb {numConvocatoria}")
 
-        cargarDocumento(formatted_text,json_aplanado,numConvocatoria)
+        #Chromadb
+        # cargarDocumento(formatted_text.lower(),json_aplanado,numConvocatoria)
+
+        #faiss
+        agregar_documento(formatted_text)
 
         logging.info("Documento cargado correctamente")
         
@@ -213,13 +218,15 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
     while page < total_pages:
         # Construir la URL de la página actual
         url = f"{base_url}&page={page}&pageSize={page_size}"
-        
+        logging.info(f"url {url}")
         try:
             # Hacer la solicitud
             response = requests.get(url)
             response.raise_for_status()  # Lanza una excepción si hay un error HTTP
             
             datos = response.json()
+
+            logging.info(f"datos {datos}")
 
             if datos and "content" in datos:
                 for elemento in datos["content"]:
@@ -228,7 +235,6 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
 
             # Añadir los elementos de la página actual a la lista
             all_elements.extend(datos.get("content", []))
-            
 
             # Actualizar el total de páginas si está disponible
             tot = datos.get("totalPages", 0)
@@ -258,6 +264,8 @@ if __name__ == "__main__":
 
     # Guardar o procesar los elementos
     logging.info(f"Se han descargado {len(elements)} elementos en total.")
+
+    logging.info(f"Documentos en Faiss {len(obtener_todos_documentos())} elementos en total.")
 
     # Opcional: Guardar los datos en un archivo JSON
     import json

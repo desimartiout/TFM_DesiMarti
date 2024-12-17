@@ -59,6 +59,18 @@
             "datPublicacion": "2024-12-13T13:30:01.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 171866,
+            "titulo": "El Presidente de la Diputación Provincial de Huesca ha dictado Decreto de fecha 12 de diciembre de 2024, con el siguiente contenido resolutivo:",
+            "tituloLeng": null,
+            "texto": "<p>- Desestimar íntegramente las alegaciones presentadas por la Comarca del Cinca Medio por los motivos expresados en el informe de fecha 11 de diciembre de 2024 emitido por los Servicios Técnicos de la Sección de Cultura y el visto bueno del Diputado-Presidente de la Comisión de Cultura, obrante en el expediente.</p><p></p><p>- Aprobar definitivamente el Plan Provincial de Concertación para la realización de la Campaña de Esquí Escolar 2025 por las Comarcas de la provincia, elevando a definitivo el texto del Plan aprobado inicialmente, por unanimidad, por acuerdo del Pleno provincial de fecha 14 de noviembre de 2024.</p><p></p><p>Las personas interesadas pueden consultar el contenido completo del Plan en el tablón de anuncios electrónico (https://dphuesca.sedipualba.es/tablondeanuncios/), disponible en la sede electrónica de la Diputación Provincial de Huesca.</p><p></p><p>De acuerdo con las normas de gestión del mencionado Plan, las Comarcas dispondrán de 10 días hábiles, desde la publicación de este anuncio en el Boletín Oficial de la Provincia para presentar la documentación exigida para la solicitud de participación.</p><p></p><p>Contra la presente resolución, que pone fin a la vía administrativa, podrá interponerse en el plazo de dos meses, a contar desde el día siguiente a esta publicación o bien requerimiento potestativo frente al mismo órgano que dictó la resolución o bien directamente recurso contencioso-administrativo ante el Juzgado de lo Contencioso-Administrativo de Huesca, de conformidad con lo dispuesto en el artículo 8 de la Ley 29/1998, de 13 de julio, de la Jurisdicción Contencioso-Administrativa.</p>",
+            "textoLeng": null,
+            "url": "https://bop.dphuesca.es/index.php/mod.bopanuncios/mem.visualizarpdf/relcategoria.60008/idbopanuncio.240349/seccion.portal/chk.b05e0420d3136d707d6ea5431efbc3e4.html",
+            "cve": null,
+            "desDiarioOficial": "B.O.P. DE HUESCA",
+            "datPublicacion": "2024-12-17T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

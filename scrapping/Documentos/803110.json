@@ -1,0 +1,84 @@
+{
+    "id": 1004670,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE PONTEVEDRA",
+        "nivel2": "CULTURA",
+        "nivel3": null
+    },
+    "sedeElectronica": "http://sede.depo.es",
+    "codigoBDNS": "803110",
+    "fechaRecepcion": "2024-12-16T09:57:41+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 19000,
+    "mrr": false,
+    "descripcion": "RESIDENCIAS ARTÍSTICAS NOVOS VALORES DO MUSEO DE PONTEVEDRA",
+    "descripcionLeng": "RESIDENCIAS ARTÍSTICAS NOVOS VALORES DO MUSEO DE PONTEVEDRA",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de bibliotecas, archivos, museos y otras actividades culturales",
+            "codigo": "91"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES114 - Pontevedra"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "RESIDENCIA ARTÍSTICA INTERNACIONAL DO MUSEO DE PONTEVEDRA EN BASILEA",
+    "urlBasesReguladoras": "http://bdns.depo.es/?CZNNIS",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-18T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-17T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1176937,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "02.BORRADOR BASES_Convocatoria resid artistica Novos Valores.pdf",
+            "long": 263112,
+            "datMod": "2024-12-16T11:15:08.000+01:00",
+            "datPublicacion": "2024-12-16T11:15:08.000+01:00"
+        },
+        {
+            "id": 1176936,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "02.BASES_Convocatoria resid. artistica Novos Valores cast gab1.pdf",
+            "long": 190423,
+            "datMod": "2024-12-16T11:15:08.000+01:00",
+            "datPublicacion": "2024-12-16T11:15:08.000+01:00"
+        }
+    ],
+    "anuncios": [
+        {
+            "numAnuncio": 171904,
+            "titulo": "EXTRACTO DE LA CONVOCATORIA A CONVOCATORIA DE RESIDENCIAS ARTÍSTICAS NOVOS VALORES DEL MUSEO DE PONTEVEDRA EN COLABORACIÓN CON MADRID DESTINO, CULTURA, TURISMO Y NEGOCIO S.A. Y LA FONDATION WALTER & NICOLE LEBLANC",
+            "tituloLeng": "EXTRACTO DA CONVOCATORIA DE RESIDENCIAS ARTÍSTICAS NOVOS VALORES DO MUSEO DE PONTEVEDRA EN COLABORACIÓN CON MADRID DESTINO, CULTURA, TURISMO Y NEGOCIO S.A. E A FONDATION WALTER & NICOLE LEBLANC",
+            "texto": "<p>1. Personas participantes Podrán concurrir a esta convocatoria personas físicas que sean comisarias, artistas creadoras o investigadoras de proyectos artísticos, residentes o nacidas en la provincia de Pontevedra y que tengan, como mínimo, 18 años en la fecha de presentación de solicitudes. Estas deben contar con un nivel alto de inglés o francés, lo que implica tener una comprensión oral y escrita que les permita desenvolverse completamente en Bruselas. 2. Objeto Constituye el objeto de esta convocatoria aprobar las bases que regulan la convocatoria de Residencias Artísticas Novos Valores del Museo de Pontevedra en colaboración con Madrid Destino Cultura Turismo y Negocio, S.A., y la Fondation Walter & Nicole Leblanc, mediante la cual se seleccionarán dos artistas que se beneficiarán de una ayuda, en régimen de concurrencia competitiva, para la creación artística contemporánea en vivo en un programa que se llevará a cabo en la Fondation Walter & Nicole Leblanc en Bruselas y en el Centro de Creación Contemporánea Matadero Madrid, dependiente de Madrid Destino, durante el año 2025. 3. Normativa aplicable Ley 38/2003, de 17 de noviembre, general de subvenciones (LGS) Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas (LPACAP), y de la Ordenanza reguladora de subvenciones de la Diputación de Pontevedra. 4. Cuantía Las personas seleccionadas recibirán una beca económica de nueve mil quinientos (9.500,00) euros para el desarrollo del proyecto en los lugares de destino, así como para sus gastos de transporte y mantenimiento. Si el conjunto de los gastos de la estancia fuera mayor, la ayuda no será superior a la cantidad indicada, la cual estará sujeta a las retenciones que sean de aplicación, y las y los artistas no tendrán ningún otro derecho de carácter económico. Quedan excluidos de la ayuda los costes relativos al transporte y seguro de las obras. La Diputación de Pontevedra asumirá dichos costes desde Bruselas y hasta Madrid, en un primer lugar, y una vez finalizada la residencia en Madrid, asumirá el coste del transporte hasta Pontevedra para su exhibición pública. El coste total se estima en cinco mil quinientos (5.500,00) euros. La cuantía consignada para las ayudas de esta convocatoria de residencias artísticas asciende a diecinueve mil (19.000,00) euros, con cargo a la aplicación presupuestaria 25/333.3330.481.02 del vigente Presupuesto provincial. Los costes derivados de los gastos de transporte y seguro de las obras estimados en cinco mil quinientos (5.500,00) euros se realizará con cargo a la aplicación 25/333.3340.223.00 del Presupuesto provincial de 2025 y quedarán en todo caso condicionados a la existencia de crédito adecuado y suficiente. 5. Plazo de presentación de solicitudes El plazo de presentación de solicitudes en esta convocatoria de residencias artísticas comenzará a contar desde el día siguiente a la fecha de su publicación en la BDNS y de su extracto en el BOPPO, y será de 20 días hábiles. 6. Otros datos de interés Las personas interesadas en participar deberán inscribirse, preferentemente a través de medios electrónicos, a través del formulario normalizado disponible en la Sede electrónica de la Diputación de Pontevedra, https://sede.depo.gal. Opcionalmente, podrán presentarse las solicitudes de forma presencial en cualquiera de los lugares y registros establecidos en el artículo 16.4 de la LPACAP, a través del formulario disponible en dicha Sede electrónica, que, una vez cubierto, generará la solicitud en formato PDF, que se deberá imprimir y firmar para presentarla de forma presencial. Solo se aceptará un proyecto por persona solicitante. Deberán presentar junto con la solicitud la siguiente documentación: 1. Memoria del proyecto. Contará con una extensión máxima de diez páginas (10) en DIN-A4 y formato PDF. 2. Currículo artístico. Se adjuntará una breve biografía de un máximo de dos (2) páginas DIN-A4 y en formato PDF 3. Dossier artístico. Se presentará en un máximo de diez (10) páginas DIN-A4 en formato PDF. 4. Cronograma de trabajo aproximado. La selección de los proyectos artísticos se realizará según la propuesta de una Comisión de Valoración, que estará formada por personal técnico de la Diputación y de la Academia, de la Fondation Walter & Nicole Leblanc y de Madrid Destino Cultura Turismo y Negocio, S. A., y, en su caso, podrán formar parte profesionales independientes con capacidades y formación en los ámbitos a los que se abre la convocatoria; todos ellos ajustarán su actuación a lo dispuesto para los órganos colegiados en la Ley 40/2015, de 1 de octubre, de régimen jurídico del sector público (LRJSP). Una vez revisadas las solicitudes, las que no cumplan los requisitos establecidos en estas bases no se admitirán a trámite y se dictará la oportuna resolución. Las decisiones de esta comisión serán inapelables.</p>",
+            "textoLeng": "<p>1. Persoas participantes Poderán concorrer a esta convocatoria persoas físicas que sexan comisarias, artistas creadoras ou investigadoras de proxectos artísticos, residentes ou nadas na provincia de Pontevedra que teñan, como mínimo, 18 anos na data de presentación de solicitudes. Estas deben contar cun nivel alto de inglés ou francés, o que implica ter unha comprensión oral e escrita que lles permita desenvolverse completamente en Bruxelas. 2. Obxecto Constitúe o obxecto desta convocatoria aprobar as bases que regulan a convocatoria de Residencias Artísticas Novos Valores do Museo de Pontevedra en colaboración con Madrid Destino Cultura Turismo y Negocio, S.A., e a Fondation Walter & Nicole Leblanc, mediante a cal se seleccionarán dous artistas que se beneficiarán dunha axuda, en réxime de concorrencia competitiva, para a creación artística contemporánea en vivo nun programa que se levará a cabo na Fondation Walter & Nicole Leblanc en Bruxelas e no Centro de Creación Contemporánea Matadero Madrid, dependente de Madrid Destino, durante o ano 2025. 3. Normativa aplicable Lei 38/2003, de 17 de novembro, xeral de subvencións (LXS) Lei 39/2015, de 1 de outubro, do procedemento administrativo común das administracións públicas (LPACAP), e a Ordenanza reguladora de subvencións da Deputación de Pontevedra. 4. Contía As persoas seleccionadas recibirán unha bolsa económica de nove mil cincocentos (9.500,00) euros para o desenvolvemento do proxecto nos lugares de destino, así como para os seus gastos de transporte e manutención. Se o conxunto dos gastos da estancia fose maior, a axuda non será superior á cantidade indicada, a cal estará suxeita ás retencións que sexan de aplicación, e as e os artistas non terán ningún outro dereito de carácter económico. Quedan excluídos da axuda os custos relativos ao transporte e seguro das obras. A Deputación de Pontevedra asumirá os ditos custos desde Bruxelas e ata Madrid, nun primeiro lugar, e unha vez rematada a residencia en Madrid, asumirá o custo do transporte ata Pontevedra para a súa mostra pública. O custo total estímase en cinco mil cincocentos (5.500,00) euros. A contía consignada para as axudas desta convocatoria de residencias artísticas ascende a dezanove mil (19.000,00) euros, con cargo á aplicación orzamentaria 25/333.3330.481.02 do vixente Orzamento provincial. Os custos derivados dos gastos de transporte e seguro das obras estimados en cinco mil cincocentos (5.500,00) euros realizarase con cargo á aplicación 25/333.3340.223.00 do Orzamento provincial de 2025 e quedarán en todo caso condicionados á existencia de crédito adecuado e suficiente. 5. Prazo de presentación de solicitudes O prazo de presentación de solicitudes nesta convocatoria de residencias artísticas comezará a contar desde o día seguinte á data da súa publicación na BDNS e do seu extracto no BOPPO, e será de 20 días hábiles. 6. Outros datos de interese As persoas interesadas en participar deberán inscribirse, preferentemente a través de medios electrónicos, co formulario normalizado dispoñible na Sede electrónica da Deputación de Pontevedra, https://sede.depo.gal Opcionalmente, poderán presentarse as solicitudes de forma presencial en calquera dos lugares e dos rexistros establecidos no artigo 16.4 da LPACAP, a través do formulario dispoñible na devandita Sede electrónica, que, unha vez cuberto, xerará a solicitude en formato PDF, que se deberá imprimir e asinar para presentala de forma presencial. Só se aceptará un proxecto por persoa solicitante. Deberán achegar xunto coa solicitude a seguinte documentación: 1. Memoria do proxecto. Conterá unha extensión máxima de dez páxinas (10) en DIN-A4 e formato PDF. 2. Currículo artístico. Achegarase unha breve biografía de un máximo de dúas (2) páxinas DIN-A4 e en formato PDF 3. Dossier artístico. Presentarase nun máximo de dez (10) páxinas DIN-A4 en formato PDF. 4. Cronograma de traballo aproximado. A selección dos proxectos artísticos realizarase segundo a proposta dunha Comisión de Valoración, que estará formada por persoal técnico da Deputación e da Academia, da Fondation Walter & Nicole Leblanc e de Madrid Destino Cultura Turismo y Negocio, S. A., e, de ser o caso, poderán formar parte profesionais independentes con capacidades e formación nos ámbitos aos que se abre a convocatoria; todos eles axustarán a súa actuación ao disposto para os órganos colexiados na Lei 40/2015, de 1 de outubro, de réxime xurídico do sector público (LRXSP). Unha vez revisadas as solicitudes, as que non cumpran os requisitos establecidos nestas bases non se admitirán a trámite e ditarase a oportuna resolución. As decisións desta comisión serán inapelables.</p>",
+            "url": "https://boppo.depo.gal/web/boppo/detalle/-/boppo/2024/12/17/2024082241",
+            "cve": "L9C23QBZUHALPLUT",
+            "desDiarioOficial": "B.O.P. DE PONTEVEDRA",
+            "datPublicacion": "2024-12-17T00:00:00.000+01:00"
+        }
+    ],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

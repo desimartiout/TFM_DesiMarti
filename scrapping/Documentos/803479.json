@@ -1,0 +1,64 @@
+{
+    "id": 1005039,
+    "organo": {
+        "nivel1": "LEÓN",
+        "nivel2": "AYUNTAMIENTO DE LEÓN",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803479",
+    "fechaRecepcion": "2024-12-17T11:56:28+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 100000,
+    "mrr": false,
+    "descripcion": "SUBVENCION DIRECTA A CRUZ ROJA ESPAÑOLA PARA AYUDA EXTRAORDINARIA AFECTADOS POR LA DANA",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades asociativas",
+            "codigo": "94"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES413 - León"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "SUBVENCION DIRECTA A CRUZ ROJA ESPAÑOLA PARA AYUDA EXTRAORDINARIA AFECTADOS POR LA DANA",
+    "urlBasesReguladoras": "https://www.dipuleon.es/bopSearchAction/Ciudadanos/Boletin_Oficial_Provincia/?dateFrom=18%2F12%2F12&dateTo=18%2F12%2F12&numBulletin&allSearchField=",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "NO TIENE",
+    "textFin": "NO TIENE",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177896,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "certificación_pleno_ayuda_extraordinaria.pdf",
+            "long": 721687,
+            "datMod": "2024-12-17T13:15:13.000+01:00",
+            "datPublicacion": null
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

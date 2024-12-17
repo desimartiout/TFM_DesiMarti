@@ -1,0 +1,72 @@
+{
+    "id": 1004794,
+    "organo": {
+        "nivel1": "RIBADEO",
+        "nivel2": "AYUNTAMIENTO DE RIBADEO",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.ribadeo.gal",
+    "codigoBDNS": "803234",
+    "fechaRecepcion": "2024-12-16T13:53:48+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 4000,
+    "mrr": false,
+    "descripcion": "SUBVENCIONES CONCURRENCIA CULTURA 2024",
+    "descripcionLeng": "SUBVENCIONS CONCORRENCIA CULTURA 2024",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES112 - Lugo"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "SUBVENCIONS CONCORRENCIA CULTURA",
+    "urlBasesReguladoras": "www.ribadeo.gal",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2024-12-31T00:00:00+01:00",
+    "textInicio": "20 DIAS DESDE PUBLICACION BOP",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177258,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "RESOLUCION SUBVENCIONS CONCORRENCIA CULTURA.pdf",
+            "long": 346241,
+            "datMod": "2024-12-16T15:15:05.000+01:00",
+            "datPublicacion": "2024-12-16T15:15:05.000+01:00"
+        },
+        {
+            "id": 1177257,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "RESOLUCION SUBVENCIONES CONCURRENCIA CULTURA.pdf",
+            "long": 340024,
+            "datMod": "2024-12-16T15:15:05.000+01:00",
+            "datPublicacion": "2024-12-16T15:15:05.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

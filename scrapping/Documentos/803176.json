@@ -1,0 +1,72 @@
+{
+    "id": 1004736,
+    "organo": {
+        "nivel1": "GETXO",
+        "nivel2": "AYUNTAMIENTO DE GETXO",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.getxo.eus",
+    "codigoBDNS": "803176",
+    "fechaRecepcion": "2024-12-16T12:16:20+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 292780,
+    "mrr": false,
+    "descripcion": "Convocatoria para la concesión de subvenciones dirigidas a la organización de festejos y eventos de interés cultural en el municipio de Getxo en 2025",
+    "descripcionLeng": "Getxoko udalerrian 2025. urtean interes kulturaleko jai eta ospakizunak antolatzeko dirulaguntzak emateko deialdia  \n\n",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES213 - Bizkaia"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Ordenanza General de Subvenciones del Ayuntamiento de Getxo y sus Organismos Autónomos  aprobada por el Pleno de fecha 23 de diciembre de 2021",
+    "urlBasesReguladoras": "www.getxo.eus",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "A partir de la publicación de la convocatoria",
+    "textFin": "45 días antes de cada festividad salvo carnavales que finalizará 20 días antes",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177088,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "04 Jaiak_deialdia_2025 sinatuta.pdf",
+            "long": 2007477,
+            "datMod": "2024-12-16T13:15:22.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:22.000+01:00"
+        },
+        {
+            "id": 1177087,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "04 Jaiak_deialdia_2025 sinatuta.pdf",
+            "long": 2007477,
+            "datMod": "2024-12-16T13:15:21.000+01:00",
+            "datPublicacion": "2024-12-16T13:15:21.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

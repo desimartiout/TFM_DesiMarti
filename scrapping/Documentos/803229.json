@@ -1,0 +1,80 @@
+{
+    "id": 1004789,
+    "organo": {
+        "nivel1": "DONOSTIA/SAN SEBASTIÁN",
+        "nivel2": "AYUNTAMIENTO DE DONOSTIA/SAN SEBASTIÁN",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.donostia.eus/info/udalinfo/Tramites.nsf/vTramites/C16FC3A224122621C125814500390C93?OpenDocument&sel=tema&idioma=cas&id=D580485&des=Ciudadan%EDa&cat=Servicios%20sociales\\Exclusi%F3n%20social  ",
+    "codigoBDNS": "803229",
+    "fechaRecepcion": "2024-12-16T13:48:07+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 55000,
+    "mrr": false,
+    "descripcion": "Acuerdo de la Junta de Gobierno Local de fecha 26 de noviembre de 2024, por el que se aprueba la convocatoria y bases reguladoras de becas mensuales de formación a participantes en el servicio de intervención socioeducativa y psicosocial",
+    "descripcionLeng": "Tokiko Gobernu Batzarrak 2024ko azaroaren 26an hartutako erabakia. Erabaki horren bidez, gizarte eta hezkuntzako eta psikosozialeko esku-hartze zerbitzuko parte-hartzaileak prestatzeko hileko beken deialdia eta oinarri arautzaileak onartzen dira",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES",
+            "codigo": "Q"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Bases reguladoras de becas mensuales de formación a participantes en el servicio de intervención socioeducativa y psicosocial",
+    "urlBasesReguladoras": "https://www.donostia.eus/info/udalinfo/Tramites.nsf/vTramites/C16FC3A224122621C125814500390C93?OpenDocument&sel=tema&idioma=cas&id=D580485&des=Ciudadan%EDa&cat=Servicios%20sociales\\Exclusi%F3n%20social",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-12-31T00:00:00+01:00",
+    "textInicio": "El día siguiente al de la publicación del extracto en el Boletín Oficial de Gipuzkoa",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177239,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "DIL_OINARRIAK BEKAK 2025.pdf",
+            "long": 201860,
+            "datMod": "2024-12-16T15:15:07.000+01:00",
+            "datPublicacion": "2024-12-16T15:15:07.000+01:00"
+        },
+        {
+            "id": 1177241,
+            "descripcion": "Acuerdo JGL",
+            "nombreFic": "DIL_INT_D-24027_Bekak_2025.pdf.pdf",
+            "long": 319451,
+            "datMod": "2024-12-16T15:15:07.000+01:00",
+            "datPublicacion": "2024-12-16T15:15:07.000+01:00"
+        },
+        {
+            "id": 1177240,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "DIL_OINARRIAK BEKAK 2025.pdf",
+            "long": 201860,
+            "datMod": "2024-12-16T15:15:07.000+01:00",
+            "datPublicacion": "2024-12-16T15:15:07.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

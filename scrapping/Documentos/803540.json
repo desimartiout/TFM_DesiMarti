@@ -1,0 +1,64 @@
+{
+    "id": 1005100,
+    "organo": {
+        "nivel1": "ORKOIEN",
+        "nivel2": "AYUNTAMIENTO DE ORKOIEN",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://orkoien.sedelectronica.es/info.0",
+    "codigoBDNS": "803540",
+    "fechaRecepcion": "2024-12-17T13:13:09+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 3000,
+    "mrr": false,
+    "descripcion": "BASES DE CONVOCATORIA DE SUBVENCIONES PARA EL FOMENTO DE ACTIVIDADES CULTURALES, EDUCATIVAS, RECREATIVAS Y SOCIALES DEL AYUNTAMIENTO DE ORKOIEN AÑO 2024.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES220 - Navarra"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "BASES DE CONVOCATORIA DE SUBVENCIONES PARA EL FOMENTO DE ACTIVIDADES CULTURALES, EDUCATIVAS, RECREATIVAS Y SOCIALES DEL AYUNTAMIENTO DE ORKOIEN AÑO 2024.",
+    "urlBasesReguladoras": "https://orkoien.sedelectronica.es/preview-document.2",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "20 días naturales desde la publicación en el BON",
+    "textFin": "20 días naturales desde la publicación en el BON",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178031,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria de subvenciones culturales  2024.pdf",
+            "long": 1682764,
+            "datMod": "2024-12-17T13:15:01.000+01:00",
+            "datPublicacion": "2024-12-17T13:19:22.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

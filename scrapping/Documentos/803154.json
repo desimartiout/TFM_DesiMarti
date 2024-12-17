@@ -1,0 +1,78 @@
+{
+    "id": 1004714,
+    "organo": {
+        "nivel1": "ESTADO",
+        "nivel2": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+        "nivel3": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E"
+    },
+    "sedeElectronica": "https://sede.cdti.gob.es/AreaPublica/home.aspx",
+    "codigoBDNS": "803154",
+    "fechaRecepcion": "2024-12-16T11:39:36+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 110000000,
+    "mrr": true,
+    "descripcion": "Convocatoria de ayudas para el IPCEI Med4Cure",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "GRAN EMPRESA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Investigación y desarrollo",
+            "codigo": "72"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES - ESPAÑA "
+        }
+    ],
+    "descripcionFinalidad": "Investigación, desarrollo e innovación",
+    "descripcionBasesReguladoras": "Orden CNU/1418/2024, de 9 de diciembre, por la que se establecen las bases reguladoras para la concesión de ayudas a participantes directos y asociados en el Proyecto Importante de Interés Común Europeo de Salud (Med4Cure) y se procede a la convocatoria d",
+    "urlBasesReguladoras": "https://www.boe.es/boe/dias/2024/12/14/pdfs/BOE-A-2024-26101.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-17T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-23T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": "SA.00000",
+    "urlAyudaEstado": "https://competition-cases.ec.europa.eu/cases/SA.00000",
+    "fondos": [
+        {
+            "descripcion": "MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 651/2014, DE 17 DE JUNIO, de exención de notificación",
+        "orden": null
+    },
+    "objetivos": [
+        {
+            "descripcion": "ART. 25 AYUDAS A PROYECTOS DE INVESTIGACIÓN Y DESARROLLO."
+        }
+    ],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177081,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "OOBB y convocatoria IPCEI de salud_firma.pdf",
+            "long": 623907,
+            "datMod": "2024-12-16T13:15:23.000+01:00",
+            "datPublicacion": "2024-12-16T16:36:46.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

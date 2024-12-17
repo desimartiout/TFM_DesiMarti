@@ -9,7 +9,8 @@ RAGAS_FILE_PATH = os.getcwd() + "/datasets/"
 RAGAS_LLM_TIPOMODELO_OLLAMA = "OLLAMA"
 RAGAS_LLM_TIPOMODELO_OPENAI = "OPENAI"
 
-RAGAS_OPENAI_MODEL_NAME = "gpt-3.5-turbo"
+#RAGAS_OPENAI_MODEL_NAME = "gpt-3.5-turbo"
+RAGAS_OPENAI_MODEL_NAME = "gpt-4o-mini"
 RAGAS_OLLAMA_MODEL_NAME = "llamaAyudas:latest"
 
 # CONFIGURACIÓN DEL MODELO A UTILIZAR OLLAMA (requiere su instalación en local) o OPENAI (Requiere tener una API KEY de OPENAI)

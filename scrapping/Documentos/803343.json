@@ -1,0 +1,64 @@
+{
+    "id": 1004903,
+    "organo": {
+        "nivel1": "GERENA",
+        "nivel2": "AYUNTAMIENTO DE GERENA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803343",
+    "fechaRecepcion": "2024-12-17T08:42:18+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 800,
+    "mrr": false,
+    "descripcion": "Bases reguladoras del XII Certamen de relato corto 8 de marzo «Historias de Mujeres» Gerena 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES618 - Sevilla"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Bases reguladoras del XII Certamen de relato corto 8 de marzo «Historias de Mujeres» Gerena 2025",
+    "urlBasesReguladoras": "https://portal.dipusevilla.es/tablon-1.0/servlet/obtenerDocumentoUrlPermanente?pid=f8092602f8bcacea3d0a24ae879ea82431c7245100ef6f16147b1498cc39a6679929b41f47df05cd",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-02-24T00:00:00+01:00",
+    "textInicio": "Día siguiente de la publicación de estas bases en el Boletín Oficial de la Provincia de Sevilla",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1177545,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "06 Anuncio aprobacion.pdf",
+            "long": 139453,
+            "datMod": "2024-12-17T09:15:18.000+01:00",
+            "datPublicacion": "2024-12-17T09:15:18.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}
