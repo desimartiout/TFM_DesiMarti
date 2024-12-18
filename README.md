@@ -70,7 +70,7 @@ Se puede tambier especificar los parámetros para la llamada al API
 
 `python.exe buscar_batch.py preguntas1.txt`
 
-preguntas1.txt es un fichero de texto plano con cada una de las preguntas en cada una de las líneas (debee estar en el directorio /ragas_eval/questions/).
+Nota: preguntas1.txt es un fichero de texto plano con una por cada una de las líneas (debe estar en el directorio `/ragas_eval/questions/`).
 
 El proceso lo que hace es coger cada línea simular la búsqueda con el chat, obtener el resultado del LLM y almacenar los resultados en el dataset de evaluación de datos para posteriormente poder evaluar el sistema.
 
@@ -97,9 +97,9 @@ Desde la ruta raiz del proyecto ejecutar el comando
 
 `python.exe evaluar.py 2024_12_14_ragas.json`
 
-Nota: El fichero a evaluar debe estar en el directorio /ragas_eval/datasets/
+Nota: El fichero a evaluar debe estar en el directorio `/ragas_eval/datasets/`
 
-Esto genera un fichero csv en el directorio /ragas_eval/results/ con los resultados de la evaluación cuyo nombre contiene la fecha y hora de la evaluación, por ejemplo 2024_12_09_19_38_39_ragas_results.csv
+Esto genera un fichero csv en el directorio `/ragas_eval/results/` con los resultados de la evaluación cuyo nombre contiene la fecha y hora de la evaluación, por ejemplo 2024_12_09_19_38_39_ragas_results.csv
 
 El formato del fichero es este:
 
@@ -113,14 +113,20 @@ Campos resultado de la evaluación
 
 `"context_recall";"factual_correctness";"faithfulness";"semantic_similarity";"answer_relevancy";"context_precision"`
 
-### 📘 Referencias
+### 📘 URL Referencias 
 
 **Web desplegada en HuggingFace Spaces** (https://huggingface.co/spaces/DesiMarti/TFMCienciaDatos)
 
 **Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas** (https://www.pap.hacienda.gob.es/bdnstrans/)
 
+**Hugging Face** https://huggingface.co/
+
 **Streamlit** (https://streamlit.io/)
 
 **RAGAS** (https://docs.ragas.io/)
 
+**FAISS** (https://ai.meta.com/tools/faiss/)
+
 **CHROMA DB** (https://www.trychroma.com/)
+
+
