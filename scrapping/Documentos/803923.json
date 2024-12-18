@@ -1,0 +1,72 @@
+{
+    "id": 1005483,
+    "organo": {
+        "nivel1": "CATALUÑA",
+        "nivel2": "DEPARTAMENT DE TERRITORI, HABITATGE I TRANSICIÓ ECOLÒGICA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803923",
+    "fechaRecepcion": "2024-12-18T13:48:55+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 6000000,
+    "mrr": false,
+    "descripcion": "Convocatoria anticipada para el año 2025  de subvenciones para actuaciones de mejora y mantenimiento de caminos de la red vecinal y rural de las comarcas de montaña y el Aran",
+    "descripcionLeng": "Convocatòria anticipada per a l'any 2025 de subvencions per a actuacions de millora i manteniment de camins de la xarxa veïnal i rural a les comarques de muntanya i a Aran",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ADMINISTRACIÓN PÚBLICA Y DEFENSA; SEGURIDAD SOCIAL OBLIGATORIA",
+            "codigo": "O"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES51 - CATALUÑA"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "ORDEN TER/206/2024, de 30 de septiembre, de modificación de la Orden TES/144/2020, de 8 de agosto, por la que se aprueban las bases reguladoras de las subvenciones para actuaciones de mejora y mantenimiento de caminos en las comarcas de montaña y en Arán.",
+    "urlBasesReguladoras": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=996221",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Des de l’endemà de la publicació en el diari oficial de la convocatòria inicial",
+    "textFin": "01 Mesos",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178934,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "corr_ca_te00112_mul001_convocat_ria_v6_dgpm_1.pdf",
+            "long": 301725,
+            "datMod": "2024-12-18T15:15:13.000+01:00",
+            "datPublicacion": "2024-12-18T15:15:13.000+01:00"
+        },
+        {
+            "id": 1178933,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "corr_ES_TE00112_MUL001_convocatòria_v6_SGGECRI.pdf",
+            "long": 383131,
+            "datMod": "2024-12-18T15:15:13.000+01:00",
+            "datPublicacion": "2024-12-18T15:15:13.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

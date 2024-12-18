@@ -1,0 +1,67 @@
+{
+    "id": 1005357,
+    "organo": {
+        "nivel1": "SANTOMERA",
+        "nivel2": "AYUNTAMIENTO DE SANTOMERA",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.santomera.es",
+    "codigoBDNS": "803797",
+    "fechaRecepcion": "2024-12-18T10:25:51+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 2800,
+    "mrr": false,
+    "descripcion": "Convocatoria del concurso de decoración navideña del Ayuntamiento de Santomera 2024 \"Imagina Tu Navidad\"",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades asociativas",
+            "codigo": "94"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES62 - REGION DE MURCIA"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "Convocatoria del concurso de decoración navideña del Ayuntamiento de Santomera_2024 \"IMAGINA TU NAVIDAD",
+    "urlBasesReguladoras": "www.santomera.es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Publicación en el BORM",
+    "textFin": "El día 22 de diciembre de 2023",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178638,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "BasesyConvocatoria_ConcursoDecoracion_Navidad2024.pdf",
+            "long": 231665,
+            "datMod": "2024-12-18T11:15:05.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:05.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

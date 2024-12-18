@@ -1,0 +1,64 @@
+{
+    "id": 1005520,
+    "organo": {
+        "nivel1": "LA RIOJA",
+        "nivel2": "CONSEJERÍA DE ECONOMÍA, INNOVACIÓN, EMPRESA Y TRABAJO AUTÓNOMO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803960",
+    "fechaRecepcion": "2024-12-18T14:30:29+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 800000,
+    "mrr": false,
+    "descripcion": "CS para el fomento de la competitividad y desarrollo económico calzado",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de organizaciones y organismos extraterritoriales",
+            "codigo": "99"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES230 - La Rioja"
+        }
+    ],
+    "descripcionFinalidad": "Otras Prestaciones económicas",
+    "descripcionBasesReguladoras": "Orden EIE/87/2024, de 16 de diciembre, por la que se aprueban las bases reguladoras de la concesión de subvenciones para el fomento de la competitividad y desarrollo económico en las áreas o sectores prioritarios de la estrategia de especialización i",
+    "urlBasesReguladoras": "https://web.larioja.org/bor-portada/boranuncio?n=27776709-4-HTML-558680-X",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "El día siguiente a su publicación en el BOR",
+    "textFin": "Dos años a partir del día siguiente a su publicación en el BOR",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179039,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "439.pdf",
+            "long": 413366,
+            "datMod": "2024-12-18T15:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T15:15:06.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

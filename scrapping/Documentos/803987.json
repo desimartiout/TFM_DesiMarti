@@ -1,0 +1,64 @@
+{
+    "id": 1005547,
+    "organo": {
+        "nivel1": "ARCHIDONA",
+        "nivel2": "AYUNTAMIENTO DE ARCHIDONA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://archidona.sedelectronica.es/",
+    "codigoBDNS": "803987",
+    "fechaRecepcion": "2024-12-18T14:48:55+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 600,
+    "mrr": false,
+    "descripcion": "Resolución_de Alcaldía_núm 2024-1614 de 18 de diciembre. Aprobar Bases Reguladoras y efectuar Convocatoria Concurso Cartel Anunciador Carnaval 2025. Archidona",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de creación, artísticas y espectáculos",
+            "codigo": "90"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES617 - Málaga"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Resolución_de Alcaldía_núm 2024-1614 de 18 de diciembre. Aprobar Bases Reguladoras y efectuar Convocatoria Concurso Cartel Anunciador Carnaval 2025. Archidona",
+    "urlBasesReguladoras": "https://archidona.sedelectronica.es/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-27T00:00:00+01:00",
+    "textInicio": "Desde el día siguiente a la publicación del extracto de la convocatoria en el BOPMA",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179119,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Resolución_de Alcaldía_núm 2024-1614 de 18 de diciembre. Aprobar Bases Reguladoras y efectuar Convocatoria Concurso Cartel Anunciador Carnaval 2025. Archidona.pdf",
+            "long": 345471,
+            "datMod": "2024-12-18T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-18T15:15:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

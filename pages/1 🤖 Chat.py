@@ -6,7 +6,7 @@ import pandas as pd
 
 import streamlit as st
 
-from src.chat import (  # type: ignore
+from libs.chat import (  # type: ignore
     buscar_cadena,
     ensure_model_pulled,
     generate_response_streaming_ollama,
@@ -14,9 +14,9 @@ from src.chat import (  # type: ignore
     # get_embedding_model,
 )
 from config.global_config import OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, AI_ICON, HUMAN_ICON, LLM_MODELO_SELECCIONADO,LLM_TIPOMODELO_OPENAI,LLM_TIPOMODELO_OLLAMA
-from config.web_config import CHATBOT_INTRO, CHATBOT_CAB, CHATBOT_TITLE
+from config.web.web_config import CHATBOT_INTRO, CHATBOT_CAB, CHATBOT_TITLE
 
-from src.utils import stream_data, display_sidebar_content, apply_cab_chat, apply_custom_css_chat
+from libs.utils import stream_data, display_sidebar_content, apply_cab_chat, apply_custom_css_chat
 
 # Initialize logger
 logger = logging.getLogger(__name__)

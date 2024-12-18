@@ -6,7 +6,7 @@ import json
 import logging
 from sentence_transformers import SentenceTransformer
 from datetime import datetime
-from config.faiss_config import INDEX_FILE_FAISS, METADATA_FILE_FAISS, LOG_FILE_PATH_FAISS, MODELO_EMBED_FAISS
+from config.faiss.faiss_config import INDEX_FILE_FAISS, METADATA_FILE_FAISS, LOG_FILE_PATH_FAISS, MODELO_EMBED_FAISS
 
 # Modelo para embeddings
 modelo = SentenceTransformer(MODELO_EMBED_FAISS)

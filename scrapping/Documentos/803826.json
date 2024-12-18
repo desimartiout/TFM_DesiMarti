@@ -1,0 +1,72 @@
+{
+    "id": 1005386,
+    "organo": {
+        "nivel1": "VITORIA-GASTEIZ",
+        "nivel2": "AYUNTAMIENTO DE VITORIA-GASTEIZ",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sedeelectronica.vitoria-gasteiz.org",
+    "codigoBDNS": "803826",
+    "fechaRecepcion": "2024-12-18T11:17:34+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 240000,
+    "mrr": false,
+    "descripcion": "Ayudas destinadas a asociaciones vecinales para proyectos que favorezcan la dinamización y participación social en los barrios 2025",
+    "descripcionLeng": "Auzo-elkarteentzako laguntzak, auzoetan dinamizazioa eta partaidetza soziala bultzatzen duten proiektuetarako 2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades asociativas",
+            "codigo": "94"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES211 - Araba/Álava"
+        }
+    ],
+    "descripcionFinalidad": "Otras Prestaciones económicas",
+    "descripcionBasesReguladoras": "Ordenanza general de subvenciones del Ayuntamiento de Vitoria-Gasteiz",
+    "urlBasesReguladoras": "http://www.araba.eus/botha/Boletines/2023/088/2023_088_02293_C.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-04T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-14T00:00:00+01:00",
+    "textInicio": "A partir del día siguiente de la publicación en BOTHA",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178716,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "Propuesta Acuerdo JGL Aprob convocatoria AAVV 2025 euskera.pdf",
+            "long": 337595,
+            "datMod": "2024-12-18T13:15:16.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:16.000+01:00"
+        },
+        {
+            "id": 1178715,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Propuesta Acuerdo JGL Aprob convocatoria AAVV 2025.pdf",
+            "long": 347094,
+            "datMod": "2024-12-18T13:15:16.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:16.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

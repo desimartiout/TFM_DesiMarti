@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 # st.title("Análisis de Evaluación de Ragas")
 
 from config.global_config import RAGAS_FILE_PATH
-from config.web_config import DATASET_CAB, DATASET_TITLE
-from src.utils import apply_cab_report
+from config.web.web_config import DATASET_CAB, DATASET_TITLE
+from libs.utils import apply_cab_report
 
 # Configuración de la página
 apply_cab_report(DATASET_CAB)
@@ -22,6 +22,8 @@ json_directory = RAGAS_FILE_PATH  # Cambia esto por el path de tu directorio
 
 # Listar los archivos JSON en el directorio especificado
 json_files = [f for f in os.listdir(json_directory) if f.endswith('.json')]
+
+json_files.sort(reverse=True)
 
 # Si hay archivos JSON, mostrar el desplegable para seleccionar uno
 if json_files:

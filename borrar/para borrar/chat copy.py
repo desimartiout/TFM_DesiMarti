@@ -7,9 +7,9 @@ import streamlit as st
 from src.constants import OLLAMA_MODEL_NAME
 from src.embeddings import get_embedding_model
 #from src.opensearch import hybrid_search
-from src.searchchromadb import consultaChromadb
+from libs.searchchromadb import consultaChromadb
 
-from src.utils import setup_logging
+from libs.utils import setup_logging
 
 setup_logging()
 logger = logging.getLogger(__name__)

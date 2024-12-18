@@ -1,0 +1,68 @@
+{
+    "id": 1005546,
+    "organo": {
+        "nivel1": "SEDAVÍ",
+        "nivel2": "AYUNTAMIENTO DE SEDAVÍ",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sedavi.sede.dival.es/catalogoservicios.aspx?area=&ambito=1",
+    "codigoBDNS": "803986",
+    "fechaRecepcion": "2024-12-18T14:48:19+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 3300000,
+    "mrr": false,
+    "descripcion": "Ayudas Fundación Amancio Ortega",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHÍCULOS DE MOTOR Y MOTOCICLETAS",
+            "codigo": "G"
+        },
+        {
+            "descripcion": "CONSTRUCCIÓN",
+            "codigo": "F"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES523 - Valencia / València"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Ayudas Fundación Amancio Ortega",
+    "urlBasesReguladoras": "https://sedavi.sede.dival.es/catalogoservicios.aspx?area=&ambito=1",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Al día siguiente a la publicación ",
+    "textFin": "Un mes desde el día siguiente a la publicación",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179120,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "BASES para publicar.pdf",
+            "long": 357234,
+            "datMod": "2024-12-18T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-18T15:15:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

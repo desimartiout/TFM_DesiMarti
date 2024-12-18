@@ -1,0 +1,76 @@
+{
+    "id": 1005288,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "CONSELLERÍA DE MEDIO AMBIENTE Y CAMBIO CLIMÁTICO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803728",
+    "fechaRecepcion": "2024-12-18T09:12:50+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 9200000,
+    "mrr": true,
+    "descripcion": " Orde do 17 de decembro de 2024 pola que se establecen as bases reguladoras para a concesión de axudas a entidades locais de Galicia para o financiamento de actuacións en materia de residuos de competencia municipal para a implantación de recollidas separ",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Recogida, tratamiento y eliminación de residuos; valorización",
+            "codigo": "38"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Orde do 17 de decembro de 2024 pola que se establecen as bases reguladoras para a concesión de axudas a entidades locais de Galicia para o financiamento de actuacións en materia de residuos de competencia municipal para a implantación de recollidas separa",
+    "urlBasesReguladoras": "https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?fecha=20220428&ruta=Indice81_es.html&lang=es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "En 7 días hábiles a partir do día seguinte ao da publicación desta resolución no DOG",
+    "textFin": "Un mes dende a data do inicio do prazo",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178499,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "Orde_MT975T_GAl_20241217_182028.pdf",
+            "long": 301013,
+            "datMod": "2024-12-18T09:15:03.000+01:00",
+            "datPublicacion": "2024-12-18T09:30:01.000+01:00"
+        },
+        {
+            "id": 1178498,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Orden_MT975T_ES_20241218_091213.pdf",
+            "long": 299810,
+            "datMod": "2024-12-18T09:15:04.000+01:00",
+            "datPublicacion": "2024-12-18T09:30:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

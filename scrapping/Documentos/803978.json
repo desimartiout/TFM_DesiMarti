@@ -1,0 +1,80 @@
+{
+    "id": 1005538,
+    "organo": {
+        "nivel1": "BILBAO",
+        "nivel2": "AYUNTAMIENTO DE BILBAO",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.bilbao.eus",
+    "codigoBDNS": "803978",
+    "fechaRecepcion": "2024-12-18T14:42:05+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 20000,
+    "mrr": false,
+    "descripcion": "EMPODERAMIENTO DEL MOVIMIENTO ASOCIATIVO",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Otras actividades de servicios sociales sin alojamiento",
+            "codigo": "88.9"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES213 - Bizkaia"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Ordenanza General Reguladora de las Bases para la Concesión de Subvenciones mediante Convocatoria por el Ayuntamiento de Bilbao y sus Organismos y Entidades de Derecho Público",
+    "urlBasesReguladoras": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2016/07/20160720a138.pdf#page=43",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "EL DIA SIGUIENTE A LA PUBLICACIÓN DEL EXTRACTO EN EL BOB",
+    "textFin": "21 DE FEBRERO DE 2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179105,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "TEXTO COMPLETO CASTELLANO.pdf",
+            "long": 193225,
+            "datMod": "2024-12-18T15:15:03.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:02.000+01:00"
+        },
+        {
+            "id": 1179107,
+            "descripcion": "MODELO SOLICITUD",
+            "nombreFic": "LFIE_PAR008_v7_EskabideOrriaDirul_HojaSolicitudSubv.pdf",
+            "long": 329332,
+            "datMod": "2024-12-18T15:15:03.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:02.000+01:00"
+        },
+        {
+            "id": 1179106,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "TEXTO COMPLETO EUSKERA.pdf",
+            "long": 173527,
+            "datMod": "2024-12-18T15:15:03.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:02.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

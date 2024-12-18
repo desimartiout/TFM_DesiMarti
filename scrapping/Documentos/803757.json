@@ -1,0 +1,72 @@
+{
+    "id": 1005317,
+    "organo": {
+        "nivel1": "CATALUÑA",
+        "nivel2": "DEPARTAMENT D'EDUCACIÓ I FORMACIÓ PROFESSIONAL",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803757",
+    "fechaRecepcion": "2024-12-18T09:51:12+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 15000000,
+    "mrr": false,
+    "descripcion": "Subvenciones destinadas a la escolarización de niños de cero a tres años en las guarderías infantiles de titularidad privada, para el curso 2024-2025",
+    "descripcionLeng": "Subvencions destinades a l'escolarització d'infants de zero a tres anys a les llars d'infants de titularitat privada, per al curs 2024-2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación preprimaria",
+            "codigo": "85.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES51 - CATALUÑA"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "ORDEN por la que se aprueban las bases reguladoras del procedimiento de concesión de subvenciones destinadas a la escolarización de niños de cero a tres años en las guarderías infantiles de titularidad privada, para el curso 2024-2025.",
+    "urlBasesReguladoras": "https://dogc.gencat.cat/es/document-del-dogc/?documentId=995941",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-02-03T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-21T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178547,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "20241213_585_convosubllars_signed.pdf",
+            "long": 239461,
+            "datMod": "2024-12-18T11:15:12.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:12.000+01:00"
+        },
+        {
+            "id": 1178546,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "20241213_585_convosubllars_t_signed.pdf",
+            "long": 221646,
+            "datMod": "2024-12-18T11:15:12.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:12.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

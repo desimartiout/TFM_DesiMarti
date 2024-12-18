@@ -1,0 +1,68 @@
+{
+    "id": 1005187,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "FUNDACIÓN DE LA ENERGÍA DE LA COMUNIDAD DE MADRID",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.fenercom.com/actuacion/plan-renove-ventanas-2024-comunidad-madrid/",
+    "codigoBDNS": "803627",
+    "fechaRecepcion": "2024-12-17T14:37:42+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 3085561,
+    "mrr": false,
+    "descripcion": "Resolución de la Fundación de la Energía de la Comunidad de Madrid por la que se convocan ayudas para incentivar la sustitución de ventanas, en viviendas del sector residencial, en desarrollo del Plan Renove de ventanas de la Comunidad de Madrid",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de construcción especializada",
+            "codigo": "43"
+        },
+        {
+            "descripcion": "Fabricación de productos metálicos, excepto maquinaria y equipo",
+            "codigo": "25"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES30 - COMUNIDAD DE MADRID"
+        }
+    ],
+    "descripcionFinalidad": "Industria y Energía",
+    "descripcionBasesReguladoras": "ORDEN 4494/2024 de la Consejería de Medio Ambiente, Agricultura e Interior, por la que se aprueban las bases reguladoras para la concesión de ayudas por la Fundación de la Energía de la Comunidad de Madrid para el desarrollo del Plan Renove de Ventanas",
+    "urlBasesReguladoras": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.bocm.es/boletin/CM_Boletin_BOCM/2024/12/18/30100.PDF",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-13T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-08-31T00:00:00+02:00",
+    "textInicio": "13/01/2025",
+    "textFin": "31/08/2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178130,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria Plan Renove Ventanas_signed.pdf",
+            "long": 314472,
+            "datMod": "2024-12-17T15:15:03.000+01:00",
+            "datPublicacion": "2024-12-18T09:01:03.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

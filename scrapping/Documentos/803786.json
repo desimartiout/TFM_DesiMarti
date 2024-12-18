@@ -1,0 +1,76 @@
+{
+    "id": 1005346,
+    "organo": {
+        "nivel1": "DELTEBRE",
+        "nivel2": "AYUNTAMIENTO DE DELTEBRE",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://actio.dipta.cat/catalegserveis/id/4390180001?origen=seu",
+    "codigoBDNS": "803786",
+    "fechaRecepcion": "2024-12-18T10:18:44+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 3000,
+    "mrr": false,
+    "descripcion": "ACUERDO DE JUNTA DE GOBIERNO LOCAL DEL AYUNTAMIENTO DE DELTEBRE, DE FECHA 10 DE DICIEMBRE DE 2024 POR EL QUE SE APRUEBA LA CONVOCATORIA DEL 27º CONCURSO DE DECORACIÓN NAVIDEÑA",
+    "descripcionLeng": "CONVOCATORIA DEL 27º CONCURS DE DECORACIÓ NADALENCA",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de jardinería",
+            "codigo": "81.3"
+        },
+        {
+            "descripcion": "Comercio al por menor, excepto de vehículos de motor y motocicletas",
+            "codigo": "47"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES514 - Tarragona"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Bases del concurs de decoració nadalenca",
+    "urlBasesReguladoras": "https://www.diputaciodetarragona.cat/ebop/index.php?op=dwn&tipus=i&data=20221031&anyp=2022&num=09497&1734512748&v=i",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "día siguiente a la publicación",
+    "textFin": "10 días naturales después de publicación",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178605,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "CONVOCATÒRIA 27è CONCURS DECORACIÓ NADALENCA.PDF",
+            "long": 345825,
+            "datMod": "2024-12-18T11:15:08.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:08.000+01:00"
+        },
+        {
+            "id": 1178604,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatória 27º Concurso Decoración Navideña.pdf",
+            "long": 80076,
+            "datMod": "2024-12-18T11:15:08.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:08.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,7 +1,7 @@
 import streamlit as st
 import logging
-from config.web_config import TEXTO_AVISOLEGAL, CAB_AVISOLEGAL
-from src.utils import apply_custom_css, display_sidebar_content, apply_cab
+from config.web.web_config import TEXTO_AVISOLEGAL, CAB_AVISOLEGAL
+from libs.utils import apply_custom_css, display_sidebar_content, apply_cab
 
 logger = logging.getLogger(__name__)
 

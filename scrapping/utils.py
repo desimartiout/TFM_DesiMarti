@@ -5,7 +5,7 @@ import logging
 from pandas import DataFrame
 from datetime import datetime
 
-from config.scrapping_config import SCRAP_FILE_PATH_LOG
+from config.scrapping.scrapping_config import SCRAP_FILE_PATH_LOG
 
 def setup_logging_scrap() -> None:
     current_date = datetime.now().strftime("%Y-%m-%d")

@@ -1,0 +1,72 @@
+{
+    "id": 1005296,
+    "organo": {
+        "nivel1": "TORRELOBATÓN",
+        "nivel2": "AYUNTAMIENTO DE TORRELOBATÓN",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://torrelobaton.sedelectronica.es",
+    "codigoBDNS": "803736",
+    "fechaRecepcion": "2024-12-18T09:23:13+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 3250,
+    "mrr": false,
+    "descripcion": "Subvenciones a Asociaciones",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES418 - Valladolid"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "CONVOCATORIA DE SUBVENCIONES A ASOCIACIONES Y CLUBS DEPORTIVOS DE TORRELOBATÓN, PARA EL AÑO 2025",
+    "urlBasesReguladoras": "https://bop.sede.diputaciondevalladolid.es/boletines/2016/junio/10/BOPVA-A-2016-02666.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-02T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-12-19T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178502,
+            "descripcion": "Solicitud y anexos",
+            "nombreFic": "06 anexos.docx",
+            "long": 38275,
+            "datMod": "2024-12-18T11:15:15.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:15.000+01:00"
+        },
+        {
+            "id": 1178501,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "20241217_Publicación_06 anuncio al bop(1).pdf",
+            "long": 216581,
+            "datMod": "2024-12-18T11:15:15.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:15.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

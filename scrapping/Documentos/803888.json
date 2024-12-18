@@ -1,0 +1,72 @@
+{
+    "id": 1005448,
+    "organo": {
+        "nivel1": "REUS",
+        "nivel2": "REUS PROMOCIÓ",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803888",
+    "fechaRecepcion": "2024-12-18T13:06:50+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 7200,
+    "mrr": false,
+    "descripcion": "FUNDACIÓ EURECAT PROMOCU LA NNOVACIÓ DE LES EMPRESES",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades asociativas",
+            "codigo": "94"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES514 - Tarragona"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "FUNDACIÓ EURECAT PROMOU LA INNOVACIÓ  DE LES EMPRESES TURISTIQUES",
+    "urlBasesReguladoras": "https://seu.reus.cat/seu/document public/download",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-01-01T00:00:00+01:00",
+    "fechaFinSolicitud": "2024-12-31T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178874,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "-Decret-Decret_2024001010.pdf",
+            "long": 108277,
+            "datMod": "2024-12-18T13:15:02.000+01:00",
+            "datPublicacion": null
+        },
+        {
+            "id": 1178873,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "DECRET_PAISATGE_DELS_GENIS_2024_(CASTELLÀ).pdf",
+            "long": 63042,
+            "datMod": "2024-12-18T13:15:02.000+01:00",
+            "datPublicacion": null
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

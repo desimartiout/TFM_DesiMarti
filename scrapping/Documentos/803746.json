@@ -1,0 +1,64 @@
+{
+    "id": 1005306,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE ZARAGOZA",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE ZARAGOZA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803746",
+    "fechaRecepcion": "2024-12-18T09:42:37+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 200000,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA DE SUBVENCIONES PLAN DE CONCILIACIÓN VIDA VAMILIAR EN MUNICIPIOS DE LA PROVINCIA DE ZARAGOZA EJERCICIO 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de servicios sociales sin alojamiento",
+            "codigo": "88"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES243 - Zaragoza"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES DE LA DIPUTACION PROVINCIAL DE ZARAGOZA 2024",
+    "urlBasesReguladoras": "https://bop.dpz.es/BOPZ/obtenerContenidoEdicto.do?idEdicto=834288&numBop=128&fechaPub=jueves 6 de junio de 2024",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-15T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-14T00:00:00+01:00",
+    "textInicio": "DESDE EL 15 DE ENERO DE 2025",
+    "textFin": "14 DE FEBRERO DE 2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178526,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "NORMAS_Y_ANEXOS.pdf",
+            "long": 736710,
+            "datMod": "2024-12-18T11:15:14.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:14.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

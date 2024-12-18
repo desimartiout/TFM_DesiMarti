@@ -1,0 +1,79 @@
+{
+    "id": 1005394,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "CONSELLERÍA DE MEDIO AMBIENTE Y CAMBIO CLIMÁTICO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803834",
+    "fechaRecepcion": "2024-12-18T11:30:43+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1700000,
+    "mrr": true,
+    "descripcion": "Orde 17 de decembro 2024  pola que se establecen as bases reguladoras para a concesión de axudas a Pemes, autónomos, asociacións e fundacións de Galicia para o financiamiento de actuacións en materia de residuos de compet municipal-MINIMIS",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Recogida, tratamiento y eliminación de residuos; valorización",
+            "codigo": "38"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Orde 17 de decembro 2024  pola que se establecen as bases reguladoras para a concesión de axudas a Pemes, autónomos, asociacións e fundacións de Galicia para o financiamiento de actuacións en materia de residuos de compet municipal-MINIMIS",
+    "urlBasesReguladoras": "https://dog.xunta.gal/?lang=es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Día seguinte á publicación da convocatoria no DOG.",
+    "textFin": "Un (1) mes, a contar dende o día seguinte á publicación da convocatoria no DOG.",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 2023/2831 de minimis, General",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178735,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "Orde MT975V_GAL_20241218_112951.pdf",
+            "long": 379889,
+            "datMod": "2024-12-18T13:15:13.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:13.000+01:00"
+        },
+        {
+            "id": 1178734,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Orden MT975V ESP_20241218_112857.pdf",
+            "long": 349821,
+            "datMod": "2024-12-18T13:15:13.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:13.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

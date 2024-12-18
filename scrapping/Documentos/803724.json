@@ -1,0 +1,71 @@
+{
+    "id": 1005284,
+    "organo": {
+        "nivel1": "SAN JAVIER",
+        "nivel2": "AYUNTAMIENTO DE SAN JAVIER",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.sanjavier.es/",
+    "codigoBDNS": "803724",
+    "fechaRecepcion": "2024-12-18T09:04:29+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 749248.06,
+    "mrr": false,
+    "descripcion": "Convocatoria del año 2024 de Subvenciones para la rehabilitación de actuaciones incluidas en el Programa de ayuda a las actuaciones de rehabilitación a nivel de Barrio del Plan Recuperación, Transformación y Resiliencia, financiado por la Unión Europea–Ne",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Otras actividades de construcción especializada",
+            "codigo": "43.9"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES620 - Murcia"
+        }
+    ],
+    "descripcionFinalidad": "Industria y Energía",
+    "descripcionBasesReguladoras": "Ordenanza municipal reguladora de las subvenciones para actuaciones de rehabilitación a nivel de barrio.",
+    "urlBasesReguladoras": "https://www.borm.es/#/home/sumario/04-11-2024",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Día siguiente al de publicación del extracto en el Boletín Oficial Región Murcia",
+    "textFin": "Un mes desde el día siguiente al de la publicación del extracto",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178469,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "CERTIFICADO DEL ACUERDO DE APROBACION.pdf",
+            "long": 2006606,
+            "datMod": "2024-12-18T09:15:07.000+01:00",
+            "datPublicacion": "2024-12-18T09:15:07.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

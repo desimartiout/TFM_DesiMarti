@@ -12,7 +12,7 @@ from pathlib import Path
 from libs.chromadb_utils import cargarDocumento
 from libs.faiss_utils import agregar_documento,obtener_todos_documentos
 
-from config.scrapping_config import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC, URL_BASE_API, RUTA_DESTINO_DOCUMENTOS, PAGE_SIZE, TOTAL_PAGES
+from config.scrapping.scrapping_config import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC, URL_BASE_API, RUTA_DESTINO_DOCUMENTOS, PAGE_SIZE, TOTAL_PAGES
 from config.global_config import BD_VECTORIAL_CHROMADB, BD_VECTORIAL_FAISS, TIPO_BD_VECTORIAL
 from scrapping.utils import setup_logging_scrap
 

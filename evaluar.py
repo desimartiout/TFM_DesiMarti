@@ -16,7 +16,7 @@ from ragas import EvaluationDataset, SingleTurnSample
 
 from ragas.run_config import RunConfig
 
-from config.ragas_config import RAGAS_OLLAMA_MODEL_NAME, RAGAS_FILE_PATH, RAGAS_LLM_MODELO_SELECCIONADO, RAGAS_LLM_SELECCIONADO, RAGAS_LLM_TIPOMODELO_OPENAI, RAGAS_OPENAI_MODEL_NAME
+from config.ragas.ragas_config import RAGAS_OLLAMA_MODEL_NAME, RAGAS_FILE_PATH, RAGAS_LLM_MODELO_SELECCIONADO, RAGAS_LLM_SELECCIONADO, RAGAS_LLM_TIPOMODELO_OPENAI, RAGAS_OPENAI_MODEL_NAME
 
 from ragas_eval.utils import setup_logging_ragas, write_eval_to_csv
 

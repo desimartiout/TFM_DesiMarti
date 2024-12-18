@@ -1,0 +1,72 @@
+{
+    "id": 1005428,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "AGENCIA GALLEGA DE LAS INDUSTRIAS CULTURALES (AGADIC)",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.xunta.gal/",
+    "codigoBDNS": "803868",
+    "fechaRecepcion": "2024-12-18T12:49:59+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 600000,
+    "mrr": false,
+    "descripcion": "Resolución de 2 de diciembre de 2024 por la que se establecen las bases reguladoras para la concesión de subvenciones en régimen de concurrencia competitiva, para proyectos de creación, producción, promoción y difusión musical y si procede a la convocator",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de bibliotecas, archivos, museos y otras actividades culturales",
+            "codigo": "91"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Resolución de 2 de diciembre de 2024 por la que se establecen las bases reguladoras para la concesión de subvenciones en régimen de concurrencia competitiva, para proyectos de creación, producción, promoción y difusión musical y si procede a la convocator",
+    "urlBasesReguladoras": "https://www.xunta.gal/diario-oficial-galicia/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-27T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-27T00:00:00+01:00",
+    "textInicio": "27/12/2024",
+    "textFin": "27/01/2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178826,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "G-Talento Musical 25 _20241218_124736.pdf",
+            "long": 392451,
+            "datMod": "2024-12-18T13:15:08.000+01:00",
+            "datPublicacion": "2024-12-18T13:30:01.000+01:00"
+        },
+        {
+            "id": 1178825,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "C  Talento Musical 25 _20241218_124945.pdf",
+            "long": 410625,
+            "datMod": "2024-12-18T13:15:08.000+01:00",
+            "datPublicacion": "2024-12-18T13:30:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

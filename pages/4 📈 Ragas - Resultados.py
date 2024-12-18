@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 # st.set_page_config(page_title="Análisis de Evaluación de Ragas", layout="wide")
 # st.title("Análisis de Evaluación de Ragas")
 
-from config.ragas_config import RAGAS_FILE_PATH_RESULTS
-from config.web_config import REPORT_CAB, REPORT_TITLE
-from src.utils import apply_cab_report
+from config.ragas.ragas_config import RAGAS_FILE_PATH_RESULTS
+from config.web.web_config import REPORT_CAB, REPORT_TITLE
+from libs.utils import apply_cab_report
 
 # Configuración de la página
 apply_cab_report(REPORT_CAB)
@@ -29,6 +29,8 @@ csv_directory = RAGAS_FILE_PATH_RESULTS  # Cambia esto por el path de tu directo
 
 # Listar los archivos CSV en el directorio especificado
 csv_files = [f for f in os.listdir(csv_directory) if f.endswith('.csv')]
+
+csv_files.sort(reverse=True)
 
 # Si hay archivos csv, mostrar el desplegable para seleccionar uno
 if csv_files:

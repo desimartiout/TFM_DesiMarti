@@ -1,0 +1,72 @@
+{
+    "id": 1005437,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD DE SALAMANCA",
+        "nivel3": null
+    },
+    "sedeElectronica": "sede.usal.es",
+    "codigoBDNS": "803877",
+    "fechaRecepcion": "2024-12-18T13:01:13+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 4524,
+    "mrr": false,
+    "descripcion": "Segunda convocatoria de becas Erasmus de movilidad de estudiantes para el BIP “Promoting Learner Autonomy from an Inclusive Perspective”,  para la Radboud University, Nijmegen (Países Bajos), curso 2024/2025.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "XXXX - TODO EL MUNDO"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Segunda convocatoria y bases reguladoras de becas Erasmus de movilidad de estudiantes para el BIP “Promoting Learner Autonomy from an Inclusive Perspective”,  para la Radboud University, Nijmegen (Países Bajos), curso 2024/2025.",
+    "urlBasesReguladoras": "https://sede.usal.es/bpm-portlet/bpmportlet/s-GEp31000-17GQq31/127015b6-e656-4f79-b943-a9c2e65b7b77.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-07T00:00:00+01:00",
+    "textInicio": "Desde su publicación en el BOCyL.",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178851,
+            "descripcion": "solicitud BIP Erasmus 2024/2025",
+            "nombreFic": "Solicitud_BIP_Erasmus_2024_2025.pdf",
+            "long": 1103544,
+            "datMod": "2024-12-18T13:15:05.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:05.000+01:00"
+        },
+        {
+            "id": 1178850,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria_estudiantes_BIP_Nijmegen_2024_2025_2_firmada.pdf",
+            "long": 348632,
+            "datMod": "2024-12-18T13:15:05.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:05.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

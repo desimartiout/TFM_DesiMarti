@@ -1,0 +1,75 @@
+{
+    "id": 1005377,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "CONSELLERÍA DE MEDIO AMBIENTE Y CAMBIO CLIMÁTICO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803817",
+    "fechaRecepcion": "2024-12-18T11:03:40+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1500000,
+    "mrr": true,
+    "descripcion": "Orde 17 de decembro 2024  pola que se establecen as bases reguladoras para a concesión de axudas a Pemes, autónomos, asociacións e fundacións de Galicia para o financiamiento de actuacións en materia de residuos de compet municipal-Reg 651/2014",
+    "descripcionLeng": "Orde 17 de decembro 2024  pola que se establecen as bases reguladoras para a concesión de axudas a Pemes, autónomos, asociacións e fundacións de Galicia para o financiamiento de actuacións en materia de residuos de compet municipal-Reg 651/2014",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Recogida, tratamiento y eliminación de residuos; valorización",
+            "codigo": "38"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Orde 17 de decembro 2024  pola que se establecen as bases reguladoras para a concesión de axudas a Pemes, autónomos, asociacións e fundacións de Galicia para o financiamiento de actuacións en materia de residuos de compet municipal-Reg 651/2014",
+    "urlBasesReguladoras": "https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?fecha=20241218&ruta=Indice243_gl.html",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "día seguinte da publicación do DOG",
+    "textFin": "1 mes a contar desde o día seguinte a publicación",
+    "ayudaEstado": "SA.000000",
+    "urlAyudaEstado": "https://competition-cases.ec.europa.eu/cases/SA.000000",
+    "fondos": [
+        {
+            "descripcion": "MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 651/2014, DE 17 DE JUNIO, de exención de notificación",
+        "orden": null
+    },
+    "objetivos": [
+        {
+            "descripcion": "ART. 47 AYUDAS A LA INVERSIÓN PARA LA EFICIENCIA EN EL USO DE LOS RECURSOS Y PARA APOYAR LA TRANSICIÓN HACIA UNA ECONOMÍA CIRCULAR."
+        }
+    ],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178696,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Orden MT975V ESP_20241218_110332.pdf",
+            "long": 349821,
+            "datMod": "2024-12-18T11:15:01.000+01:00",
+            "datPublicacion": "2024-12-18T11:15:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

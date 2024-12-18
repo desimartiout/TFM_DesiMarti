@@ -1,18 +1,16 @@
 import logging
 import os
-import time
 
 import streamlit as st
-#from PyPDF2 import PdfReader
 
 # from src.embeddings import get_embedding_model
-from src.searchchromadb import get_all_documents, cargarDocumento
-from src.utils import setup_logging, apply_cab, apply_custom_css, display_sidebar_content
+from libs.searchchromadb import get_all_documents, cargarDocumento
+from libs.utils import setup_logging, apply_cab, apply_custom_css, display_sidebar_content
 
 from libs.faiss_utils import obtener_todos_documentos, realizar_consulta
 
 from config.global_config import BD_VECTORIAL_CHROMADB, BD_VECTORIAL_FAISS, TIPO_BD_VECTORIAL
-from config.web_config import CAB_AYUDAS_ALMACENADAS
+from config.web.web_config import CAB_AYUDAS_ALMACENADAS
 
 import json
 
@@ -79,14 +77,14 @@ def render_upload_page() -> None:
                         # st.json(doc['metadata'])
                         st.code(doc['metadata'], language="json", line_numbers=False, wrap_lines=True)
     else:
-        #faiss
+        #FAISS
         document_names= obtener_todos_documentos()
         num_documentos = len(document_names)
         logger.info(document_names)
         logger.info("Obtenidos nombres de documentos desde FAISS.")
 
         if len(document_names)!=0:  # Verifica que 'documents' no sea None o esté vacío
-            st.subheader(f"Actualmente tenemos :blue[{num_documentos}] ayudas almacendas :sunglasses:")
+            st.subheader(f"Actualmente tenemos :blue[{num_documentos}] ayudas :sunglasses:")
             st.caption("Puedes ver el detalle almacenado pinchando en cada ayuda")
             for document in document_names:
                 st.session_state["documents"].append(document)
@@ -101,14 +99,7 @@ def render_upload_page() -> None:
                 with st.expander(f"Ayuda {i}", expanded=False):
                     st.markdown("**Documento**")
                     st.write(doc)
-                    # st.code(doc, language="yaml", line_numbers=False, wrap_lines=True)
                 i+=1
-
-    # if "deleted_file" in st.session_state:
-    #     st.success(
-    #         f"El fichero '{st.session_state['deleted_file']}' fué correctamente borrado."
-    #     )
-    #     del st.session_state["deleted_file"]
 
 if __name__ == "__main__":
     if "documents" not in st.session_state:

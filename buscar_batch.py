@@ -1,7 +1,7 @@
 
 import argparse
 from ragas_eval.utils import setup_logging_ragas
-from src.chat import buscar_cadena
+from libs.chat import buscar_cadena
 from config.global_config import OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, RAGAS_FILE_PATH_QUESTIONS
 
 def hacer_consulta(prompt: str) -> str:

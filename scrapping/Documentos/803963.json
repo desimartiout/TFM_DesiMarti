@@ -1,0 +1,104 @@
+{
+    "id": 1005523,
+    "organo": {
+        "nivel1": "BILBAO",
+        "nivel2": "AYUNTAMIENTO DE BILBAO",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.bilbao.eus",
+    "codigoBDNS": "803963",
+    "fechaRecepcion": "2024-12-18T14:32:52+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 140300,
+    "mrr": false,
+    "descripcion": "PROGRAMAS DE APOYO A LA EDUCACION",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación",
+            "codigo": "85"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES213 - Bizkaia"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Ordenanza General Reguladora de las Bases para la Concesión de Subvenciones mediante Convocatoria por el Ayuntamiento de Bilbao y sus Organismos y Entidades de Derecho Público",
+    "urlBasesReguladoras": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2016/07/20160720a138.pdf#page=43",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "El dia siguiente al de la publicación del extracto en el BOB",
+    "textFin": "El 21 de febrero de 2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179043,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "TEXTO COMPLETO CASTELLANO.pdf",
+            "long": 539636,
+            "datMod": "2024-12-18T15:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:04.000+01:00"
+        },
+        {
+            "id": 1179044,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "TEXTO COMPLETO EUSKERA.pdf",
+            "long": 468286,
+            "datMod": "2024-12-18T15:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:04.000+01:00"
+        },
+        {
+            "id": 1179048,
+            "descripcion": "ANEXO 2",
+            "nombreFic": "2.Eranskina-Anexo 2.pdf",
+            "long": 175966,
+            "datMod": "2024-12-18T15:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:04.000+01:00"
+        },
+        {
+            "id": 1179046,
+            "descripcion": "PRESUPUESTO",
+            "nombreFic": "5.Aurrekontua_Presupuesto.pdf",
+            "long": 94019,
+            "datMod": "2024-12-18T15:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:04.000+01:00"
+        },
+        {
+            "id": 1179047,
+            "descripcion": "ANEXO 1",
+            "nombreFic": "1.Eranskina-Anexo 1.pdf",
+            "long": 124584,
+            "datMod": "2024-12-18T15:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:04.000+01:00"
+        },
+        {
+            "id": 1179045,
+            "descripcion": "hoja de solicitud",
+            "nombreFic": "4.Eskabide Orria Dirul_Hoja Solicitud Subv.pdf",
+            "long": 329332,
+            "datMod": "2024-12-18T15:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:04.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

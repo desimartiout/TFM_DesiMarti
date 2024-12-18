@@ -8,7 +8,7 @@ from chromadb.utils import embedding_functions
 import os
 from datetime import datetime
 
-from config.chromadb_config import CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, CHROMA_PERSIST_PATH, CHROMA_SENTENCE_TRANSFORMER, LOG_FILE_PATH
+from config.chroma.chromadb_config import CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, CHROMA_PERSIST_PATH, CHROMA_SENTENCE_TRANSFORMER, LOG_FILE_PATH
 
 def setup_logging() -> None:
     current_date = datetime.now().strftime("%Y-%m-%d")
@@ -61,7 +61,8 @@ def cargarDocumento(documento, metadato, id):
     try:
         logging.info(f"Antes de cargarDocumento id {id}")
 
-        model_path = "../models/paraphrase-multilingual-MiniLM-L12-v2"
+        # model_path = "../models/paraphrase-multilingual-MiniLM-L12-v2"
+        model_path=CHROMA_SENTENCE_TRANSFORMER
         sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=model_path)
 
         # sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name=CHROMA_SENTENCE_TRANSFORMER)

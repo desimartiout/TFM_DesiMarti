@@ -1,0 +1,80 @@
+{
+    "id": 1005550,
+    "organo": {
+        "nivel1": "DONOSTIA/SAN SEBASTIÁN",
+        "nivel2": "AYUNTAMIENTO DE DONOSTIA/SAN SEBASTIÁN",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.donostia.eus/info/udalinfo/Tramites.nsf/vTramites/0BFBF1669CC74AD1C125814500390C7B?OpenDocument&sel=tema&idioma=cas&id=D580485&des=Ciudadan%EDa&cat=Servicios%20sociales\\Exclusi%F3n%20social",
+    "codigoBDNS": "803990",
+    "fechaRecepcion": "2024-12-18T15:02:10+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 850000,
+    "mrr": false,
+    "descripcion": "Acuerdo de la Junta de Gobierno Local de fecha 3 de diciembre de 2024, por el que se aprueba la convocatoria y bases reguladoras de ayudas de apoyo al Plan de Trabajo Compartido para el año 2025.",
+    "descripcionLeng": "Tokiko Gobernu Batzarrak 2024ko abenduaren 3an hartutako erabakia, 2025. urterako “Lan Partekatuaren Plana Babesteko Laguntzen Oinarriak bereziak” onartzen dituena.",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES",
+            "codigo": "Q"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Convocatoria y bases reguladoras de ayudas de apoyo al Plan de Trabajo Compartido para el año 2025",
+    "urlBasesReguladoras": "https://www.donostia.eus/info/udalinfo/Tramites.nsf/vTramites/0BFBF1669CC74AD1C125814500390C7B?OpenDocument&sel=tema&idioma=cas&id=D580485&des=Ciudadan%EDa&cat=Servicios%20sociales\\Exclusi%F3n%20social",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-12-31T00:00:00+01:00",
+    "textInicio": "Desde el día siguiente al de la publicación del extracto en el BOG",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179141,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "DIL_CRITERIOS 2025.pdf",
+            "long": 289358,
+            "datMod": "2024-12-18T15:15:00.000+01:00",
+            "datPublicacion": "2024-12-18T15:15:00.000+01:00"
+        },
+        {
+            "id": 1179143,
+            "descripcion": "Acuerdo JGL",
+            "nombreFic": "D-24030_DIL_INT_AAPTC_2025.pdf.pdf",
+            "long": 277554,
+            "datMod": "2024-12-18T15:15:00.000+01:00",
+            "datPublicacion": "2024-12-18T15:15:00.000+01:00"
+        },
+        {
+            "id": 1179142,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "DIL_CRITERIOS 2025.pdf",
+            "long": 289358,
+            "datMod": "2024-12-18T15:15:00.000+01:00",
+            "datPublicacion": "2024-12-18T15:15:00.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

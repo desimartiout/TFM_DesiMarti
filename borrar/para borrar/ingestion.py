@@ -7,7 +7,7 @@ from opensearchpy import OpenSearch, helpers
 from src.constants import ASSYMETRIC_EMBEDDING, EMBEDDING_DIMENSION, OPENSEARCH_INDEX
 #from src.opensearch import get_opensearch_client
 
-from src.utils import setup_logging
+from libs.utils import setup_logging
 
 # Initialize logger
 setup_logging()

@@ -1,0 +1,72 @@
+{
+    "id": 1005369,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD JAUME I DE CASTELLÓN",
+        "nivel3": null
+    },
+    "sedeElectronica": "ujiapps.uji.es/seu/info-adm/tao/convocatoriesRH?pArId=71003",
+    "codigoBDNS": "803809",
+    "fechaRecepcion": "2024-12-18T10:44:34+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 13000,
+    "mrr": false,
+    "descripcion": "Convocatoria de los premios a los mejores trabajos de final de grado y final de máster en el marco de diferentes cátedras, aulas universitarias y convenios para el curso 2024-2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación postsecundaria",
+            "codigo": "85.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES52 - COMUNIDAD VALENCIANA"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Convocatoria de los premios a los mejores trabajos de final de grado y final de máster en el marco de diferentes cátedras, aulas universitarias y convenios para el curso 2024-2025",
+    "urlBasesReguladoras": "ujiapps.uji.es/seu/info-adm/tao/convocatoriesRH?pArId=71003",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Periodo de entrega de solicitudes abierto desde  hasta .",
+    "textFin": "Periodo de de entrega de solicitudes cerrado el dia .",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178673,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "VAL Convocatoria Premis TFG-TFM 2024-2025.pdf",
+            "long": 249268,
+            "datMod": "2024-12-18T11:15:03.000+01:00",
+            "datPublicacion": "2024-12-18T11:30:00.000+01:00"
+        },
+        {
+            "id": 1178672,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "CAST Convocatoria Premis TFG-TFM 2024-2025 (3).pdf",
+            "long": 249107,
+            "datMod": "2024-12-18T11:15:03.000+01:00",
+            "datPublicacion": "2024-12-18T11:30:00.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

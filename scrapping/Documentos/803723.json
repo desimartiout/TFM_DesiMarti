@@ -1,0 +1,76 @@
+{
+    "id": 1005283,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "CONSELLERÍA DE MEDIO AMBIENTE Y CAMBIO CLIMÁTICO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803723",
+    "fechaRecepcion": "2024-12-18T09:02:38+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 2567603,
+    "mrr": true,
+    "descripcion": "ORDE DO 17 DE DECEMBRO DE 2024 POLA QUE SE ESTABLECEN AS BASES REGULADORAS PARA A CONCESIÓN DE AXUDAS A ENTIDADES LOCAIS DE GALICIA PARA O FINANCIAMENTO DE ACTUACIÓNS EN MATERIA DE RESIDUOS DE COMPETENCIA MUNICIPAL, COFINANCIADAS POLO FONDO EUROPEO ",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Recogida, tratamiento y eliminación de residuos; valorización",
+            "codigo": "38"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "ORDE DO 17 DE DECEMBRO DE 2024 POLA QUE SE ESTABLECEN AS BASES REGULADORAS PARA A CONCESIÓN DE AXUDAS A ENTIDADES LOCAIS DE GALICIA PARA O FINANCIAMENTO DE ACTUACIÓNS EN MATERIA DE RESIDUOS DE COMPETENCIA MUNICIPAL, COFINANCIADAS POLO FONDO EUROPEO ",
+    "urlBasesReguladoras": "https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?fecha=20220428&ruta=Indice81_es.html&lang=es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Día seguinte á publicación da convocatoria no DOG",
+    "textFin": "Un mes, dende o día seguinte á publicación da convocatoria no DOG.",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178482,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "Orde MT975U_ GAL_20241217_180515.pdf",
+            "long": 316781,
+            "datMod": "2024-12-18T09:15:09.000+01:00",
+            "datPublicacion": "2024-12-18T09:30:00.000+01:00"
+        },
+        {
+            "id": 1178481,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Orden MT975U_ES_20241218_085943.pdf",
+            "long": 315453,
+            "datMod": "2024-12-18T09:15:09.000+01:00",
+            "datPublicacion": "2024-12-18T09:30:00.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

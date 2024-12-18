@@ -1,0 +1,104 @@
+{
+    "id": 1005529,
+    "organo": {
+        "nivel1": "BILBAO",
+        "nivel2": "AYUNTAMIENTO DE BILBAO",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.bilbao.eus",
+    "codigoBDNS": "803969",
+    "fechaRecepcion": "2024-12-18T14:37:37+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 25000,
+    "mrr": false,
+    "descripcion": "PROGRAMAS PARA LA PROMOCION DE LA INTERCULTURALIDAD Y LA COHESION SOCIAL",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Otras actividades asociativas",
+            "codigo": "94.9"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES213 - Bizkaia"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Ordenanza General Reguladora de las Bases para la Concesión de Subvenciones mediante Convocatoria por el Ayuntamiento de Bilbao y sus Organismos y Entidades de Derecho Público",
+    "urlBasesReguladoras": "http://www.bizkaia.eus/lehendakaritza/Bao_bob/2016/07/20160720a138.pdf#page=43",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "El dia siguiente a la publicacion del extracto en el BOB",
+    "textFin": "21 de febrero de 2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179074,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "TEXTO COMPLETO CASTELLANO.pdf",
+            "long": 240757,
+            "datMod": "2024-12-18T15:15:04.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:03.000+01:00"
+        },
+        {
+            "id": 1179075,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "TEXTO COMPLETO EUSKERA.pdf",
+            "long": 234997,
+            "datMod": "2024-12-18T15:15:04.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:03.000+01:00"
+        },
+        {
+            "id": 1179079,
+            "descripcion": "LIQUIDACION DEL PROGRAMA/PROGRAMAREN LIKIDAZIOA",
+            "nombreFic": "LFIE_PAR032_v4_JustifikaPrograma.pdf",
+            "long": 100282,
+            "datMod": "2024-12-18T15:15:04.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:03.000+01:00"
+        },
+        {
+            "id": 1179077,
+            "descripcion": "FICHA DE PRESUPUESTO/AURREKONTUAREN FITXA",
+            "nombreFic": "LFIE_PAR031_v3_Aurrekon_Presup.pdf",
+            "long": 95030,
+            "datMod": "2024-12-18T15:15:04.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:03.000+01:00"
+        },
+        {
+            "id": 1179078,
+            "descripcion": "ANEXO 1: PROGRAMA DE ACTIVIDADES/1. ERANSKINA: JARDUEREN PROGRAMA",
+            "nombreFic": "LFIE_IGU012_v5_SubvDirulInmig 2_2025.pdf",
+            "long": 266415,
+            "datMod": "2024-12-18T15:15:04.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:03.000+01:00"
+        },
+        {
+            "id": 1179076,
+            "descripcion": "HOJA DE SOLICITUD/ESKABIDE HORRIA",
+            "nombreFic": "LFIE_PAR008_v7_EskabideOrriaDirul_HojaSolicitudSubv.pdf",
+            "long": 329332,
+            "datMod": "2024-12-18T15:15:04.000+01:00",
+            "datPublicacion": "2024-12-18T15:30:03.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

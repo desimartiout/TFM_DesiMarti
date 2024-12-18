@@ -4,7 +4,7 @@ import csv
 import logging
 from pandas import DataFrame
 from datetime import datetime
-from config.ragas_config import RAGAS_FILE_PATH_RESULTS, RAGAS_FILE_PATH_LOG
+from config.ragas.ragas_config import RAGAS_FILE_PATH_RESULTS, RAGAS_FILE_PATH_LOG
 
 def setup_logging_ragas() -> None:
     current_date = datetime.now().strftime("%Y-%m-%d")

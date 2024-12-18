@@ -1,0 +1,9 @@
+from config.global_config import SENTENCE_TRANSFORMER
+
+CHROMA_COLLECTION_NAME = "subvenciones"
+CHROMA_PERSIST_PATH = "/chromadb/"
+LOG_FILE_PATH = "/chromadb/logs/"
+
+# CHROMA_SENTENCE_TRANSFORMER = "all-MiniLM-L6-v2"
+# CHROMA_SENTENCE_TRANSFORMER = "paraphrase-multilingual-MiniLM-L12-v2"
+CHROMA_SENTENCE_TRANSFORMER = SENTENCE_TRANSFORMER

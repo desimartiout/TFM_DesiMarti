@@ -1,0 +1,80 @@
+{
+    "id": 1005391,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE LEÓN",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE LEÓN",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803831",
+    "fechaRecepcion": "2024-12-18T11:26:58+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 25000,
+    "mrr": false,
+    "descripcion": "DEPORTISTAS 2023/2024 o 2024",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades deportivas",
+            "codigo": "93.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES413 - León"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "ORD. GNRAL. DE SUBVENCIONES 2022",
+    "urlBasesReguladoras": "https://www.dipuleon.es/file/fVCZrY8SHV4",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "PUBLICACIÓN EN EL BOP",
+    "textFin": "15 DÍAS HÁBILES SIGUIENTES  PUBLICACIÓN EN EL BOP",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178729,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Certif_SP1_Aprobacion_convocatoria_SubvDeportistas_Leoneses_Olimpico_y_Paralimpico_23-24_-_SEFYCU_54.pdf",
+            "long": 486457,
+            "datMod": "2024-12-18T13:15:14.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:14.000+01:00"
+        },
+        {
+            "id": 1178731,
+            "descripcion": "ANEXO II",
+            "nombreFic": "ANEXO_II__Solicitud_y_declaración_responsable.pdf",
+            "long": 92247,
+            "datMod": "2024-12-18T13:15:14.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:14.000+01:00"
+        },
+        {
+            "id": 1178730,
+            "descripcion": "ANEXO III. Solicitud de abono",
+            "nombreFic": "ANEXO_III._Solicitud_de_abono_.pdf",
+            "long": 113804,
+            "datMod": "2024-12-18T13:15:14.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:14.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

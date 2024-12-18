@@ -3,7 +3,7 @@ import os
 
 import streamlit as st
 
-from src.utils import setup_logging
+from libs.utils import setup_logging
 from src.constants import OLLAMA_MODEL_NAME
 
 # Initialize logger

@@ -13,7 +13,7 @@ Puedes acceder a la web desplegada en HuggingFace Spaces en la ruta https://hugg
 ### 🚀 Como comenzar
 1. Clonar el repositorio: `git clone https://github.com/desimartiout/TFM_DesiMarti.git`
 2. Instalar dependencias: `pip install -r requirements.txt`
-3. Configurar fichero de parámetros en `src/constants.py` para elegir el modelo de embeddings y el modelo de LLM.
+3. Configurar los ficheros de configuración que se encuentran en la carpeta `/config` el fichero principal es `global_config.py` (EMBEDDINGS, BD_VECTORIAL y LLM son los principales)
 4. Ejecutar la aplicación Streamlit: `streamlit run Inicio.py`
 
 ## 📘 OLLAMA

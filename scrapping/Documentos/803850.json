@@ -1,0 +1,64 @@
+{
+    "id": 1005410,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE CUENCA",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE CUENCA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803850",
+    "fechaRecepcion": "2024-12-18T12:20:30+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 90000,
+    "mrr": false,
+    "descripcion": "SERVICIO DE DESRATIZACIÓN, DESINSECTACIÓN Y DESINFECCIÓN DE BIENES MUEBLES E INMUEBLES DE TITULARIDAD MUNICIPAL A LOS MUNICIPIOS, EATIM Y NÚCLEOS  DE LA PROVINCIA DE CUENCA CON POBLACIÓN IGUAL O INFERIOR A 300 HABITANTES.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES42 - CASTILLA LA MANCHA"
+        }
+    ],
+    "descripcionFinalidad": "Otras Prestaciones económicas",
+    "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES",
+    "urlBasesReguladoras": "https://www.dipucuenca.es/documents/12423/560665/ORDENANZA+REGULADORA+DE+SUBVENCIONES.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-23T00:00:00+01:00",
+    "fechaFinSolicitud": "2028-12-23T00:00:00+01:00",
+    "textInicio": "A PARTIR DEL DIA SIGUIENTE A SU PUBLICACIÓN EN EL BOP",
+    "textFin": "DURANTE EL TIEMPO DE DURACIÓN DEL CONTRATO",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178777,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Decreto_N_9856_de_17122024_DECRETO_APROBACION_BASES_CONVOCATORIA_DDD_-_SEGRA_831914.pdf",
+            "long": 282613,
+            "datMod": "2024-12-18T13:15:11.000+01:00",
+            "datPublicacion": "2024-12-18T13:15:11.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}
