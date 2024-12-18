@@ -20,6 +20,9 @@ TEXTO_AVISOLEGAL = texts["texto_avisolegal"]
 REPORT_CAB = texts["report_cab"]
 REPORT_TITLE = texts["report_title"]
 
+DATASET_CAB = texts["dataset_cab"]
+DATASET_TITLE = texts["dataset_title"]
+
 CAB_AYUDAS_ALMACENADAS = texts["cab_ayudas_almacenadas"]
 
 

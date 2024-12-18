@@ -115,8 +115,11 @@ chatbot_intro: |
 
     **¡Prueba ahora y encuentra lo que necesitas!**
 
-report_cab : "HelpMe.ai - Análisis de Evaluación de Ragas"
-report_title : "RAGAS - Análisis de Evaluación"
+report_cab : "HelpMe.ai - Resultados de Evaluación de Ragas"
+report_title : "RAGAS - Resultados de Evaluación"
+
+dataset_cab : "HelpMe.ai - Datasets para Evaluación de Ragas"
+dataset_title : "RAGAS - Datasets para evaluación"
 
 cab_avisolegal: "HelpMe.ai - Aviso Legal"
 

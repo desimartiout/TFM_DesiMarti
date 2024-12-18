@@ -19,7 +19,7 @@ def setup_logging() -> None:
     # Crear el nombre del archivo con la fecha
     log_file_path = os.path.join(ruta_log, f"{current_date}_1.log")
 
-    print(f"Ruta: {log_file_path}")
+    # print(f"Ruta: {log_file_path}")
 
     logging.basicConfig(
         filename=log_file_path,
@@ -35,8 +35,8 @@ logger = logging.getLogger(__name__)
 
 def cargar_indice_y_metadatos():
     """Carga el índice FAISS y los metadatos si existen. Si no, los crea."""
-    print(INDEX_FILE_FAISS)
-    print(METADATA_FILE_FAISS)
+    # print(INDEX_FILE_FAISS)
+    # print(METADATA_FILE_FAISS)
     if os.path.exists(INDEX_FILE_FAISS) and os.path.exists(METADATA_FILE_FAISS):
         index = faiss.read_index(INDEX_FILE_FAISS)
         with open(METADATA_FILE_FAISS, "r") as f:

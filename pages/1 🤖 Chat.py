@@ -43,27 +43,25 @@ def render_chatbot_page() -> None:
     if "temperature" not in st.session_state:
         st.session_state["temperature"] = OLLAMA_TEMPERATURE
 
-    st.session_state["num_results"] = st.sidebar.number_input(
-        "Número de resultados en la ventana de contexto",
-        min_value=1,
-        max_value=10,
-        value=st.session_state["num_results"],
-        step=1,
-    )
+    # st.session_state["num_results"] = st.sidebar.number_input(
+    #     "Número de resultados en la ventana de contexto",
+    #     min_value=1,
+    #     max_value=10,
+    #     value=st.session_state["num_results"],
+    #     step=1,
+    # )
     
-    st.session_state["temperature"] = st.sidebar.slider(
-        "Temperatura de respuesta",
-        min_value=0.0,
-        max_value=1.0,
-        value=st.session_state["temperature"],
-        step=0.1,
-    )
+    # st.session_state["temperature"] = st.sidebar.slider(
+    #     "Temperatura de respuesta",
+    #     min_value=0.0,
+    #     max_value=1.0,
+    #     value=st.session_state["temperature"],
+    #     step=0.1,
+    # )
 
     # Display loading spinner at the top of the main content area
     with model_loading_placeholder.container():
         st.spinner("Cargando modelos para el chat...")
-
-    
 
     # Load models if not already loaded
     if "embedding_models_loaded" not in st.session_state:

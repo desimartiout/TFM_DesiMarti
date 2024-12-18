@@ -18,6 +18,14 @@ st.title(REPORT_TITLE)
 st.sidebar.header("Cargar Archivo")
 uploaded_file = st.sidebar.file_uploader("fichero evaluación ragas CSV", type=["csv"])
 
+# Diccionario de descripciones
+descripciones = {
+    "faithfulness": "La fidelidad mide cuán precisa es la respuesta, es decir, si la respuesta es fiel al contexto proporcionado.",
+    "semantic_similarity": "La similitud semántica mide cuán similar es el contenido semántico de la respuesta en comparación con el contexto.",
+    "answer_relevancy": "La relevancia de la respuesta evalúa si la respuesta es pertinente para la pregunta planteada.",
+    "context_precision": "La precisión del contexto mide cuán bien el contexto recuperado corresponde a la información necesaria para responder la pregunta."
+}
+
 if uploaded_file:
     # Leer archivo CSV
     df = pd.read_csv(uploaded_file, delimiter=";")
@@ -47,6 +55,11 @@ if uploaded_file:
     # Selección de columna para análisis visual
     if numeric_cols:
         col = st.selectbox("Selecciona una columna para análisis visual:", numeric_cols)
+
+        # Mostrar la descripción si la columna seleccionada tiene una
+        if col in descripciones:
+            st.write(f"### Descripción de {col}")
+            st.write(descripciones[col])
 
         # Histograma
         st.write(f"#### Histograma de {col}")
