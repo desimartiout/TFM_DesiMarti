@@ -11,8 +11,9 @@ import ollama
 import time
 import streamlit as st
 
-from src.constants import ASSYMETRIC_EMBEDDING, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, CHROMA_SIMILARITY_THRESHOLD, EVAL_SAVE
-from src.constantesWeb import PROMPT_TEMPLATE, OPENAI_TEMPLATE
+from config.web_config import PROMPT_TEMPLATE, OPENAI_TEMPLATE
+from config.global_config import ASSYMETRIC_EMBEDDING, LLM_MODELO_SELECCIONADO, LLM_TIPOMODELO_OLLAMA, LLM_TIPOMODELO_OPENAI, OLLAMA_MODEL_NAME, OPENAI_MODEL_NAME, CHROMA_SIMILARITY_THRESHOLD, EVAL_SAVE, BD_VECTORIAL_CHROMADB, BD_VECTORIAL_FAISS, TIPO_BD_VECTORIAL
+
 # from src.embeddings import get_embedding_model
 #from src.opensearch import hybrid_search
 from src.searchchromadb import consultaChromadb
@@ -44,6 +45,31 @@ def ensure_model_pulled(model: str) -> bool:
         return False
     return True
 
+
+def buscar_cadena(query: str,
+    num_results: int,
+    temperature: float,
+    chat_history: Optional[List[Dict[str, str]]] = None,
+    )  -> str:
+    respuesta = ""
+
+    if LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OLLAMA:
+        respuesta = generate_response_streaming_ollama(
+            query,
+            num_results=num_results,
+            temperature=temperature,
+            chat_history=chat_history,
+        )
+
+    elif LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OPENAI:
+        respuesta = generate_response_streaming_openai(
+            query,
+            num_results=num_results,
+            temperature=temperature,
+            chat_history=chat_history,
+        )
+
+    return respuesta
 
 def run_llama_streaming(prompt: str, temperature: float) -> Optional[Iterable[str]]: 
     try:
@@ -131,7 +157,6 @@ def prompt_template(query: str, context: str, history: List[Dict[str, str]]) -> 
 
 def generate_response_streaming_ollama(
     query: str,
-    use_hybrid_search: bool,
     num_results: int,
     temperature: float,
     chat_history: Optional[List[Dict[str, str]]] = None,
@@ -141,7 +166,12 @@ def generate_response_streaming_ollama(
     max_history_messages = 10
     history = chat_history[-max_history_messages:]
     
-    context = consultaChromadb(query, num_results, CHROMA_SIMILARITY_THRESHOLD)
+    if (TIPO_BD_VECTORIAL==BD_VECTORIAL_CHROMADB):
+        # Chromadb
+        context = consultaChromadb(query, num_results,CHROMA_SIMILARITY_THRESHOLD)
+    else:
+        # FAISS
+        context = consultaFaiss(query,num_results)
 
     # Generate prompt using the prompt_template function
     prompt = prompt_template(query, context, history)
@@ -239,7 +269,6 @@ def run_openai_streaming(contexto: str,query: str, temperature: float):
 
 def generate_response_streaming_openai(
     query: str,
-    use_hybrid_search: bool,
     num_results: int,
     temperature: float,
     chat_history: Optional[List[Dict[str, str]]] = None,
@@ -248,11 +277,12 @@ def generate_response_streaming_openai(
     max_history_messages = 10
     history = chat_history[-max_history_messages:]
     
-    # Chromadb
-    # context = consultaChromadb(query, num_results,CHROMA_SIMILARITY_THRESHOLD)
-
-    # FAISS
-    context = consultaFaiss(query,num_results)
+    if (TIPO_BD_VECTORIAL==BD_VECTORIAL_CHROMADB):
+        # Chromadb
+        context = consultaChromadb(query, num_results,CHROMA_SIMILARITY_THRESHOLD)
+    else:
+        # FAISS
+        context = consultaFaiss(query,num_results)
 
     # Generate prompt using the prompt_template function
     #prompt = prompt_template_openai(query, context, history)

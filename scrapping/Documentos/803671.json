@@ -1,0 +1,64 @@
+{
+    "id": 1005231,
+    "organo": {
+        "nivel1": "CABILDO INSULAR DE LA PALMA",
+        "nivel2": "EXCMO. CABILDO INSULAR DE LA PALMA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sedeelectronica.cabildodelapalma.es",
+    "codigoBDNS": "803671",
+    "fechaRecepcion": "2024-12-17T16:48:25+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 350000,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA PARA LA CONCESIÓN DE SUBVENCIONES  PARA DOTACIÓN DE SERVICIO DE ALIMENTACIÓN ELÉCTRICA MEDIANTE CONEXIÓN A RED DE BAJA TENSIÓN Y/O  MEDIANTE SISTEMAS AUTÓNOMOS DE ORIGEN RENOVABLE PARA VIVIENDAS  AFECTADAS ESTRUCTURALMENTE O DESTRUIDAS PO...",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Producción, transporte y distribución de energía eléctrica",
+            "codigo": "35.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES707 - La Palma"
+        }
+    ],
+    "descripcionFinalidad": "Industria y Energía",
+    "descripcionBasesReguladoras": "BBRR CONCESIÓN  SUBV  PARA DOTACIÓN DE SERV ALIMENTACIÓN ELÉCTRICA MEDIANTE CONEXIÓN A RED DE BAJA TENSIÓN Y/O  MEDIANTE SISTEMAS AUTÓNOMOS RENOVABLES PARA VIVIENDAS  AFECTADAS",
+    "urlBasesReguladoras": "https://www.bopsantacruzdetenerife.es/boletines/2024/8-11-24/8-11-24.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-23T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-08T00:00:00+01:00",
+    "textInicio": "al día siguiente de la publicación extracto de convocatoria en el BOP",
+    "textFin": "10 días hábiles desde al día siguiente de la publicación extracto de convocatoria en el BOP",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178344,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Documento Convocatoria.PDF",
+            "long": 473767,
+            "datMod": "2024-12-17T18:15:02.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:02.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

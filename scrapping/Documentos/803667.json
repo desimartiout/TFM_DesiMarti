@@ -88,7 +88,48 @@
     },
     "objetivos": [],
     "sectoresProductos": [],
-    "documentos": [],
+    "documentos": [
+        {
+            "id": 1178307,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "MCD EE.UU. 2025 Convocatoria de ayudas Pyme Global 2025.pdf",
+            "long": 442971,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        },
+        {
+            "id": 1178309,
+            "descripcion": "Anexo I - Declaraciones Responsables Convocatoria Ayuda",
+            "nombreFic": "MCD EE.UU. 2025 - Anexo I - Declaraciones Responsables Convocatoria Ayuda.pdf",
+            "long": 1609881,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        },
+        {
+            "id": 1178312,
+            "descripcion": "Anexo IV - Modelo de Solicitud admisión segundo participante",
+            "nombreFic": "MCD EE.UU. 2025 - Anexo IV - Modelo de Solicitud admisión segundo participante.pdf",
+            "long": 1143478,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        },
+        {
+            "id": 1178311,
+            "descripcion": "Anexo III - Tipología Gastos Elegibles y Justificación empresa beneficiaria",
+            "nombreFic": "MCD EE.UU. 2025 - Anexo III - Tipología Gastos Elegibles y Justificación empresa beneficiaria.pdf",
+            "long": 358351,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        },
+        {
+            "id": 1178310,
+            "descripcion": "Anexo II - Modelo de Resolución de admisión Convocatoria Ayuda",
+            "nombreFic": "MCD EE.UU. 2025 - Anexo II - Modelo de Resolución de admisión Convocatoria Ayuda.pdf",
+            "long": 340577,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        }
+    ],
     "anuncios": [],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

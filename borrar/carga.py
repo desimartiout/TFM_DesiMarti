@@ -19,7 +19,12 @@ warnings.filterwarnings("ignore", category=UserWarning, module="huggingface_hub.
 # PATH_BASE = Path(config['ruta_base'])
 # date_today = datetime.datetime.today().strftime("%Y_%m_%d")
 
+INDEX_FAISS = "faiss_index.pkl"
+RETRIEVER_FAISS = "faiss_index.pkl"
+RUTA_FAISS = "/faiss/"
 LOG_FILE_PATH = "/logs/"
+OLLAMA_MODEL_NAME = "llamaAyudas:latest"
+FAISS_SENTENCE_TRANSFORMER = "paraphrase-multilingual-MiniLM-L12-v2"
 
 def setup_logging() -> None:
     current_date = datetime.now().strftime("%Y-%m-%d")
@@ -57,10 +62,7 @@ class carga():
        """
 
     def __init__(self):
-        logger.debug(f'Volcamos toda la informacion del fichero de configuracion: {config}')
-        # Parametros externos configuracion
-        self.ruta_db = Path(config['ruta_base']) / Path(config['vectorial_database']['ruta']) / Path(
-            config['vectorial_database']['serialized_database'])
+        self.ruta_db = RUTA_FAISS
         logger.debug(f'Leemos la configuracion Ruta de la Base de datos: {self.ruta_db}')
         self.cargar_db_Vectorial()
 
@@ -70,13 +72,13 @@ class carga():
         :return:
         """
         try:
-            with open(self.ruta_db / Path(config['vectorial_database']['file_vector_index']), 'rb') as archivo:
+            with open(self.ruta_db / Path(INDEX_FAISS), 'rb') as archivo:
                 self.vector_index = pkl.load(archivo)
         except Exception as e:
             logger.error(f'Un Error se produjo al intentar leer la base de datos de embbedings vector Index: {e}')
 
         try:
-            with open(self.ruta_db / Path(config['vectorial_database']['file_retriever']), 'rb') as archivo:
+            with open(self.ruta_db / Path(RETRIEVER_FAISS), 'rb') as archivo:
                 self.retriever = pkl.load(archivo)
         except Exception as e:
             logger.error(f'Un Error se produjo al intentar guardar la base de datos de embbedings tipo retriever: {e}')

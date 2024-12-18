@@ -7,25 +7,26 @@ import pandas as pd
 import streamlit as st
 
 from src.chat import (  # type: ignore
+    buscar_cadena,
     ensure_model_pulled,
     generate_response_streaming_ollama,
     generate_response_streaming_openai,
     # get_embedding_model,
 )
-from src.constants import OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, AI_ICON, HUMAN_ICON, LLM_MODELO_SELECCIONADO,LLM_TIPOMODELO_OPENAI,LLM_TIPOMODELO_OLLAMA
-from src.constantesWeb import CHATBOT_INTRO
+from config.global_config import OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, AI_ICON, HUMAN_ICON, LLM_MODELO_SELECCIONADO,LLM_TIPOMODELO_OPENAI,LLM_TIPOMODELO_OLLAMA
+from config.web_config import CHATBOT_INTRO, CHATBOT_CAB, CHATBOT_TITLE
 
 from src.utils import stream_data, display_sidebar_content, apply_cab_chat, apply_custom_css_chat
 
 # Initialize logger
 logger = logging.getLogger(__name__)
-apply_cab_chat("HelpMe.ai - Chatbot")
+apply_cab_chat(CHATBOT_CAB)
 apply_custom_css_chat(logger)
 
 # Main chatbot page rendering function
 def render_chatbot_page() -> None:
     # Set up a placeholder at the very top of the main content area
-    st.title("Chatbot - Historial de conversación")
+    st.title(CHATBOT_TITLE)
 
     # # Copy last message to clipboard
     # if st.button("Borrar Historial"):
@@ -119,42 +120,16 @@ def render_chatbot_page() -> None:
             with st.spinner("Generando respuesta..."):
                 response_placeholder = st.empty()
                 response_text = ""
-
-                if LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OLLAMA:
-                    response_text = generate_response_streaming_ollama(
-                        prompt,
-                        use_hybrid_search=st.session_state["use_hybrid_search"],
-                        num_results=st.session_state["num_results"],
-                        temperature=st.session_state["temperature"],
-                        chat_history=st.session_state["chat_history"],
-                    )
-
-                    response_placeholder.write_stream(stream_data(response_text))
-
-                    # if response_stream is not None:
-                    #     for chunk in response_stream:
-                    #         if (
-                    #             isinstance(chunk, dict)
-                    #             and "message" in chunk
-                    #             and "content" in chunk["message"]
-                    #         ):
-                    #             response_text += chunk["message"]["content"]
-                    #             response_placeholder.markdown(response_text + "▌")
-                    #         else:
-                    #             logger.error("Formato de chunk no esperado en la respuesta.")
-
-                elif LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OPENAI:
-                    response_text = generate_response_streaming_openai(
-                        prompt,
-                        use_hybrid_search=st.session_state["use_hybrid_search"],
-                        num_results=st.session_state["num_results"],
-                        temperature=st.session_state["temperature"],
-                        chat_history=st.session_state["chat_history"],
-                    )
-
-                    # response_placeholder.markdown(response_text)
-                    response_placeholder.write_stream(stream_data(response_text))
             
+                response_text = buscar_cadena(
+                        prompt,
+                        num_results=st.session_state["num_results"],
+                        temperature=st.session_state["temperature"],
+                        chat_history=st.session_state["chat_history"],
+                    )
+                response_placeholder.write_stream(stream_data(response_text))
+                
+
             st.session_state["chat_history"].append(
                 {"role": "assistant", "content": response_text}
             )

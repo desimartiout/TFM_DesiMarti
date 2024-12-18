@@ -1,0 +1,72 @@
+{
+    "id": 1005228,
+    "organo": {
+        "nivel1": "DIPUTACIÓN FORAL DE BIZKAIA",
+        "nivel2": "DIPUTACIÓN FORAL DE BIZKAIA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.ebizkaia.eus/es/catalogo-de-tramites-y-servicios",
+    "codigoBDNS": "803668",
+    "fechaRecepcion": "2024-12-17T15:54:48+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 2000000,
+    "mrr": false,
+    "descripcion": "Decreto Foral Diputación Foral Bizkaia que aprueba las bases reguladoras y la convocatoria 2025 de subvenciones a personas físicas usuarias infraestructura AP-68 (autopista Bilbao- Zaragoza) en tramos sometidos a peaje y titularidad diputaciones forales.",
+    "descripcionLeng": "Bizkaiko Foru Aldundiaren Foru Dekretuaren laburpena, AP-68 azpiegitura (Bilbo-Zaragoza autobidea) foru aldundien titulartsauneko ordainpeko tarteetan erabiltzen duten pertsona fisikoentzako dirulaguntzetarako 2025.rako oinarri arautzaile onartzen duena.",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Transporte terrestre y por tubería",
+            "codigo": "49"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES213 - Bizkaia"
+        }
+    ],
+    "descripcionFinalidad": "Infraestructuras",
+    "descripcionBasesReguladoras": "Decreto Foral Diputación Foral Bizkaia que aprueba las bases reguladoras y la convocatoria 2025 de subvenciones a personas físicas usuarias infraestructura AP-68 (autopista Bilbao- Zaragoza) en tramos sometidos a peaje y titularidad diputaciones forales.",
+    "urlBasesReguladoras": "https://web.bizkaia.eus/es/bob",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-01T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-12-31T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1178324,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "01 DECRETO SUBVENCIONES 2025 - ap68 _1729575802817_20241119_021023.pdf",
+            "long": 563103,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        },
+        {
+            "id": 1178323,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "01 DECRETO SUBVENCIONES 2025 - ap68 _1729575802817_20241119_021023.pdf",
+            "long": 563103,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

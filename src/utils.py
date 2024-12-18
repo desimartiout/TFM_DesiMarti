@@ -9,8 +9,8 @@ from datetime import datetime
 import os
 import json
 
-from src.constants import LOG_FILE_PATH, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB, RAGAS_FILE_PATH
-from src.constantesWeb import ESTILOS_INICIO, ESTILOS
+from config.global_config import LOG_FILE_PATH, LOGO_URL_SMALL, LOGO_URL_LARGE, URL_WEB, RAGAS_FILE_PATH
+from config.web_config import ESTILOS_INICIO, ESTILOS
 
 def setup_logging() -> None:
 
@@ -137,6 +137,17 @@ def apply_cab_chat(title) -> None:
     )
 
 def apply_cab(title) -> None:
+    st.set_page_config(
+        page_title=title, page_icon=LOGO_URL_SMALL, layout="wide"
+    )
+
+    st.logo(
+        LOGO_URL_LARGE,
+        link=URL_WEB,
+        icon_image=LOGO_URL_SMALL,
+    )
+
+def apply_cab_report(title) -> None:
     st.set_page_config(
         page_title=title, page_icon=LOGO_URL_SMALL, layout="wide"
     )

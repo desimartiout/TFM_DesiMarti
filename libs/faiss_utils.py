@@ -6,20 +6,15 @@ import json
 import logging
 from sentence_transformers import SentenceTransformer
 from datetime import datetime
-
-LOG_FILE_PATH = "/logs/"
+from config.faiss_config import INDEX_FILE_FAISS, METADATA_FILE_FAISS, LOG_FILE_PATH_FAISS, MODELO_EMBED_FAISS
 
 # Modelo para embeddings
-modelo = SentenceTransformer("all-MiniLM-L6-v2")
-
-# Rutas de archivos para índice y metadatos
-INDEX_FILE = "C:/Users/desim/Documents/GitHub/TFM_DesiMarti/faiss/mi_indice_faiss.index"
-METADATA_FILE = "C:/Users/desim/Documents/GitHub/TFM_DesiMarti/faiss/metadatos.json"
+modelo = SentenceTransformer(MODELO_EMBED_FAISS)
 
 def setup_logging() -> None:
     current_date = datetime.now().strftime("%Y-%m-%d")
     ruta_actual = os.getcwd()   #Ruta donde se ejecuta el fichero python
-    ruta_log = ruta_actual + LOG_FILE_PATH
+    ruta_log = ruta_actual + LOG_FILE_PATH_FAISS
 
     # Crear el nombre del archivo con la fecha
     log_file_path = os.path.join(ruta_log, f"{current_date}_1.log")
@@ -40,11 +35,11 @@ logger = logging.getLogger(__name__)
 
 def cargar_indice_y_metadatos():
     """Carga el índice FAISS y los metadatos si existen. Si no, los crea."""
-    print(INDEX_FILE)
-    print(METADATA_FILE)
-    if os.path.exists(INDEX_FILE) and os.path.exists(METADATA_FILE):
-        index = faiss.read_index(INDEX_FILE)
-        with open(METADATA_FILE, "r") as f:
+    print(INDEX_FILE_FAISS)
+    print(METADATA_FILE_FAISS)
+    if os.path.exists(INDEX_FILE_FAISS) and os.path.exists(METADATA_FILE_FAISS):
+        index = faiss.read_index(INDEX_FILE_FAISS)
+        with open(METADATA_FILE_FAISS, "r") as f:
             metadatos = json.load(f)
     else:
         # Crear índice vacío
@@ -54,8 +49,8 @@ def cargar_indice_y_metadatos():
 
 def guardar_indice_y_metadatos(index, metadatos):
     """Guarda el índice FAISS y los metadatos en disco."""
-    faiss.write_index(index, INDEX_FILE)
-    with open(METADATA_FILE, "w") as f:
+    faiss.write_index(index, INDEX_FILE_FAISS)
+    with open(METADATA_FILE_FAISS, "w") as f:
         json.dump(metadatos, f)
     print("Índice y metadatos guardados correctamente.")
 

@@ -10,7 +10,7 @@ from langchain_ollama import ChatOllama
 from langchain_openai import OpenAIEmbeddings
 
 from src.utils import setup_logging
-from src.constants import MOCK_IDS, MOCK_DOCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, CHROMA_NUMDOCUMENTS, SENTENCE_TRANSFORMER
+from config.global_config import MOCK_IDS, MOCK_DOCUMENTS, MOCK_METADATAS, CHROMA_COLLECTION_NAME, CHROMA_PERSIST_PATH, CHROMA_NUMDOCUMENTS, SENTENCE_TRANSFORMER
 
 
 # Inicializo el logger

@@ -1,3 +1,7 @@
+
+
+
+
 import os
 
 ####################################################################################################
@@ -57,6 +61,16 @@ OPENAI_MODEL_NAME = "gpt-4o-mini"     #(en este gpt-4o-mini)
 # openai.api_key = openai_api_key
 
 ####################################################################################################
+# CONFIGURACIÓN DE BD_VECTORIAL
+####################################################################################################
+
+#Constantes para seleccionar el tipo de BD Vectorial a utilizar
+BD_VECTORIAL_CHROMADB = "CHROMADB"
+BD_VECTORIAL_FAISS = "FAISS"
+
+TIPO_BD_VECTORIAL = BD_VECTORIAL_FAISS
+
+####################################################################################################
 # CONFIGURACIÓN DE LA APLICACIÓN - TOCAR CON CUIDADO
 ####################################################################################################
 
@@ -64,6 +78,7 @@ OPENAI_MODEL_NAME = "gpt-4o-mini"     #(en este gpt-4o-mini)
 LOG_FILE_PATH = "/logs/"  # File path for the application log file
 EVAL_SAVE = "1"   # Indica que guarda los resultados de las búsquedas en JSON para luevo poder evaluarlos con RAGAS
 RAGAS_FILE_PATH = os.getcwd() + "/ragas_eval/datasets/"
+RAGAS_FILE_PATH_QUESTIONS = os.getcwd() + "/ragas_eval/questions/"
 # # OpenSearch settings
 # OPENSEARCH_HOST = "localhost"  # Hostname for the OpenSearch instance
 # OPENSEARCH_PORT = 9200  # Port number for OpenSearch

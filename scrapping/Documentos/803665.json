@@ -49,7 +49,32 @@
     "reglamento": null,
     "objetivos": [],
     "sectoresProductos": [],
-    "documentos": [],
+    "documentos": [
+        {
+            "id": 1178314,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "BASES_CONVOCATORIA_2025.pdf",
+            "long": 167783,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        },
+        {
+            "id": 1178316,
+            "descripcion": "Solicitud-Eskaera",
+            "nombreFic": "Bonotaxi_eskaera.pdf",
+            "long": 70607,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        },
+        {
+            "id": 1178315,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "BASES_CONVOCATORIA_2025.pdf",
+            "long": 167783,
+            "datMod": "2024-12-17T18:15:04.000+01:00",
+            "datPublicacion": "2024-12-17T18:15:04.000+01:00"
+        }
+    ],
     "anuncios": [],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

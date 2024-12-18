@@ -1,9 +1,11 @@
 import os
 
+ruta_raiz = os.getcwd()
+
 #Rutas base de los datasets de evaluación, logs y resultados
-RAGAS_FILE_PATH_RESULTS = os.getcwd() + "/results/"
-RAGAS_FILE_PATH_LOG = "/logs/"
-RAGAS_FILE_PATH = os.getcwd() + "/datasets/"
+RAGAS_FILE_PATH_RESULTS = ruta_raiz + "/ragas_eval/results/"
+RAGAS_FILE_PATH_LOG = "/ragas_eval/logs/"
+RAGAS_FILE_PATH = ruta_raiz + "/ragas_eval/datasets/"
 
 #CADENAS A UTILIZAR PARA ASIGNAR EL TIPO DE MODELO A UTILIZAR PARA LA EVALUACIÓN CUANDO LA METRICA LO NECESITA
 RAGAS_LLM_TIPOMODELO_OLLAMA = "OLLAMA"

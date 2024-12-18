@@ -39,19 +39,19 @@ Debes tener configurada la clave de entorno `OPENAI_API_KEY` o bien modificar el
 - Fichero de configuración: `src/constants.py`
 
 ### Instalar dependencias: 
-Desde la directorio principal raiz ejecutar el compando `pip install -r requirements.txt`
+Desde la ruta raiz del proyecto ejecutar el compando `pip install -r requirements.txt`
 
 ### Configuración
 
 
 ### Ejecutar la aplicación Streamlit
 
-Desde la directorio principal raiz ejecutar el comando `streamlit run Inicio.py`
+Desde la ruta raiz del proyecto ejecutar el comando `streamlit run Inicio.py`
 
 # 📘 Web Scrapping de la web de ayudas
 - Directorio: `/scrapping/`
 - Directorio de logs: `/scrapping/logs/`
-- Fichero de configuración: `/scrapping/constantes.py`
+- Fichero de configuración: `/config/scrapping_config.py`
 
 ### Configuración
 Aquí se especifican las rutas del API de la web de ayudas, los directorios de logs y donde se almacenan los documentos y la plantilla YAML para transformar el JSON resultado de la llamada a un formato más entendible
@@ -64,16 +64,22 @@ Se puede tambier especificar los parámetros para la llamada al API
 
 ### Ejecución
 
-Desde la ruta `/scrapping/` ejecutar el comando
-
 `python.exe obtenerDatos.py`
+
+### Ejecución de búsquedas desatendidas en base a un fichero de preguntas
+
+`python.exe buscar_batch.py preguntas1.txt`
+
+preguntas1.txt es un fichero de texto plano con cada una de las preguntas en cada una de las líneas (debee estar en el directorio /ragas_eval/questions/).
+
+El proceso lo que hace es coger cada línea simular la búsqueda con el chat, obtener el resultado del LLM y almacenar los resultados en el dataset de evaluación de datos para posteriormente poder evaluar el sistema.
 
 # 📘  RAGAS - Evaluar el modelo
 
 ### Configuración
 - Directorio: `/ragas_eval/`
 - Directorio de logs: `/ragas_eval/logs/`
-- Fichero de configuración: `/ragas_eval/constantes.py`
+- Fichero de configuración: `/config/ragas_config.py`
 
 Elegir el LLM a utilizar en la evaluación OPENAI / OLLAMA
 
@@ -87,7 +93,7 @@ Los nombres de los modelos deben estar especificados en estas constantes
 
 ### Ejecución
 
-Desde la ruta /ragas_eval/ ejecutar el comando
+Desde la ruta raiz del proyecto ejecutar el comando
 
 `python.exe evaluar.py 2024_12_14_ragas.json`
 

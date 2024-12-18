@@ -5,17 +5,16 @@ from string import Template
 import requests
 import os
 from collections import defaultdict
-from utils import setup_logging_scrap
-from constantes import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC, URL_BASE_API, RUTA_DESTINO_DOCUMENTOS, PAGE_SIZE, TOTAL_PAGES
 
 import sys
 from pathlib import Path
 
-# Añadir el directorio padre a sys.path
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-
 from libs.chromadb_utils import cargarDocumento
 from libs.faiss_utils import agregar_documento,obtener_todos_documentos
+
+from config.scrapping_config import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC, URL_BASE_API, RUTA_DESTINO_DOCUMENTOS, PAGE_SIZE, TOTAL_PAGES
+from config.global_config import BD_VECTORIAL_CHROMADB, BD_VECTORIAL_FAISS, TIPO_BD_VECTORIAL
+from scrapping.utils import setup_logging_scrap
 
 def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
     """Descarga el JSON de una URL usando el id del elemento y lo guarda en una carpeta destino."""
@@ -55,13 +54,14 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
                 archivo.write(formatted_text)
             logging.info(f"Datos guardados en {archivo_destino}")
 
-        logging.info(f"Vamos a cargar el documento en chromadb {numConvocatoria}")
+        logging.info(f"Vamos a cargar el documento en bd vectorial {numConvocatoria}")
 
-        #Chromadb
-        # cargarDocumento(formatted_text.lower(),json_aplanado,numConvocatoria)
-
-        #faiss
-        agregar_documento(formatted_text)
+        if (TIPO_BD_VECTORIAL==BD_VECTORIAL_CHROMADB):
+            #Chromadb
+            cargarDocumento(formatted_text.lower(),json_aplanado,numConvocatoria)
+        else:
+            #faiss
+            agregar_documento(formatted_text)
 
         logging.info("Documento cargado correctamente")
         

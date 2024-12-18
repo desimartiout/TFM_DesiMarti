@@ -10,9 +10,17 @@ with open("./locale/es/text.yaml", "r", encoding="utf-8") as file:
 PROMPT_TEMPLATE = texts["prompt_template"]  #Template de Ollama
 OPENAI_TEMPLATE = texts["openai_template"]  #Template de OPENAI
 
+CHATBOT_CAB = texts["chatbot_cab"]
+CHATBOT_TITLE = texts["chatbot_title"]
 CHATBOT_WELLCOME = texts["chatbot_wellcome"]
 CHATBOT_INTRO = texts["chatbot_intro"]
+CAB_AVISOLEGAL = texts["cab_avisolegal"]
 TEXTO_AVISOLEGAL = texts["texto_avisolegal"]
+
+REPORT_CAB = texts["report_cab"]
+REPORT_TITLE = texts["report_title"]
+
+CAB_AYUDAS_ALMACENADAS = texts["cab_ayudas_almacenadas"]
 
 
 ####################################################################################################

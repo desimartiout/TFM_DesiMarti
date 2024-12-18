@@ -65,6 +65,10 @@ openai_template: |
         1. **Publicación en el BORM:** [PUBLICACION_BORM.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031)
         2. **Certificado:** [Certificado_2024.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030)
 
+chatbot_cab: "HelpMe.ai - Chatbot"
+
+chatbot_title: "Chatbot - Historial de conversación"
+
 chatbot_wellcome: |
     **Bienvenido al Chatbot de Ayudas y Subvenciones Públicas 👋**  
     Este chatbot está diseñado para facilitarte la búsqueda de información sobre **ayudas** y **subvenciones** en España.  
@@ -111,6 +115,11 @@ chatbot_intro: |
 
     **¡Prueba ahora y encuentra lo que necesitas!**
 
+report_cab : "HelpMe.ai - Análisis de Evaluación de Ragas"
+report_title : "RAGAS - Análisis de Evaluación"
+
+cab_avisolegal: "HelpMe.ai - Aviso Legal"
+
 texto_avisolegal: |
     **⚠️ Aviso importante ⚠️**
 
@@ -129,4 +138,6 @@ texto_avisolegal: |
     Se recomienda encarecidamente al usuario que consulte con un experto o recurra a las fuentes oficiales para confirmar cualquier información relevante antes de actuar en base a la misma.
 
     ***Fecha de última actualización de los datos de las ayudas: 15/12/2024 a las 23:45 horas.***
+
+cab_ayudas_almacenadas: "HelpMe.ai - Listado ayudas almacenadas"
 
