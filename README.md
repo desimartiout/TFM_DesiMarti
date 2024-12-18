@@ -129,4 +129,11 @@ Campos resultado de la evaluación
 
 **CHROMA DB** (https://www.trychroma.com/)
 
+## Licencia
+
+Este proyecto está licenciado bajo la **Licencia de Creative Commons Reconocimiento-NoComercial-SinObraDerivada 3.0 España**.
+
+[![Licencia Creative Commons](https://i.creativecommons.org/l/by-nc-nd/3.0/es/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/3.0/es/)
+
+Para más detalles, consulta la licencia completa en [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/3.0/es/).
 
