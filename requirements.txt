@@ -10,7 +10,7 @@ langchain==0.3.9
 langchain_ollama
 langchain_openai==0.2.8
 chromadb
-faiss
+faiss-cpu==1.7.3
 ragas
 seaborn
 matplotlib
