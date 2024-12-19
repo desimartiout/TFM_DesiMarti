@@ -6,6 +6,7 @@ ruta_raiz = os.getcwd()
 RAGAS_FILE_PATH_RESULTS = ruta_raiz + "/ragas_eval/results/"
 RAGAS_FILE_PATH_LOG = "/ragas_eval/logs/"
 RAGAS_FILE_PATH = ruta_raiz + "/ragas_eval/datasets/"
+RAGAS_FILE_PATH_QUESTIONS = ruta_raiz + "/ragas_eval/questions/"
 
 #CADENAS A UTILIZAR PARA ASIGNAR EL TIPO DE MODELO A UTILIZAR PARA LA EVALUACIÓN CUANDO LA METRICA LO NECESITA
 RAGAS_LLM_TIPOMODELO_OLLAMA = "OLLAMA"
