@@ -1,0 +1,72 @@
+{
+    "id": 1005888,
+    "organo": {
+        "nivel1": "PARADAS",
+        "nivel2": "AYUNTAMIENTO DE PARADAS",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804328",
+    "fechaRecepcion": "2024-12-19T13:17:33+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1302,
+    "mrr": false,
+    "descripcion": "XXVIII Certamen Literario de Declaraciones de Amor de Paradas",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES - ESPAÑA "
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Bases reguladoras del Certamen Literario de Declaraciones de Amor de Paradas",
+    "urlBasesReguladoras": "http://www.dipusevilla.es/system/modules/com.saga.sagasuite.theme.diputacion.sevilla.corporativo/handlers/download-bop.pdf?id=72ef2f07-0a71-11e8-b90d-0050569fe27b",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-23T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-22T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179863,
+            "descripcion": "Bases del Certamen",
+            "nombreFic": "Bases certamen literario declaraciones de amor.pdf",
+            "long": 696960,
+            "datMod": "2024-12-19T15:15:23.000+01:00",
+            "datPublicacion": "2024-12-19T15:15:23.000+01:00"
+        },
+        {
+            "id": 1179858,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "convocatoria XXVIII Certamen word (1)firmado.pdf",
+            "long": 103264,
+            "datMod": "2024-12-19T15:15:23.000+01:00",
+            "datPublicacion": "2024-12-19T15:15:23.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

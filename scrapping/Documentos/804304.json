@@ -1,0 +1,72 @@
+{
+    "id": 1005864,
+    "organo": {
+        "nivel1": "BERGARA",
+        "nivel2": "AYUNTAMIENTO DE BERGARA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804304",
+    "fechaRecepcion": "2024-12-19T13:00:06+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1600,
+    "mrr": false,
+    "descripcion": "BASES REGULADORAS DEL PREMIO DE \"TARJETA DE ABONO DE HONOR\" DEL SERVICIO DE DEPORTES",
+    "descripcionLeng": "KIROL ZERBITZUKO OHOREZKO ABONATU TXARTELAREN SARIA ARAUTZEKO OINARRIAK",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Otras Prestaciones económicas",
+    "descripcionBasesReguladoras": "BASES REGULADORAS DEL PREMIO DE \"TARJETA DE ABONO DE HONOR\" DEL SERVICIO DE DEPORTES",
+    "urlBasesReguladoras": "https://www.bergara.eus/es/ayudas-economicas",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-25T00:00:00+01:00",
+    "textInicio": "A partir de la publicación de la convocatoria en el Boletín Oficial de Gipuzkoa",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179831,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "Kirol_ohorezko_abonatu_txartela_oinarriak_2024_eus.pdf",
+            "long": 46723,
+            "datMod": "2024-12-19T13:15:06.000+01:00",
+            "datPublicacion": "2024-12-19T13:15:06.000+01:00"
+        },
+        {
+            "id": 1179830,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Kirol_ohorezko_abonatu_txartela_onarriak_2024_es.pdf",
+            "long": 45642,
+            "datMod": "2024-12-19T13:15:06.000+01:00",
+            "datPublicacion": "2024-12-19T13:15:06.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

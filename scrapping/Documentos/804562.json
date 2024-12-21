@@ -1,0 +1,80 @@
+{
+    "id": 1006122,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "AGENCIA GALLEGA DE DESARROLLO RURAL (AGADER)",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804562",
+    "fechaRecepcion": "2024-12-20T09:25:37+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 2000000,
+    "mrr": false,
+    "descripcion": "Axudas á conservación da contorna paisaxística na Ribeira Sacra",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "GRAN EMPRESA"
+        },
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Agricultura, ganadería, caza y servicios relacionados con las mismas",
+            "codigo": "01"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "Axudas á conservación da contorna paisaxística e loita contra a erosión nos viñedos da Ribeira Sacra",
+    "urlBasesReguladoras": "https://agader.xunta.gal/gl/linas-de-axuda",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-31T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-30T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "REG (UE) 1408/2013 de minimis, Agrícola",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [
+        {
+            "descripcion": "Vino (parte XII)"
+        }
+    ],
+    "documentos": [
+        {
+            "id": 1180386,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "resolucion_cas_20241220_092525.pdf",
+            "long": 137243,
+            "datMod": "2024-12-20T11:15:23.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:23.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

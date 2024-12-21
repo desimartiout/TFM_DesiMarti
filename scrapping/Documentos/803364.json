@@ -58,22 +58,34 @@
     "sectoresProductos": [],
     "documentos": [
         {
-            "id": 1177600,
+            "id": 1179387,
             "descripcion": "Texto en otra lengua de la convocatoria",
             "nombreFic": "RESOLUCIÓ DESTILLACIÓ .pdf",
             "long": 194166,
-            "datMod": "2024-12-17T09:15:00.000+01:00",
-            "datPublicacion": "2024-12-17T09:15:00.000+01:00"
+            "datMod": "2024-12-19T11:15:20.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:20.000+01:00"
         },
         {
-            "id": 1177599,
+            "id": 1179386,
             "descripcion": "Texto en castellano de la convocatoria",
             "nombreFic": "RESOLUCIÓN DESTILACIÓN.pdf",
             "long": 154440,
-            "datMod": "2024-12-17T09:15:00.000+01:00",
-            "datPublicacion": "2024-12-17T09:15:00.000+01:00"
+            "datMod": "2024-12-19T11:15:20.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:20.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172171,
+            "titulo": "Procedimiento Beta",
+            "tituloLeng": null,
+            "texto": "Procedimiento Beta",
+            "textoLeng": null,
+            "url": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=1002286",
+            "cve": null,
+            "desDiarioOficial": "DOGC. D.O. DE LA GENERALITAT DE CATALUNYA",
+            "datPublicacion": "2024-12-19T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

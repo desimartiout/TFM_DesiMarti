@@ -71,9 +71,9 @@
     "urlBasesReguladoras": "https://camaradesevilla.com/internacionalizacion/plan-de-promocion-internacional-2025/",
     "sePublicaDiarioOficial": true,
     "abierto": false,
-    "fechaInicioSolicitud": null,
+    "fechaInicioSolicitud": "2024-12-20T00:00:00+01:00",
     "fechaFinSolicitud": "2025-01-15T00:00:00+01:00",
-    "textInicio": "A las 09:00h desde el día hábil siguiente a la publicación del extracto en el BOP Sevilla",
+    "textInicio": "A las 09:00h ",
     "textFin": "A las 14:00 h",
     "ayudaEstado": null,
     "urlAyudaEstado": null,
@@ -130,6 +130,18 @@
             "datPublicacion": "2024-12-17T18:15:04.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172048,
+            "titulo": "Convocatoria Pyme Global 2025 Misión Comercial Directa a Estados Unidos para empresas de la provincia de Sevilla",
+            "tituloLeng": null,
+            "texto": "<p>La Cámara de Comercio de Sevilla, anuncia la apertura de convocatoria que tiene por objeto promover la participación en el programa Pyme Global, cofinanciado en un 85% por el Fondo Europeo de Desarrollo Regional (FEDER) de la Unión Europea, en la acción Misión Comercial Directa a Estados Unidos 2025 que se celebrará, preferentemente, en el área de la ciudad de Miami los días 4 a 8 de marzo de 2025. </p><p>Primero.– Beneficiarios.</p><p>Pymes de la demarcación territorial de la Cámara de Comercio de Sevilla, de los sectores Agroalimentario, Logística y Turismo, que se encuentren dadas de alta en el Censo del IAE.</p><p>El número máximo de empresas beneficiarias será de 6 empresas.</p><p>Segundo.– Objeto.</p><p>Concesión de ayudas económicas para promover la participación de las pymes en la actuación Misión Comercial Directa a Estados Unidos 2025.</p><p>Tercero.– Convocatoria.</p><p>El texto completo de la convocatoria está a disposición de las empresas en la Sede Electrónica de la Cámara de Comercio de Sevilla https://sede.camara.es/sede/sevilla. Además, puede consultarse a través de la web https://camaradesevilla.com/internacionalizacion/plan-de-promocion-internacional-2025/.</p><p>Cuarto.– Cuantía.</p><p>La cuantía máxima de las ayudas a otorgar con cargo a esta convocatoria, a las empresas participantes en la actuación es de 28.027,15 euros, sobre un presupuesto máximo de 32.973,12 euros, cofinanciadas en un porcentaje del 85% con cargo a los fondos FEDER, a través del Programa Plurirregional de España FEDER 2021-2027 (POPE).</p><p>El presupuesto total de ejecución de esta actuación es de 43.548,47 euros, que incluye los recursos estimados para los servicios de apoyo prestados por la Cámara de Comercio de Sevilla, será de 10.575,35 euros, y serán aportados por el Fondo Europeo de Desarrollo Regional (FEDER) de la Unión Europea y por la Cámara de Comercio de Sevilla.</p><p>Quinto. Plazo de presentación de solicitudes.</p><p>El plazo para la presentación de solicitudes se abre, a las 09:00h del día hábil siguiente al de la publicación de este anuncio y finalizará a las 14:00 h del día 15 de enero de22025. El Modelo de Solicitud de Participación podrá descargarse en la web https://camaradesevilla.com/internacionalizacion/plan-de-promocion-internacional-2025/.</p>",
+            "textoLeng": null,
+            "url": "https://bopsevilla.dipusevilla.es/publica/buscador-anuncios/anuncio/Extracto-num-172048-de-la-convocatoria-Pyme-Global-2025-Mision-Comercial-Directa-a-Estados-Unidos-para-empresas-de-la-provincia-de-Sevilla-BDNS-codigo-803667/",
+            "cve": null,
+            "desDiarioOficial": "B.O.P. DE SEVILLA",
+            "datPublicacion": "2024-12-19T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

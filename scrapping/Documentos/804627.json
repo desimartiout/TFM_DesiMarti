@@ -1,0 +1,72 @@
+{
+    "id": 1006187,
+    "organo": {
+        "nivel1": "POBLA DE VALLBONA, LA",
+        "nivel2": "AYUNTAMIENTO DE POBLA DE VALLBONA, LA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://seu.lapobladevallbona.es",
+    "codigoBDNS": "804627",
+    "fechaRecepcion": "2024-12-20T10:40:56+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 15000,
+    "mrr": false,
+    "descripcion": "Concesión Prestaciones Econòmicas Individuales Municipales a Personas en Situación de Emergencia Social (PEIM), ejercicio 2025",
+    "descripcionLeng": "Concessió Prestacions Econòmiques Individuals Municipals a Persones en Situació d'Emergència Social (PEIM), exercici 2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de servicios sociales sin alojamiento",
+            "codigo": "88"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES523 - Valencia / València"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "CONVOCATORIA DE LAS PRESTACIONES ECONÓMICAS INDIVIDUALES MUNICIPALES A PERSONAS EN SITUACIÓN DE EMERGENCIA SOCIAL (PEIM) 2025",
+    "urlBasesReguladoras": "https://www.lapobladevallbona.es/fileadmin/user_upload/ordenances/castella_ordenances/cast_ordenanzas_generales_y_reglamentos/ordenanza_subvenciones_y_premios_firmado_castellano.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-10-31T00:00:00+01:00",
+    "textInicio": "Desde el día siguiente a la publicación del BOP",
+    "textFin": "Hasta el 31 de octubre de 2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180576,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "Resolució Concejal Delegat PEIM 2025.pdf.PDF",
+            "long": 214052,
+            "datMod": "2024-12-20T11:15:10.000+01:00",
+            "datPublicacion": "2024-12-20T11:30:01.000+01:00"
+        },
+        {
+            "id": 1180575,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Resolució Concejal Delegat PEIM 2025.pdf.PDF",
+            "long": 214052,
+            "datMod": "2024-12-20T11:15:10.000+01:00",
+            "datPublicacion": "2024-12-20T11:30:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

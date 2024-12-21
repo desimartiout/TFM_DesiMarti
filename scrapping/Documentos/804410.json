@@ -1,0 +1,67 @@
+{
+    "id": 1005970,
+    "organo": {
+        "nivel1": "GALICIA",
+        "nivel2": "CONSELLERÍA DE MEDIO AMBIENTE Y CAMBIO CLIMÁTICO",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.xunta.gal/detalle-procedemento?codtram=MT809F&ano=2024&numpub=1&lang=gl",
+    "codigoBDNS": "804410",
+    "fechaRecepcion": "2024-12-19T14:20:07+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 400000,
+    "mrr": false,
+    "descripcion": "ayudas a los costes derivados de la instalación de vallados fijos como medida de prevención de los daños que pueda ocasionar el lobo",
+    "descripcionLeng": "Axudas aos custos derivados da instalación de valados fixos como medida de prevención dos danos que poida ocasionar o lobo",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Producción ganadera",
+            "codigo": "01.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES11 - GALICIA"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": " orden de 3 de diciembre de 2024 por la que se establecen las bases reguladoras de las ayudas a los costes derivados de la instalación de vallados fijos como medida de prevención de los daños que pueda ocasionar el lobo, y se convocan para el año 2025 (có",
+    "urlBasesReguladoras": "https://www.xunta.gal/diario-oficial-galicia/portalPublicoHome.do?lang=es",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-21T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-21T00:00:00+01:00",
+    "textInicio": "Día seguinte á publicación",
+    "textFin": "Un mes",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180031,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Convocatoria MT809F_BDNS_20241219_141957.pdf",
+            "long": 372489,
+            "datMod": "2024-12-19T15:15:06.000+01:00",
+            "datPublicacion": "2024-12-19T15:15:06.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

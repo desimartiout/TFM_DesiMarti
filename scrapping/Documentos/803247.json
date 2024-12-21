@@ -39,10 +39,10 @@
     "urlBasesReguladoras": "https://bocyl.jcyl.es/boletines/2023/05/03/pdf/BOCYL-D-03052023-13.pdf",
     "sePublicaDiarioOficial": true,
     "abierto": false,
-    "fechaInicioSolicitud": null,
-    "fechaFinSolicitud": null,
-    "textInicio": "día siguiente a la publicación del extracto en el Bocyl",
-    "textFin": "transcurridos treinta días hábiles desde el día siguiente a la publicación del extracto en el Bocyl",
+    "fechaInicioSolicitud": "2024-12-20T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-04T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
     "ayudaEstado": null,
     "urlAyudaEstado": null,
     "fondos": [],
@@ -59,6 +59,18 @@
             "datPublicacion": "2024-12-16T15:15:01.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172019,
+            "titulo": "Extracto de la Orden de 16 de diciembre de 2024, la Consejería de la Presidencia, por la que se convocan becas de formación práctica en materia de cooperación internacional para el desarrollo, para el año 2025",
+            "tituloLeng": null,
+            "texto": "<p>Asimismo la convocatoria puede consultarse en la sede electrónica de la Administración de la Comunidad de Castilla y León (https://www.tramitacastillayleon.jcyl.es) utilizando el identificador BDNS.</p><p> </p><p> </p><p>Primero. Beneficiarios:</p><p>\"Estas becas están dirigidas a personas que tengan entre 16 y 35 años; nacidos o empadronados, en algún municipio de Castilla y León; que estén en posesión de un título universitario oficial o títulos declarados legalmente equivalentes, que individualmente o en conjunto, sumen un mínimo de 240 ECTS ; disponer de un certificado de competencias digitales básicas; estar en posesión del título de Master, Postgrado, Especialista en Cooperación para el desarrollo o título equivalente, y que no haya sido beneficiario de otra beca en cooperación para el desarrollo en cualquiera de sus modalidades con igual objeto.\"</p><p> </p><p>Segundo. Finalidad:</p><p> </p><p>La finalidad de las becas es facilitar a personas en posesión de un título universitario, la formación práctica en materia de cooperación para el desarrollo mediante la realización de prácticas dentro de la Administración de la Comunidad de Castilla y León en esta área y, en especial en la modalidad “Educación transformadora para la ciudadanía global”. Para ello, las tareas vinculadas a estas becas se centrarán principalmente en la planificación, ejecución, seguimiento y evaluación de programas e iniciativas que contribuyan a la transmisión de información, sensibilización y concienciación ciudadana en relación con la defensa y promoción de los Derechos Humanos, el desarrollo humano sostenible y la lucha contra la pobreza, tanto propias como en colaboración con otros actores.</p><p>Tercero. Bases reguladoras:</p><p>Orden PRE/553/2023, de 26 de abril, por la que se aprueban las bases reguladoras para la concesión de becas de formación práctica en materia de cooperación internacional para el desarrollo (publicada en el Boletín Oficial de Castila y León Nº 83 de 3 de mayo).</p><p>Cuarto. Importe:</p><p>La cuantía económica mensual de cada beca será de mil doscientos cincuenta euros (1.250 €), o parte proporcional al periodo ejecutado, cuantía a la que le será de aplicación las retenciones que correspondan según la normativa vigente.</p><p>Quinto. Plazo de presentación de solicitudes:</p><p>Treinta días hábiles a contar desde el día siguiente al de la publicación del extracto de la convocatoria en el «Boletín Oficial de Castilla y León».</p><p> </p><p>Sexto. Otros datos.</p><p> </p><p>Cada beca tendrá una duración máxima de veinticuatro meses para cada persona en formación, contados a partir de la fecha de incorporación de las personas beneficiarias, desarrollándose de manera ininterrumpida y siendo requisito indispensable la presencia física de los becarios en la sede del Servicio de Cooperación Internacional para el Desarrollo y con el horario vinculado a las actividades correspondientes al área de Educación para el Desarrollo y la Ciudadanía Global.</p>",
+            "textoLeng": null,
+            "url": "https://bocyl.jcyl.es/boletines/2024/12/19/pdf/BOCYL-D-19122024-20.pdf",
+            "cve": " BOCYL-D-19122024-20",
+            "desDiarioOficial": "BOCYL. B.O. DE LA JUNTA DE CASTILLA Y LEÓN",
+            "datPublicacion": "2024-12-19T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

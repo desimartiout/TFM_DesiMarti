@@ -1,0 +1,64 @@
+{
+    "id": 1005631,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE TERUEL",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE TERUEL",
+        "nivel3": null
+    },
+    "sedeElectronica": "https:/dpteruel.sedelectronica.es",
+    "codigoBDNS": "804071",
+    "fechaRecepcion": "2024-12-19T08:27:37+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 225000,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA ANTICIPADA CONCESIÓN SUBVENCIONES PARA LA PARTICIPACIÓN DE CORPORACIONES LOCALES EN EL DESARROLLO DE PROGRAMAS Y ACTIVIDADES EDUCATIVAS RELATIVAS A LA EDUCACIÓN DE PERSONAS ADULTAS EN LA PROVINCIA DE TERUEL PARA EL CURSO 2024-2025.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES242 - Teruel"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Ordenanza General de Subvenciones por la que se aprueban las bases reguladoras de la concesión de subvenciones por la Diputación Provincial de Teruel, BOPTe nº 74, de 17.04.2019, modificada en BOPTe nº 86, de 08.05.2020.",
+    "urlBasesReguladoras": "https://236ws.dpteruel.es/estatico/boletines/2020/08mayo.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-23T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-27T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179320,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "DECRETO 2024-4868 [Decreto aprobación Convocatoria anticipada subvenciones Educación de Adultos curso 2024-2025].pdf",
+            "long": 816309,
+            "datMod": "2024-12-19T09:15:02.000+01:00",
+            "datPublicacion": "2024-12-19T11:27:00.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

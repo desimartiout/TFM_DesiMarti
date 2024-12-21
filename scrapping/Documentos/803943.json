@@ -63,6 +63,18 @@
             "datPublicacion": "2024-12-18T15:15:09.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172132,
+            "titulo": "Convocatoria Ayudas Fundación Amancio Ortega",
+            "tituloLeng": null,
+            "texto": "<p>Por Decreto de Alcaldía, se publica el extracto de las ayudas económicas de la Fundación Amancio Ortega, para </p><p>el muncipio de Sedaví</p>",
+            "textoLeng": null,
+            "url": "https://bop.dival.es/bop/downloads?anuncioCSV=BOPV-2024/17769&lang=es",
+            "cve": "BOPV-2024/17769",
+            "desDiarioOficial": "B.O.P. DE VALENCIA",
+            "datPublicacion": "2024-12-19T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

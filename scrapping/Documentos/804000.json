@@ -52,7 +52,32 @@
     "reglamento": null,
     "objetivos": [],
     "sectoresProductos": [],
-    "documentos": [],
+    "documentos": [
+        {
+            "id": 1179149,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "DIL_D-24029 I ERANSKINA LAGUNTZEN OINARRIAK 01.pdf",
+            "long": 237563,
+            "datMod": "2024-12-18T18:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T18:15:06.000+01:00"
+        },
+        {
+            "id": 1179152,
+            "descripcion": "Anexo II",
+            "nombreFic": "DIL_D-24029 II ERANSKINA ZENTRO KOLABORATZAILEAK 01.pdf",
+            "long": 208816,
+            "datMod": "2024-12-18T18:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T18:15:06.000+01:00"
+        },
+        {
+            "id": 1179151,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "DIL_D-24029 I ERANSKINA LAGUNTZEN OINARRIAK 01.pdf",
+            "long": 237563,
+            "datMod": "2024-12-18T18:15:06.000+01:00",
+            "datPublicacion": "2024-12-18T18:15:06.000+01:00"
+        }
+    ],
     "anuncios": [],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

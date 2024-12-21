@@ -63,6 +63,18 @@
             "datPublicacion": "2024-12-18T11:15:16.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172062,
+            "titulo": "Extracto de la Resolución de 10 de diciembre de 2024, de la Jefatura de Estado Mayor de la Armada, por la que se convocan los Premios Virgen del Carmen 2025.",
+            "tituloLeng": null,
+            "texto": "<p>De conformidad con las bases reguladoras, detalladas en el punto tercero, se publica el extracto de la convocatoria cuyo texto completo puede consultarse en la página web de la Armada https://armada.defensa.gob.es/premiosvirgendelcarmen.</p><p>Primero. Beneficiarios:</p><p>Podrán optar a estos premios y, en su caso, obtener la condición de beneficiario las personas físicas de nacionalidad española o extranjera. En la disciplina de “Juventud” los participantes y, en su caso, beneficiarios serán centros docentes públicos y privados, concertados y no concertados, de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional ubicados en territorio nacional. En el caso de la disciplina de “Dibujo infantil” serán los centros educativos de Educación Primaria de la Comunidad de Madrid.</p><p>Segundo. Finalidad:</p><p>La Armada convoca los premios \"Virgen del Carmen\" correspondientes al año 2025, en las siguientes disciplinas: Investigación histórica, Relato corto \"Relatando la mar\", Dibujo infantil, Juventud, Pintura, Fotografía y Modelismo Naval.</p><p>Los premios \"Virgen del Carmen\" tienen por objeto fomentar el interés y la afición por el mar y los asuntos navales, estimular en la juventud las vocaciones por los oficios y profesiones navales y difundir la cultura naval en todo el ámbito nacional.</p><p>Tercero. Bases reguladoras:</p><p>Las bases reguladoras se encuentran en la Orden DEF/702/2019, de 19 de junio, por la que se publican las bases reguladoras para la concesión de los premios «Virgen del Carmen» de la Armada (BOE núm. 154 de 28 de junio de 2019), modificada por la Orden DEF/1227/2022, de 24 de noviembre (BOE núm. 295 de 9 de diciembre de 2022).</p><p>Cuarto. Importe:</p><p>La dotación económica de los premios Virgen del Carmen 2025 se financiará con cargo a la aplicación presupuestaria 14.17.121M2.485.04. La cuantía total máxima de los premios convocados asciende a treinta mil euros (30.000 €), sujeta a lo estipulado en el Plan Estratégico de Subvenciones del Ministerio de Defensa 2024-2026. Queda condicionada la actual convocatoria de los Premios a la existencia de crédito adecuada y suficiente.</p><p>Quinto. Plazo de presentación:</p><p>El plazo de presentación de solicitudes de participación finalizará en el plazo de treinta días hábiles contados a partir del día siguiente al de la presente publicación.</p>",
+            "textoLeng": null,
+            "url": "http://www.boe.es/diario_boe/verifica.php?acc=Verificar&c=BOE-B-2024-46469",
+            "cve": "BOE-B-2024-46469",
+            "desDiarioOficial": "BOE. BOLETÍN OFICIAL DEL ESTADO",
+            "datPublicacion": "2024-12-19T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

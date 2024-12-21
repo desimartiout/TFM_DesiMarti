@@ -62,22 +62,34 @@
     "sectoresProductos": [],
     "documentos": [
         {
-            "id": 1178035,
+            "id": 1180488,
             "descripcion": "Texto en otra lengua de la convocatoria",
             "nombreFic": "RESOLUCIÓ TREBALLS FORESTALS GFS.pdf",
             "long": 415305,
-            "datMod": "2024-12-17T13:15:01.000+01:00",
-            "datPublicacion": "2024-12-17T13:15:01.000+01:00"
+            "datMod": "2024-12-20T11:15:16.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:16.000+01:00"
         },
         {
-            "id": 1178034,
+            "id": 1180487,
             "descripcion": "Texto en castellano de la convocatoria",
             "nombreFic": "RESOLUCIÓN TRABAJOS FORESTALES GFS.pdf",
             "long": 176845,
-            "datMod": "2024-12-17T13:15:01.000+01:00",
-            "datPublicacion": "2024-12-17T13:15:01.000+01:00"
+            "datMod": "2024-12-20T11:15:16.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:16.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172282,
+            "titulo": "Procedimiento Beta",
+            "tituloLeng": null,
+            "texto": "Procedimiento Beta",
+            "textoLeng": null,
+            "url": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=1002373",
+            "cve": null,
+            "desDiarioOficial": "DOGC. D.O. DE LA GENERALITAT DE CATALUNYA",
+            "datPublicacion": "2024-12-20T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

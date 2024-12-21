@@ -1,0 +1,68 @@
+{
+    "id": 1006216,
+    "organo": {
+        "nivel1": "REGIÓN DE MURCIA",
+        "nivel2": "CONSEJERÍA DE EDUCACIÓN Y FORMACIÓN PROFESIONAL",
+        "nivel3": null
+    },
+    "sedeElectronica": "3670",
+    "codigoBDNS": "804656",
+    "fechaRecepcion": "2024-12-20T10:50:38+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 50000,
+    "mrr": true,
+    "descripcion": "Orden de la Consejería de Educación y Formación Profesional por la convoca la selección de proyectos para aulas profesionales de emprendimiento a desarrollar por centros docentes públicos de la Región de Murcia para el primer trimestre del curso 2024-2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES62 - REGION DE MURCIA"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Orden de 10 de septiembre de 2021, de la Consejería de Educación y Cultura por la que se establece el procedimiento para la selección de proyectos para aulas profesionales de emprendimiento a desarrollar por centros públicos de la Región de Murcia",
+    "urlBasesReguladoras": "https://www.borm.es/#/home/sumario/15-09-2021",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Al día siguiente de la publicación en el BORM",
+    "textFin": "Quince días hábiles desde el día siguiente de la publicación en el BORM",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "MRR - MECANISMO DE RECUPERACIÓN Y RESILIENCIA"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180585,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "7_62956 Orden 2º Convocatoria Aulas Empren 24 (COPIA) (1).pdf",
+            "long": 894670,
+            "datMod": "2024-12-20T11:15:06.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:06.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

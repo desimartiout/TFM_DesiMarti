@@ -1,0 +1,68 @@
+{
+    "id": 1006000,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "UNIVERSIDAD MIGUEL HERNÁNDEZ DE ELCHE",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804440",
+    "fechaRecepcion": "2024-12-19T14:59:14+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 69651,
+    "mrr": false,
+    "descripcion": "2ª CONVOCATORIA DE AYUDAS DEL SERVICIO ESPAÑOL PARA LA INTERNACIONALIZACIÓN DE LA EDUCACION (SEPIE) Y AYUDAS COMPLEMENTARIAS UMH PARA ESTUDIANTES PARTICIPANTES EN EL PROGRAMA DE MOVILIDAD INTERNACIONAL ERASMUS+ CON FINES DE ESTUDIOS 2024/2025",
+    "descripcionLeng": "2a CONVOCATÒRIA D'AJUDES DEL SERVEI ESPANYOL PER A LA INTERNACIONALITZACIÓ DE L'EDUCACIÓ (SEPIE) I AJUDES COMPLEMENTÀRIES UMH PER A ESTUDIANTS PARTICIPANTS EN EL PROGRAMA DE MOBILITAT INTERNACIONAL ERASMUS + AMB FINALITATS D'ESTUDIS 2024/2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Educación",
+            "codigo": "85"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES521 - Alicante / Alacant"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "Base reguladora de la convocatoria 2ª CONVOCATORIA DE AYUDAS DEL SERVICIO ESPAÑOL PARA LA INTERNACIONALIZACIÓN DE LA EDUCACION (SEPIE) Y AYUDAS COMPLEMENTARIAS UMH PARA ESTUDIANTES PARTICIPANTES EN EL PROGRAMA DE MOVILIDAD INTERNACIONAL ERASMUS+ CON FINES",
+    "urlBasesReguladoras": "https://boumh.umh.es/files/2024/12/RR_03491_2024.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "a partir del día siguiente de la fecha de publicación del extracto de esta convocatoria en el DOGV",
+    "textFin": "se cerrará el 17 de enero de 2025",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FGI - FONDOS DE GESTIÓN INDIRECTA (ART. 58.1.C RGTO. UE Nº 966/2012)"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180086,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "RR_03491_2024 BOUMH.pdf",
+            "long": 2561775,
+            "datMod": "2024-12-19T15:15:02.000+01:00",
+            "datPublicacion": "2024-12-19T15:30:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

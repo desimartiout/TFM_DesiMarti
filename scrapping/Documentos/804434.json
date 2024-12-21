@@ -1,0 +1,72 @@
+{
+    "id": 1005994,
+    "organo": {
+        "nivel1": "BANYERES DEL PENEDÈS",
+        "nivel2": "AYUNTAMIENTO DE BANYERES DEL PENEDÈS",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://banyeresdelpenedes.eadministracio.cat/info.0",
+    "codigoBDNS": "804434",
+    "fechaRecepcion": "2024-12-19T14:50:21+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 10000,
+    "mrr": false,
+    "descripcion": "Acuerdo de fecha 12 de diciembre de 2024 de la Junta de Gobierno Local, por la que se convocan subvenciones en materia de Ayudas de Urgencia Social para el año 2025",
+    "descripcionLeng": "Acord de data 12 de desembre de 2024 de la Junta de Govern Local, per la qual es convoquen subvencions en matèria d'Ajuts d'Urgència Social per a l'any 2025",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES",
+            "codigo": "Q"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES514 - Tarragona"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Ordenanza municipal reguladora de las bases que han de regir la concesión de ayudas de urgencia social",
+    "urlBasesReguladoras": "www.banyeresdelpenedes.cat",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-12-31T00:00:00+01:00",
+    "textInicio": "Desde la publicación del extracto de la convocatoria en el Boletín de la provincia",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180072,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "Annex I Convocatòria Ajuts Urgència Social 2025.pdf",
+            "long": 63707,
+            "datMod": "2024-12-19T15:15:02.000+01:00",
+            "datPublicacion": "2024-12-19T15:15:02.000+01:00"
+        },
+        {
+            "id": 1180071,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Anexo I_convocatoria.pdf",
+            "long": 63063,
+            "datMod": "2024-12-19T15:15:02.000+01:00",
+            "datPublicacion": "2024-12-19T15:15:02.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

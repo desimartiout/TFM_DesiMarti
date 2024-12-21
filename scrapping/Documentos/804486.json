@@ -1,0 +1,74 @@
+{
+    "id": 1006046,
+    "organo": {
+        "nivel1": "CASTILLA-LA MANCHA",
+        "nivel2": "DIRECCION GENERAL ORDENACION AGROPECUARIA",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.jccm.es",
+    "codigoBDNS": "804486",
+    "fechaRecepcion": "2024-12-19T16:14:52+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 35000,
+    "mrr": false,
+    "descripcion": "Resolución de 18/12/2024, de la Dirección General de Ordenación Agropecuaria, por la que se convocan, por el procedimiento de tramitación anticipada, en el año 2025, las subvenciones destinadas al fomento de las razas autóctonas españolas.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "AGRICULTURA, GANADERÍA, SILVICULTURA Y PESCA",
+            "codigo": "A"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES42 - CASTILLA LA MANCHA"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "Orden 189/2018, de 14 de diciembre, de la Consejería de Agricultura, Medio Ambiente y Desarrollo Rural, por la que se establece las bases reguladoras de las subvenciones destinadas al fomento de las razas autóctonas españolas modificada por la Orden 186/2",
+    "urlBasesReguladoras": "https://docm.jccm.es/docm/descargarArchivo.do?ruta=2018/12/21/pdf/2018_14800.pdf&tipo=rutaDocm",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde el día siguiente a la publicación de esta resolución y de su extracto de la BDNS en el Diario",
+    "textFin": "20 días  desde el día siguiente a la publicación de esta resolución y de su extracto de la BDNS en e",
+    "ayudaEstado": "SA.108727",
+    "urlAyudaEstado": "https://competition-cases.ec.europa.eu/cases/SA.108727",
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "OTROS DISTINTOS DE PRODUCCIÓN AGRÍCOLA PRIMARIA - REG (UE) 2022/2472, de 14 DE DICIEMBRE, de exención de notificación (vigente desde 01-01-2023)",
+        "orden": null
+    },
+    "objetivos": [
+        {
+            "descripcion": "ART. 27 AYUDAS DESTINADAS AL SECTOR GANADERO Y AYUDAS POR GANADO MUERTO"
+        }
+    ],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180178,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "RESOLUCIÓN CONVOCATORIA RAE 2025_FIRMADA_135149.PDF",
+            "long": 242332,
+            "datMod": "2024-12-19T18:15:03.000+01:00",
+            "datPublicacion": "2024-12-19T18:15:03.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

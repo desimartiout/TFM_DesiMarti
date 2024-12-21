@@ -1,0 +1,72 @@
+{
+    "id": 1006190,
+    "organo": {
+        "nivel1": "CATALUÑA",
+        "nivel2": "AGÈNCIA DE RESIDUS DE CATALUNYA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804630",
+    "fechaRecepcion": "2024-12-20T10:45:38+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 5000000,
+    "mrr": false,
+    "descripcion": "Subvenciones destinadas a la implantación de puntos limpios para el tratamiento de los residuos municipales",
+    "descripcionLeng": "Subvencions destinades a la implantació de deixalleries per al tractament dels residus municipals",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Recogida, tratamiento y eliminación de residuos; valorización",
+            "codigo": "38"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES51 - CATALUÑA"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "RESOLUCIÓ TER/4566/2024, de 17 de desembre, per la qual s'aproven les bases reguladores de les subvencions destinades a la implantació de deixalleries per al tractament dels residus municipals.",
+    "urlBasesReguladoras": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=1002392",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-15T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-03-17T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": "2 meses a partir de su publicación en el Diario Oficial de la Generalitat de Cataluña",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180583,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "arc038_cat_convocatoria_deixalleries_2024_signed.pdf",
+            "long": 173745,
+            "datMod": "2024-12-20T11:15:10.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:10.000+01:00"
+        },
+        {
+            "id": 1180582,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "arc038_es_convocatoria_deixalleries_2024_signed.pdf",
+            "long": 172012,
+            "datMod": "2024-12-20T11:15:10.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:10.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

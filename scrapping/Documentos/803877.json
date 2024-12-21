@@ -67,6 +67,18 @@
             "datPublicacion": "2024-12-18T13:15:05.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172101,
+            "titulo": "EXTRACTO de la segunda convocatoria de becas Erasmus de movilidad de estudiantes para el BIP “Promoting Learner Autonomy from an Inclusive Perspective”,  para la Radboud University, Nijmegen (Países Bajos), curso 2024/2025.",
+            "tituloLeng": null,
+            "texto": "<p>Primero.- Beneficiarios.</p><p>Estas movilidades están destinadas a estudiantes del Máster en Profesor de Educación Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanzas de Idiomas. Se tendránespecialmente en cuenta a aquellos alumnos que cuenten con Grado en Estudios Ingleses o Licenciatura en Filología Inglesa.</p><p>Segundo.- Objeto.</p><p>Convocar ayudas para estudiantes del Máster en Profesor de Educación Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanzas de Idiomas durante el curso académico 2024/2025. Se tendrán especialmente en cuenta a aquellos alumnos que cuenten con Grado en Estudios Ingleses o Licenciatura en Filología Inglesa. .</p><p>Tercero.- Bases reguladoras.</p><p>Convocatoria y bases reguladoras de fecha 17 de diciembre de 2024.</p><p>Cuarto.- Cuantía.</p><p>La cuantía global estimada del crédito consignado es de 4.524 euros.</p><p>Quinto.- Plazo de presentación de solicitudes</p><p>Desde su publicación en el BOCyL hasta el 7 de enero de 2024.</p>",
+            "textoLeng": null,
+            "url": "https://bocyl.jcyl.es/boletines/2024/12/20/pdf/BOCYL-D-20122024-20.pdf",
+            "cve": " BOCYL-D-20122024-20",
+            "desDiarioOficial": "BOCYL. B.O. DE LA JUNTA DE CASTILLA Y LEÓN",
+            "datPublicacion": "2024-12-20T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

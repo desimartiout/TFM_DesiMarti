@@ -51,18 +51,18 @@
     "sectoresProductos": [],
     "documentos": [
         {
-            "id": 1178868,
-            "descripcion": "Texto en otra lengua de la convocatoria",
-            "nombreFic": "SIGNED_Decret_2024000679.pdf",
-            "long": 97528,
-            "datMod": "2024-12-18T13:15:02.000+01:00",
-            "datPublicacion": null
-        },
-        {
             "id": 1178867,
             "descripcion": "Texto en castellano de la convocatoria",
             "nombreFic": "DEC_RET_PRIMER_PAGAMENT_EL_TOMB_ANUAL_(CASTELLA).pdf",
             "long": 79695,
+            "datMod": "2024-12-18T13:15:02.000+01:00",
+            "datPublicacion": null
+        },
+        {
+            "id": 1178868,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "SIGNED_Decret_2024000679.pdf",
+            "long": 97528,
             "datMod": "2024-12-18T13:15:02.000+01:00",
             "datPublicacion": null
         }

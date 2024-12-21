@@ -1,0 +1,73 @@
+{
+    "id": 1006080,
+    "organo": {
+        "nivel1": "ANDALUCÍA",
+        "nivel2": "CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.juntadeandalucia.es/empleoformacionytrabajoautonomo/oficinavirtualFPE/gefoc-web/",
+    "codigoBDNS": "804520",
+    "fechaRecepcion": "2024-12-19T21:57:17+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 659967.45,
+    "mrr": false,
+    "descripcion": "Resolución de 19 de diciembre de 2024,conv.2024 de subvenciones para los años 2025 y 2026, destinadas a financiar la oferta formativa de F.P. para el empleo dirigida a personas trabajadoras desempleadas y trabajadoras desocupadas en la prov. de Cádiz",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "GRAN EMPRESA"
+        },
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades relacionadas con el empleo",
+            "codigo": "78"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES612 - Cádiz"
+        }
+    ],
+    "descripcionFinalidad": "Fomento del Empleo",
+    "descripcionBasesReguladoras": "Orden de 3 de noviembre de 2023, bb.rr. de concesión de subv. públicas, en rég.conc.comp., en materia de Form. Prof. para el Empleo en las modalidades de formación de oferta dirigida prioritariamente a personas trabajadoras desempleadas y ocupadas",
+    "urlBasesReguladoras": "https://juntadeandalucia.es/eboja/2023/214/BOJA23-214-00022-17024-01_00292019.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-30T00:00:00+01:00",
+    "textInicio": "Desde el día siguiente a la publicación del extracto en el BOJA",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180242,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "TextoConvocatoria.pdf",
+            "long": 456141,
+            "datMod": "2024-12-20T09:15:26.000+01:00",
+            "datPublicacion": "2024-12-20T09:15:26.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

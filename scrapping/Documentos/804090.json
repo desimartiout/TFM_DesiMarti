@@ -1,0 +1,111 @@
+{
+    "id": 1005650,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "CÁMARA DE COMERCIO DE ALMERÍA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.camara.es/sede/almeria",
+    "codigoBDNS": "804090",
+    "fechaRecepcion": "2024-12-19T09:29:45+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 20570,
+    "mrr": false,
+    "descripcion": "Convocatoria Pyme Global 2025 - Visita Feria SIRHA LYON (FRANCIA) para empresas agroalimentarias de la demarcación de la Cámara de Almeria",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "AGRICULTURA, GANADERÍA, SILVICULTURA Y PESCA",
+            "codigo": "A"
+        },
+        {
+            "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHÍCULOS DE MOTOR Y MOTOCICLETAS",
+            "codigo": "G"
+        },
+        {
+            "descripcion": "HOSTELERÍA",
+            "codigo": "I"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES611 - Almería"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Convocatoria Pyme Global 2025 - Visita Feria SIRHA LYON (FRANCIA) para empresas agroalimentarias de la demarcación de la Cámara de Almeria",
+    "urlBasesReguladoras": "https://camaradealmeria.com/categorias-de-la-camara/internacional/",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-13T00:00:00+01:00",
+    "textInicio": "A las 9:00 desde el día hábil siguiente a la publicación del extracto en el BOP Almería",
+    "textFin": "13/01/2025 a las 14:00 hrs.",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 2023/2831 de minimis, General",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179351,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "2025_Anexo 05. CONVOCATORIA VF SIRHA LYON FR.pdf",
+            "long": 344822,
+            "datMod": "2024-12-19T11:15:21.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:21.000+01:00"
+        },
+        {
+            "id": 1179357,
+            "descripcion": "2025_ANEXO I - Declaración Responsable VF SIRHA LYON FR",
+            "nombreFic": "2025_ANEXO I - DR VF SIRHA LYON FR.pdf",
+            "long": 1609841,
+            "datMod": "2024-12-19T11:15:21.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:21.000+01:00"
+        },
+        {
+            "id": 1179360,
+            "descripcion": "2025_ANEXO IV - 2º PARTICIPANTE VF SIRHA LYON FRANCIA",
+            "nombreFic": "2025_ANEXO IV - 2º PARTICIPANTE VF SIRHA LYON FRANCIA.pdf",
+            "long": 1143463,
+            "datMod": "2024-12-19T11:15:21.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:21.000+01:00"
+        },
+        {
+            "id": 1179358,
+            "descripcion": "2025_ANEXO II - Modelo de Resolución de admisión Convocatoria Ayuda.doc",
+            "nombreFic": "2025_ANEXO II - Resolución de admisión Convocatoria Ayuda.doc.pdf",
+            "long": 334114,
+            "datMod": "2024-12-19T11:15:21.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:21.000+01:00"
+        },
+        {
+            "id": 1179359,
+            "descripcion": "2025_ANEXO III - TIPOLOGÍA GASTOS VF SIRHA FR",
+            "nombreFic": "2025_ANEXO III - TIPOLOGÍA GASTOS VF SIRHA FR.pdf",
+            "long": 251098,
+            "datMod": "2024-12-19T11:15:20.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:20.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

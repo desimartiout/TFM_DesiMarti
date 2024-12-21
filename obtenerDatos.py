@@ -135,35 +135,6 @@ def aplanar_json(data):
         },
     )
 
-# def convert_json_to_dict(json_aplanado)
-#     return {
-#         "id": data["id"],
-#         "organo_nivel1": data["organo_nivel1"],
-#         "organo_nivel2": data["organo_nivel2"],
-#         "sedeElectronica": data["sedeElectronica"] if data["sedeElectronica"] else None,
-#         "codigoBDNS": data["codigoBDNS"],
-#         "fechaRecepcion": data["fechaRecepcion"],
-#         "instrumentos": data["instrumentos"],
-#         "tipoConvocatoria": data["tipoConvocatoria"],
-#         "presupuestoTotal": data["presupuestoTotal"],
-#         "descripcion": data["descripcion"],
-#         "tiposBeneficiarios": data["tiposBeneficiarios"],
-#         "sectores": data["sectores"],
-#         "regiones": data["regiones"],
-#         "descripcionFinalidad": data["descripcionFinalidad"],
-#         "descripcionBasesReguladoras": data["descripcionBasesReguladoras"],
-#         "urlBasesReguladoras": data["urlBasesReguladoras"],
-#         "sePublicaDiarioOficial": data["sePublicaDiarioOficial"],
-#         "abierto": data["abierto"],
-#         "fechaInicioSolicitud": data["fechaInicioSolicitud"],
-#         "fechaFinSolicitud": data["fechaFinSolicitud"],
-#         "textInicio": data["textInicio"] if data["textInicio"] else None,
-#         "textFin": data["textFin"] if data["textFin"] else None,
-#         "reglamento": data["reglamento"] if data["reglamento"] else None,
-#         "documentos": data["documentos"].strip() if data["documentos"] else None,
-#     }
-    
-
 # Función para procesar el JSON y convertirlo a Yaml
 def convert_json_to_yaml(json_aplanado, template):
     return template.format_map(json_aplanado)

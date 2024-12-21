@@ -1,0 +1,64 @@
+{
+    "id": 1005555,
+    "organo": {
+        "nivel1": "PRINCIPADO DE ASTURIAS",
+        "nivel2": "CONSEJERÍA DE DERECHOS SOCIALES Y BIENESTAR",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "803995",
+    "fechaRecepcion": "2024-12-18T15:30:24+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 7306470,
+    "mrr": false,
+    "descripcion": "Resolución de                             por la que se convocan subvenciones destinadas a la realización de programas de interés general para fines sociales, en los ámbitos de actuación A, B, C y E",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES",
+            "codigo": "Q"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES12 - PRINCIPADO DE ASTURIAS"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Resolución de 29-11-2022, de la Consejería de Derechos Sociale sy Bienestar, por la que se aprueban las bases reguladoras para la concesión de subvenciones, en régimen de concurrencia competitiva, para la realización de programas de interés general para f",
+    "urlBasesReguladoras": "https://sede.asturias.es/ast/bopa-disposiciones?p_p_id=pa_sede_bopa_web_portlet_SedeBopaDispositionWeb&p_p_lifecycle=0&_pa_sede_bopa_web_portlet_SedeBopaDispositionWeb_mvcRenderCommandName=%2Fdisposition%2Fdetail&p_r_p_dispositionText=2022-09202&p_r_",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Día siguiente a publicación del extracto en BOPA",
+    "textFin": "Un mes desde día siguiente a publicación extracto",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179160,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Resolucion_de_convocatoria_de_subvenciones_destinadas_a_la_realizacion_de_programas_de_Interes_General_para_Fines_Sociales_en_los_ambitos_A__B__C_y_E..pdf",
+            "long": 449601,
+            "datMod": "2024-12-18T18:15:07.000+01:00",
+            "datPublicacion": "2024-12-18T18:15:07.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

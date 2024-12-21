@@ -1,0 +1,64 @@
+{
+    "id": 1006257,
+    "organo": {
+        "nivel1": "DIPUTACIÓN FORAL DE BIZKAIA",
+        "nivel2": "DIPUTACIÓN FORAL DE BIZKAIA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.ebizkaia.eus/es/catalogo-de-tramites-y-servicios",
+    "codigoBDNS": "804697",
+    "fechaRecepcion": "2024-12-20T11:19:56+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1095680,
+    "mrr": false,
+    "descripcion": "bases reguladoras y la convocatoria pública de subvenciones para la atención e integración social del colectivo de personas con discapacidad para el año 2025.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de servicios sociales sin alojamiento",
+            "codigo": "88"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES213 - Bizkaia"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "bases reguladoras y la convocatoria pública de subvenciones para la atención e integración social del colectivo de personas con discapacidad para el año 2025.",
+    "urlBasesReguladoras": "https://web.bizkaia.eus/es/bob",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-20T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-20T00:00:00+01:00",
+    "textInicio": "20 de enero de 2025",
+    "textFin": "20 de febrero de 2025 hasta 13:30 h",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180685,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "DECRETO SUBV DISCAPACIDAD 2025 BILINGUE_1733989495486_20241212_084504.pdf",
+            "long": 549452,
+            "datMod": "2024-12-20T13:15:19.000+01:00",
+            "datPublicacion": "2024-12-20T13:15:19.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -41,6 +41,17 @@ def nombre_fichero_ragas_eval_results() -> str:
     
     return ragas_file_path
 
+def nombre_fichero_ragas_questions() -> str:
+    """
+    Devuelve el nombre del fichero de evaluación donde se alacenarán los datos.
+    """
+    current_date = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
+
+    # Crear el nombre del archivo con la fecha
+    ragas_file_path = os.path.join(RAGAS_FILE_PATH_RESULTS, f"dataset_ragas_{current_date}_ragas_results.csv")
+    
+    return ragas_file_path
+
 
 
 # def write_to_csv(user_input: str, response: str, retrieved_contexts: str, reference: str) -> None:

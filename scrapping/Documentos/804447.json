@@ -1,0 +1,72 @@
+{
+    "id": 1006007,
+    "organo": {
+        "nivel1": "AREA METROPOLITANA DE BARCELONA",
+        "nivel2": "ÀREA METROPOLITANA DE BARCELONA",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.amb.cat",
+    "codigoBDNS": "804447",
+    "fechaRecepcion": "2024-12-19T15:04:42+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 55524.86,
+    "mrr": false,
+    "descripcion": "Concesión de subvenciones del Área Metropolitana de Barcelona (AMB) a las organizaciones sindicales con representación en el ámbito territorial del Área Metropolitana de Barcelona. (Exp. 900525/24)",
+    "descripcionLeng": "Concessió de subvencions de l’Àrea Metropolitana de Barcelona (AMB) a les organitzacions sindicals amb representació dins l’àmbit territorial de l’Àrea Metropolitana de Barcelona. (Exp. 900525/24)",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+            "codigo": "M"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES511 - Barcelona"
+        }
+    ],
+    "descripcionFinalidad": "Fomento del Empleo",
+    "descripcionBasesReguladoras": "Bases reguladoras para la concesión de subvenciones del Área Metropolitana de Barcelona a las organizaciones sindicales con representación en el ámbito territorial de la AMB. Exp. 902389/2021",
+    "urlBasesReguladoras": "http://bop.diba.cat/anunci/3156039/aprovacio-definitiva-de-la-modificacio-de-les-bases-reguladores-per-a-la-concessio-de-subvencions-de-l-area-metropolitana-de-barcelona-a-les-organitzacions-sindicals-amb-representacio-dins-l-ambit-territorial-de-l-amb-ve",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "A partir del día siguiente de la publicación del extracto de la convocatoria en el BOPB",
+    "textFin": "20 dies hàbiles desde el inicio ",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180079,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "Convocatòria sindicats_2024_CAT.pdf",
+            "long": 1038047,
+            "datMod": "2024-12-19T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-19T15:16:24.000+01:00"
+        },
+        {
+            "id": 1180078,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria sindicatos_2024_CAST.pdf",
+            "long": 1352883,
+            "datMod": "2024-12-19T15:15:01.000+01:00",
+            "datPublicacion": "2024-12-19T15:16:24.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

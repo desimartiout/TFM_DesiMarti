@@ -1,0 +1,71 @@
+{
+    "id": 1005660,
+    "organo": {
+        "nivel1": "CIUDAD AUTÓNOMA DE CEUTA",
+        "nivel2": "PROCESA SOCIEDAD DE DESARROLLO DE CEUTA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804100",
+    "fechaRecepcion": "2024-12-19T09:52:32+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1500000,
+    "mrr": false,
+    "descripcion": "4ª convocatoria de las ayudas para “creación y/o modernización de proyectos empresariales innovadores” programa FEDER Ceuta 2021-2027, objetivo político 1. objetivo específico 1.3.”",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES63 - CIUDAD AUTONOMA DE CEUTA"
+        }
+    ],
+    "descripcionFinalidad": "Comercio, Turismo y Pymes",
+    "descripcionBasesReguladoras": "s Bases Reguladoras Generales para regular,\ncon carácter general, todos los procedimientos que sean de aplicación a las ayudas públicas cofinanciadas por la Ciudad Autónoma de\nCeuta y los Fondos Europeos para Ceuta, para el período 2021-\n2027",
+    "urlBasesReguladoras": "https://www.ceuta.es/ceuta/component/jdownloads/finish/1943-septiembre/22618-bocce-6447-27-09-2024?Itemid=534",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-02T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-12-30T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 2023/2831 de minimis, General",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179404,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "03-RESOLUCIÓN-CUARTA-CONVOCATORIA-FEDER firmada.PDF",
+            "long": 1853484,
+            "datMod": "2024-12-19T11:15:17.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:17.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

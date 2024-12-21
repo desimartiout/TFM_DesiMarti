@@ -20,6 +20,9 @@ from ragas.testset.persona import Persona
 
 import asyncio
 
+from config.ragas.ragas_config import RAGAS_DATASET_EVAL_SIZE
+from ragas_eval.utils import nombre_fichero_ragas_questions
+
 async def generar_dataset_ragas(data):
     # Convertir en DataFrame
     df = pd.DataFrame(list(data.items()), columns=["id", "content"])
@@ -58,28 +61,26 @@ async def generar_dataset_ragas(data):
     transforms = [HeadlineSplitter(), NERExtractor()]
     dataset = generator.generate_with_langchain_docs(
         docs[:],
-        testset_size=5,
+        testset_size=RAGAS_DATASET_EVAL_SIZE,
         transforms=transforms,
         query_distribution=distribution,
     )
 
-    #print(dataset.to_pandas())
     df = dataset.to_pandas()
-    current_date = datetime.now().strftime("%Y-%m-%d")
-    df.to_csv(RAGAS_FILE_PATH_QUESTIONS + f"dataset_ragas_{current_date}.csv", index=False) 
+
+    ruta_fichero = nombre_fichero_ragas_questions()
+
+    #Guardamos el dataset
+    df.to_csv(ruta_fichero, index=False, quoting=1, quotechar='"', sep=";") 
 
 async def mi_funcion_asincrona():
-    # run_config = RunConfig(
-    #     timeout=200,
-    #     max_wait=160,
-    #     max_retries=3,
-    # )
-
+    #Cargamos la bdvectorial con todas las ayudas
     fichero = METADATA_FILE_FAISS
-
     try:
         with open(fichero, "r", encoding="utf-8") as file:
             data = json.load(file)
+
+            #Generamos el dataset de evaluación a partir de los datos almacenados.
             await generar_dataset_ragas(data)
 
     except FileNotFoundError:

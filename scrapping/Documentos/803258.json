@@ -67,6 +67,18 @@
             "datPublicacion": "2024-12-16T18:15:06.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 171949,
+            "titulo": "EXTRACTO de la convocatoria de becas Erasmus para estudiantes para realizar estancias de corta duración del BIP \"Social Work and Sustainability\", ID 2023-1- PT01-KA131-HED-000114182-2 para la University of Coimbra (Portugal), curso 2024/2025.",
+            "tituloLeng": null,
+            "texto": "<p>Primero.- Beneficiarios.</p><p>Estas movilidades están destinadas a estudiantes de estudiantes del Máster en Intervención Social y Educativa con Infancia y Adolescencia.</p><p>Segundo.- Objeto.</p><p>Convocar ayudas para estudiantes del Máster en Intervención Social y Educativa con Infancia y Adolescencia de la Universidad de Salamanca durante el curso académico 2024/2025.</p><p>Tercero.- Bases reguladoras.</p><p>Convocatoria y bases reguladoras de fecha 12 de diciembre de 2024.</p><p>Cuarto.- Cuantía.</p><p>La cuantía global estimada del crédito consignado es de 15.315 euros.</p><p>Quinto.- Plazo de presentación de solicitudes</p><p>Desde su publicación en el BOCyL hasta el 20 de diciembre de 2024.</p>",
+            "textoLeng": null,
+            "url": "https://bocyl.jcyl.es/boletines/2024/12/18/pdf/BOCYL-D-18122024-10.pdf",
+            "cve": "BOCYL-D-18122024-10",
+            "desDiarioOficial": "BOCYL. B.O. DE LA JUNTA DE CASTILLA Y LEÓN",
+            "datPublicacion": "2024-12-18T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

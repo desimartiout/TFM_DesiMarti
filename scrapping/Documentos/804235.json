@@ -1,0 +1,68 @@
+{
+    "id": 1005795,
+    "organo": {
+        "nivel1": "IRUN",
+        "nivel2": "AYUNTAMIENTO DE IRUN",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://www.irun.org/es/",
+    "codigoBDNS": "804235",
+    "fechaRecepcion": "2024-12-19T12:22:10+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 18000,
+    "mrr": false,
+    "descripcion": "Convocatoria Beca Julia Iruretagoyena 2024",
+    "descripcionLeng": "2024. Julia Iruretagoyena bekaren deialdia",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Otras actividades profesionales, científicas y técnicas",
+            "codigo": "74"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES212 - Gipuzkoa"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "ORDENANZA GENERAL REGULADORA DE LAS BASES PARA LA CONCESIÓN DE SUBVENCIONES MEDIANTE CONVOCATORIA POR EL AYUNTAMIENTO DE IRUN",
+    "urlBasesReguladoras": "https://www.irun.org/es/ordenanzas/474-ordenanza-general-reguladora-de-las-bases-para-la-concesion-de-subvenciones-mediante-convocatoria-por-el-ayuntamiento-de-irun?ido=180",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "día siguiente de publicación en BOG",
+    "textFin": "un mes natural desde el día siguiente al de la publicación de la convocatoria en el BOG",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FSE - FONDO SOCIAL EUROPEO "
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179648,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria Beca Julia Iruretagoyena.pdf",
+            "long": 436634,
+            "datMod": "2024-12-19T13:15:34.000+01:00",
+            "datPublicacion": "2024-12-19T13:15:34.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

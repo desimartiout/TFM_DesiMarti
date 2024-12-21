@@ -74,6 +74,18 @@
             "datPublicacion": "2024-12-17T13:15:15.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172183,
+            "titulo": "Procedimiento Beta",
+            "tituloLeng": null,
+            "texto": "Procedimiento Beta",
+            "textoLeng": null,
+            "url": "https://intranet.caib.es/eboibfront/es/2024/12028/694884/resolucion-del-presidente-del-fondo-de-garantia-ag",
+            "cve": null,
+            "desDiarioOficial": "BOIB. B.O. DE LAS ISLAS BALEARES",
+            "datPublicacion": "2024-12-19T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

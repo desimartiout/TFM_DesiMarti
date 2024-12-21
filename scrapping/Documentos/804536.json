@@ -1,0 +1,72 @@
+{
+    "id": 1006096,
+    "organo": {
+        "nivel1": "TUDELA",
+        "nivel2": "AYUNTAMIENTO DE TUDELA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.tudela.es",
+    "codigoBDNS": "804536",
+    "fechaRecepcion": "2024-12-20T08:19:52+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 150000,
+    "mrr": false,
+    "descripcion": "Convocatoria subvenciones a entidades de participación social sin ánimo de lucro 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de servicios sociales sin alojamiento",
+            "codigo": "88"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES220 - Navarra"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Convocatoria subvenciones a entidades de participación social sin ánimo de lucro 2025",
+    "urlBasesReguladoras": "https://bon.navarra.es/es/anuncio/-/texto/2007/108/41 y modificación https://bon.navarra.es/es/anuncio/-/texto/2013/84/68",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "30 días naturales a contar desde el día siguiente al de la publicación de la convocatoria en BON",
+    "textFin": "Tras finalizar el plazo anterior",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180275,
+            "descripcion": "Bases de Convocatoria",
+            "nombreFic": "Bases de Convocatoria.PDF",
+            "long": 701482,
+            "datMod": "2024-12-20T09:15:22.000+01:00",
+            "datPublicacion": "2024-12-20T09:15:22.000+01:00"
+        },
+        {
+            "id": 1180274,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Bases de Convocatoria.PDF",
+            "long": 701482,
+            "datMod": "2024-12-20T09:15:22.000+01:00",
+            "datPublicacion": "2024-12-20T09:15:22.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

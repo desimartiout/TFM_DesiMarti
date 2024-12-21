@@ -1,0 +1,72 @@
+{
+    "id": 1006133,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE HUELVA",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE HUELVA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.diphuelva.es/opencms/opencms/sede/index.html",
+    "codigoBDNS": "804573",
+    "fechaRecepcion": "2024-12-20T09:40:24+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 10000,
+    "mrr": false,
+    "descripcion": "Convocatoria de tramitación anticipada de las Becas Daniel Vazquez Díaz. Edición XXXI del Premio",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de creación, artísticas y espectáculos",
+            "codigo": "90"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES615 - Huelva"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "Ordenanza General de subvenciones de la Diputación Provincial de Huelva (BOP n.º 136 de 18 de julio de 2016)",
+    "urlBasesReguladoras": "http://s2.diphuelva.es/portalweb/bop/boletines/20160718-1.pdf#page=3",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Al día siguiente de la publicación del extracto de la convocatoria en el BOP",
+    "textFin": "90 días naturales después",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180403,
+            "descripcion": "ANEXO IV                         Formulario de autorización/oposición a la intermediación de datos.",
+            "nombreFic": "ANEXO IV_Intermediación de datos.pdf",
+            "long": 130267,
+            "datMod": "2024-12-20T11:15:21.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:21.000+01:00"
+        },
+        {
+            "id": 1180399,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "convocatoria BECAS DANIEL VAZQUEZ DIAZ_XXXI_Ed.pdf",
+            "long": 338356,
+            "datMod": "2024-12-20T11:15:21.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:21.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

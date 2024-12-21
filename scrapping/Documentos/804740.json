@@ -1,0 +1,84 @@
+{
+    "id": 1006300,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE GIRONA",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE GIRONA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804740",
+    "fechaRecepcion": "2024-12-20T12:17:30+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 350000,
+    "mrr": false,
+    "descripcion": "Convocatòria anticipada de subvencions als ens locals adherits a la Xarxa de Serveis Locals d¿Habitatge per al finançament dels serveis locals, 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Administración Pública y de la política económica y social",
+            "codigo": "84.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES512 - Girona"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Bases especifiques reguladores de subvencions als ens locals adherits a la Xarxa de Serveis Locals d¿Habitatge pel finançament dels serveis locals",
+    "urlBasesReguladoras": "http://www.ddgi.cat/basescast/2021/Bases_especificas_subvenciones_ayuntamientos_compra_material_pobreza_energetica.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-01T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-15T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180798,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "3.2_Convo_subvencions_XSLH_2025.pdf",
+            "long": 356641,
+            "datMod": "2024-12-20T13:15:11.000+01:00",
+            "datPublicacion": "2024-12-20T13:15:11.000+01:00"
+        },
+        {
+            "id": 1180797,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "3.1_convocatoria_subvencions_XSLH_2025_CAST.pdf",
+            "long": 357771,
+            "datMod": "2024-12-20T13:15:11.000+01:00",
+            "datPublicacion": "2024-12-20T13:15:11.000+01:00"
+        }
+    ],
+    "anuncios": [
+        {
+            "numAnuncio": 172309,
+            "titulo": "Convocatoria anticipada de subvenciones a las entidades locales adheridas a la Xarxa de Serveis Locals d¿Habitatge (¿Red de Servicios Locales de Vivienda¿) para la financiación de los servicios locales, año 2025",
+            "tituloLeng": "Convocatòria anticipada de subvencions als ens locals adherits a la Xarxa de Serveis Locals d¿Habitatge per al finançament dels serveis locals, 2025",
+            "texto": "<p>De conformidad con lo previsto en los artículos 17.3 b y 20.8 a de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, se publica el extracto de la convocatoria, cuyo texto completo se puede consultar en la Base de Datos Nacional de Subvenciones (http://www.pap.minhafp.gob.es/bdnstrans): </p><p></p><p>Primero. Beneficiarios </p><p></p><p>Todos los ayuntamientos y consejos comarcales que estén adheridos a la Xarxa de Serveis Locals d?Habitatge de la Diputació de Girona. </p><p></p><p>Segundo. Objeto y finalidad </p><p></p><p>El objeto de esta convocatoria es regular la concesión de subvenciones en régimen de concurrencia competitiva destinadas a la financiación de los servicios de vivienda adheridos a la Xarxa de Serveis Locals d?Habitatge (?Red de Servicios Locales de Vivienda?) de la Diputació de Girona. </p><p></p><p>Tercero. Bases reguladoras </p><p></p><p>Acuerdo del Pleno de la Diputació de Girona, de 19 de noviembre de 2024, publicado en el BOPG número 226 de 25 de noviembre de 2025.  </p><p></p><p>Cuarto. Cuantía </p><p></p><p>El importe total destinado a la convocatoria es de 350.000,00 euros. </p><p></p><p>Quinto. Plazo de presentación de solicitudes </p><p></p><p>A partir del 2 de enero de 2025 hasta el día 15 de febrero de 2025 a través del portal de Subvenciones de la Diputació de Girona: https://seu.ddgi.cat/subvencions en la que se podrán encontrar los documentos normalizados y la solicitud específica de esta línea.</p><p>Se puede presentar una única solicitud de subvención por ente local. </p><p>Sexto. Plazo para justificar las subvenciones </p><p></p><p>El plazo para justificar las acciones subvencionadas finalizará el 30 de noviembre de 2025. </p>",
+            "textoLeng": "<p>De conformitat amb el que preveuen els articles 17.3.b i 20.8.a de la Llei 38/2003, de 17 de novembre, General de Subvencions, es publica l?extracte de la convocatòria, el text complert de la qual es pot consultar a la Base de Datos Nacional de Subvenciones (http://www.pap.minhafp.gob.es/bdnstrans): </p><p></p><p>Primer. Beneficiaris\t</p><p></p><p>Tots els ajuntaments i consells comarcals que estiguin adherits a la Xarxa de Serveis Locals d?Habitatge de la Diputació de Girona.</p><p></p><p>Segon. Objecte i finalitat</p><p></p><p>L?objecte d?aquesta convocatòria és regular la concessió de subvencions en règim de concurrència competitiva destinades al finançament dels serveis d?habitatge adherits a la Xarxa de Serveis Locals d?Habitatge del Pla de Serveis en l?Àmbit de l?Habitatge de la Diputació de Girona.</p><p></p><p>Tercer. Bases reguladores</p><p></p><p>Acord del Ple de la Diputació de Girona, de 19 de novembre de 2024, publicat al BOPG número 226, de 25 de novembre de 2024.</p><p></p><p>Quart. Quantia</p><p></p><p>L?import total destinat a la convocatòria és de 350.000,00 euros.</p><p></p><p>Cinquè. Termini de presentació de sol·licituds</p><p></p><p>A partir del 2 de gener de 2025 i fins el dia 15 de febrer de 2025 a través del Portal de Subvencions de la Diputació de Girona: https://seu.ddgi.cat/subvencions en la qual es podran trobar els documents normalitzats i la sol·licitud específica d?aquesta línia.</p><p>Es pot presentar una única sol·licitud de subvenció per ens local.</p><p></p><p>Sisè. Termini per justificar les subvencions</p><p></p><p>El termini per justificar les accions subvencionades finalitzarà el 30 de noviembre de 2025.</p>",
+            "url": "https://ssl4.ddgi.cat/bopV1/pdf/2024/245/2024245011455.pdf",
+            "cve": null,
+            "desDiarioOficial": "B.O.P. DE GIRONA",
+            "datPublicacion": "2024-12-23T00:00:00.000+01:00"
+        }
+    ],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

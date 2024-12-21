@@ -1,0 +1,79 @@
+{
+    "id": 1005642,
+    "organo": {
+        "nivel1": "ILLES BALEARS",
+        "nivel2": "FONDO DE GARANTÍA AGRARIA Y PESQUERA DE LAS ISLAS BALEARES (FOGAIBA)",
+        "nivel3": null
+    },
+    "sedeElectronica": "http://www.caib.es",
+    "codigoBDNS": "804082",
+    "fechaRecepcion": "2024-12-19T09:20:08+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 700000,
+    "mrr": false,
+    "descripcion": "Ayudas para las agrupaciones de defensa sanitaria ganaderas para el desarrollo de los programas sanitarios correspondientes al año 2025.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Producción ganadera",
+            "codigo": "01.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES53 - ILLES BALEARS"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "Real decreto 81/2015 de 13 de febrero, por el que se establecen las bases reguladoras de las subvenciones estatales destinadas a las agrupaciones de defensa sanitaria ganaderas",
+    "urlBasesReguladoras": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-2049",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2024-12-27T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-01-31T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": "SA.109897",
+    "urlAyudaEstado": "https://competition-cases.ec.europa.eu/cases/SA.109897",
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "OTROS DISTINTOS DE PRODUCCIÓN AGRÍCOLA PRIMARIA - REG (UE) 2022/2472, de 14 DE DICIEMBRE, de exención de notificación (vigente desde 01-01-2023)",
+        "orden": null
+    },
+    "objetivos": [
+        {
+            "descripcion": "ART. 26 AYUDAS DESTINADAS A LOS COSTES DE PREVENCIÓN, CONTROL Y ERRADICACIÓN DE ENFERMEDADES ANIMALES O PLAGAS VEGETALES Y AYUDAS DESTINADAS A REPARAR LOS DAÑOS CAUSADOS POR ENFERMEDADES ANIMALES O PLAGAS VEGETALES"
+        }
+    ],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179366,
+            "descripcion": "Documento de la convocatoria en lengua cooficial",
+            "nombreFic": "AJ_83.24_-_Resoluci___ADS_2025_v2_cat_rev_imprimible.pdf",
+            "long": 336766,
+            "datMod": "2024-12-19T11:15:23.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:23.000+01:00"
+        },
+        {
+            "id": 1179364,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "AJ_83.24_-_Resoluci___ADS_2025_v2_cast_rev_imprimible.pdf",
+            "long": 321601,
+            "datMod": "2024-12-19T11:15:23.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:23.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -66,13 +66,33 @@ Se puede tambier especificar los parámetros para la llamada al API
 
 `python.exe obtenerDatos.py`
 
-### Ejecución de búsquedas desatendidas en base a un fichero de preguntas
+# 📘 Scripts de utilidades
+
+## Generar datasets de preguntas
+
+Este fichero se genera mediante el script `python.exe generar_dataset_sintetico.py`
+
+### Generar dataset sintético con preguntas prefijadas
+
+Este fichero se genera mediante el script `python.exe generar_dataset_ragas.py`
+
+### Generar dataset sintético con RAGAS
+
+## Búsquedas desatendidas
+
+### Ejecución de búsquedas desatendidas en base a un fichero de preguntas manual
 
 `python.exe buscar_batch.py preguntas1.txt`
 
 Nota: preguntas1.txt es un fichero de texto plano con una por cada una de las líneas (debe estar en el directorio `/ragas_eval/questions/`).
 
 El proceso lo que hace es coger cada línea simular la búsqueda con el chat, obtener el resultado del LLM y almacenar los resultados en el dataset de evaluación de datos para posteriormente poder evaluar el sistema.
+
+### Ejecución de búsquedas desatendidas en base a un fichero de evaluación csv generado a partir de RAGAS
+
+`python.exe buscar_batch_ragas.py dataset_ragas_2024_12_21_13_43_20_ragas_results.csv`
+
+Nota: preguntas1.txt es un fichero csv generado mediante el script `python.exe generar_dataset_ragas.py` comentado anteriormente.
 
 # 📘  RAGAS - Evaluar el modelo
 

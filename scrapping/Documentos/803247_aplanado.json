@@ -17,10 +17,10 @@
     "urlBasesReguladoras": "https://bocyl.jcyl.es/boletines/2023/05/03/pdf/BOCYL-D-03052023-13.pdf",
     "sePublicaDiarioOficial": "Sí",
     "abierto": "No",
-    "fechaInicioSolicitud": "",
-    "fechaFinSolicitud": "",
-    "textInicio": "día siguiente a la publicación del extracto en el Bocyl",
-    "textFin": "transcurridos treinta días hábiles desde el día siguiente a la publicación del extracto en el Bocyl",
+    "fechaInicioSolicitud": "2024-12-20T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-04T00:00:00+01:00",
+    "textInicio": "",
+    "textFin": "",
     "reglamento": "",
     "documentos": "\nDescripción: Documento de la convocatoria en español, Nombre: 7.-ORDEN convocatoria BECOS 2025.FDO .pdf, Enlace: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/803247/document/1177269 "
 }

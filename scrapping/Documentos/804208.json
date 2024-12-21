@@ -1,0 +1,72 @@
+{
+    "id": 1005768,
+    "organo": {
+        "nivel1": "EXTREMADURA",
+        "nivel2": "SERVICIO EXTREMEÑO DE PROMOCIÓN DE LA AUTONOMÍA Y ATENCIÓN A LA DEPENDENCIA  (SEPAD)",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804208",
+    "fechaRecepcion": "2024-12-19T12:05:23+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 1100000,
+    "mrr": false,
+    "descripcion": "Subvención 2025 destinadas a financiar entidades privadas sin fin de lucro para el desarrollo de programas de atención a personas con trastorno mental grave",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades de servicios sociales sin alojamiento",
+            "codigo": "88"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES43 - EXTREMADURA"
+        }
+    ],
+    "descripcionFinalidad": "Servicios Sociales y Promoción Social",
+    "descripcionBasesReguladoras": "Orden de 5 de junio de 2023 por la que se establecen las bases reguladoras de las subvenciones a otorgar para la prestación de servicios y el desarrollo de proyectos dirigidos a personas con discapacidad, trastorno mental grave o enfermedad mental grave",
+    "urlBasesReguladoras": "https://doe.juntaex.es/pdfs/doe/2023/1090o/23050150.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Al partir del día siguiente de la publicación en el DOE",
+    "textFin": "10 días hábiles, a partir del día siguiente de la publicación de la convocatoria en el DOE",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179674,
+            "descripcion": "Otros",
+            "nombreFic": "Decreto 146/2024 de 26 de noviembre estructura SEPAD.PDF",
+            "long": 157087,
+            "datMod": "2024-12-19T13:15:40.000+01:00",
+            "datPublicacion": "2024-12-19T13:15:40.000+01:00"
+        },
+        {
+            "id": 1179673,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Resolución  convocatoria.PDF",
+            "long": 803336,
+            "datMod": "2024-12-19T13:15:39.000+01:00",
+            "datPublicacion": "2024-12-19T13:15:39.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

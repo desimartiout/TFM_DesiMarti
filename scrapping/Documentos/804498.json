@@ -1,0 +1,149 @@
+{
+    "id": 1006058,
+    "organo": {
+        "nivel1": "CASTILLA-LA MANCHA",
+        "nivel2": "DIRECCIÓN GENERAL DE PROGRAMAS DE EMPLEO",
+        "nivel3": null
+    },
+    "sedeElectronica": "www.jccm.es",
+    "codigoBDNS": "804498",
+    "fechaRecepcion": "2024-12-19T17:25:10+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 2000000,
+    "mrr": false,
+    "descripcion": "Resolución por la que se publican los créditos disponibles en el 2º semestre de 2024 que han de financiar una convocatoria adicional para las subvenciones (línea 2) de costes salariales de personas con discapacidad en centros especiales de empleo.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "GRAN EMPRESA"
+        },
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES",
+            "codigo": "N"
+        },
+        {
+            "descripcion": "ACTIVIDADES ARTÍSTICAS, RECREATIVAS Y DE ENTRETENIMIENTO",
+            "codigo": "R"
+        },
+        {
+            "descripcion": "ACTIVIDADES DE LOS HOGARES COMO EMPLEADORES DE PERSONAL DOMÉSTICO; ACTIVIDADES DE LOS HOGARES COMO PRODUCTORES DE BIENES Y SERVICIOS PARA USO PROPIO",
+            "codigo": "T"
+        },
+        {
+            "descripcion": "ACTIVIDADES FINANCIERAS Y DE SEGUROS",
+            "codigo": "K"
+        },
+        {
+            "descripcion": "ACTIVIDADES INMOBILIARIAS",
+            "codigo": "L"
+        },
+        {
+            "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+            "codigo": "M"
+        },
+        {
+            "descripcion": "ACTIVIDADES SANITARIAS Y DE SERVICIOS SOCIALES",
+            "codigo": "Q"
+        },
+        {
+            "descripcion": "AGRICULTURA, GANADERÍA, SILVICULTURA Y PESCA",
+            "codigo": "A"
+        },
+        {
+            "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHÍCULOS DE MOTOR Y MOTOCICLETAS",
+            "codigo": "G"
+        },
+        {
+            "descripcion": "CONSTRUCCIÓN",
+            "codigo": "F"
+        },
+        {
+            "descripcion": "EDUCACIÓN",
+            "codigo": "P"
+        },
+        {
+            "descripcion": "HOSTELERÍA",
+            "codigo": "I"
+        },
+        {
+            "descripcion": "INDUSTRIA MANUFACTURERA",
+            "codigo": "C"
+        },
+        {
+            "descripcion": "INDUSTRIAS EXTRACTIVAS",
+            "codigo": "B"
+        },
+        {
+            "descripcion": "INFORMACIÓN Y COMUNICACIONES",
+            "codigo": "J"
+        },
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        },
+        {
+            "descripcion": "SUMINISTRO DE AGUA, ACTIVIDADES DE SANEAMIENTO, GESTIÓN DE RESIDUOS Y DESCONTAMINACIÓN",
+            "codigo": "E"
+        },
+        {
+            "descripcion": "SUMINISTRO DE ENERGÍA ELÉCTRICA, GAS, VAPOR Y AIRE ACONDICIONADO",
+            "codigo": "D"
+        },
+        {
+            "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+            "codigo": "H"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES42 - CASTILLA LA MANCHA"
+        }
+    ],
+    "descripcionFinalidad": "Fomento del Empleo",
+    "descripcionBasesReguladoras": "Decreto 85/2022, de 19 de julio, por el que se aprueban las bases reguladoras para la concesión directa de las subvenciones incluidas en el Programa de inclusión laboral de personas con discapacidad en el mercado de trabajo protegido de C-LM.",
+    "urlBasesReguladoras": "https://docm.jccm.es/docm/descargarArchivo.do?ruta=2022/07/25/pdf/2022_6965.pdf&tipo=rutaDocm",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Desde el día siguiente al de la publicación de la Resolución y su extracto en el D.O.C.M.",
+    "textFin": "Un mes desde el día siguiente al de la publicación de la Resolución y su extracto en el D.O.C.M.",
+    "ayudaEstado": "SA.115546",
+    "urlAyudaEstado": "https://competition-cases.ec.europa.eu/cases/SA.115546",
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "REG (UE) 651/2014, DE 17 DE JUNIO, de exención de notificación",
+        "orden": null
+    },
+    "objetivos": [
+        {
+            "descripcion": "ART. 33 AYUDAS AL EMPLEO. PARA LA CONTRATACIÓN DE TRABAJADORES CON DISCAPACIDAD. EN FORMA DE SUBVENCIONES SALARIALES."
+        }
+    ],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180202,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "RESOLUCION 19-12-24 CONVOCATORIA ADICIONAL 2º SEMESTRE 2024_141924.PDF",
+            "long": 223738,
+            "datMod": "2024-12-19T18:15:01.000+01:00",
+            "datPublicacion": "2024-12-19T18:15:01.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -51,22 +51,34 @@
     "sectoresProductos": [],
     "documentos": [
         {
-            "id": 1177200,
+            "id": 1179380,
             "descripcion": "Texto en otra lengua de la convocatoria",
             "nombreFic": "7702C24_convocatoria_INDOV24___CAT_signat.pdf",
             "long": 183997,
-            "datMod": "2024-12-16T13:15:05.000+01:00",
-            "datPublicacion": "2024-12-16T13:15:05.000+01:00"
+            "datMod": "2024-12-19T11:15:21.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:21.000+01:00"
         },
         {
-            "id": 1177199,
+            "id": 1179379,
             "descripcion": "Texto en castellano de la convocatoria",
             "nombreFic": "7702C24_convocatoria_INDOV24___ES.pdf",
             "long": 49936,
-            "datMod": "2024-12-16T13:15:05.000+01:00",
-            "datPublicacion": "2024-12-16T13:15:05.000+01:00"
+            "datMod": "2024-12-19T11:15:21.000+01:00",
+            "datPublicacion": "2024-12-19T11:15:21.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172169,
+            "titulo": "Procedimiento Beta",
+            "tituloLeng": null,
+            "texto": "Procedimiento Beta",
+            "textoLeng": null,
+            "url": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=1002350",
+            "cve": null,
+            "desDiarioOficial": "DOGC. D.O. DE LA GENERALITAT DE CATALUNYA",
+            "datPublicacion": "2024-12-19T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

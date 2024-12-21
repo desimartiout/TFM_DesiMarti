@@ -5,7 +5,7 @@
         "nivel2": "AYUNTAMIENTO DE FORMENTERA",
         "nivel3": null
     },
-    "sedeElectronica": null,
+    "sedeElectronica": "https://ovac.conselldeformentera.cat/ovac/catala/emiservicio/41E6BF9D755E4825AF8E6B49E85B5079.asp",
     "codigoBDNS": "803230",
     "fechaRecepcion": "2024-12-16T13:48:27+01:00",
     "instrumentos": [

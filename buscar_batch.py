@@ -6,7 +6,7 @@ from libs.chat import buscar_cadena
 from config.global_config import OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, RAGAS_FILE_PATH_QUESTIONS
 
 def hacer_consulta(prompt: str) -> str:
-    return buscar_cadena(prompt,num_results=CHROMA_NUMDOCUMENTS,temperature=OLLAMA_TEMPERATURE,chat_history=[])
+    return buscar_cadena(prompt,"",num_results=CHROMA_NUMDOCUMENTS,temperature=OLLAMA_TEMPERATURE,chat_history=[])
 
 def main():
     # Ejemplos de llamadas

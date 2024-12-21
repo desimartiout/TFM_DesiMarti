@@ -1,0 +1,67 @@
+{
+    "id": 1006272,
+    "organo": {
+        "nivel1": "COMUNIDAD DE MADRID",
+        "nivel2": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804712",
+    "fechaRecepcion": "2024-12-20T11:45:01+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 2835000,
+    "mrr": false,
+    "descripcion": "Formación CAP Mercancías y Permiso C",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Transporte de mercancías por carretera y servicios de mudanza",
+            "codigo": "49.4"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES30 - COMUNIDAD DE MADRID"
+        }
+    ],
+    "descripcionFinalidad": "Fomento del Empleo",
+    "descripcionBasesReguladoras": "FORMACIÓN CAP MERCANCÍAS Y PERMISO C",
+    "urlBasesReguladoras": "https://www.boe.es/buscar/doc.php?id=BOE-A-2019-4715",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "DESDE EL DÍA SIGUIENTE A LA PUBLICACIÓN DEL EXTRACTO",
+    "textFin": "15 DÍAS DESDE LA PUBLICACIÓN DEL EXTRACTO",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180728,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Texto Convocatoria BDNS  Convocatoria transporte plan empleo joven anonimizado_.pdf",
+            "long": 1537342,
+            "datMod": "2024-12-20T13:15:16.000+01:00",
+            "datPublicacion": "2024-12-20T13:15:16.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

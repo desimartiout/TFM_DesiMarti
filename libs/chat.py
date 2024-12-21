@@ -44,7 +44,35 @@ def ensure_model_pulled(model: str) -> bool:
     return True
 
 
+# def buscar_cadena_old(query: str,
+#     num_results: int,
+#     temperature: float,
+#     chat_history: Optional[List[Dict[str, str]]] = None,
+#     )  -> str:
+#     respuesta = ""
+
+#     if LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OLLAMA:
+#         respuesta = generate_response_streaming_ollama(
+#             query,
+#             "",
+#             num_results=num_results,
+#             temperature=temperature,
+#             chat_history=chat_history,
+#         )
+
+#     elif LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OPENAI:
+#         respuesta = generate_response_streaming_openai(
+#             query,
+#             "",
+#             num_results=num_results,
+#             temperature=temperature,
+#             chat_history=chat_history,
+#         )
+
+#     return respuesta
+
 def buscar_cadena(query: str,
+    reference: str,
     num_results: int,
     temperature: float,
     chat_history: Optional[List[Dict[str, str]]] = None,
@@ -54,6 +82,7 @@ def buscar_cadena(query: str,
     if LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OLLAMA:
         respuesta = generate_response_streaming_ollama(
             query,
+            reference,
             num_results=num_results,
             temperature=temperature,
             chat_history=chat_history,
@@ -62,6 +91,7 @@ def buscar_cadena(query: str,
     elif LLM_MODELO_SELECCIONADO == LLM_TIPOMODELO_OPENAI:
         respuesta = generate_response_streaming_openai(
             query,
+            reference,
             num_results=num_results,
             temperature=temperature,
             chat_history=chat_history,
@@ -86,61 +116,7 @@ def run_llama_streaming(prompt: str, temperature: float) -> Optional[Iterable[st
 
 
 
-def prompt_template(query: str, context: str, history: List[Dict[str, str]]) -> str:
-    # prompt = """
-    #     Eres un asistente experto en subvenciones que recibe un listado de documentos en formato YAML. Tu tarea es:
-    #         1. Analizar el contenido.
-    #         2. Resumirlo en formato claro y comprensible.
-    #         3. Destacar las partes más importantes: enlaces, beneficiarios, fechas clave y presupuesto.
-    #         4. No te inventes nada.
-
-    #         El formato de cada documento YAML es:
-    #         Convocatoria: 
-    #         Detalle de la convocatoria de ayuda o  subvención: 795854
-    #         Enlace a convocatoria: 
-    #         Órgano, comunidad, autonomía, región, provincia o ayuntamiento convocante: 
-    #         Enlace / url a sede electr�nica presentaci�n ayuda: 
-    #         Fecha de recepci�n: 
-    #         Tipo de ayuda: 
-    #         Tipo de convocatoria: 
-    #         Presupuesto total: 
-    #         Descripción: 
-    #         Tipos de beneficiarios: 
-    #         Sectores involucrados: 
-    #         Regi�n de impacto: 
-    #         Finalidad: 
-    #         Bases reguladoras: 
-    #         URL Bases Reguladoras: 
-    #         Publicaci�n en diario oficial: 
-    #         Estado de convocatoria abierta: 
-    #         Fecha de inicio de solicitudes: 
-    #         Fecha de fin de solicitudes: 
-    #         Inicio de convocatoria: 
-    #         Fin de convocatoria: 
-    #         Reglamento: 
-    #         Otros documentos de la convocatoria: 
-            
-    #         El formato que espero del listado de ayudas es el siguiente:
-
-    #         **Convocatoria de Ayuda: 795795**
-    #         - **Órgano convocante:** MURCIA - AYUNTAMIENTO DE MURCIA
-    #         - **Enlace a la convocatoria:** [Acceder](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/795795)
-    #         - **Sede electrónica para presentar solicitud:** [Ir a sede](https://sede.murcia.es/areas?idCategoria=10004)
-    #         - **Presupuesto total:** 205,000 Euros
-    #         - **Descripción:** Subvenciones para costes de explotaci�n de taxis adaptados.
-    #         - **Beneficiarios:** PYME y personas f�sicas que desarrollan actividad econ�mica.
-    #         - **Sectores involucrados:** Otro transporte terrestre de pasajeros.
-    #         - **Región de impacto:** Regi�n de Murcia (ES62).
-    #         - **Estado de convocatoria:** Cerrada.
-    #         - **Fechas importantes:**
-    #         - Inicio solicitudes: 15/11/2024
-    #         - Fin solicitudes: 28/11/2024
-    #         - **Documentos relevantes:**
-    #         1. **Publicación en el BORM:** [PUBLICACION_BORM.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159031)
-    #         2. **Certificado:** [Certificado_2024.pdf](https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatoria/795795/document/1159030)
-
-    #         """
-    
+def prompt_template(query: str, context: str, history: List[Dict[str, str]]) -> str:    
     prompt = PROMPT_TEMPLATE
 
     prompt += f"""
@@ -153,8 +129,60 @@ def prompt_template(query: str, context: str, history: List[Dict[str, str]]) -> 
     logger.info("Prompt construido con contexto e historial de conversación.")
     return prompt
 
+# def generate_response_streaming_ollama_old(
+#     query: str,
+#     num_results: int,
+#     temperature: float,
+#     chat_history: Optional[List[Dict[str, str]]] = None,
+# )  -> str:
+    
+#     chat_history = chat_history or []
+#     max_history_messages = 10
+#     history = chat_history[-max_history_messages:]
+    
+#     if (TIPO_BD_VECTORIAL==BD_VECTORIAL_CHROMADB):
+#         # Chromadb
+#         context = consultaChromadb(query, num_results,CHROMA_SIMILARITY_THRESHOLD)
+#     else:
+#         # FAISS
+#         context = consultaFaiss(query,num_results)
+
+#     # Generate prompt using the prompt_template function
+#     prompt = prompt_template(query, context, history)
+
+#     logger.info(f"prompt: {prompt}")
+
+#     response_stream = run_llama_streaming(prompt, temperature)
+
+#     response_text=""
+
+#     if response_stream is not None:
+#         for chunk in response_stream:
+#             if (
+#                 isinstance(chunk, dict)
+#                 and "message" in chunk
+#                 and "content" in chunk["message"]
+#             ):
+#                 response_text += chunk["message"]["content"]
+
+#             else:
+#                 logger.error("Formato de chunk no esperado en la respuesta.")
+
+#     if EVAL_SAVE=="1":
+#         logger.info("Vamos a guardar el json para evaluar después")
+#         write_eval_to_json(
+#             user_input=query,
+#             response=response_text,
+#             retrieved_contexts=[context],
+#             reference=""
+#         )
+#         logger.info("json guardado correctamente")
+
+#     return response_text
+
 def generate_response_streaming_ollama(
     query: str,
+    reference: str,
     num_results: int,
     temperature: float,
     chat_history: Optional[List[Dict[str, str]]] = None,
@@ -198,7 +226,7 @@ def generate_response_streaming_ollama(
             user_input=query,
             response=response_text,
             retrieved_contexts=[context],
-            reference=""
+            reference=reference
         )
         logger.info("json guardado correctamente")
 
@@ -208,7 +236,7 @@ def generate_response_streaming_ollama(
 #                                           OPENAI
 ####################################################################################################
 
-def run_openai_streaming(contexto: str,query: str, temperature: float):
+def run_openai_streaming(contexto: str,query: str, reference: str, temperature: float):
     llm = ChatOpenAI(
         model=OPENAI_MODEL_NAME,
         temperature=temperature,  # Utiliza la temperatura definida
@@ -248,7 +276,7 @@ def run_openai_streaming(contexto: str,query: str, temperature: float):
             user_input=query,
             response=response_text,
             retrieved_contexts=[contexto],
-            reference=""
+            reference=reference
         )
         logger.info("json guardado correctamente")
 
@@ -265,8 +293,28 @@ def run_openai_streaming(contexto: str,query: str, temperature: float):
 #     logger.info("Prompt construido OPENAI con contexto e historial de conversación.")
 #     return prompt
 
+# def generate_response_streaming_openai_old(
+#     query: str,
+#     num_results: int,
+#     temperature: float,
+#     chat_history: Optional[List[Dict[str, str]]] = None,
+# ) -> Optional[Iterable[str]]:
+#     chat_history = chat_history or []
+#     max_history_messages = 10
+#     history = chat_history[-max_history_messages:]
+    
+#     if (TIPO_BD_VECTORIAL==BD_VECTORIAL_CHROMADB):
+#         # Chromadb
+#         context = consultaChromadb(query, num_results,CHROMA_SIMILARITY_THRESHOLD)
+#     else:
+#         # FAISS
+#         context = consultaFaiss(query,num_results)
+
+#     return run_openai_streaming(context, query , temperature)
+
 def generate_response_streaming_openai(
     query: str,
+    reference: str,
     num_results: int,
     temperature: float,
     chat_history: Optional[List[Dict[str, str]]] = None,
@@ -282,11 +330,9 @@ def generate_response_streaming_openai(
         # FAISS
         context = consultaFaiss(query,num_results)
 
-    # Generate prompt using the prompt_template function
-    #prompt = prompt_template_openai(query, context, history)
-    #logger.info(f"prompt: {prompt}")
+    return run_openai_streaming(context, query, reference , temperature)
 
-    return run_openai_streaming(context, query , temperature)
+
 
 # def run_openai_streaming1(prompt: str, temperature: float) -> Optional[Iterable[str]]:
 #     try:

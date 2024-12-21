@@ -1,0 +1,64 @@
+{
+    "id": 1006278,
+    "organo": {
+        "nivel1": "CERVERA DE PISUERGA",
+        "nivel2": "AYUNTAMIENTO DE CERVERA DE PISUERGA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804718",
+    "fechaRecepcion": "2024-12-20T11:51:43+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 775,
+    "mrr": false,
+    "descripcion": "CELEBRACIÓN DEL IV CONCURSO DE OLLAS FERROVIARIAS",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Actividades recreativas y de entretenimiento",
+            "codigo": "93.2"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES414 - Palencia"
+        }
+    ],
+    "descripcionFinalidad": "Cultura",
+    "descripcionBasesReguladoras": "BASES REGULADORAS DE LA CELEBRACIÓN DEL IV CONCURSO DE OLLAS FERROVIARIAS",
+    "urlBasesReguladoras": "https://cerveradepisuerga.sedelectronica.es/preview-document.1",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-09T00:00:00+01:00",
+    "textInicio": "El día siguiente de su publicación el B.O.P.",
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180738,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "20241219_Resolución_DECRETO 2024-0984 [Bases reguladoras IV Concurso Ollas Ferroviarias].pdf",
+            "long": 302506,
+            "datMod": "2024-12-20T13:15:15.000+01:00",
+            "datPublicacion": "2024-12-20T13:15:15.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

@@ -1,0 +1,84 @@
+{
+    "id": 1006299,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE GIRONA",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE GIRONA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804739",
+    "fechaRecepcion": "2024-12-20T12:17:11+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 40000,
+    "mrr": false,
+    "descripcion": "Convocatòria anticipada de subvencions a ajuntaments i consells comarcals per a la compra de material per contribuir a la lluita contra la pobresa energètica, any 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Administración Pública y de la política económica y social",
+            "codigo": "84.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES512 - Girona"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "Bases reguladores de subvencions a ajuntaments i consells comarcals per a la compra de material per contribuir a la lluita contra la pobresa energètica",
+    "urlBasesReguladoras": "https://www.ddgi.cat/web/servei/8228/subvencions-a-ajuntaments-i-consells-comarcals-per-a-la-compra-de-material-per-contribuir-a-la-lluita-contra-la-pobresa-energetica-2023",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-01T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-02-15T00:00:00+01:00",
+    "textInicio": null,
+    "textFin": null,
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180795,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "3.2_Convocatoria_pobresa_energetica_2025.pdf",
+            "long": 188786,
+            "datMod": "2024-12-20T13:15:11.000+01:00",
+            "datPublicacion": "2024-12-20T13:15:11.000+01:00"
+        },
+        {
+            "id": 1180794,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "3.1_convocatoria_pobreza_energetica_2025.pdf",
+            "long": 206323,
+            "datMod": "2024-12-20T13:15:11.000+01:00",
+            "datPublicacion": "2024-12-20T13:15:11.000+01:00"
+        }
+    ],
+    "anuncios": [
+        {
+            "numAnuncio": 172308,
+            "titulo": "subvenciones a ayuntamientos y consejos comarcales para la compra de material para contribuir en la lucha contra la pobreza energética, año 2025",
+            "tituloLeng": "Convocatòria anticipada de les les subvencions a ajuntaments i consells comarcals per a la compra de material per contribuir a la lluita contra la pobresa energètica, any 2025",
+            "texto": "<p>De conformidad con lo previsto en los artículos 17.3 b y 20.8 a de la Ley 38/2003, de 17 de noviembre, General de Subvenciones, se publica el extracto de la convocatoria, cuyo texto completo se puede consultar en la Base de Datos Nacional de Subvenciones (http://www.pap.minhafp.gob.es/bdnstrans). </p><p></p><p>Primero. Beneficiarios \t</p><p></p><p>Ayuntamientos y los consejos comarcales del ámbito territorial de la Diputació de Girona que hayan solicitado actuaciones del eje 1 del Programa de Ahorro Energético y Pobreza Energética a través de Plan de Servicios de vivenda. </p><p></p><p>Segundo. Objeto y finalidad</p><p></p><p>El objeto de esta convocatoria se regular la concesión de subvenciones en régimen de concurrencia competitiva destinadas a los ayuntamientos y consejos comarcales para la compra de material para contribuir en la lucha contra la pobreza energética, con el objetivo de fomentar la extensión de estas actuaciones a todas las poblaciones de la demarcación de Girona relacionadas con el Programa de Ahorro Energético y Pobreza Energética.</p><p></p><p>Tercero. Bases reguladoras</p><p></p><p>Acuerdo del Pleno de la Diputació de Girona, de 17 de octubre de 2023, publicado en el BOPG núm. 240, de 18 de diciembre de 2023.</p><p></p><p>Cuarto. Cuantía</p><p></p><p>El importe total destinado a la convocatoria es de 40.000,00 €.</p><p></p><p>Quinto. Plazo de presentación de solicitudes</p><p></p><p>A partir del 2 de enero del 2025 y hasta el día 15 de febrero de 2025 a través del portal de Subvenciones de la Diputació de Girona: https://seu.ddgi.cat/subvencions en la que se podrán encontrar los documentos normalizados y la solicitud específica de esta línea.</p><p>Sexto. Plazo para justificar las subvenciones</p><p></p><p>El plazo para justificar las acciones subvencionadas finalizará el 30 de noviembre de 2025. </p>",
+            "textoLeng": "<p>De conformitat amb el que preveuen els articles 17.3.b i 20.8.a de la Llei 38/2003, de 17 de novembre, General de Subvencions, es publica l?extracte de la convocatòria, el text complert de la qual es pot consultar a la Base de Datos Nacional de Subvenciones (http://www.pap.minhafp.gob.es/bdnstrans): </p><p></p><p>Primer. Beneficiaris\t</p><p></p><p>Ajuntaments i els consells comarcals de l?àmbit territorial de la Diputació de Girona que hagin sol·licitat actuacions de l?eix 1 del Programa d?Estalvi Energètic i Pobresa Energètica a través del Pla de Serveis d?Habitatge. </p><p></p><p>Segon. Objecte i finalitat</p><p></p><p>L?objecte d?aquesta convocatòria és regular la concessió de subvencions en règim de concurrència competitiva destinades als ajuntaments i consells comarcals per a la compra de material per contribuir a la lluita contra la pobresa energètica, amb l?objectiu de fomentar l?extensió d?aquestes actuacions a totes les poblacions de la demarcació de Girona relacionades amb el Programa d?Estalvi Energètic i Pobresa Energètica.</p><p></p><p>Tercer. Bases reguladores</p><p></p><p>Acord del Ple de la Diputació de Girona, de 17 d?octubre de 2023, publicat al BOPG número 240, de 18 de desembre de 2023.</p><p></p><p>Quart. Quantia</p><p></p><p>L?import total destinat a la convocatòria és de 40.000,00 €.</p><p></p><p>Cinquè. Termini de presentació de sol·licituds</p><p></p><p>A partir del 2 de gener de 2025 i fins al dia 15 de febrer de 2025 a través del Portal de Subvencions de la Diputació de Girona: https://seu.ddgi.cat/subvencions en la qual es podran trobar els documents normalitzats i la sol·licitud específica d?aquesta línia.</p><p></p><p>Sisè. Termini per justificar les subvencions</p><p></p><p>El termini per justificar les accions subvencionades finalitzarà el 30 de novembre de 2025.</p>",
+            "url": "https://ssl4.ddgi.cat/bopV1/pdf/2024/245/2024245011453.pdf",
+            "cve": null,
+            "desDiarioOficial": "B.O.P. DE GIRONA",
+            "datPublicacion": "2024-12-23T00:00:00.000+01:00"
+        }
+    ],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

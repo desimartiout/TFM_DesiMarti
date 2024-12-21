@@ -1,6 +1,7 @@
 from itertools import product
 
 from config.ragas.ragas_config import  RAGAS_FILE_PATH_QUESTIONS
+from ragas_eval.utils import nombre_fichero_sintetico_questions
 
 # Listas base para generar las preguntas
 regiones = ["Murcia", "Cataluña", "Madrid", "Valencia", "Barcelona", "San Juan de Alicante", "Castellón", "Paiporta"]
@@ -80,7 +81,7 @@ for palabra in palabras_clave:
     preguntas.append(plantillas["palabras_clave"].format(item=palabra))
 
 
-ruta_fichero = RAGAS_FILE_PATH_QUESTIONS + "dataset_sintetico.txt"
+ruta_fichero = nombre_fichero_sintetico_questions()
 # Guardar las preguntas en un archivo TXT
 with open(ruta_fichero, "w", encoding="utf-8") as file:
     file.write("\n".join(preguntas))

@@ -51,22 +51,34 @@
     "sectoresProductos": [],
     "documentos": [
         {
-            "id": 1177966,
+            "id": 1180495,
             "descripcion": "Texto en otra lengua de la convocatoria",
             "nombreFic": "xxx_convocatoria_benestar_2024___cat.docx_signed.pdf",
             "long": 490337,
-            "datMod": "2024-12-17T13:15:07.000+01:00",
-            "datPublicacion": "2024-12-17T13:15:07.000+01:00"
+            "datMod": "2024-12-20T11:15:15.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:15.000+01:00"
         },
         {
-            "id": 1177965,
+            "id": 1180494,
             "descripcion": "Texto en castellano de la convocatoria",
             "nombreFic": "xxx_Convocatoria_BENESTAR_2024___ES.pdf",
             "long": 435618,
-            "datMod": "2024-12-17T13:15:07.000+01:00",
-            "datPublicacion": "2024-12-17T13:15:07.000+01:00"
+            "datMod": "2024-12-20T11:15:15.000+01:00",
+            "datPublicacion": "2024-12-20T11:15:15.000+01:00"
         }
     ],
-    "anuncios": [],
+    "anuncios": [
+        {
+            "numAnuncio": 172284,
+            "titulo": "Procedimiento Beta",
+            "tituloLeng": null,
+            "texto": "Procedimiento Beta",
+            "textoLeng": null,
+            "url": "https://dogc.gencat.cat/es/document-del-dogc/index.html?documentId=1002443",
+            "cve": null,
+            "desDiarioOficial": "DOGC. D.O. DE LA GENERALITAT DE CATALUNYA",
+            "datPublicacion": "2024-12-20T00:00:00.000+01:00"
+        }
+    ],
     "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
 }

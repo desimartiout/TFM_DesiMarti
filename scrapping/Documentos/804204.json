@@ -1,0 +1,64 @@
+{
+    "id": 1005764,
+    "organo": {
+        "nivel1": "EXTREMADURA",
+        "nivel2": "DIRECCIÓN GENERAL DE JÓVENES Y DEPORTES",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804204",
+    "fechaRecepcion": "2024-12-19T12:04:53+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 750000,
+    "mrr": false,
+    "descripcion": "Ayudas 2025 Infraestructuras Deportivas LÍNEA REFORMA según Resolución de 4 de diciembre de 2024 que la convoca",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS JURÍDICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "Administración Pública y de la política económica y social",
+            "codigo": "84.1"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES43 - EXTREMADURA"
+        }
+    ],
+    "descripcionFinalidad": "Infraestructuras",
+    "descripcionBasesReguladoras": "Orden de 28 de julio de 2022 por la que se establecen las bases reguladoras para la concesión de ayudas para la construcción, reforma o equipamiento de instalaciones deportivas municipales de la Comunidad Autónoma de Extremadura",
+    "urlBasesReguladoras": "http://doe.juntaex.es/pdfs/doe/2022/1520o/22050136.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "DÍA SIGUIENTE PUBLICACIÓN EN DOE",
+    "textFin": "10 DÍAS HÁBILES DESDE SIGUIENTE A PUBLICACIÓN",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1179668,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "Ayudas 2025 Infraestructuras Deportivas LÍNEA REFORMA según Resolución de 4 de diciembre de 2024 que la convoca.PDF",
+            "long": 1052662,
+            "datMod": "2024-12-19T13:15:40.000+01:00",
+            "datPublicacion": "2024-12-19T13:15:40.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}
