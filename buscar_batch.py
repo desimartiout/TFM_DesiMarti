@@ -1,5 +1,6 @@
 
 import argparse
+from libs.utils import limpia_cadena
 from ragas_eval.utils import setup_logging_ragas
 from libs.chat import buscar_cadena
 from config.global_config import OLLAMA_TEMPERATURE, CHROMA_NUMDOCUMENTS, RAGAS_FILE_PATH_QUESTIONS
@@ -31,7 +32,7 @@ def main():
         with open(fichero, 'r', encoding='utf-8') as file:
             for line_number, line in enumerate(file, start=1):
                 print(f"Línea {line_number}: {line.strip()}")
-                hacer_consulta(line.strip())
+                hacer_consulta(limpia_cadena(line))
 
     except FileNotFoundError:
         print(f"Error: El archivo '{fichero}' no existe.")

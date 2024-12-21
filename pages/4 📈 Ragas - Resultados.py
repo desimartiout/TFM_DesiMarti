@@ -116,3 +116,6 @@ if csv_files:
                     st.code(f.read(), language="csv", line_numbers=True, wrap_lines=True)
 else:
     st.write("No se han encontrado archivos csv en el directorio especificado.")
+    st.toast(":x: No se han encontrado archivos csv en el directorio especificado.")
+
+st.toast(f":white_check_mark: Información cargada correctamente")

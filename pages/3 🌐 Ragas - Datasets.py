@@ -23,6 +23,7 @@ json_directory = RAGAS_FILE_PATH  # Cambia esto por el path de tu directorio
 # Listar los archivos JSON en el directorio especificado
 json_files = [f for f in os.listdir(json_directory) if f.endswith('.json')]
 
+#Ordenamos descendentemente
 json_files.sort(reverse=True)
 
 # Si hay archivos JSON, mostrar el desplegable para seleccionar uno
@@ -59,6 +60,8 @@ if json_files:
             st.json(json_data)
 else:
     st.write("No se han encontrado archivos JSON en el directorio especificado.")
+
+st.toast(f":white_check_mark: Información cargada correctamente")
 
 # # Cargar archivo CSV
 # st.sidebar.header("Cargar Archivo")

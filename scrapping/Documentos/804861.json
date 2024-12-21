@@ -1,0 +1,98 @@
+{
+    "id": 1006421,
+    "organo": {
+        "nivel1": "COMUNITAT VALENCIANA",
+        "nivel2": "SECRETARÍA AUTONÓMICA DE AGRICULTURA, GANADERÍA Y PESCA",
+        "nivel3": null
+    },
+    "sedeElectronica": null,
+    "codigoBDNS": "804861",
+    "fechaRecepcion": "2024-12-20T14:10:35+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concesión directa - canónica",
+    "presupuestoTotal": 22391608.2,
+    "mrr": false,
+    "descripcion": "RESOLUCIÓN de la directora general de Producción Agrícola y Ganadera, por la que se establece la convocatoria anticipada, para el Plan 2025, de las ayudas de la Comunitat Valenciana destinadas a la suscripción de seguros agrarios incluidos en los planes a",
+    "descripcionLeng": "RESOLUCIÓ de la directora general de Producció Agrícola i Ramadera, per la qual s’establix la convocatòria anticipada, per al Pla 2025, de les ajudes de la Comunitat Valenciana destinades a la subscripció d’assegurances agràries incloses en els plans anua",
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "AGRICULTURA, GANADERÍA, SILVICULTURA Y PESCA",
+            "codigo": "A"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES52 - COMUNIDAD VALENCIANA"
+        }
+    ],
+    "descripcionFinalidad": "Agricultura, Pesca y Alimentación",
+    "descripcionBasesReguladoras": "ORDEN 25/2023, de 31 de agosto, de la Conselleria de Agricultura, Ganadería y Pesca, por la que se aprueban las bases reguladoras de la concesión de subvenciones de la Comunitat Valenciana a la suscripción de seguros agrarios incluidos en los planes anual",
+    "urlBasesReguladoras": "https://dogv.gva.es/es/resultat-dogv?signatura=2023/9113&L=0",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": "2025-01-01T00:00:00+01:00",
+    "fechaFinSolicitud": "2025-12-31T00:00:00+01:00",
+    "textInicio": "01/01/2025",
+    "textFin": "31/12/2025",
+    "ayudaEstado": "SA.109417",
+    "urlAyudaEstado": "https://competition-cases.ec.europa.eu/cases/SA.109417",
+    "fondos": [],
+    "reglamento": {
+        "descripcion": "PRODUCCIÓN AGRÍCOLA PRIMARIA - REG (UE) 2022/2472, de 14 DE DICIEMBRE, de exención de notificación (vigente desde 01-01-2023)",
+        "orden": null
+    },
+    "objetivos": [
+        {
+            "descripcion": "ART. 27 AYUDAS DESTINADAS AL SECTOR GANADERO Y AYUDAS POR GANADO MUERTO"
+        },
+        {
+            "descripcion": "ART. 28 AYUDAS DESTINADAS AL PAGO DE PRIMAS DE SEGUROS Y A CONTRIBUCIONES FINANCIERAS A FONDOS MUTUALES"
+        }
+    ],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1181079,
+            "descripcion": "Texto en castellano de la convocatoria",
+            "nombreFic": "3.1_Resolución seguros agrarios 2025 anticipada CAS_v8_firmado.pdf",
+            "long": 325218,
+            "datMod": "2024-12-20T18:15:09.000+01:00",
+            "datPublicacion": "2024-12-20T18:15:09.000+01:00"
+        },
+        {
+            "id": 1181080,
+            "descripcion": "Texto en otra lengua de la convocatoria",
+            "nombreFic": "Resolucin seguros agrarios 2025 anticipada CAS_v8_enlaceval_24-011417_trad PL 20241218.pdf",
+            "long": 313298,
+            "datMod": "2024-12-20T18:15:09.000+01:00",
+            "datPublicacion": "2024-12-20T18:15:09.000+01:00"
+        },
+        {
+            "id": 1181081,
+            "descripcion": "4.1_Resolución seguros agrarios 2025 anticipada EXTRACTO CAS_firmado",
+            "nombreFic": "4.1_Resolución seguros agrarios 2025 anticipada EXTRACTO CAS_firmado.pdf",
+            "long": 244320,
+            "datMod": "2024-12-20T18:15:09.000+01:00",
+            "datPublicacion": "2024-12-20T18:15:09.000+01:00"
+        },
+        {
+            "id": 1181082,
+            "descripcion": "Resolucin seguros agrarios 2025 anticipada EXTRACTO CAS_24-011418_trad PL 20241218",
+            "nombreFic": "Resolucin seguros agrarios 2025 anticipada EXTRACTO CAS_24-011418_trad PL 20241218.pdf",
+            "long": 133847,
+            "datMod": "2024-12-20T18:15:08.000+01:00",
+            "datPublicacion": "2024-12-20T18:15:08.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

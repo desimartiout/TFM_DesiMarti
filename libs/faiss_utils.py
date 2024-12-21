@@ -39,7 +39,7 @@ def cargar_indice_y_metadatos():
     # print(METADATA_FILE_FAISS)
     if os.path.exists(INDEX_FILE_FAISS) and os.path.exists(METADATA_FILE_FAISS):
         index = faiss.read_index(INDEX_FILE_FAISS)
-        with open(METADATA_FILE_FAISS, "r") as f:
+        with open(METADATA_FILE_FAISS, "r", encoding='utf-8') as f:
             metadatos = json.load(f)
     else:
         # Crear índice vacío
@@ -50,8 +50,8 @@ def cargar_indice_y_metadatos():
 def guardar_indice_y_metadatos(index, metadatos):
     """Guarda el índice FAISS y los metadatos en disco."""
     faiss.write_index(index, INDEX_FILE_FAISS)
-    with open(METADATA_FILE_FAISS, "w") as f:
-        json.dump(metadatos, f)
+    with open(METADATA_FILE_FAISS, "w", encoding='utf-8') as f:
+        json.dump(metadatos, f, ensure_ascii=False, indent=4)
     print("Índice y metadatos guardados correctamente.")
 
 def agregar_documento(documento):
@@ -62,7 +62,7 @@ def agregar_documento(documento):
     # Procesar nuevos documentos
     textos = [documento]
     embeddings = modelo.encode(textos)
-
+    
     # Añadir nuevos embeddings al índice
     index.add(embeddings)
 

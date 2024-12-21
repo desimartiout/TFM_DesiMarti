@@ -14,6 +14,7 @@ from libs.faiss_utils import agregar_documento,obtener_todos_documentos
 
 from config.scrapping.scrapping_config import URL_CONVOCATORIA, URL_CONVOCATORIA_POST, TEMPLATE_DOC, URL_BASE_API, RUTA_DESTINO_DOCUMENTOS, PAGE_SIZE, TOTAL_PAGES
 from config.global_config import BD_VECTORIAL_CHROMADB, BD_VECTORIAL_FAISS, TIPO_BD_VECTORIAL
+from libs.utils import limpia_cadena
 from scrapping.utils import setup_logging_scrap
 
 def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
@@ -56,9 +57,10 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
 
         logging.info(f"Vamos a cargar el documento en bd vectorial {numConvocatoria}")
 
+        formatted_text=limpia_cadena(formatted_text)
         if (TIPO_BD_VECTORIAL==BD_VECTORIAL_CHROMADB):
             #Chromadb
-            cargarDocumento(formatted_text.lower(),json_aplanado,numConvocatoria)
+            cargarDocumento(formatted_text,json_aplanado,numConvocatoria)
         else:
             #faiss
             agregar_documento(formatted_text)

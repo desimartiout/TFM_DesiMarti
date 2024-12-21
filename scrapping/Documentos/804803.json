@@ -1,0 +1,64 @@
+{
+    "id": 1006363,
+    "organo": {
+        "nivel1": "DIPUTACIÓN PROV. DE ALICANTE",
+        "nivel2": "DIPUTACIÓN PROVINCIAL DE ALACANT/ALICANTE",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://diputacionalicante.sedelectronica.es",
+    "codigoBDNS": "804803",
+    "fechaRecepcion": "2024-12-20T13:17:43+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 9600,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA ANTICIPADA DE UNA BECA DE FORMACIÓN PARA GRADOS EN DOCUMENTACIÓN O EN INFORMACIÓN Y DOCUMENTACIÓN. ANUALIDAD 2025",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PERSONAS FÍSICAS QUE NO DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "INFORMACIÓN Y COMUNICACIONES",
+            "codigo": "J"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES521 - Alicante / Alacant"
+        }
+    ],
+    "descripcionFinalidad": "Educación",
+    "descripcionBasesReguladoras": "ORDENANZA GENERAL DE SUBVENCIONES DE LA EXCMA. DIPUTACIÓN PROVINCIAL DE ALICANTE",
+    "urlBasesReguladoras": "http://sede.diputacionalicante.es/wp-content/uploads/2014/04/35_subOrdenanza.pdf",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "A partir del día siguiente de su publicación en el BOP de Alicante",
+    "textFin": "15 días hábiles",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180893,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "01.-Bases y Anexos 1 Beca Documentación 2025.pdf",
+            "long": 508528,
+            "datMod": "2024-12-20T18:15:29.000+01:00",
+            "datPublicacion": "2024-12-20T18:15:29.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

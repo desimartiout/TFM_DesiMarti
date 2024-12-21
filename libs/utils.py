@@ -120,6 +120,11 @@ def stream_data(texto):
         yield word + " "
         time.sleep(0.04)
 
+def limpia_cadena(texto) -> str:
+    # resultado = re.sub(r'\s+', ' ', texto).lower()
+    # return resultado.encode('utf-8').decode('unicode_escape')
+    return re.sub(r'\s+', ' ', texto).lower()
+    
 
 ################### HTML y Estilos ###################
 

@@ -1,0 +1,79 @@
+{
+    "id": 1006331,
+    "organo": {
+        "nivel1": "CANTABRIA",
+        "nivel2": "SOCIEDAD PARA EL DESARROLLO REGIONAL DE CANTABRIA, S.A.",
+        "nivel3": null
+    },
+    "sedeElectronica": "http://ayudas.sodercan.es",
+    "codigoBDNS": "804771",
+    "fechaRecepcion": "2024-12-20T12:53:22+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 347368.44,
+    "mrr": false,
+    "descripcion": "Resolución SOD/INVES/24/24/02, de 20 de diciembre de 2024, por la que se convoca para el año 2024 la línea de subvenciones del programa de “Fomento de la transferencia tecnológica (INVESNOVA)”.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "GRAN EMPRESA"
+        },
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",
+            "codigo": "M"
+        },
+        {
+            "descripcion": "INDUSTRIA MANUFACTURERA",
+            "codigo": "C"
+        },
+        {
+            "descripcion": "INFORMACIÓN Y COMUNICACIONES",
+            "codigo": "J"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES130 - Cantabria"
+        }
+    ],
+    "descripcionFinalidad": "Investigación, desarrollo e innovación",
+    "descripcionBasesReguladoras": "Orden IND/23/2024, de 28 de mayo, por la que se establecen las bases reguladoras de las subvenciones a proyectos de Fomento de la transferencia tecnológica (INVESNOVA), promovidas por SODERCAN, S.A.",
+    "urlBasesReguladoras": "https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=405141",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": null,
+    "textInicio": "Día siguiente a la publicación del extracto de la convocatoria en el BOC",
+    "textFin": "2 meses a contar desde el día siguiente a la publicación del extracto de la convocatoria en el BOC",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": null,
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180832,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "2ª Convocatoria INVESNOVA 2024.pdf",
+            "long": 918292,
+            "datMod": "2024-12-20T13:15:05.000+01:00",
+            "datPublicacion": "2024-12-20T13:15:05.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}

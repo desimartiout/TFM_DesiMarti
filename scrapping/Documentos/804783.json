@@ -1,0 +1,111 @@
+{
+    "id": 1006343,
+    "organo": {
+        "nivel1": "OTROS",
+        "nivel2": "CÁMARA DE COMERCIO DE GRANADA",
+        "nivel3": null
+    },
+    "sedeElectronica": "https://sede.camara.es/sede/granada/tramites",
+    "codigoBDNS": "804783",
+    "fechaRecepcion": "2024-12-20T13:06:40+01:00",
+    "instrumentos": [
+        {
+            "descripcion": "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN "
+        }
+    ],
+    "tipoConvocatoria": "Concurrencia competitiva - canónica",
+    "presupuestoTotal": 10177.84,
+    "mrr": false,
+    "descripcion": "CONVOCATORIA PYME GLOBAL 2025 VISITA A FERIA FRUITLOGISTICA 2025. BERLIN (ALEMANIA). DEL 5 AL 7 DE FEBRERO DE 2025. PARA PYMES DE LA DEMARCACIÓN TERRITORIAL DE LA CÁMARA DE COMERCIO DE GRANADA.",
+    "descripcionLeng": null,
+    "tiposBeneficiarios": [
+        {
+            "descripcion": "PYME Y PERSONAS FÍSICAS QUE DESARROLLAN ACTIVIDAD ECONÓMICA"
+        }
+    ],
+    "sectores": [
+        {
+            "descripcion": "COMERCIO AL POR MAYOR Y AL POR MENOR; REPARACIÓN DE VEHÍCULOS DE MOTOR Y MOTOCICLETAS",
+            "codigo": "G"
+        },
+        {
+            "descripcion": "HOSTELERÍA",
+            "codigo": "I"
+        },
+        {
+            "descripcion": "INDUSTRIA MANUFACTURERA",
+            "codigo": "C"
+        },
+        {
+            "descripcion": "OTROS SERVICIOS",
+            "codigo": "S"
+        },
+        {
+            "descripcion": "TRANSPORTE Y ALMACENAMIENTO",
+            "codigo": "H"
+        }
+    ],
+    "regiones": [
+        {
+            "descripcion": "ES614 - Granada"
+        }
+    ],
+    "descripcionFinalidad": "Otras actuaciones de carácter económico",
+    "descripcionBasesReguladoras": "CONVOCATORIA PYME GLOBAL 2025 VISITA A FERIA FRUITLOGISTICA 2025. BERLIN (ALEMANIA). DEL 5 AL 7 DE FEBRERO DE 2025. PARA PYMES DE LA DEMARCACIÓN TERRITORIAL DE LA CÁMARA DE COMERCIO DE GRANADA.",
+    "urlBasesReguladoras": "https://www.camaragranada.org/evento/subvenciones-y-programas/ayudas-a-empresas--pymes-y-autonomos/convocatorias-de-ayudas",
+    "sePublicaDiarioOficial": true,
+    "abierto": false,
+    "fechaInicioSolicitud": null,
+    "fechaFinSolicitud": "2025-01-12T00:00:00+01:00",
+    "textInicio": "A LAS NUEVE HORAS DEL DÍA HÁBIL SIGUIENTE A LA PUBLICACIÓN BOP GRANADA",
+    "textFin": "A LAS 14:00 HORAS ",
+    "ayudaEstado": null,
+    "urlAyudaEstado": null,
+    "fondos": [
+        {
+            "descripcion": "FEDER - FONDO EUROPEO DE DESARROLLO REGIONAL"
+        }
+    ],
+    "reglamento": {
+        "descripcion": "REG (UE) 2023/2831 de minimis, General",
+        "orden": null
+    },
+    "objetivos": [],
+    "sectoresProductos": [],
+    "documentos": [
+        {
+            "id": 1180856,
+            "descripcion": "Documento de la convocatoria en español",
+            "nombreFic": "Convocatoria de ayudas PYME GLOBAL FUIT LOGISTICA 2025.pdf",
+            "long": 450659,
+            "datMod": "2024-12-20T13:15:02.000+01:00",
+            "datPublicacion": "2024-12-20T13:45:59.000+01:00"
+        },
+        {
+            "id": 1180864,
+            "descripcion": "ANEXO III TIPOLOGÍA DE GASTOS ELEGIBLES Y JUSTIFICACIÓN",
+            "nombreFic": "Anexo 3. Tipologia Gastos Elegibles y Justificación empresa beneficiaria Fruit Logistica 2025.pdf",
+            "long": 429006,
+            "datMod": "2024-12-20T13:15:02.000+01:00",
+            "datPublicacion": "2024-12-20T13:45:59.000+01:00"
+        },
+        {
+            "id": 1180863,
+            "descripcion": "ANEXO II MODELO DE RESOLUCIÓN DE ADMISIÓN",
+            "nombreFic": "Anexo 2. Modelo de Resolución de admisión Convocatoria Ayuda Fruit Logistica 2025.pdf",
+            "long": 517062,
+            "datMod": "2024-12-20T13:15:02.000+01:00",
+            "datPublicacion": "2024-12-20T13:45:59.000+01:00"
+        },
+        {
+            "id": 1180860,
+            "descripcion": "ANEXO I DECLARACIONES RESPONSABLES",
+            "nombreFic": "Anexo 1. Declaraciones Responsables Convocatoria Ayuda Fruit Logistica 2025.pdf",
+            "long": 1697974,
+            "datMod": "2024-12-20T13:15:02.000+01:00",
+            "datPublicacion": "2024-12-20T13:45:59.000+01:00"
+        }
+    ],
+    "anuncios": [],
+    "advertencia": "La reutilización de los datos del Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas está sujeta a una serie de restricciones y consideraciones legales. Consulte el aviso legal en https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal.Además, el usuario debe ser consciente que la información presentada es de naturaleza dinámica, y que los datos pueden ser sometidos a correcciones, inserciones, modificaciones y eliminaciones en momentos posteriores a su extracción."
+}
