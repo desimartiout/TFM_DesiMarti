@@ -20,14 +20,19 @@ st.title(DATASET_TITLE)
 # Directorio donde se encuentran los archivos JSON
 json_directory = RAGAS_FILE_PATH  # Cambia esto por el path de tu directorio
 
-# Listar los archivos JSON en el directorio especificado
-json_files = [f for f in os.listdir(json_directory) if f.endswith('.json')]
+# Listar los archivos JSON en el directorio especificado que tienen cierto tamaño
+# json_files = [f for f in os.listdir(json_directory) if f.endswith('.json')]
+json_files = [
+    f for f in os.listdir(json_directory)
+    if f.endswith('.json') and os.path.getsize(os.path.join(json_directory, f)) > 10
+]
 
 #Ordenamos descendentemente
 json_files.sort(reverse=True)
 
 # Si hay archivos JSON, mostrar el desplegable para seleccionar uno
 if json_files:
+
     json_file_name = st.selectbox("Selecciona un archivo JSON", json_files)
 
     # Si se selecciona un archivo, cargarlo
@@ -62,34 +67,3 @@ else:
     st.write("No se han encontrado archivos JSON en el directorio especificado.")
 
 st.toast(f":white_check_mark: Información cargada correctamente")
-
-# # Cargar archivo CSV
-# st.sidebar.header("Cargar Archivo")
-# uploaded_file = st.sidebar.file_uploader("dataset json ragas CSV", type=["json"])
-# if uploaded_file:
-#     # Cargar el archivo JSON
-#     json_data = json.load(uploaded_file)
-
-#     # Convertir el JSON a DataFrame, si es posible
-#     if isinstance(json_data, list):
-#         df_json = pd.DataFrame(json_data)
-#     elif isinstance(json_data, dict):
-#         df_json = pd.DataFrame([json_data])
-#     else:
-#         df_json = pd.DataFrame()
-
-#     # Crear tabs para mostrar el JSON y el DataFrame
-#     tab1, tab2 = st.tabs(["Dataset del JSON", "Fichero JSON"])
-
-#     # Tab 1: Mostrar el dataset del JSON
-#     with tab1:
-#         st.write("### Dataset del archivo JSON")
-#         st.dataframe(df_json, use_container_width=True)
-
-#     # Tab 2: Mostrar el archivo JSON
-#     with tab2:
-#         st.write("### Fichero JSON")
-#         st.json(json_data)
-
-# else:
-#     st.info("Sube un archivo Json del directorio de datasets")

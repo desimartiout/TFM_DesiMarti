@@ -91,17 +91,19 @@ if csv_files:
                         st.write(f"### Descripción de {col}")
                         st.write(descripciones[col])
 
-                    # Histograma
-                    st.write(f"#### Histograma de {col}")
-                    fig, ax = plt.subplots()
-                    sns.histplot(df[col], kde=True, ax=ax)
-                    st.pyplot(fig)
-
-                    # Boxplot
-                    st.write(f"#### Boxplot de {col}")
-                    fig, ax = plt.subplots()
-                    sns.boxplot(x=df[col], ax=ax)
-                    st.pyplot(fig)
+                    col1, col2 = st.columns([1, 1])
+                    with col1:
+                        # Histograma
+                        st.write(f"#### Histograma de {col}")
+                        fig, ax = plt.subplots()
+                        sns.histplot(df[col], kde=True, ax=ax)
+                        st.pyplot(fig)
+                    with col2:
+                        # Boxplot
+                        st.write(f"#### Boxplot de {col}")
+                        fig, ax = plt.subplots()
+                        sns.boxplot(x=df[col], ax=ax)
+                        st.pyplot(fig)
 
                 # Correlaciones entre las columnas numéricas
                 st.write("### Matriz de correlación")
