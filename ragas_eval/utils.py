@@ -4,6 +4,7 @@ import csv
 import logging
 from pandas import DataFrame
 from datetime import datetime
+from config.global_config import RAGAS_FILE_PATH_QUESTIONS
 from config.ragas.ragas_config import RAGAS_FILE_PATH_RESULTS, RAGAS_FILE_PATH_LOG
 
 def setup_logging_ragas() -> None:
@@ -48,7 +49,18 @@ def nombre_fichero_ragas_questions() -> str:
     current_date = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
 
     # Crear el nombre del archivo con la fecha
-    ragas_file_path = os.path.join(RAGAS_FILE_PATH_RESULTS, f"dataset_ragas_{current_date}_ragas_results.csv")
+    ragas_file_path = os.path.join(RAGAS_FILE_PATH_QUESTIONS, f"dataset_ragas_{current_date}_ragas_results.csv")
+    
+    return ragas_file_path
+
+def nombre_fichero_sintetico_questions() -> str:
+    """
+    Devuelve el nombre del fichero de evaluación donde se alacenarán los datos.
+    """
+    current_date = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
+
+    # Crear el nombre del archivo con la fecha
+    ragas_file_path = os.path.join(RAGAS_FILE_PATH_QUESTIONS, f"dataset_sintetico_{current_date}_ragas_results.csv")
     
     return ragas_file_path
 

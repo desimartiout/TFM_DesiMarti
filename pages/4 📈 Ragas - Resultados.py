@@ -56,11 +56,11 @@ if csv_files:
         # Si se cargó el archivo CSV correctamente
         if df is not None:
                        
-            df = df.drop(columns=['reference','context_recall','factual_correctness'])
+            # df = df.drop(columns=['reference','context_recall','factual_correctness'])
             
             # Convertir las columnas numéricas a tipo numérico (si están como cadenas)
             numeric_cols = [
-                "faithfulness",
+                "context_recall","factual_correctness", "faithfulness",
                 "semantic_similarity", "answer_relevancy", "context_precision"
             ]
             
