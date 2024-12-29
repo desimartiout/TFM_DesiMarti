@@ -70,13 +70,15 @@ Se puede tambier especificar los parámetros para la llamada al API
 
 ## Generar datasets de preguntas
 
-Este fichero se genera mediante el script `python.exe generar_dataset_sintetico.py`
+En esta sección se explica como se pueden generar datasets de preguntas para evaluar el sistema.
 
 ### Generar dataset sintético con preguntas prefijadas
 
-Este fichero se genera mediante el script `python.exe generar_dataset_ragas.py`
+Este fichero se genera mediante el script `python.exe generar_dataset_sintetico.py`
 
 ### Generar dataset sintético con RAGAS
+
+Este fichero se genera mediante el script `python.exe generar_dataset_ragas.py`
 
 ## Búsquedas desatendidas
 
@@ -92,7 +94,7 @@ El proceso lo que hace es coger cada línea simular la búsqueda con el chat, ob
 
 `python.exe buscar_batch_ragas.py dataset_ragas_2024_12_21_13_43_20_ragas_results.csv`
 
-Nota: preguntas1.txt es un fichero csv generado mediante el script `python.exe generar_dataset_ragas.py` comentado anteriormente.
+Nota: dataset_ragas_2024_12_21_13_43_20_ragas_results.csv es un fichero csv generado mediante el script `python.exe generar_dataset_ragas.py` comentado anteriormente.
 
 # 📘  RAGAS - Evaluar el modelo
 
