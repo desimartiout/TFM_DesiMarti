@@ -121,6 +121,7 @@ def render_chatbot_page() -> None:
             
                 response_text = buscar_cadena(
                         prompt,
+                        "",
                         num_results=st.session_state["num_results"],
                         temperature=st.session_state["temperature"],
                         chat_history=st.session_state["chat_history"],
