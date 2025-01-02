@@ -6,9 +6,6 @@ import requests
 import os
 from collections import defaultdict
 
-import sys
-from pathlib import Path
-
 from libs.chromadb_utils import cargarDocumento
 from libs.faiss_utils import agregar_documento,obtener_todos_documentos
 
@@ -22,7 +19,7 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
     url = URL_CONVOCATORIA + f"{elemento['numeroConvocatoria']}" + URL_CONVOCATORIA_POST  # Cambiamos la URL base según corresponda
 
     try:
-        logging.info(url)
+        logger.info(url)
         response = requests.get(url)
         response.raise_for_status()  # Genera una excepción para códigos de error HTTP
         json_data = response.json()
@@ -33,29 +30,26 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
         numConvocatoria = elemento['numeroConvocatoria']
         
         # Guardar el JSON descargado en un archivo
-        archivo_destino = os.path.join(carpeta_destino, f"{numConvocatoria}.json")
-        with open(archivo_destino, 'w', encoding='utf-8') as f:
-            json.dump(json_data, f, ensure_ascii=False, indent=4)
-        
-        logging.info(f"Datos guardados en {archivo_destino}")
+        # archivo_destino = os.path.join(carpeta_destino, f"{numConvocatoria}.json")
+        # with open(archivo_destino, 'w', encoding='utf-8') as f:
+        #     json.dump(json_data, f, ensure_ascii=False, indent=4)
+        # logger.info(f"Datos guardados en {archivo_destino}")
 
         json_aplanado = aplanar_json(json_data)
-        archivo_destino_aplanado = os.path.join(carpeta_destino, f"{numConvocatoria}_aplanado.json")
-        with open(archivo_destino_aplanado, 'w', encoding='utf-8') as f:
-            json.dump(json_aplanado, f, ensure_ascii=False, indent=4)
-            
-        logging.info(f"Datos guardados en {archivo_destino_aplanado}")
+        # archivo_destino_aplanado = os.path.join(carpeta_destino, f"{numConvocatoria}_aplanado.json")
+        # with open(archivo_destino_aplanado, 'w', encoding='utf-8') as f:
+        #     json.dump(json_aplanado, f, ensure_ascii=False, indent=4)
+        # logger.info(f"Datos guardados en {archivo_destino_aplanado}")
 
         # Generar texto en yaml
         formatted_text = convert_json_to_yaml(json_aplanado, TEMPLATE_DOC)
-        logging.info(formatted_text)
-        archivo_destino = os.path.join(carpeta_destino, f"{numConvocatoria}.yaml")
-        if formatted_text!= None:
-            with open(archivo_destino, 'w', encoding='utf-8') as archivo:        
-                archivo.write(formatted_text)
-            logging.info(f"Datos guardados en {archivo_destino}")
-
-        logging.info(f"Vamos a cargar el documento en bd vectorial {numConvocatoria}")
+        logger.info(formatted_text)
+        # archivo_destino = os.path.join(carpeta_destino, f"{numConvocatoria}.yaml")
+        # if formatted_text!= None:
+        #     with open(archivo_destino, 'w', encoding='utf-8') as archivo:        
+        #         archivo.write(formatted_text)
+        #     logger.info(f"Datos guardados en {archivo_destino}")
+        # logger.info(f"Vamos a cargar el documento en bd vectorial {numConvocatoria}")
 
         formatted_text=limpia_cadena(formatted_text)
         if (TIPO_BD_VECTORIAL==BD_VECTORIAL_CHROMADB):
@@ -65,7 +59,7 @@ def descargar_y_guardar_json_por_id(elemento, carpeta_destino):
             #faiss
             agregar_documento(formatted_text)
 
-        logging.info("Documento cargado correctamente")
+        logger.info("Documento cargado correctamente")
         
     except requests.RequestException as e:
         logging.error(f"Error al descargar el JSON para ID {numConvocatoria}: {e}")
@@ -191,7 +185,7 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
     while page < total_pages:
         # Construir la URL de la página actual
         url = f"{base_url}&page={page}&pageSize={page_size}"
-        logging.info(f"url {url}")
+        logger.info(f"url {url}")
         try:
             # Hacer la solicitud
             response = requests.get(url)
@@ -199,7 +193,7 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
             
             datos = response.json()
 
-            logging.info(f"datos {datos}")
+            logger.info(f"datos {datos}")
 
             if datos and "content" in datos:
                 for elemento in datos["content"]:
@@ -211,10 +205,10 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
 
             # Actualizar el total de páginas si está disponible
             tot = datos.get("totalPages", 0)
-            logging.info(f"Total de páginas {tot}")
+            logger.info(f"Total de páginas {tot}")
             #total_pages = tot
             
-            logging.info(f"Página {page + 1}/{total_pages} descargada. {len(datos.get('content', []))} elementos.")
+            logger.info(f"Página {page + 1}/{total_pages} descargada. {len(datos.get('content', []))} elementos.")
 
         except requests.exceptions.RequestException as e:
             logging.error(f"Error al procesar la página {page}: {e}")
@@ -231,18 +225,19 @@ def fetch_all_elements(base_url, page_size, carpeta_destino):
 if __name__ == "__main__":
 
     setup_logging_scrap()
+    logger = logging.getLogger(__name__)
 
         # Descargar todos los elementos
     elements = fetch_all_elements(URL_BASE_API, PAGE_SIZE, RUTA_DESTINO_DOCUMENTOS)
 
     # Guardar o procesar los elementos
-    logging.info(f"Se han descargado {len(elements)} elementos en total.")
+    logger.info(f"Se han descargado {len(elements)} elementos en total.")
 
-    logging.info(f"Documentos en Faiss {len(obtener_todos_documentos())} elementos en total.")
+    logger.info(f"Documentos en Faiss {len(obtener_todos_documentos())} elementos en total.")
 
     # Opcional: Guardar los datos en un archivo JSON
     import json
     with open(f"{RUTA_DESTINO_DOCUMENTOS}\datosDescargados.json", "w", encoding="utf-8") as f:
         json.dump(elements, f, ensure_ascii=False, indent=4)
 
-    logging.info("Datos guardados en 'datos.json'.")
+    logger.info("Datos guardados en 'datos.json'.")

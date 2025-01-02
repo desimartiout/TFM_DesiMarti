@@ -1,8 +1,5 @@
 import os
-import csv
-import sys
 import logging
-from pandas import DataFrame
 from datetime import datetime
 
 from config.scrapping.scrapping_config import SCRAP_FILE_PATH_LOG
@@ -14,6 +11,9 @@ def setup_logging_scrap() -> None:
 
     # Crear el nombre del archivo con la fecha
     log_file_path = os.path.join(ruta_log, f"{current_date}.log")
+
+    print(f"os.getcwd(): {os.getcwd()}")
+    print(f"log_file_path: {log_file_path}")
 
     logging.basicConfig(
         filename=log_file_path,

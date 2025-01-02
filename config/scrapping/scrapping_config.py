@@ -1,4 +1,3 @@
-
 import os
 
 URL_BASE_API = "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias/ultimas?vpd=GE&order=fechaRecepcion&direccion=desc"
@@ -6,12 +5,29 @@ URL_CONVOCATORIA= "https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?n
 URL_CONVOCATORIA_POST= "&vpd=GE"
 #https://www.pap.hacienda.gob.es/bdnstrans/api/convocatorias?numConv=790767&vpd=GE
 
-PAGE_SIZE = 100
-TOTAL_PAGES = 4
+PAGE_SIZE = 500
+TOTAL_PAGES = 1
 
 ruta_actual = os.getcwd()   #Ruta donde se ejecuta el fichero python
 RUTA_DESTINO_DOCUMENTOS = f"{ruta_actual}/scrapping/Documentos"
 SCRAP_FILE_PATH_LOG = f"{ruta_actual}/scrapping/logs/"
+
+TEMPLATE_DOC = """
+Detalle de la convocatoria de ayuda o subvención: {codigoBDNS}
+Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/{codigoBDNS}
+Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: {organo_nivel1} - {organo_nivel2}
+Tipo de ayuda: {instrumentos}
+Tipo de convocatoria: {tipoConvocatoria}
+Presupuesto total: {presupuestoTotal} Euros
+Descripción: {descripcion}
+Tipos de beneficiarios: {tiposBeneficiarios}
+Sectores involucrados: {sectores}
+Región de impacto: {regiones}
+Finalidad: {descripcionFinalidad}
+Bases reguladoras: {descripcionBasesReguladoras}
+Fecha inicio de la solicitud: {fechaInicioSolicitud}
+Fecha Fin de la solicitud: {fechaFinSolicitud}
+"""
 
 TEMPLATE_DOC_OLD = """
 Detalle de la convocatoria de ayuda o  subvención: {codigoBDNS}
@@ -39,7 +55,7 @@ Reglamento: {reglamento}
 Otros documentos de la convocatoria: {documentos}
 """
 
-TEMPLATE_DOC = """
+TEMPLATE_DOC2 = """
 Detalle de la convocatoria de ayuda o  subvención: {codigoBDNS}
 Enlace a convocatoria: https://www.pap.hacienda.gob.es/bdnstrans/GE/es/convocatorias/{codigoBDNS}
 Órgano, comunidad, autonomía, provincia o ayuntamiento convocante: {organo_nivel1} - {organo_nivel2}
