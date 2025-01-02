@@ -134,7 +134,7 @@ def render_chatbot_page() -> None:
             )
             
             logger.info("Respuesta generada y mostrada.")
-            st.toast(f"white_check_mark: Respuesta generada y mostrada correctamente") # Mensaje TOAST
+            st.toast(f":white_check_mark: Respuesta generada y mostrada correctamente") # Mensaje TOAST
 
             # sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]
             # selected = st.feedback("thumbs")
