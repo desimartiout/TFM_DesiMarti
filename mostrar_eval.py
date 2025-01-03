@@ -43,7 +43,8 @@ def main():
 
         # Convertir las métricas a formato numérico (si es necesario)
         # "context_recall";"factual_correctness"
-        metrics = ['faithfulness', 'semantic_similarity', 'answer_relevancy', 'context_precision']
+        # metrics = ['faithfulness', 'semantic_similarity', 'answer_relevancy', 'context_precision']
+        metrics = ['context_recall','factual_correctness','faithfulness', 'semantic_similarity', 'answer_relevancy', 'context_precision']
         df[metrics] = df[metrics].apply(pd.to_numeric, errors='coerce')
 
         # Verificar que la conversión se haya realizado correctamente

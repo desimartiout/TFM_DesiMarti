@@ -84,7 +84,7 @@ Este fichero se genera mediante el script `python.exe generar_dataset_ragas.py`
 
 ### Ejecución de búsquedas desatendidas en base a un fichero de preguntas manual
 
-`python.exe buscar_batch.py preguntas1.txt`
+`python.exe buscar_batch_sintetico.py dataset_sintetico.txt`
 
 Nota: preguntas1.txt es un fichero de texto plano con una por cada una de las líneas (debe estar en el directorio `/ragas_eval/questions/`).
 

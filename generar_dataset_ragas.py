@@ -34,8 +34,8 @@ async def generar_dataset_ragas(data):
 
     personas = [
         Persona(
-            name="normal person",
-            role_description="A person that is searching aids of the Spanish Goverment",
+            name="persona normal",
+            role_description="Una persona que busca ayudas y subvenciones del gobierno de España",
         ),
     ]
 
